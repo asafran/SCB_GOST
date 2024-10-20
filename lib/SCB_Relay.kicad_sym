@@ -58,7 +58,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -108,7 +108,7 @@
 			(at 0 3.81 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -116,7 +116,7 @@
 			(at 0 -5.715 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -188,14 +188,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
@@ -206,14 +206,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
@@ -231,7 +231,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -241,7 +241,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -277,7 +277,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -461,7 +461,7 @@
 			(at 0 10 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -612,7 +612,7 @@
 			(at 0 -10 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -657,7 +657,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -854,7 +854,7 @@
 			(at 0 -10 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -899,7 +899,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -1096,7 +1096,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -1106,7 +1106,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -1142,7 +1142,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -1526,7 +1526,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -1536,7 +1536,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -1572,7 +1572,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -1848,7 +1848,7 @@
 			(at 0 -10 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -1893,7 +1893,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -2563,7 +2563,7 @@
 			(at 0 -10 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -2608,7 +2608,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -3089,7 +3089,7 @@
 			(at 0 -7 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -3134,7 +3134,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -3658,7 +3658,7 @@
 			(at 5 -4 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -3703,7 +3703,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -3996,7 +3996,7 @@
 			(at 5 -4 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -4041,7 +4041,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5979,7 +5979,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6023,7 +6023,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6091,7 +6091,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6206,7 +6206,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6216,7 +6216,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6252,7 +6252,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6403,7 +6403,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6413,7 +6413,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6449,7 +6449,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6613,7 +6613,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6623,7 +6623,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6659,7 +6659,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6823,7 +6823,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6833,7 +6833,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6869,7 +6869,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7056,7 +7056,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -7066,7 +7066,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7102,7 +7102,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7262,7 +7262,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -7272,7 +7272,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7308,7 +7308,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7606,18 +7606,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FU"
-			(at 0 3.81 0)
+			(at 0 4 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Value" "РКН"
-			(at 0 -3.81 0)
+			(at 0 -4 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7713,14 +7713,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
@@ -7731,14 +7731,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 2.0066 2.0066)
+							(size 2.5 2.5)
 						)
 					)
 				)
@@ -7756,7 +7756,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -7766,7 +7766,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7802,7 +7802,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7965,7 +7965,7 @@
 			(at 6.35 6.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -7975,7 +7975,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8011,7 +8011,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8231,7 +8231,7 @@
 			(at 0 5.5 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
