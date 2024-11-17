@@ -7399,8 +7399,8 @@
 				)
 			)
 			(pin power_in line
-				(at -9 0 0)
-				(length 5)
+				(at -8.89 0 0)
+				(length 4.8)
 				(name ""
 					(effects
 						(font
@@ -7417,8 +7417,8 @@
 				)
 			)
 			(pin power_in line
-				(at 9 0 180)
-				(length 5)
+				(at 8.89 0 180)
+				(length 4.8)
 				(name ""
 					(effects
 						(font
@@ -7462,8 +7462,8 @@
 				)
 			)
 			(pin power_in line
-				(at -9 2 0)
-				(length 5.5)
+				(at -8.89 1.905 0)
+				(length 5.3)
 				(name ""
 					(effects
 						(font
@@ -7480,8 +7480,8 @@
 				)
 			)
 			(pin power_in line
-				(at -9 -2 0)
-				(length 5.5)
+				(at -8.89 -1.905 0)
+				(length 5.3)
 				(name ""
 					(effects
 						(font
@@ -7498,8 +7498,8 @@
 				)
 			)
 			(pin power_in line
-				(at 9 2 180)
-				(length 5.5)
+				(at 8.89 1.905 180)
+				(length 5.3)
 				(name ""
 					(effects
 						(font
@@ -7516,8 +7516,8 @@
 				)
 			)
 			(pin power_in line
-				(at 9 -2 180)
-				(length 5.5)
+				(at 8.89 -1.905 180)
+				(length 5.3)
 				(name ""
 					(effects
 						(font
@@ -7561,8 +7561,8 @@
 				)
 			)
 			(pin power_in line
-				(at -9 0 0)
-				(length 5)
+				(at -8.89 0 0)
+				(length 4.8)
 				(name ""
 					(effects
 						(font
@@ -7579,8 +7579,8 @@
 				)
 			)
 			(pin power_in line
-				(at 9 0 180)
-				(length 5)
+				(at 8.89 0 180)
+				(length 4.8)
 				(name ""
 					(effects
 						(font

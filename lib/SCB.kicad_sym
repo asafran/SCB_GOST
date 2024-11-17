@@ -369,16 +369,17 @@
 			)
 		)
 		(property "Литера" "?"
-			(at 2 0 0)
+			(at 1 0 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 3.5 3.5)
 				)
+				(justify left)
 			)
 		)
 		(property "ДвухнитеваяК" "2"
-			(at -17 3 0)
+			(at -17 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -387,7 +388,7 @@
 			)
 		)
 		(property "ДвухнитеваяЖ" "2"
-			(at -25 3 0)
+			(at -25 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -396,7 +397,7 @@
 			)
 		)
 		(property "Двухнитевая2Ж" "2"
-			(at -13 3 0)
+			(at -13 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -405,7 +406,7 @@
 			)
 		)
 		(property "ДвухнитеваяЗ" "2"
-			(at -21 3 0)
+			(at -21 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -414,7 +415,7 @@
 			)
 		)
 		(property "ДвухнитеваяБ" "2"
-			(at -8 3 0)
+			(at -8 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -1099,6 +1100,1668 @@
 			(polyline
 				(pts
 					(xy -6 0) (xy -10 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Выходной"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Входной"
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at -12 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at -20 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at -16 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at -8 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(symbol "Выходной_0_1"
+			(circle
+				(center -16 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1) (xy 0 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_1_1"
+			(unit_name "Без заглушек")
+			(circle
+				(center -20 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -12 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 2) (xy -22 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -19.1875 1.8125) (xy -21.8125 -0.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -18.625 1.375) (xy -21.375 -1.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -18.1875 0.8125) (xy -20.8125 -1.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -18 0) (xy -20 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Выходной_2Ж"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Входной"
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at -16 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at -24 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Двухнитевая2Ж" "2"
+			(at -12 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at -20 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at -8 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Выходной_2Ж_0_1"
+			(circle
+				(center -20 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1) (xy 0 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_2Ж_1_1"
+			(unit_name "Без заглушек")
+			(circle
+				(center -24 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -16 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -12 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24 2) (xy -26 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -23.1875 1.8125) (xy -25.8125 -0.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.625 1.375) (xy -25.375 -1.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.1875 0.8125) (xy -24.8125 -1.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22 0) (xy -24 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12 2) (xy -14 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.1875 1.8125) (xy -13.8125 -0.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.625 1.375) (xy -13.375 -1.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.1875 0.8125) (xy -12.8125 -1.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10 0) (xy -12 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_2Ж_2_1"
+			(unit_name "Заглушка З")
+			(circle
+				(center -24 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -16 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -12 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -8 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24 2) (xy -26 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -23.1875 1.8125) (xy -25.8125 -0.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.625 1.375) (xy -25.375 -1.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.1875 0.8125) (xy -24.8125 -1.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22 0) (xy -24 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22 0) (xy -18 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -20 2) (xy -20 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12 2) (xy -14 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.1875 1.8125) (xy -13.8125 -0.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.625 1.375) (xy -13.375 -1.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.1875 0.8125) (xy -12.8125 -1.8125)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10 0) (xy -12 -2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Выходной_к"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Входной"
+			(at 7.5 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 5.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 1.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at -2 -5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at -6 -5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at -6 5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at -2 5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(symbol "Выходной_к_0_1"
+			(circle
+				(center -6 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4) (xy 0 -4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_к_1_1"
+			(unit_name "Без заглушек")
+			(circle
+				(center -6 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -2 2)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 4) (xy -8 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.1875 3.8125) (xy -7.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.625 3.375) (xy -7.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.1875 2.8125) (xy -6.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 2) (xy -6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Выходной_к_2Ж"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Входной"
+			(at 7.5 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 5.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -4 1.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -4 1.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -12 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at -2 -5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at -10 5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at -6 5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at -6.5 -5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Двухнитевая2Ж" "2"
+			(at -2 5.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(symbol "Выходной_к_2Ж_0_1"
+			(circle
+				(center -6 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4) (xy 0 -4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_к_2Ж_1_1"
+			(unit_name "Без заглушек")
+			(circle
+				(center -10 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -2 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10 4) (xy -12 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.1875 3.8125) (xy -11.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.625 3.375) (xy -11.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.1875 2.8125) (xy -10.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8 2) (xy -10 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 4) (xy -4 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.1875 3.8125) (xy -3.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.625 3.375) (xy -3.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1875 2.8125) (xy -2.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2) (xy -2 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_к_2Ж_2_1"
+			(unit_name "Заглушка З")
+			(circle
+				(center -10 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -2 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10 4) (xy -12 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.1875 3.8125) (xy -11.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.625 3.375) (xy -11.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.1875 2.8125) (xy -10.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8 2) (xy -10 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8 2) (xy -4 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 4) (xy -6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 4) (xy -4 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.1875 3.8125) (xy -3.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.625 3.375) (xy -3.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.1875 2.8125) (xy -2.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2) (xy -2 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Выходной_к_2Ж_3_1"
+			(unit_name "Заглушка Ж")
+			(circle
+				(center -10 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2 -2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -2 2)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10 4) (xy -12 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.1875 3.8125) (xy -11.8125 1.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.625 3.375) (xy -11.375 0.625)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.1875 2.8125) (xy -10.8125 0.1875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8 2) (xy -10 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 2) (xy 0 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 4) (xy -2 0)
 				)
 				(stroke
 					(width 0)
@@ -2771,6 +4434,310 @@
 							(size 1.8 1.8)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "Маневровый"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Маневровый"
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -7 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Маневровый_0_1"
+			(circle
+				(center -11 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -11 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2) (xy 0 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -5 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Маневровый_1_1"
+			(unit_name "Красный")
+			(circle
+				(center -7 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Маневровый_2_1"
+			(unit_name "Синий")
+			(circle
+				(center -7 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -7 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Маневровый_к"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Маневровый"
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 4 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -7 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?"
+			(at 1 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Маневровый_к_0_1"
+			(circle
+				(center -6 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -6 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2) (xy 0 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Маневровый_к_1_1"
+			(unit_name "Красный")
+			(circle
+				(center -2 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Маневровый_к_2_1"
+			(unit_name "Синий")
+			(circle
+				(center -2 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -2 0)
+				(radius 2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -8417,7 +10384,7 @@
 			)
 		)
 		(property "Номер" "1"
-			(at 3 5 0)
+			(at 6 7 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -8434,18 +10401,6 @@
 			)
 		)
 		(symbol "Стрелка_0_1"
-			(polyline
-				(pts
-					(xy -1 0) (xy 34 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0 2) (xy 5 2)
@@ -8472,6 +10427,24 @@
 			)
 			(pin unspecified line
 				(at -2 0 0)
+				(length 7)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7 0 180)
 				(length 2)
 				(name "~"
 					(effects
@@ -8489,26 +10462,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 35 0 180)
-				(length 2)
-				(name "~"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 35 15 180)
-				(length 4)
+				(at 31 15 180)
+				(length 0)
 				(name "~"
 					(effects
 						(font
@@ -8625,6 +10580,117 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+		)
+		(symbol "Стрелка_6_1"
+			(unit_name "Изостык")
+			(polyline
+				(pts
+					(xy 19.25 11) (xy 17.25 10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.75 7.5) (xy 18.25 10.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.75 8) (xy 18.75 7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 2)
+				(end 5 0)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Стрелка_7_1"
+			(unit_name "Негабарит")
+			(polyline
+				(pts
+					(xy 19.25 11) (xy 17.25 10)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.75 7.5) (xy 18.25 10.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.75 8) (xy 18.75 7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2 2)
+				(end 5 0)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 19 9)
+				(radius 3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -9565,6 +11631,161 @@
 			)
 		)
 	)
+	(symbol "Стрелка_ответвление"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "~C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at -16 -5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -16 -5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16 -5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16 -5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер" "1"
+			(at 2 5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(symbol "Стрелка_ответвление_0_1"
+			(polyline
+				(pts
+					(xy -1 -2.5) (xy 4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3 1.5) (xy 30 15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 30 15 180)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_ответвление_1_1"
+			(polyline
+				(pts
+					(xy 3 1.5) (xy 4 0) (xy 1 -1.5) (xy 0 0) (xy 3 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin unspecified line
+				(at 10 0 180)
+				(length 6)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Стрелка_перекрестн"
 		(pin_numbers hide)
 		(pin_names
@@ -10078,18 +12299,6 @@
 			)
 			(polyline
 				(pts
-					(xy 5 0) (xy 31 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 5 2) (xy 27 13)
 				)
 				(stroke
@@ -10102,7 +12311,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.25 9) (xy 13.25 8)
+					(xy 16.25 9.5) (xy 14.25 8.5)
 				)
 				(stroke
 					(width 0)
@@ -10114,7 +12323,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.75 5.5) (xy 14.25 8.5)
+					(xy 16.75 6) (xy 15.25 9)
 				)
 				(stroke
 					(width 0)
@@ -10126,7 +12335,7 @@
 			)
 			(polyline
 				(pts
-					(xy 16.75 6) (xy 14.75 5)
+					(xy 17.75 6.5) (xy 15.75 5.5)
 				)
 				(stroke
 					(width 0)
@@ -10139,18 +12348,6 @@
 			(polyline
 				(pts
 					(xy 27 13) (xy 32 13)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27 15) (xy 1 15)
 				)
 				(stroke
 					(width 0)
@@ -10179,7 +12376,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 15 0)
+				(at 7 0 180)
 				(length 2)
 				(name "~"
 					(effects
@@ -10197,7 +12394,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 32 0 180)
+				(at 25 15 0)
 				(length 2)
 				(name "~"
 					(effects
@@ -10248,6 +12445,246 @@
 			(rectangle
 				(start 27 15)
 				(end 30 13)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+	)
+	(symbol "Стрелка_спаренная_15"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "~C"
+			(at 10 10 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 10 10 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 10 10 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10 10 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 10 10 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "1"
+			(at 3 5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "3"
+			(at 40 10 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_0_1"
+			(polyline
+				(pts
+					(xy 0 2) (xy 5 2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5 2) (xy 38 13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22 9.75) (xy 19.75 9)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.125 5.625) (xy 20.875 9.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 23.25 6) (xy 21 5.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 38 13) (xy 43 13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7 0 180)
+				(length 2)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 36 15 0)
+				(length 2)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 43 15 180)
+				(length 2)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_1_1"
+			(rectangle
+				(start 2 2)
+				(end 5 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 38 15)
+				(end 41 13)
 				(stroke
 					(width 0)
 					(type default)
@@ -10466,6 +12903,92 @@
 					(effects
 						(font
 							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Тупик"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Т"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Тупик_0_1"
+			(polyline
+				(pts
+					(xy -1 -1.5) (xy 0 -1.5) (xy 0 1.5) (xy -1 1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Тупик_1_1"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
