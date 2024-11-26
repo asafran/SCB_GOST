@@ -1,0 +1,10242 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "59e30762-dbae-41fa-856e-a9035e08cb51")
+	(paper "A3")
+	(title_block
+		(company "АТ-451")
+		(comment 2 "Михайлов А.К.")
+		(comment 3 "Ворона В.К.")
+	)
+	(lib_symbols
+		(symbol "SCB:Входной"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Входной"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 1 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ДвухнитеваяК" "2"
+				(at -17 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЖ" "2"
+				(at -25 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Двухнитевая2Ж" "2"
+				(at -13 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЗ" "2"
+				(at -21 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяБ" "2"
+				(at -8 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Входной_0_1"
+				(circle
+					(center -21 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Входной_1_1"
+				(unit_name "Без заглушек")
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25 2) (xy -27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -24.1875 1.8125) (xy -26.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.625 1.375) (xy -26.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.1875 0.8125) (xy -25.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23 0) (xy -25 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13 2) (xy -15 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.1875 1.8125) (xy -14.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.625 1.375) (xy -14.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.1875 0.8125) (xy -13.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11 0) (xy -13 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10 0) (xy -11 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Входной_2_1"
+				(unit_name "Заглушка З")
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25 2) (xy -27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -24.1875 1.8125) (xy -26.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.625 1.375) (xy -26.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.1875 0.8125) (xy -25.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23 0) (xy -25 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21 2) (xy -21 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19 0) (xy -23 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13 2) (xy -15 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.1875 1.8125) (xy -14.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.625 1.375) (xy -14.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.1875 0.8125) (xy -13.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11 0) (xy -13 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10 0) (xy -11 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Входной_3_1"
+				(unit_name "Заглушка ЗБ")
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25 2) (xy -27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -24.1875 1.8125) (xy -26.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.625 1.375) (xy -26.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23.1875 0.8125) (xy -25.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23 0) (xy -25 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -23 0) (xy -19 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -21 2) (xy -21 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13 2) (xy -15 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.1875 1.8125) (xy -14.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.625 1.375) (xy -14.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.1875 0.8125) (xy -13.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11 0) (xy -13 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10 0) (xy -11 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8 2) (xy -8 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6 0) (xy -10 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Выходной"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Входной"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 1 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ДвухнитеваяК" "2"
+				(at -12 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЖ" "2"
+				(at -20 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЗ" "2"
+				(at -16 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяБ" "2"
+				(at -8 3.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(symbol "Выходной_0_1"
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Выходной_1_1"
+				(unit_name "Без заглушек")
+				(circle
+					(center -20 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -12 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20 2) (xy -22 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.1875 1.8125) (xy -21.8125 -0.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -18.625 1.375) (xy -21.375 -1.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -18.1875 0.8125) (xy -20.8125 -1.8125)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -18 0) (xy -20 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Выходной_к"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Входной"
+				(at 7.5 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 1 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ДвухнитеваяК" "2"
+				(at -2 -5.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЖ" "2"
+				(at -6 -5.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяЗ" "2"
+				(at -6 5.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "ДвухнитеваяБ" "2"
+				(at -2 5.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(symbol "Выходной_к_0_1"
+				(circle
+					(center -6 -2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4) (xy 0 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Выходной_к_1_1"
+				(unit_name "Без заглушек")
+				(circle
+					(center -6 2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2 -2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2 2)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2 2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6 4) (xy -8 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.1875 3.8125) (xy -7.8125 1.1875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.625 3.375) (xy -7.375 0.625)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.1875 2.8125) (xy -6.8125 0.1875)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4 2) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Изостык"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "И"
+				(at -0.25 5.75 0)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Изостык_0_1"
+				(polyline
+					(pts
+						(xy -1 -2) (xy 1 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1 2) (xy -1 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Изостык_1_1"
+				(unit_name "Одиночный")
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Изостык_2_1"
+				(unit_name "Со светофором")
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Маневровый"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Маневровый"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -7 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 1 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Маневровый_0_1"
+				(circle
+					(center -11 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -11 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Маневровый_1_1"
+				(unit_name "Красный")
+				(circle
+					(center -7 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Маневровый_2_1"
+				(unit_name "Синий")
+				(circle
+					(center -7 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -7 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Маневровый_к"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Маневровый"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -7 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 1 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Маневровый_к_0_1"
+				(circle
+					(center -6 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Маневровый_к_1_1"
+				(unit_name "Красный")
+				(circle
+					(center -2 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Маневровый_к_2_1"
+				(unit_name "Синий")
+				(circle
+					(center -2 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Стрелка"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер" "1"
+				(at 6 7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Стрелка_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 31 15)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2 0 0)
+					(length 7)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 31 15 180)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_2_1"
+				(unit_name "К. замок")
+				(polyline
+					(pts
+						(xy 2 0) (xy 2 4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 6)
+					(end 2 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Стрелка_3_1"
+				(unit_name "К. замки")
+				(polyline
+					(pts
+						(xy 2 0) (xy 2 4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 6)
+					(end 2 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2 6)
+					(end 4 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Стрелка_4_1"
+				(unit_name "Эл. замок")
+				(polyline
+					(pts
+						(xy 2 6) (xy 2 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2 4)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Стрелка_5_1"
+				(unit_name "ЭЦ")
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Стрелка_спаренная"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 29 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 27 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.25 9.5) (xy 14.25 8.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.75 6) (xy 15.25 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.75 6.5) (xy 15.75 5.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27 13) (xy 32 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 32 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 27 15)
+					(end 30 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Стрелка_спаренная_15"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 40 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 38 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22 9.75) (xy 19.75 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.125 5.625) (xy 20.875 9.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.25 6) (xy 21 5.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38 13) (xy 43 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 36 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 38 15)
+					(end 41 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 40 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 38 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22 9.75) (xy 19.75 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.125 5.625) (xy 20.875 9.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.25 6) (xy 21 5.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38 13) (xy 43 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 36 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_1_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 38 15)
+					(end 41 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 40 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_2_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 38 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22 9.75) (xy 19.75 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.125 5.625) (xy 20.875 9.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.25 6) (xy 21 5.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38 13) (xy 43 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 36 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_2_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 38 15)
+					(end 41 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 40 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_3_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 38 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22 9.75) (xy 19.75 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.125 5.625) (xy 20.875 9.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.25 6) (xy 21 5.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38 13) (xy 43 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 36 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_3_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 38 15)
+					(end 41 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "Стрелка_спаренная_15_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "~C"
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 10 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Номер.стр.1" "1"
+				(at 3 5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Номер.стр.2" "3"
+				(at 40 10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_4_0_1"
+				(polyline
+					(pts
+						(xy 0 2) (xy 5 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 2) (xy 38 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22 9.75) (xy 19.75 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.125 5.625) (xy 20.875 9.375)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.25 6) (xy 21 5.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38 13) (xy 43 13)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7 0 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 36 15 0)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43 15 180)
+					(length 2)
+					(name "~"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Стрелка_спаренная_15_4_1_1"
+				(rectangle
+					(start 2 2)
+					(end 5 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 38 15)
+					(end 41 13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 161 204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c7bbb8-2371-4f62-a410-0df384b6286b")
+	)
+	(junction
+		(at 273 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f370ebe-7534-4529-b97f-b4a4b464d3e8")
+	)
+	(junction
+		(at 328 130)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "109249d9-97bc-40ba-b9de-72cd518fa11c")
+	)
+	(junction
+		(at 220 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c9deec-3a21-430f-97dc-d347149d4811")
+	)
+	(junction
+		(at 344 219)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283a38a5-4916-485b-85c8-5b48e5c7f208")
+	)
+	(junction
+		(at 37 189)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a98496c-8a05-4ce2-bf65-92e59c28d960")
+	)
+	(junction
+		(at 243 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "305abf10-ec47-4d4f-a430-7ce4f5e4aa5d")
+	)
+	(junction
+		(at 324 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34dc8adb-8f04-4a72-97ac-92ad8250d942")
+	)
+	(junction
+		(at 76 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba870f9-6e80-415f-a999-b43d49980441")
+	)
+	(junction
+		(at 202 189)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cdfa4c2-3a80-4004-b071-9a28595fb5f4")
+	)
+	(junction
+		(at 80 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2f815e-e47e-4cee-9366-cf0a092e4072")
+	)
+	(junction
+		(at 122 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a63136-6064-42c4-af1c-d81be87a44b8")
+	)
+	(junction
+		(at 280 189)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b2c2232-c9c6-46c7-b3e2-1b42ca7e53fd")
+	)
+	(junction
+		(at 117 204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce333d3-6041-407e-bfd4-264d7bce91f8")
+	)
+	(junction
+		(at 369 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "915f10f3-699c-4291-a9c4-8722f435b592")
+	)
+	(junction
+		(at 307 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e555f1-bfd5-4853-9d45-8a61a8ac4706")
+	)
+	(junction
+		(at 37 204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9320c046-131e-4d1b-820c-df343a7c0540")
+	)
+	(junction
+		(at 369 144)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a69b867-5ebf-43b9-af24-ec2a95332069")
+	)
+	(junction
+		(at 284 159)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be056876-d590-445c-b730-14bc8ee4d3ff")
+	)
+	(junction
+		(at 126 189)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c578df7f-f257-4ddf-b268-56e39447acd8")
+	)
+	(junction
+		(at 151 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4adb48-6e52-49d0-8637-4028c0806cce")
+	)
+	(junction
+		(at 344 204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f6d8b2-7ed0-4912-806f-074711edf510")
+	)
+	(junction
+		(at 258 174)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5ee3d8c-f36b-46e1-bd36-5960eee0045d")
+	)
+	(junction
+		(at 301 204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a1e94c-721c-4227-b7e6-024f2fc94c97")
+	)
+	(junction
+		(at 68 189)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7361101-2d18-4d5e-8d65-8d266c96a3d0")
+	)
+	(wire
+		(pts
+			(xy 252 189) (xy 280 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04218cfa-dac9-46e6-8e88-becab9d592b7")
+	)
+	(wire
+		(pts
+			(xy 106 159) (xy 122 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066ff1c7-fbc2-47a1-a129-eddb996716f6")
+	)
+	(wire
+		(pts
+			(xy 312 204) (xy 344 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cfd417-5f43-40fb-afd7-535712499de6")
+	)
+	(wire
+		(pts
+			(xy 280 189) (xy 412 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cf54e6-081b-4d7f-ae84-b2740fc17adf")
+	)
+	(polyline
+		(pts
+			(xy 34 31) (xy 413 31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aa3608-4b5f-402c-b786-aca83294ca50")
+	)
+	(polyline
+		(pts
+			(xy 34 76) (xy 413 76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18643f91-8a93-49b2-a2e7-c4de33d85473")
+	)
+	(polyline
+		(pts
+			(xy 401 201) (xy 404 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1869c56d-d2ce-4607-9610-aac66d093543")
+	)
+	(polyline
+		(pts
+			(xy 401 156) (xy 407 162)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186d81fa-17d6-4cf0-9b36-6e59030de835")
+	)
+	(wire
+		(pts
+			(xy 278 144) (xy 306 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac6ceb1-eca8-48a9-8aa9-92859e3cc40b")
+	)
+	(wire
+		(pts
+			(xy 336 219) (xy 344 219)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2293a397-14e2-4318-8cb5-8c30cb0e355b")
+	)
+	(polyline
+		(pts
+			(xy 24 51) (xy 413 51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2500a7de-83d6-401a-a181-c5dfcea9b237")
+	)
+	(polyline
+		(pts
+			(xy 407 186) (xy 404 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261f1b48-34cb-405f-b356-6a5312c79306")
+	)
+	(polyline
+		(pts
+			(xy 401 171) (xy 407 177)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd56e42-990d-4360-9fcd-89c061abbf04")
+	)
+	(wire
+		(pts
+			(xy 258 174) (xy 273 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed7f3ea-cfb9-4a91-b13c-5dfea70580b2")
+	)
+	(wire
+		(pts
+			(xy 128 204) (xy 161 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f04c42d-5030-4460-a35a-ad25485ce51e")
+	)
+	(polyline
+		(pts
+			(xy 401 227) (xy 407 227)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42592ee1-f437-4c12-8d2f-9b53ae856dc7")
+	)
+	(wire
+		(pts
+			(xy 301 204) (xy 303 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fa48f6-b13a-4a1f-9b0b-258bf46f809b")
+	)
+	(polyline
+		(pts
+			(xy 401 222) (xy 407 216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48568400-c189-4a78-a12b-63fbd5bbc8e6")
+	)
+	(wire
+		(pts
+			(xy 307 174) (xy 412 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1670ee-2c4a-47a6-8e19-473872de71cf")
+	)
+	(wire
+		(pts
+			(xy 44 159) (xy 42 157)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbc9c4a-3c25-4b49-ac9d-3d12eb6d8e4d")
+	)
+	(wire
+		(pts
+			(xy 344 204) (xy 412 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5027da10-5da6-4524-9a9e-4dd7a6940893")
+	)
+	(wire
+		(pts
+			(xy 227 159) (xy 243 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ddab42-2a17-4be7-9e25-e9a99c5195c4")
+	)
+	(wire
+		(pts
+			(xy 161 204) (xy 281 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525c9d03-4855-47b6-9954-b6cd1c130ba7")
+	)
+	(wire
+		(pts
+			(xy 222 189) (xy 245 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5804d33f-ba55-45ab-87f8-4ccf7afe3de9")
+	)
+	(wire
+		(pts
+			(xy 80 159) (xy 99 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa870c7-f45f-4354-b215-fe00c76f47fa")
+	)
+	(wire
+		(pts
+			(xy 284 159) (xy 303 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de6d929-dd69-40ca-ac1c-60ceaec5cecb")
+	)
+	(wire
+		(pts
+			(xy 191 174) (xy 220 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d10081-8051-4b20-935d-a8c3b3e75c83")
+	)
+	(polyline
+		(pts
+			(xy 42 171) (xy 44 171)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c14a19-96ca-4480-92d9-596461c65061")
+	)
+	(wire
+		(pts
+			(xy 37 204) (xy 117 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfc916c-f761-4335-af71-bdfe82d9fc88")
+	)
+	(wire
+		(pts
+			(xy 76 174) (xy 109 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b8dcd8-0755-4aec-952b-ef4cb5cc1755")
+	)
+	(wire
+		(pts
+			(xy 256 174) (xy 258 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d0a3e8-6770-441e-aa26-22c1436a7da4")
+	)
+	(polyline
+		(pts
+			(xy 34 11) (xy 34 111)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73744328-ca1c-43ed-8f68-787965914692")
+	)
+	(wire
+		(pts
+			(xy 25 204) (xy 37 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7971caa2-10d9-41c2-ac3c-dae3fcd5667c")
+	)
+	(polyline
+		(pts
+			(xy 401 162) (xy 407 156)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de0e46e-3a5d-4660-844d-37825a194e62")
+	)
+	(wire
+		(pts
+			(xy 306 130) (xy 328 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9c2be3-2e49-4eb2-ab23-9bc0c6c72aa8")
+	)
+	(wire
+		(pts
+			(xy 310 159) (xy 324 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8153e4ca-c647-4803-8d55-36d8b7cc9f1e")
+	)
+	(wire
+		(pts
+			(xy 220 174) (xy 251 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b1ba4d-2252-4b8a-ae63-633c2af74fd7")
+	)
+	(wire
+		(pts
+			(xy 126 189) (xy 157 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858c91be-230b-4ac4-a065-2464106b3ab6")
+	)
+	(wire
+		(pts
+			(xy 44 174) (xy 76 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865bad10-a863-4911-8888-1fcdf600ae01")
+	)
+	(wire
+		(pts
+			(xy 167 174) (xy 184 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8756332c-376c-4c92-8b85-cf2087e70bc8")
+	)
+	(wire
+		(pts
+			(xy 44 159) (xy 80 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88616b99-ed6b-4c73-9e0a-cd2e76baf8ba")
+	)
+	(polyline
+		(pts
+			(xy 407 192) (xy 404 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88857129-5568-4277-a87c-b8506baf8813")
+	)
+	(wire
+		(pts
+			(xy 288 204) (xy 301 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a776e71-5a3f-46ca-b301-ba7af7187ac4")
+	)
+	(polyline
+		(pts
+			(xy 404 128) (xy 404 224)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8b1fbf71-57ec-4db7-b522-e3952b83a5af")
+	)
+	(wire
+		(pts
+			(xy 344 219) (xy 412 219)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceeda0d-5b3b-4382-a198-ddd48cf012fb")
+	)
+	(wire
+		(pts
+			(xy 285 174) (xy 307 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd567c2-7aaa-4b1a-bb32-188efa1562af")
+	)
+	(wire
+		(pts
+			(xy 341 159) (xy 369 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91263283-210d-4115-8969-eb8130a88a8f")
+	)
+	(polyline
+		(pts
+			(xy 401 207) (xy 404 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d443be-29fe-4750-a0f4-13f06b966faf")
+	)
+	(polyline
+		(pts
+			(xy 42 177) (xy 44 177)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dba214-9c59-48a5-8089-0c5a3441645f")
+	)
+	(wire
+		(pts
+			(xy 164 189) (xy 185 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998e3e63-526f-4413-a1cb-10d18ada4318")
+	)
+	(wire
+		(pts
+			(xy 369 159) (xy 412 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a67e7db-2a56-4f59-a544-7215f5cb8ee0")
+	)
+	(wire
+		(pts
+			(xy 151 174) (xy 160 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5cdcdc-ba97-4b26-b362-a19b8a2d0d13")
+	)
+	(wire
+		(pts
+			(xy 117 204) (xy 121 204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0f495c-73ae-4083-8846-bf8d005f99e7")
+	)
+	(wire
+		(pts
+			(xy 40 152) (xy 42 157)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e6ed4-36f2-4460-a00f-c3a79cff6527")
+	)
+	(wire
+		(pts
+			(xy 122 159) (xy 220 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8391fdc-585c-4687-b1c7-07aece49a7cf")
+	)
+	(wire
+		(pts
+			(xy 80 189) (xy 126 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af06869a-36c2-47ed-b326-04ee34a56c51")
+	)
+	(wire
+		(pts
+			(xy 68 189) (xy 73 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa4c506-c93d-4846-b19f-62be7e6475f3")
+	)
+	(wire
+		(pts
+			(xy 37 189) (xy 68 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0518c61-4e3a-4f39-af6e-bb8b59f53b46")
+	)
+	(wire
+		(pts
+			(xy 142 174) (xy 151 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78ce6df-d6d1-4912-ab12-b6d5199ca96c")
+	)
+	(wire
+		(pts
+			(xy 243 159) (xy 245 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb22646e-a375-4d97-9726-bf4b0cd2cb93")
+	)
+	(wire
+		(pts
+			(xy 324 159) (xy 332 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb41c70-6152-4b86-91db-87753cfb1561")
+	)
+	(wire
+		(pts
+			(xy 369 144) (xy 412 144)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdee1b64-9873-44b9-ac70-ded9437650dc")
+	)
+	(polyline
+		(pts
+			(xy 401 177) (xy 407 171)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89b7d9a-e258-49df-999a-07eaa2411077")
+	)
+	(wire
+		(pts
+			(xy 25 189) (xy 37 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacc73ca-556b-41e5-bdb3-9478fdb0c756")
+	)
+	(wire
+		(pts
+			(xy 192 189) (xy 202 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4e6fe8-befc-4b91-87f1-c3684e6411d6")
+	)
+	(wire
+		(pts
+			(xy 116 174) (xy 135 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def40fdd-97c5-434e-a9b4-f6b841f22ce3")
+	)
+	(wire
+		(pts
+			(xy 273 174) (xy 278 174)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea6a540-36f8-4cfa-909a-5aaac3fccd1e")
+	)
+	(wire
+		(pts
+			(xy 254 159) (xy 284 159)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef24f4a6-19c1-4c99-b679-36a147e15d80")
+	)
+	(polyline
+		(pts
+			(xy 44 171) (xy 44 177)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf9de7-f632-42da-86bd-a6b0c4e91912")
+	)
+	(wire
+		(pts
+			(xy 365 144) (xy 369 144)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f212d1ad-6893-4226-bba3-5534d8498a9b")
+	)
+	(wire
+		(pts
+			(xy 202 189) (xy 215 189)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62070b8-e75e-4005-82d8-e5d418f976c3")
+	)
+	(polyline
+		(pts
+			(xy 401 216) (xy 407 222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950bfef-797b-4366-829a-c167db811da1")
+	)
+	(wire
+		(pts
+			(xy 328 130) (xy 412 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9e56d6-14b9-42f6-b233-e4dd65b26cf9")
+	)
+	(circle
+		(center 35 214)
+		(radius 2.2361)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01767131-9a13-4065-844c-66c7bee33a3f)
+	)
+	(rectangle
+		(start 40 212)
+		(end 41 216)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 086ab31e-424f-4cda-92dc-92bc40eaf6e0)
+	)
+	(circle
+		(center 404 230)
+		(radius 1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 1429e66f-7c50-430e-8bbc-a333815a9eae)
+	)
+	(rectangle
+		(start 398 224)
+		(end 410 233)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 801dabb6-25c8-4e8b-8d3f-ecde0e9552f9)
+	)
+	(rectangle
+		(start 40 212)
+		(end 46 216)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9f35ab73-8aac-4edc-ac1c-1e23a322930e)
+	)
+	(rectangle
+		(start 24 11)
+		(end 413 111)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e733ef00-2369-4023-aa3c-14c1dab2c0ea)
+	)
+	(rectangle
+		(start 45 212)
+		(end 46 216)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid ea9bfa44-3119-4203-a18f-b1c6f52cbd28)
+	)
+	(text "602"
+		(exclude_from_sim no)
+		(at 258 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "01a97517-956d-4dfe-a406-0518356fb128")
+	)
+	(text "М1"
+		(exclude_from_sim no)
+		(at 68 90 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "035e20cb-5100-4686-83f4-a57f274e670b")
+	)
+	(text "527.6"
+		(exclude_from_sim no)
+		(at 301 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "03a747a3-b9ea-49b1-8fee-3cbf0d425640")
+	)
+	(text "574"
+		(exclude_from_sim no)
+		(at 278 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "0746affc-f8c1-4479-8843-83e8cf8c9d95")
+	)
+	(text "М21"
+		(exclude_from_sim no)
+		(at 220 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "085b27f7-c516-49e0-934e-2599dd9004c5")
+	)
+	(text "501"
+		(exclude_from_sim no)
+		(at 310 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "0c5ce389-8ac3-4927-b3ed-88d88e16450d")
+	)
+	(text "768"
+		(exclude_from_sim no)
+		(at 142 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "0c6bcf40-f310-4960-b373-04d5c28c231c")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 288 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "0d9fdc57-c881-4e33-9b6c-fbd8fb0366f7")
+	)
+	(text "М23"
+		(exclude_from_sim no)
+		(at 243 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "0ed27abe-b63c-4619-82d1-81447b07b444")
+	)
+	(text "М5"
+		(exclude_from_sim no)
+		(at 76 90 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1128e1b9-4ac3-4eb5-8f97-9eac97c20065")
+	)
+	(text "631"
+		(exclude_from_sim no)
+		(at 227 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1215b5ea-788a-4a69-b0fc-a87a91069b60")
+	)
+	(text "2П"
+		(exclude_from_sim no)
+		(at 394 187 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "12987dd4-0c70-4ffd-a063-05a4e3249352")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 160 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1af11f27-f4d1-45fb-a00f-7659a4bee687")
+	)
+	(text "875"
+		(exclude_from_sim no)
+		(at 76 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1b7b0fde-5103-48d0-a3c0-66cab8dccb77")
+	)
+	(text "ЭЦ"
+		(exclude_from_sim no)
+		(at 404 41 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1c5445bc-5f0e-45ad-9e0f-3342fa0719ae")
+	)
+	(text "895"
+		(exclude_from_sim no)
+		(at 73 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "1dc61f64-a663-4055-ad90-c838bf83f717")
+	)
+	(text "1295"
+		(exclude_from_sim no)
+		(at 37 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "2097e2c6-8e6c-4e88-9c17-4a5d4b06b06b")
+	)
+	(text "561"
+		(exclude_from_sim no)
+		(at 280 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "221f961a-cb29-4f53-849b-e47fb3ea586c")
+	)
+	(text "21"
+		(exclude_from_sim no)
+		(at 215 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "23969ff7-9fcb-450f-b849-5eb13686e664")
+	)
+	(text "663"
+		(exclude_from_sim no)
+		(at 220 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "2c046443-539f-41d3-9b81-df7b5c1b6af6")
+	)
+	(text "Стрелки"
+		(exclude_from_sim no)
+		(at 29 31 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "306164fa-b9a0-4805-96a0-76f36b37927e")
+	)
+	(text "29"
+		(exclude_from_sim no)
+		(at 250 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3155681c-1319-4f08-83c1-40f86e1b0f8e")
+	)
+	(text "525\n"
+		(exclude_from_sim no)
+		(at 305 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "351bd7e1-10cd-43cd-b27b-9ec72e7d79cd")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 73 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "35e69971-4994-4aac-af31-0c170cb4a925")
+	)
+	(text "715"
+		(exclude_from_sim no)
+		(at 165 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3c14f323-1e9b-4f72-a09e-51131892bc55")
+	)
+	(text "17"
+		(exclude_from_sim no)
+		(at 184 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3d4ef193-15ee-45d3-8161-f105ce0dfd81")
+	)
+	(text "685,6"
+		(exclude_from_sim no)
+		(at 202 64 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3e21851a-ba91-427b-a926-4ac68a4a62f3")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 116 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3ebea5f8-e197-4fec-98c7-816e71e33191")
+	)
+	(text "811,6"
+		(exclude_from_sim no)
+		(at 117 64 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "3f625dca-b7a8-4c46-a9b7-31fa2f5b30fe")
+	)
+	(text "НА ЗАВОД"
+		(exclude_from_sim no)
+		(at 57 154 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "4037aba3-9f8f-4b40-84b8-f15d065d6880")
+	)
+	(text "483"
+		(exclude_from_sim no)
+		(at 334 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "4367eb47-481e-4f54-9eac-ed8f16ecdf88")
+	)
+	(text "М33"
+		(exclude_from_sim no)
+		(at 324 92 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "44847aa8-735e-4ea6-b67a-9f9e2d45c0cd")
+	)
+	(text "543"
+		(exclude_from_sim no)
+		(at 288 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "4689691e-ce04-4585-8517-4cefe93bde86")
+	)
+	(text "669"
+		(exclude_from_sim no)
+		(at 192 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "472da39d-668b-49d0-b703-4630050a9bf3")
+	)
+	(text "РШ"
+		(exclude_from_sim no)
+		(at 43 219 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "493e1300-9525-4e46-a9db-43c9dd3f3217")
+	)
+	(text "3П"
+		(exclude_from_sim no)
+		(at 394 217 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "4df3357a-9847-4b4a-8baf-f42ded8da89f")
+	)
+	(text "М31"
+		(exclude_from_sim no)
+		(at 301 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "4f0c802a-394d-4dbd-a52e-fd83f750337b")
+	)
+	(text "25"
+		(exclude_from_sim no)
+		(at 245 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "50656ce2-2f6a-489f-840a-de4b26ccbf0f")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 142 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "51eaff89-bdf9-4d0b-a19c-1e9d15fb6112")
+	)
+	(text "(0)"
+		(exclude_from_sim no)
+		(at 404 64 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "5c814402-8cc9-4dc0-ba44-b1b08de55ee0")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 165 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "626eef7f-cdc0-404d-b35d-ebe36d98cc20")
+	)
+	(text "Н,НД"
+		(exclude_from_sim no)
+		(at 37 90 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "633a6819-d51a-4dab-9910-94c75f232a8f")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 99 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "64a579e6-911c-413a-b60d-b2b757c2c5fd")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 227 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "659ccbae-7182-4963-8ec2-1fa7be50c097")
+	)
+	(text "Ч2"
+		(exclude_from_sim no)
+		(at 280 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "67868f32-f895-4d19-9f4a-2f63ec78123b")
+	)
+	(text "557"
+		(exclude_from_sim no)
+		(at 284 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "698b2415-e221-4946-81d8-ff0ae8802bc2")
+	)
+	(text "776"
+		(exclude_from_sim no)
+		(at 126 65 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "6cc2d042-987a-4fbb-912e-d5f2eb773f66")
+	)
+	(text "Пост ЭЦ"
+		(exclude_from_sim no)
+		(at 388 229 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "700f4422-ed76-4154-a35e-db489e68dba4")
+	)
+	(text "809"
+		(exclude_from_sim no)
+		(at 121 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "70f7b16f-de22-4d36-aad8-cd21a1b46896")
+	)
+	(text "843,6"
+		(exclude_from_sim no)
+		(at 80 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "749c591d-7f08-4e87-86d2-79ed7df8122f")
+	)
+	(text "789"
+		(exclude_from_sim no)
+		(at 122 64 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "7621a993-72d4-4b78-a0f5-2cc12e1362fe")
+	)
+	(text "23"
+		(exclude_from_sim no)
+		(at 258 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "7a5f505c-4f85-47d1-a71b-75d16f5e36a0")
+	)
+	(text "М7"
+		(exclude_from_sim no)
+		(at 117 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "81b9b5fd-3469-486b-be40-123f95a08eb9")
+	)
+	(text "561"
+		(exclude_from_sim no)
+		(at 327.66 62.23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "821cbd32-3da8-4157-a7f1-42c6014e599b")
+	)
+	(text "37"
+		(exclude_from_sim no)
+		(at 334 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "844876a6-8fe5-4508-b59a-45d7f76cba59")
+	)
+	(text "М27"
+		(exclude_from_sim no)
+		(at 273 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "8ae6c0d3-e7cc-47f5-82ba-8472e3a0c68b")
+	)
+	(text "425"
+		(exclude_from_sim no)
+		(at 369 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "8c4708a8-0b1b-4d62-a39c-95570d63858e")
+	)
+	(text "35"
+		(exclude_from_sim no)
+		(at 305 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "8f51b445-c4ee-4205-a55c-78e3c8722d75")
+	)
+	(text "М37,Ч6"
+		(exclude_from_sim no)
+		(at 369 90 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "8f940468-eb95-4365-a9ca-db24f1cae59a")
+	)
+	(text "33"
+		(exclude_from_sim no)
+		(at 310 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "9a7779e2-2fd6-4241-b87f-a455b35bb04c")
+	)
+	(text "1П"
+		(exclude_from_sim no)
+		(at 394 202 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "9ab0669f-9d22-4cf3-a8b5-7e1f5435b143")
+	)
+	(text "613"
+		(exclude_from_sim no)
+		(at 250 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "9c162263-5849-46a5-8a0a-d364d4593e3f")
+	)
+	(text "М9"
+		(exclude_from_sim no)
+		(at 126 92 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "9f808a24-07ab-4430-9fd7-f280e8446650")
+	)
+	(text "М17"
+		(exclude_from_sim no)
+		(at 161 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "a005fcd9-326b-444b-b176-2039a7becf04")
+	)
+	(text "637"
+		(exclude_from_sim no)
+		(at 245 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "a1d6aa18-bbf2-4384-8864-4fb6d39b39f3")
+	)
+	(text "4П"
+		(exclude_from_sim no)
+		(at 394 172 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "a32bdb53-69bd-401e-a971-7bbd55067a50")
+	)
+	(text "М35,Ч3"
+		(exclude_from_sim no)
+		(at 344 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "ad1c0c8d-308a-4ead-bb49-b0531a981c6d")
+	)
+	(text "485,6"
+		(exclude_from_sim no)
+		(at 323.215 63.5 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "b207e5b2-4037-4d1c-9b49-c0be66646229")
+	)
+	(text "748"
+		(exclude_from_sim no)
+		(at 161 64 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "b4913f49-6358-4826-b5a9-d6f9cdd0962f")
+	)
+	(text "704"
+		(exclude_from_sim no)
+		(at 184 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "b4acbd6a-0e1b-4742-b5ef-76fe3340aafe")
+	)
+	(text "М3"
+		(exclude_from_sim no)
+		(at 80 90 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "b94c4b99-fadf-46d8-918f-226aee6357f5")
+	)
+	(text "Светофоры"
+		(exclude_from_sim no)
+		(at 29 81 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "bb57b783-1ba9-4ac5-b313-6555f6291251")
+	)
+	(text "752,6"
+		(exclude_from_sim no)
+		(at 151 64 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "c45e754e-9037-4d52-9062-008f72327ce5")
+	)
+	(text "М25"
+		(exclude_from_sim no)
+		(at 284 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "c6ad7adc-24f4-4b75-916e-ee6554115175")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 121 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "cc733734-26cc-45a3-bc7c-c04263055190")
+	)
+	(text "Ч4"
+		(exclude_from_sim no)
+		(at 307 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "ce1c9b79-ddab-4343-aa0d-a68960f65cf1")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 35 215 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "d061565f-b282-43e0-9beb-b5e48cd812c2")
+	)
+	(text "750"
+		(exclude_from_sim no)
+		(at 160 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "d2ee42fe-5925-4d84-8e13-3a9a6794a56a")
+	)
+	(text "М13,М15"
+		(exclude_from_sim no)
+		(at 151 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "d34d195b-2e2f-4675-bb57-c1376408ad05")
+	)
+	(text "БШ"
+		(exclude_from_sim no)
+		(at 35 219 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "db816437-adb3-4d3e-ae32-000d61dcb98c")
+	)
+	(text "М19"
+		(exclude_from_sim no)
+		(at 202 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "de57c33b-1a02-4d22-bbca-c7fdeaa73b70")
+	)
+	(text "814"
+		(exclude_from_sim no)
+		(at 116 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "e15a9f28-ef15-450a-b165-96918e82bdef")
+	)
+	(text "464"
+		(exclude_from_sim no)
+		(at 344 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "e4c8330a-d242-4ec7-90f4-2425c22453bb")
+	)
+	(text "683"
+		(exclude_from_sim no)
+		(at 215 22 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "e73beb97-20bf-4812-9077-bf5caf576c77")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 192 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "eadf5a01-af0c-40b4-a69c-bd31e406da12")
+	)
+	(text "6П"
+		(exclude_from_sim no)
+		(at 394 157 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "eb72bbd6-dc93-4e9d-8c8f-731002b03d42")
+	)
+	(text "М29"
+		(exclude_from_sim no)
+		(at 328.295 92.075 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "efa8df84-8397-4116-b873-636f6bcef588")
+	)
+	(text "31"
+		(exclude_from_sim no)
+		(at 278 40 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "f736314d-6f77-43a0-be2b-00a44ad4e401")
+	)
+	(text "576,6"
+		(exclude_from_sim no)
+		(at 273 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "f7e1b633-6dde-47fc-9fa9-cbdaac9434b5")
+	)
+	(text "897,6"
+		(exclude_from_sim no)
+		(at 68 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "f9aeba86-0ea0-4bcc-9110-aae71a006f0d")
+	)
+	(text "615,6"
+		(exclude_from_sim no)
+		(at 243 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "f9ea90d4-8bff-421e-a8c8-f910dde68386")
+	)
+	(text "841"
+		(exclude_from_sim no)
+		(at 99 23 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "fbef8e0e-7dd5-4e74-ad50-dd1422184820")
+	)
+	(text "М11"
+		(exclude_from_sim no)
+		(at 122 91 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "fc924ad9-1301-4dbf-be41-c8df0bbcc477")
+	)
+	(text "506"
+		(exclude_from_sim no)
+		(at 307 63 90)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "fed7d979-ea3b-4729-a0f2-fae74e8f409e")
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 273 179 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "008bf06a-e0df-44da-8b77-3e12ffdd38d3")
+		(property "Reference" "Маневровый1111"
+			(at 273 183 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 273 183 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 273 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273 172 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М27"
+			(at 272 179 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 324 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01396593-9ae0-40c5-b84e-bbb5183c3266")
+		(property "Reference" "И11111"
+			(at 323.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 326.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 324 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 324 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 324 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "563a10db-269c-4e9b-877a-9e64e7b8943e")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963a")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f5")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый")
+		(at 80 164 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0142d87b-931a-4750-a0d6-5c2b54f9f332")
+		(property "Reference" "Маневровый1"
+			(at 80 160 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 80 160 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80 171 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М3"
+			(at 79 164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 220 169 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "069edeee-da3a-41b1-b925-f8212d139f11")
+		(property "Reference" "Маневровый111"
+			(at 220 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 220 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 220 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220 176 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М21"
+			(at 221 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 202 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07202594-a722-4a8a-9867-88eff21d5a55")
+		(property "Reference" "И1111"
+			(at 201.75 183.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 204.87 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 202 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615a")
+		)
+		(pin ""
+			(uuid "aa00246f-95de-47c1-a8e1-482ba2b46c0a")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f6")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И1111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка_спаренная")
+		(at 278 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b4cb04e-8f00-4bde-b770-b24a0c14fe5f")
+		(property "Reference" "~C2"
+			(at 288 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 294 157.35 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "31"
+			(at 281 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "33"
+			(at 307 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b4d8149-cb27-4414-9946-7756b4efb582")
+		)
+		(pin "1"
+			(uuid "7c2f1657-8b9b-4ed5-9911-869927983932")
+		)
+		(pin "1"
+			(uuid "124ad837-4fef-4261-ac76-fab12348bc15")
+		)
+		(pin "1"
+			(uuid "e38186ca-3361-44a3-9221-87e08688acfa")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 151 179 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d199476-cfd5-4f75-b091-c96b10d9d59c")
+		(property "Reference" "Маневровый11"
+			(at 151 175 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 151 175 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151 186 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М15"
+			(at 150 179 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 151 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d6db507-6461-40ff-a132-f389cd6c7ae5")
+		(property "Reference" "И111"
+			(at 150.75 168.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 153.87 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a6156")
+		)
+		(pin ""
+			(uuid "7dc062f6-ee1f-4ed9-810f-c3e2088bf1a3")
+		)
+		(pin ""
+			(uuid "8692e492-00ea-4346-a5ca-fad63c278770")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 161 199 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ef84e89-b6c2-41c7-a04c-b6465c23cbe5")
+		(property "Reference" "Маневровый1111"
+			(at 161 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 161 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161 199 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161 199 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161 206 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М17"
+			(at 162 199 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 122 154 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f9adbd7-430b-44d9-9e0b-4a78c1a3a658")
+		(property "Reference" "Маневровый1"
+			(at 122 150 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 122 150 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 122 154 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122 154 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122 161 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М11"
+			(at 123 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый")
+		(at 65 179 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1acc2cd0-b3c3-4359-9136-472ab92e0922")
+		(property "Reference" "Маневровый1"
+			(at 65 175 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 65 175 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 65 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 65 186 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М5"
+			(at 64 179 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB:Изостык")
+		(lib_id "SCB:Изостык")
+		(at 328 130 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d5ab75a-c9fb-45ba-821b-3011f332b321")
+		(property "Reference" "И111111"
+			(at 327.75 124.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 330.86 130 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 328 130 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328 130 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328 130 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "70ae1b56-76e8-4172-8340-3a7d2835ea27")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963d")
+		)
+		(pin ""
+			(uuid "6451ff04-84fc-41c5-8dc4-c9e8d4e42ce1")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 220 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "256871c5-0741-47de-b22c-1d145953a7c6")
+		(property "Reference" "И111"
+			(at 219.75 168.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 222.87 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615b")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963b")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f7")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 344 219 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a197ef4-fc60-41fa-86b9-5497d04a3265")
+		(property "Reference" "И111111"
+			(at 343.75 213.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 346.87 219 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 344 219 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344 219 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344 219 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fda1781a-d1ff-4c53-a6c1-016e109b7d5a")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963e")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f9")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 369 139 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf8feb6-1e22-4da4-8ce1-4c431b4e99b7")
+		(property "Reference" "Маневровый11"
+			(at 369 135 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 369 135 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 369 139 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369 139 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369 146 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М37"
+			(at 370 139 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Выходной")
+		(at 280 184 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cfc5840-7f31-4080-8362-d32dee77e952")
+		(property "Reference" "Входной111"
+			(at 280 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 280 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 280 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280 196 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Ч2"
+			(at 281 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 268 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 260 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 264 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 272 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 80 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e255cd-3f4b-4805-80a2-e544bfc10e55")
+		(property "Reference" "И11"
+			(at 79.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 82.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a6157")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2e6")
+		)
+		(pin ""
+			(uuid "33db9d18-f618-415e-aaf6-57e331ad60bf")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 324 164 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed069ed-b4f9-4b85-a278-65e80f582a67")
+		(property "Reference" "Маневровый11111"
+			(at 324 168 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 324 168 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 324 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 324 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 324 157 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М33"
+			(at 323 164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 273 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f1f5582-2591-4a9f-a0a1-3a211a950844")
+		(property "Reference" "И1111"
+			(at 272.75 168.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 275.87 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 273 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8ca5baa0-e576-4ccc-8641-4782cbd170af")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963c")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f8")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И1111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Входной")
+		(at 37 184 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47a87675-d80f-4cf2-8106-203a59ce3a02")
+		(property "Reference" "Входной2"
+			(at 37 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 37 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 37 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37 196 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "НД"
+			(at 36 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 54 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 62 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Двухнитевая2Ж" "2"
+			(at 50 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 58 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 45 180.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Стрелка_спаренная_15_2")
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 142 174 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cea2c42-bd6c-446a-84e2-6ada615b6d82")
+		(property "Reference" "~C3"
+			(at 132 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 120.5 157.03 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "7"
+			(at 139 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "5"
+			(at 102 164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3093e66-8545-4d2a-940f-f991d5d3ba96")
+		)
+		(pin "1"
+			(uuid "09620c9f-eac7-4835-b22c-1d0d049edc80")
+		)
+		(pin "1"
+			(uuid "121c846e-3b49-402a-9a9f-0c8eed7d52f1")
+		)
+		(pin "1"
+			(uuid "7da80f68-ef8c-4ca2-b752-ff59419af94b")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка")
+		(at 334 159 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59477276-b1bf-49a6-83d1-1f1f5ccf1283")
+		(property "Reference" "~C11"
+			(at 344 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 349.5 142.74 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер" "37"
+			(at 337 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "863ad288-2279-4293-be6e-43790a906a35")
+		)
+		(pin "1"
+			(uuid "57224b21-aa3f-480d-87ef-d7023b3c5d30")
+		)
+		(pin "1"
+			(uuid "99b9d334-c92f-41a5-b8e0-7f01649361af")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C11")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 307 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee48dd8-c0fe-4a03-9abf-7c614641f793")
+		(property "Reference" "И111111"
+			(at 306.75 168.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 309.87 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 307 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 307 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "68e849a4-f679-4d7b-9a02-853911f63961")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d8176381963f")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475fa")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 68 194 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60e81b3d-5553-416a-8893-64b382bb8237")
+		(property "Reference" "Маневровый1"
+			(at 68 190 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 68 190 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 68 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68 201 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М1"
+			(at 67 194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Стрелка_спаренная_15_3")
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 121 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b175118-bdfd-4a98-8e4b-459e0c67af7f")
+		(property "Reference" "~C4"
+			(at 131 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 142.5 187.51 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 131 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 131 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "9"
+			(at 124 199 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "11"
+			(at 161 194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "679a6a2c-672e-4c1f-a0d5-f1cf3dd8a602")
+		)
+		(pin "1"
+			(uuid "eddcfd4c-b8ce-4d01-8250-5399f09e80a0")
+		)
+		(pin "1"
+			(uuid "4e4c3b66-15bc-4d7a-aa42-3fb993170aa1")
+		)
+		(pin "1"
+			(uuid "b43a5a93-af9f-4886-9727-c6b5e99193aa")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 68 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cf7d76f-5bfd-4402-b9af-f74d7fe79a8a")
+		(property "Reference" "И1"
+			(at 67.75 183.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 69.76 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a6158")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2e7")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f3")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 215 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74067c50-209b-4a2f-b3b7-9b66f925c572")
+		(property "Reference" "~C8"
+			(at 225 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 236.5 172.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 225 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "21"
+			(at 218 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "23"
+			(at 255 171 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00263ef4-bedf-40b5-a775-5c4382a50425")
+		)
+		(pin "1"
+			(uuid "ae4064d2-c7ac-4cf5-a1c5-e54b2e4643be")
+		)
+		(pin "1"
+			(uuid "31a90f77-ee77-4d4d-95a6-a4106749df11")
+		)
+		(pin "1"
+			(uuid "5dcf7dff-54df-4078-a3a1-bf1904909834")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 202 194 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7766ba39-8267-447f-962b-e12b995e3143")
+		(property "Reference" "Маневровый1111"
+			(at 202 190 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 202 190 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 202 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 202 201 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М19"
+			(at 201 194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 369 144 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7869366e-ead9-476d-9e39-e623e5d1d5e5")
+		(property "Reference" "И11111"
+			(at 368.75 138.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 371.87 144 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 369 144 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369 144 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369 144 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "70ae1b56-76e8-4172-8340-3a7d2835ea28")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819640")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475fb")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 243 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7efe595f-4f44-4bd3-8625-688304402242")
+		(property "Reference" "И1111"
+			(at 242.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 245.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b27b5cd6-6a06-4ea8-83f8-54f79ffbdbc7")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819641")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475fc")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И1111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Выходной_к")
+		(at 369 152 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847b8033-e8bc-426e-b569-4a3cc89c1262")
+		(property "Reference" "Входной11"
+			(at 376.5 148 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 369 146.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 369 150.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369 150.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Ч6"
+			(at 370 152 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 367 157.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 363 157.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 363 146.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 367 146.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 126 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86a7261e-bb09-4761-afda-d07f45e2ac77")
+		(property "Reference" "И11111"
+			(at 125.75 183.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 128.87 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "43982029-65d5-4b7a-ab49-a0b9151fdf20")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819642")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475fd")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 161 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b86603f-96f9-442f-9483-df2fabc263b4")
+		(property "Reference" "И11"
+			(at 160.75 198.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 163.87 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a6159")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2e8")
+		)
+		(pin ""
+			(uuid "70730141-cc59-499b-83c9-e2e6fd6eb370")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 328 125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f06a91f-8713-4c6e-84f7-fab548c15beb")
+		(property "Reference" "Маневровый11"
+			(at 328 121 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 328 121 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 328 125 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328 125 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328 132 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М29"
+			(at 329 125 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 344 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9516d219-0367-42c0-bed8-1071ce1b5191")
+		(property "Reference" "И111111"
+			(at 343.75 198.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 346.87 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 344 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "90e7ed31-c86c-4e4f-a047-a6576cfc6b6b")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819643")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475fe")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Выходной")
+		(at 319 169 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96be7cbb-672f-4329-9b48-6d7ac669f7e8")
+		(property "Reference" "Входной11"
+			(at 319 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 319 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 319 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 319 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 319 181 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Ч4"
+			(at 320 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 307 165.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 299 165.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 303 165.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 311 165.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 117 209 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1eef619-f949-4c3b-a466-cf199ef001a0")
+		(property "Reference" "Маневровый11111"
+			(at 117 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 117 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 117 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117 202 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М7"
+			(at 116 209 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 37 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f5107d-a8f7-4c4e-bd0a-01630e180fb3")
+		(property "Reference" "И11"
+			(at 36.75 183.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 38.76 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615c")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2e9")
+		)
+		(pin ""
+			(uuid "865aee4b-8e3e-40fd-b1a6-623fa803990f")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 37 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a97d8403-e8d9-40c4-b43d-17ffd08896a4")
+		(property "Reference" "И11"
+			(at 36.75 198.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 38.76 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615d")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2ea")
+		)
+		(pin ""
+			(uuid "628dddf3-fec4-497c-b448-8dcabe2fcfa1")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 344 199 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad8e760d-0dea-47ed-8008-6c320b1c0198")
+		(property "Reference" "Маневровый1"
+			(at 344 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 344 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 344 199 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344 199 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344 206 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М35"
+			(at 345 199 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Стрелка_спаренная_15_1")
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 288 204 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f80ac2-15fa-4b14-8b55-8b54a3c5d290")
+		(property "Reference" "~C10"
+			(at 278 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 266.5 186.84 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278 194 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "27"
+			(at 285 199 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "25"
+			(at 248 194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "418c8ab3-281e-4092-898d-bf5c5059995b")
+		)
+		(pin "1"
+			(uuid "267325fb-88c9-4979-b9a7-d0089fd7ad7a")
+		)
+		(pin "1"
+			(uuid "2229ab9d-2421-49cb-9d5d-634d5d0529ef")
+		)
+		(pin "1"
+			(uuid "938562d7-d09f-4693-93c1-ff1d22213c6a")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 369 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5edd157-bebd-4557-b660-bc927cbfb8db")
+		(property "Reference" "И111111"
+			(at 368.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 371.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 369 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "864207d5-201d-4464-988a-c95169f4a6b8")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819644")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475ff")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 76 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb94c412-0673-40da-93f4-91bbe0cc5bd3")
+		(property "Reference" "И1"
+			(at 75.75 168.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 78.87 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76 174 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615e")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2eb")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d475f4")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 184 174 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c189abd4-c92b-4d3a-bfd1-51fc52dd0c02")
+		(property "Reference" "~C6"
+			(at 194 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 205.5 157.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "17"
+			(at 187 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "19"
+			(at 224 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ebac166-e0d3-4e21-a9d9-a5543339908c")
+		)
+		(pin "1"
+			(uuid "dcf9efe9-7025-433f-896b-0a16bc947361")
+		)
+		(pin "1"
+			(uuid "63549242-ca84-4d3d-bd59-5738f184fd5a")
+		)
+		(pin "1"
+			(uuid "c5a9b65f-ca52-4730-b811-0216161b9886")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Стрелка_спаренная_15_4")
+		(lib_id "SCB:Стрелка_спаренная_15")
+		(at 73 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1c70abb-3b22-4425-813b-e6c5b530a79d")
+		(property "Reference" "~C1"
+			(at 83 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 94.5 172.27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "1"
+			(at 76 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "3"
+			(at 113 179 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd7aeb08-1b98-427b-8713-eb406e76caf2")
+		)
+		(pin "1"
+			(uuid "46df8c51-b3a2-4c66-9180-7fe0165c90fd")
+		)
+		(pin "1"
+			(uuid "b1bb3890-ff5a-4910-ae9b-f624e3d4b132")
+		)
+		(pin "1"
+			(uuid "a2eab345-3928-47cf-a0ac-f5c579b73cdb")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Выходной_к")
+		(at 344 212 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2d7c57d-5e18-4d9a-a487-82bcd652bdcd")
+		(property "Reference" "Входной1"
+			(at 351.5 208 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 344 206.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 344 210.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344 210.5 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344 224 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Ч3"
+			(at 345 212 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 342 217.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 338 217.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 338 206.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 342 206.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка")
+		(at 305 204 0)
+		(mirror x)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6e53123-8514-4abb-8be5-a2aab01ae4e8")
+		(property "Reference" "~C7"
+			(at 315 214 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 320.5 202.43 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 315 214 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 315 214 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 315 214 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер" "35"
+			(at 309 199 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43e4c098-62d3-4190-875e-aa3b13bf6898")
+		)
+		(pin "1"
+			(uuid "7b392f08-3662-40ea-8081-5e3fc75888cf")
+		)
+		(pin "1"
+			(uuid "096b5d04-decb-4e76-b4ed-6d7a92be1247")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C7")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка")
+		(at 247 159 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c77b202b-1de6-44f7-9737-5b3d852a1c21")
+		(property "Reference" "~C9"
+			(at 257 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 262.5 142.26 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257 149 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер" "29"
+			(at 250 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4e69136-ba52-4b76-b804-c4caf64f2c44")
+		)
+		(pin "1"
+			(uuid "aea38720-59cc-421a-bbde-ec96a0f4c626")
+		)
+		(pin "1"
+			(uuid "f1c2e172-4670-4665-89d9-467ebc39bacd")
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C9")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 117 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccf370b6-dfe3-4acb-892b-8489fef6f886")
+		(property "Reference" "И11"
+			(at 116.75 198.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 118.76 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3de65d3e-7278-4def-a8b1-40f3c2a76729")
+		)
+		(pin ""
+			(uuid "e4cc7062-864e-42f7-9508-22238961c2ec")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d47600")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 301 204 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d91a34b8-da24-4c2d-b226-54d67ea966db")
+		(property "Reference" "И11111"
+			(at 300.75 198.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 303.87 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 301 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 301 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 301 204 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b27b5cd6-6a06-4ea8-83f8-54f79ffbdbc8")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819645")
+		)
+		(pin ""
+			(uuid "297944d0-7cb9-41ad-8cff-af5264d6ad74")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 284 154 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd1e7b24-a8bb-4a62-852a-e019a1c56a81")
+		(property "Reference" "Маневровый11"
+			(at 284 150 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 284 150 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 284 154 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284 154 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284 161 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М25"
+			(at 285 154 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 126 184 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df04c4b1-64d7-4931-b157-5aff807507b2")
+		(property "Reference" "Маневровый1111"
+			(at 126 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 126 180 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 126 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 126 184 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 126 191 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М9"
+			(at 127 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Стрелка_спаренная")
+		(at 192 189 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4cf4d2b-d58d-4e03-a640-6e1cc9ce45d9")
+		(property "Reference" "~C5"
+			(at 182 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 176 172.96 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182 179 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Номер.стр.1" "15"
+			(at 189 184 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(property "Номер.стр.2" "13"
+			(at 163 179 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10020c3e-70aa-49c6-a9e2-7463bfade6f0")
+		)
+		(pin "1"
+			(uuid "3aee6d2d-2cb8-4982-a0b2-b85cf029b379")
+		)
+		(pin "1"
+			(uuid "3651de87-ae20-46ae-8d00-5dbc296301f9")
+		)
+		(pin "1"
+			(uuid "3c266459-4bb8-4f4d-bdaf-a3d3f027edc5")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "~C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 243 164 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e58de090-f662-40f4-896b-f8ff3db9b003")
+		(property "Reference" "Маневровый1111"
+			(at 243 168 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 243 168 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243 164 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243 157 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М23"
+			(at 242 164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Входной")
+		(at 37 209 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8cf2f4e-e845-41cd-8c97-2eff481ca2ce")
+		(property "Reference" "Входной1"
+			(at 37 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 37 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 37 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37 197 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Н"
+			(at 36 209 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(property "ДвухнитеваяК" "2"
+			(at 54 212.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЖ" "2"
+			(at 62 212.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Двухнитевая2Ж" "2"
+			(at 50 212.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяЗ" "2"
+			(at 58 212.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "ДвухнитеваяБ" "2"
+			(at 45 212.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Входной1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 301 209 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea8f0ee6-7722-4556-8258-0a0b58d54786")
+		(property "Reference" "Маневровый11111"
+			(at 301 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 301 213 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 301 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 301 209 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 301 202 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М31"
+			(at 300 209 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый11111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 151 169 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f10a3753-db92-4b54-aa36-e8b9838276d4")
+		(property "Reference" "Маневровый111"
+			(at 151 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 151 165 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151 169 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151 176 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М13"
+			(at 152 169 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 122 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc96cd1e-a627-4006-882c-c686e1c5b9d4")
+		(property "Reference" "И11"
+			(at 121.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 124.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 122 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "438ce8c9-ef01-4694-bebf-38daff4a615f")
+		)
+		(pin ""
+			(uuid "7dc062f6-ee1f-4ed9-810f-c3e2088bf1a4")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d47601")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 280 189 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd90f3c2-37e9-486f-8877-5c5c9f73a09b")
+		(property "Reference" "И111111"
+			(at 279.75 183.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 282.87 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 280 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280 189 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "970a9e1c-cfbe-4989-84f8-46606da8ca58")
+		)
+		(pin ""
+			(uuid "fc4dd394-ac0f-42c3-a546-d81763819646")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d47602")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Изостык")
+		(at 284 159 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9ade0f-812a-4a61-9e82-bf51b976dd1b")
+		(property "Reference" "И111"
+			(at 283.75 153.25 0)
+			(effects
+				(font
+					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 286.87 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284 159 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bedfb70e-56b1-4fa2-8d00-7180aaa3b592")
+		)
+		(pin ""
+			(uuid "7dc062f6-ee1f-4ed9-810f-c3e2088bf1a5")
+		)
+		(pin ""
+			(uuid "b6d2b6d1-a5e4-4228-8ac1-1c3a29d47603")
+		)
+		(instances
+			(project "vorona"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "И111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 420 260)
+		(size 13 4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "167c6b13-7c09-4296-b6a4-c0246e205ca8")
+		(property "Sheetname" "Двухниточный_план_станции"
+			(at 420 259.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "двухниточный.kicad_sch"
+			(at 420 264.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "БМРЦ"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
