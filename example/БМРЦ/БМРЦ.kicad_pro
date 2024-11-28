@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -240,6 +240,7 @@
       "SCB_АБТЦ",
       "SCB_ЭЦ",
       "SCB_2RC",
+      "SCB",
       "SCB_Двухнитка"
     ]
   },
@@ -312,34 +313,34 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -460,6 +461,18 @@
           "label": "Секция",
           "name": "Секция",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Кодирование2",
+          "name": "Кодирование2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Кодирование1",
+          "name": "Кодирование1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -470,8 +483,8 @@
     },
     "connection_grid_size": 50.0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12.0,
-      "dashed_lines_gap_length_ratio": 3.0,
+      "dashed_lines_dash_length_ratio": 20.0,
+      "dashed_lines_gap_length_ratio": 7.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -515,6 +528,10 @@
     [
       "167c6b13-7c09-4296-b6a4-c0246e205ca8",
       "Двухниточный_план_станции"
+    ],
+    [
+      "5d930155-a7a8-4cbe-91e2-d6c250ce3c0c",
+      "Канализация_тягового_тока"
     ]
   ],
   "text_variables": {}
