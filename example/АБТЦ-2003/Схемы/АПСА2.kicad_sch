@@ -287,7 +287,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -332,7 +332,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -377,6 +377,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -415,6 +416,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -435,6 +437,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -455,6 +458,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -583,6 +587,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -639,6 +644,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -683,6 +689,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -745,6 +752,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
 					(start 5.5 -7.5)
 					(mid 6.5355 -5)
@@ -795,6 +803,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_9_1"
+				(unit_name "Фронтовой-тыловой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -869,6 +878,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_10_1"
+				(unit_name "Тыловой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -925,6 +935,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_11_1"
+				(unit_name "Фронтовой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -991,7 +1002,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1036,7 +1047,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1081,6 +1092,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1119,6 +1131,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -1139,6 +1152,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1159,6 +1173,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -1287,6 +1302,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -1343,6 +1359,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -1387,6 +1404,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -1449,6 +1467,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
 					(start 5.5 -7.5)
 					(mid 6.5355 -5)
@@ -1510,7 +1529,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1520,7 +1539,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1556,7 +1575,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1582,6 +1601,7 @@
 				)
 			)
 			(symbol "Нейтральное_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -1620,6 +1640,7 @@
 				)
 			)
 			(symbol "Нейтральное_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -1705,7 +1726,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1715,7 +1736,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1751,7 +1772,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1790,6 +1811,7 @@
 				)
 			)
 			(symbol "Нейтральное_с_замедлением_на_отпуск_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -1828,6 +1850,7 @@
 				)
 			)
 			(symbol "Нейтральное_с_замедлением_на_отпуск_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -3570,7 +3593,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3592,7 +3615,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3614,7 +3637,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3636,7 +3659,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3658,7 +3681,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3680,7 +3703,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3702,7 +3725,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3724,7 +3747,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3746,7 +3769,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3768,7 +3791,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3790,7 +3813,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3812,7 +3835,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3834,7 +3857,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3856,7 +3879,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3878,7 +3901,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3900,7 +3923,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3922,7 +3945,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3944,7 +3967,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3966,7 +3989,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3988,7 +4011,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4019,7 +4042,7 @@
 			(at 336.55 60.8 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4028,9 +4051,8 @@
 			(at 330.2 55.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4065,7 +4087,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4134,7 +4156,7 @@
 			(at 146.05 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4143,9 +4165,8 @@
 			(at 139.7 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4180,7 +4201,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4248,6 +4269,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 247.65 0)
 		(mirror y)
@@ -4261,7 +4283,7 @@
 			(at 260.35 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4270,9 +4292,8 @@
 			(at 254 252.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4307,7 +4328,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4388,7 +4409,7 @@
 			(at 215.9 101.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4398,7 +4419,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4434,7 +4455,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4466,6 +4487,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 190.5 0)
 		(unit 1)
@@ -4478,7 +4500,7 @@
 			(at 184.15 200.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4487,9 +4509,8 @@
 			(at 179.07 195.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4524,7 +4545,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4592,6 +4613,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 69.85 0)
 		(unit 3)
@@ -4605,7 +4627,7 @@
 			(at 260.35 79.85 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4614,9 +4636,8 @@
 			(at 266.7 75.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4651,7 +4672,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4732,7 +4753,7 @@
 			(at 76.2 82.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4742,7 +4763,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4778,7 +4799,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4810,6 +4831,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 120.65 127 0)
 		(unit 2)
@@ -4823,7 +4845,7 @@
 			(at 120.65 137 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4832,9 +4854,8 @@
 			(at 127 132.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4869,7 +4890,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -4937,6 +4958,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 209.55 0)
 		(mirror y)
@@ -4950,7 +4972,7 @@
 			(at 260.35 219.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -4959,9 +4981,8 @@
 			(at 254 214.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4996,7 +5017,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5064,6 +5085,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 95.25 63.5 0)
 		(unit 3)
@@ -5077,7 +5099,7 @@
 			(at 95.25 73.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5086,9 +5108,8 @@
 			(at 101.6 68.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5123,7 +5144,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5191,6 +5212,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 120.65 50.8 0)
 		(mirror y)
@@ -5205,7 +5227,7 @@
 			(at 120.65 60.8 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5214,9 +5236,8 @@
 			(at 125.73 56.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5251,7 +5272,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5319,6 +5340,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 285.75 69.85 0)
 		(unit 3)
@@ -5332,7 +5354,7 @@
 			(at 285.75 79.85 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5341,9 +5363,8 @@
 			(at 292.1 75.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5378,7 +5399,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5459,7 +5480,7 @@
 			(at 215.9 63.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5469,7 +5490,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5505,7 +5526,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5537,6 +5558,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 361.95 50.8 0)
 		(unit 3)
@@ -5549,7 +5571,7 @@
 			(at 361.95 60.8 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5558,9 +5580,8 @@
 			(at 368.3 55.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5595,7 +5616,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5664,7 +5685,7 @@
 			(at 323.85 222.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5674,7 +5695,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5710,7 +5731,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5742,6 +5763,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 285.75 247.65 0)
 		(mirror y)
@@ -5755,7 +5777,7 @@
 			(at 285.75 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5764,9 +5786,8 @@
 			(at 279.4 252.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5801,7 +5822,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5882,7 +5903,7 @@
 			(at 101.6 25.4 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5892,7 +5913,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5928,7 +5949,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5960,6 +5981,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 120.65 31.75 0)
 		(unit 3)
@@ -5973,7 +5995,7 @@
 			(at 120.65 41.75 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5982,9 +6004,8 @@
 			(at 127 37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6019,7 +6040,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6100,7 +6121,7 @@
 			(at 292.1 203.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6110,7 +6131,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6146,7 +6167,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6178,6 +6199,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 361.95 69.85 0)
 		(unit 3)
@@ -6191,7 +6213,7 @@
 			(at 361.95 79.85 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6200,9 +6222,8 @@
 			(at 368.3 75.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6237,7 +6258,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6318,7 +6339,7 @@
 			(at 76.2 57.15 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6328,7 +6349,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6364,7 +6385,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6396,6 +6417,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 121.92 146.05 0)
 		(mirror y)
@@ -6409,7 +6431,7 @@
 			(at 121.92 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6418,9 +6440,8 @@
 			(at 115.57 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6455,7 +6476,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6536,7 +6557,7 @@
 			(at 215.9 25.4 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6546,7 +6567,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6582,7 +6603,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6628,7 +6649,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6637,7 +6658,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6705,6 +6726,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 361.95 88.9 0)
 		(unit 3)
@@ -6718,7 +6740,7 @@
 			(at 361.95 98.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6727,9 +6749,8 @@
 			(at 368.3 94.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6764,7 +6785,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6832,6 +6853,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 190.5 0)
 		(mirror y)
@@ -6845,7 +6867,7 @@
 			(at 260.35 200.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6854,9 +6876,8 @@
 			(at 254 195.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6891,7 +6912,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6959,6 +6980,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 285.75 31.75 0)
 		(unit 2)
@@ -6972,7 +6994,7 @@
 			(at 285.75 41.75 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6981,9 +7003,8 @@
 			(at 292.1 36.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7018,7 +7039,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7074,6 +7095,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 127 0)
 		(unit 3)
@@ -7087,7 +7109,7 @@
 			(at 260.35 137 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7096,9 +7118,8 @@
 			(at 266.7 132.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7133,7 +7154,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7201,6 +7222,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 57.15 215.9 0)
 		(unit 1)
@@ -7213,7 +7235,7 @@
 			(at 57.15 225.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7222,9 +7244,8 @@
 			(at 52.07 221.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7259,7 +7280,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7327,6 +7348,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 228.6 0)
 		(mirror y)
@@ -7340,7 +7362,7 @@
 			(at 260.35 238.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7349,9 +7371,8 @@
 			(at 254 233.85 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7386,7 +7407,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7454,6 +7475,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 234.95 31.75 0)
 		(unit 1)
@@ -7467,7 +7489,7 @@
 			(at 234.95 41.75 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7476,9 +7498,8 @@
 			(at 241.3 36.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7513,7 +7534,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7582,7 +7603,7 @@
 			(at 101.6 209.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7592,7 +7613,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7628,7 +7649,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7673,7 +7694,7 @@
 			(at 76.2 120.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7683,7 +7704,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7719,7 +7740,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7764,7 +7785,7 @@
 			(at 292.1 184.15 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7774,7 +7795,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7810,7 +7831,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7842,6 +7863,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 165.1 0)
 		(unit 3)
@@ -7855,7 +7877,7 @@
 			(at 260.35 175.1 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7864,9 +7886,8 @@
 			(at 266.7 170.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7901,7 +7922,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7969,6 +7990,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 120.65 88.9 0)
 		(unit 3)
@@ -7982,7 +8004,7 @@
 			(at 120.65 98.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7991,9 +8013,8 @@
 			(at 127 94.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8028,7 +8049,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8096,6 +8117,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 285.75 107.95 0)
 		(unit 3)
@@ -8109,7 +8131,7 @@
 			(at 285.75 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8118,9 +8140,8 @@
 			(at 292.1 113.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8155,7 +8176,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8223,6 +8244,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 285.75 146.05 0)
 		(unit 3)
@@ -8236,7 +8258,7 @@
 			(at 285.75 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8245,9 +8267,8 @@
 			(at 292.1 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8282,7 +8303,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8350,6 +8371,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 311.15 146.05 0)
 		(unit 2)
@@ -8363,7 +8385,7 @@
 			(at 311.15 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8372,9 +8394,8 @@
 			(at 317.5 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8409,7 +8430,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8477,6 +8498,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 88.9 0)
 		(unit 3)
@@ -8490,7 +8512,7 @@
 			(at 260.35 98.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8499,9 +8521,8 @@
 			(at 266.7 94.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8536,7 +8557,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8604,6 +8625,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 95.25 127 0)
 		(unit 2)
@@ -8617,7 +8639,7 @@
 			(at 95.25 137 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8626,9 +8648,8 @@
 			(at 101.6 132.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8663,7 +8684,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8731,6 +8752,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 260.35 50.8 0)
 		(unit 3)
@@ -8744,7 +8766,7 @@
 			(at 260.35 60.8 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8753,9 +8775,8 @@
 			(at 266.7 56.05 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8790,7 +8811,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8858,6 +8879,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 146.05 127 0)
 		(unit 2)
@@ -8871,7 +8893,7 @@
 			(at 146.05 137 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8880,9 +8902,8 @@
 			(at 152.4 132.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8917,7 +8938,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8998,7 +9019,7 @@
 			(at 215.9 139.7 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9008,7 +9029,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9044,7 +9065,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9076,6 +9097,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 311.15 107.95 0)
 		(unit 2)
@@ -9089,7 +9111,7 @@
 			(at 311.15 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9098,9 +9120,8 @@
 			(at 317.5 112.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9135,7 +9156,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9191,6 +9212,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 215.9 0)
 		(unit 1)
@@ -9203,7 +9225,7 @@
 			(at 184.15 225.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9212,9 +9234,8 @@
 			(at 179.07 221.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -9249,7 +9270,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9317,6 +9338,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 311.15 50.8 0)
 		(mirror y)
@@ -9330,7 +9352,7 @@
 			(at 311.15 60.8 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9339,9 +9361,8 @@
 			(at 304.8 55.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9376,7 +9397,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)

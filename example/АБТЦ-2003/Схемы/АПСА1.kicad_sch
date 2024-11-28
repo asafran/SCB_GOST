@@ -731,268 +731,6 @@
 				)
 			)
 		)
-		(symbol "SCB:Генератор_Нитки"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Генератор"
-				(at 0 1.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Генератор_Нитки_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.5 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.5 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy -5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Генератор_Нитки_1_1"
-				(pin unspecified line
-					(at -5 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SCB:Приемник_Нитки"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Приемник"
-				(at 0 1.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Приемник_Нитки_0_1"
-				(polyline
-					(pts
-						(xy -5 0) (xy 5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.5) (xy 0 -6.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.5 -4) (xy -2.5 -4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Приемник_Нитки_1_1"
-				(pin unspecified line
-					(at -5 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SCB_Relay:Выравниватель"
 			(pin_numbers hide)
 			(pin_names
@@ -1004,7 +742,7 @@
 				(at 0 3.81 0)
 				(effects
 					(font
-						(size 2.0066 2.0066)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1012,7 +750,7 @@
 				(at 0 -5.715 0)
 				(effects
 					(font
-						(size 2.0066 2.0066)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1084,14 +822,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
@@ -1102,14 +840,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
@@ -1126,7 +864,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1171,7 +909,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1216,6 +954,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1254,6 +993,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -1274,6 +1014,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1294,6 +1035,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -1422,6 +1164,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -1478,6 +1221,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -1522,6 +1266,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -1584,6 +1329,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
 					(start 5.5 -7.5)
 					(mid 6.5355 -5)
@@ -1634,6 +1380,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_9_1"
+				(unit_name "Фронтовой-тыловой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -1708,6 +1455,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_10_1"
+				(unit_name "Тыловой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -1764,6 +1512,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_11_1"
+				(unit_name "Фронтовой термолемента")
 				(polyline
 					(pts
 						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
@@ -1830,7 +1579,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1875,7 +1624,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1920,6 +1669,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1958,6 +1708,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -1978,6 +1729,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1998,6 +1750,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -2126,6 +1879,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -2182,6 +1936,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -2226,6 +1981,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -2288,10 +2044,11 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
-					(start 5 -8.5)
-					(mid 6.0355 -6)
-					(end 5 -3.5)
+					(start 5.5 -7.5)
+					(mid 6.5355 -5)
+					(end 5.5 -2.5)
 					(stroke
 						(width 0)
 						(type default)
@@ -2349,7 +2106,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -2359,7 +2116,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2395,7 +2152,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2421,6 +2178,7 @@
 				)
 			)
 			(symbol "Нейтральное_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2459,6 +2217,7 @@
 				)
 			)
 			(symbol "Нейтральное_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2544,7 +2303,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -2554,7 +2313,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2590,7 +2349,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2629,6 +2388,7 @@
 				)
 			)
 			(symbol "Нейтральное_с_замедлением_на_отпуск_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2667,6 +2427,7 @@
 				)
 			)
 			(symbol "Нейтральное_с_замедлением_на_отпуск_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2749,18 +2510,18 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "FU"
-				(at 0 3.81 0)
+				(at 0 4 0)
 				(effects
 					(font
-						(size 2.0066 2.0066)
+						(size 2.5 2.5)
 					)
 				)
 			)
 			(property "Value" "РКН"
-				(at 0 -3.81 0)
+				(at 0 -4 0)
 				(effects
 					(font
-						(size 2.0066 2.0066)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2856,14 +2617,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
@@ -2874,14 +2635,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 2.0066 2.0066)
+								(size 2.5 2.5)
 							)
 						)
 					)
@@ -2899,7 +2660,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -2909,7 +2670,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2945,7 +2706,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2996,6 +2757,7 @@
 				)
 			)
 			(symbol "С_термоэлементом_и_замедлением_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -3034,6 +2796,7 @@
 				)
 			)
 			(symbol "С_термоэлементом_и_замедлением_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -3163,7 +2926,7 @@
 				(at 0 5.5 0)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -3238,6 +3001,268 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_АБТЦ:Генератор_Нитки"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_АБТЦ:Приемник_Нитки"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -3358,4044 +3383,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_1"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.19 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_9_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_10_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_1_11_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_2"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.19 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_9_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_10_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_2_11_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_3"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.19 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_9_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_10_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_3_11_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_4"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.19 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_9_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_10_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_4_11_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_5"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.19 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_9_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_10_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_5_11_1"
-				(polyline
-					(pts
-						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.25 -6.5)
-					(mid 0.5225 -3.7106)
-					(end -2.25 -4.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_НЗ_1"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
-				(effects
-					(font
-						(size 3 3)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 -3) (xy 5.5 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_8_1"
-				(arc
-					(start 5.5 -7.5)
-					(mid 6.5355 -5)
-					(end 5.5 -2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9623,7 +5610,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9645,7 +5632,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9667,7 +5654,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9689,7 +5676,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9711,7 +5698,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9733,7 +5720,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -9755,7 +5742,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9777,7 +5764,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9799,7 +5786,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -9821,7 +5808,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -9843,7 +5830,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9865,7 +5852,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9887,7 +5874,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9909,7 +5896,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -9931,7 +5918,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9953,7 +5940,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -9975,7 +5962,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -9997,7 +5984,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -10019,7 +6006,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -10041,7 +6028,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -10063,7 +6050,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -10085,7 +6072,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -10103,7 +6090,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 127 273.05 0)
 		(mirror y)
@@ -10117,7 +6103,7 @@
 			(at 127 283.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10126,7 +6112,7 @@
 			(at 126.155 278.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10162,7 +6148,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10218,7 +6204,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 342.9 228.6 0)
 		(mirror y)
@@ -10232,7 +6218,7 @@
 			(at 342.9 238.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10241,7 +6227,7 @@
 			(at 342.055 233.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10277,7 +6263,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10333,7 +6319,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_3")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 254 228.6 0)
 		(mirror y)
@@ -10347,7 +6332,7 @@
 			(at 254 238.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10356,7 +6341,7 @@
 			(at 253.155 233.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10392,7 +6377,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10460,7 +6445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 265 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10473,7 +6458,7 @@
 			(at 265 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10482,7 +6467,7 @@
 			(at 265 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10490,7 +6475,7 @@
 			(at 265 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10499,7 +6484,7 @@
 			(at 265 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10508,7 +6493,7 @@
 			(at 265 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10529,7 +6514,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 76.2 222.25 0)
 		(mirror y)
@@ -10543,7 +6528,7 @@
 			(at 76.2 232.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10552,7 +6537,7 @@
 			(at 75.355 227.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10588,7 +6573,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10658,7 +6643,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10667,7 +6652,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10733,7 +6718,7 @@
 			(at 209.55 241.3 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10743,7 +6728,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10779,7 +6764,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10811,6 +6796,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 222.25 165.1 0)
 		(unit 1)
@@ -10824,7 +6810,7 @@
 			(at 222.25 175.1 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10833,9 +6819,8 @@
 			(at 228.6 170.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10870,7 +6855,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10926,6 +6911,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 285.75 107.95 0)
 		(unit 9)
@@ -10939,7 +6925,7 @@
 			(at 285.75 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10948,9 +6934,8 @@
 			(at 292.1 113.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10985,7 +6970,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11066,7 +7051,7 @@
 			(at 303.53 168.91 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11075,7 +7060,7 @@
 			(at 303.53 172.72 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11122,7 +7107,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 152.4 222.25 0)
 		(mirror y)
@@ -11136,7 +7121,7 @@
 			(at 152.4 232.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11145,7 +7130,7 @@
 			(at 151.555 227.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11181,7 +7166,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11237,7 +7222,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 196.85 146.05 0)
 		(mirror y)
@@ -11251,7 +7236,7 @@
 			(at 196.85 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11260,9 +7245,8 @@
 			(at 190.5 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11297,7 +7281,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11378,7 +7362,7 @@
 			(at 57.15 215.9 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11388,7 +7372,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11424,7 +7408,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11469,7 +7453,7 @@
 			(at 290.75 128.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11478,7 +7462,7 @@
 			(at 285.545 124.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11513,7 +7497,7 @@
 			(at 285.545 127 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11533,7 +7517,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 228.6 228.6 0)
 		(mirror y)
@@ -11547,7 +7531,7 @@
 			(at 228.6 238.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11556,7 +7540,7 @@
 			(at 227.755 233.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11592,7 +7576,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11648,7 +7632,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 247.65 107.95 0)
 		(mirror y)
@@ -11662,7 +7646,7 @@
 			(at 247.65 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11671,7 +7655,7 @@
 			(at 246.805 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11707,7 +7691,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11763,7 +7747,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 171.45 146.05 0)
 		(mirror y)
@@ -11777,7 +7761,7 @@
 			(at 171.45 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11786,9 +7770,8 @@
 			(at 165.1 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11823,7 +7806,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11891,7 +7874,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 101.6 222.25 0)
 		(mirror y)
@@ -11905,7 +7888,7 @@
 			(at 101.6 232.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11914,7 +7897,7 @@
 			(at 100.755 227.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11950,7 +7933,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12006,7 +7989,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 342.9 247.65 0)
 		(mirror y)
@@ -12020,7 +8003,7 @@
 			(at 342.9 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12029,7 +8012,7 @@
 			(at 342.055 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12065,7 +8048,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12121,6 +8104,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 285.75 82.55 0)
 		(unit 1)
@@ -12134,7 +8118,7 @@
 			(at 285.75 92.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12143,9 +8127,8 @@
 			(at 292.1 87.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12180,7 +8163,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12236,7 +8219,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 65 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12249,7 +8233,7 @@
 			(at 65 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12258,7 +8242,7 @@
 			(at 65 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12266,7 +8250,7 @@
 			(at 65 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -12275,7 +8259,7 @@
 			(at 65 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -12284,7 +8268,7 @@
 			(at 65 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -12305,7 +8289,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 368.3 247.65 0)
 		(mirror y)
@@ -12319,7 +8303,7 @@
 			(at 368.3 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12328,7 +8312,7 @@
 			(at 367.455 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12364,7 +8348,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12420,7 +8404,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 127 222.25 0)
 		(mirror y)
@@ -12434,7 +8418,7 @@
 			(at 127 232.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12443,7 +8427,7 @@
 			(at 126.155 227.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12479,7 +8463,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12548,7 +8532,7 @@
 			(at 57.15 266.7 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12558,7 +8542,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12594,7 +8578,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12626,7 +8610,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 222.25 107.95 0)
 		(mirror y)
@@ -12640,7 +8624,7 @@
 			(at 222.25 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12649,7 +8633,7 @@
 			(at 221.405 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12685,7 +8669,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12741,7 +8725,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 222.25 146.05 0)
 		(mirror y)
@@ -12755,7 +8739,7 @@
 			(at 222.25 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12764,9 +8748,8 @@
 			(at 215.9 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12801,7 +8784,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12882,7 +8865,7 @@
 			(at 323.85 241.3 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12892,7 +8875,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12928,7 +8911,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -12960,7 +8943,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 317.5 133.35 0)
 		(mirror y)
@@ -12974,7 +8957,7 @@
 			(at 317.5 143.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -12983,7 +8966,7 @@
 			(at 316.655 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13019,7 +9002,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13075,7 +9058,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 152.4 273.05 0)
 		(mirror y)
@@ -13089,7 +9072,7 @@
 			(at 152.4 283.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13098,7 +9081,7 @@
 			(at 151.555 278.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13134,7 +9117,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13190,7 +9173,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 196.85 184.15 0)
 		(unit 3)
@@ -13203,7 +9186,7 @@
 			(at 196.85 194.15 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13212,7 +9195,7 @@
 			(at 197.695 189.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13248,7 +9231,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13304,7 +9287,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 196.85 107.95 0)
 		(mirror y)
@@ -13318,7 +9301,7 @@
 			(at 196.85 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13327,7 +9310,7 @@
 			(at 196.005 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13363,7 +9346,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13429,22 +9412,20 @@
 		(fields_autoplaced yes)
 		(uuid "97e0ba5a-1e42-4b3c-884c-482150db142e")
 		(property "Reference" "R17"
-			(at 264.16 173.355 90)
+			(at 264.16 173.355 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Value" "ВОЦН-110"
-			(at 264.16 177.165 90)
+			(at 264.16 177.165 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -13504,7 +9485,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13513,7 +9494,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13587,7 +9568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 115 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13600,7 +9581,7 @@
 			(at 115 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13609,7 +9590,7 @@
 			(at 115 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13617,7 +9598,7 @@
 			(at 115 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13626,7 +9607,7 @@
 			(at 115 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13635,7 +9616,7 @@
 			(at 115 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13656,7 +9637,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 228.6 247.65 0)
 		(mirror y)
@@ -13670,7 +9651,7 @@
 			(at 228.6 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13679,7 +9660,7 @@
 			(at 227.755 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13715,7 +9696,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13771,7 +9752,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 254 247.65 0)
 		(mirror y)
@@ -13785,7 +9766,7 @@
 			(at 254 257.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13794,7 +9775,7 @@
 			(at 253.155 252.73 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13830,7 +9811,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13886,7 +9867,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 315 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13899,7 +9881,7 @@
 			(at 315 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -13908,7 +9890,7 @@
 			(at 315 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13916,7 +9898,7 @@
 			(at 315 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13925,7 +9907,7 @@
 			(at 315 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13934,7 +9916,7 @@
 			(at 315 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -13967,7 +9949,7 @@
 			(at 95.25 160.02 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -13975,7 +9957,7 @@
 			(at 95.25 160.02 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14036,7 +10018,7 @@
 			(at 303.53 187.96 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14045,7 +10027,7 @@
 			(at 303.53 191.77 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14105,7 +10087,7 @@
 			(at 254 76.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14115,7 +10097,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14151,7 +10133,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14183,7 +10165,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 76.2 273.05 0)
 		(mirror y)
@@ -14197,7 +10179,7 @@
 			(at 76.2 283.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14206,7 +10188,7 @@
 			(at 75.355 278.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14242,7 +10224,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14298,6 +10280,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 222.25 184.15 0)
 		(unit 1)
@@ -14311,7 +10294,7 @@
 			(at 222.25 194.15 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14320,9 +10303,8 @@
 			(at 228.6 189.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14357,7 +10339,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14413,7 +10395,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_5")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 139.7 254 0)
 		(mirror y)
@@ -14427,7 +10409,7 @@
 			(at 139.7 264 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14436,7 +10418,7 @@
 			(at 138.855 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14472,7 +10454,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14540,7 +10522,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 215 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14553,7 +10536,7 @@
 			(at 215 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14562,7 +10545,7 @@
 			(at 215 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14570,7 +10553,7 @@
 			(at 215 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14579,7 +10562,7 @@
 			(at 215 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14588,7 +10571,7 @@
 			(at 215 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14609,7 +10592,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 365 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14622,7 +10606,7 @@
 			(at 365 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14631,7 +10615,7 @@
 			(at 365 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14639,7 +10623,7 @@
 			(at 365 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14648,7 +10632,7 @@
 			(at 365 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14657,7 +10641,7 @@
 			(at 365 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -14678,7 +10662,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 196.85 165.1 0)
 		(unit 3)
@@ -14691,7 +10675,7 @@
 			(at 196.85 175.1 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14700,7 +10684,7 @@
 			(at 197.695 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14736,7 +10720,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14805,7 +10789,7 @@
 			(at 300.99 208.28 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14814,7 +10798,7 @@
 			(at 300.99 217.17 0)
 			(effects
 				(font
-					(size 2.0066 2.0066)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14858,7 +10842,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 146.05 107.95 0)
 		(mirror y)
@@ -14872,7 +10856,7 @@
 			(at 146.05 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14881,7 +10865,7 @@
 			(at 145.205 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14917,7 +10901,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -14973,7 +10957,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_2")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 139.7 203.2 0)
 		(mirror y)
@@ -14987,7 +10971,7 @@
 			(at 139.7 213.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -14996,7 +10980,7 @@
 			(at 138.855 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15032,7 +11016,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15100,7 +11084,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_4")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 368.3 228.6 0)
 		(mirror y)
@@ -15114,7 +11098,7 @@
 			(at 368.3 238.6 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15123,7 +11107,7 @@
 			(at 367.455 233.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15159,7 +11143,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15227,7 +11211,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 101.6 273.05 0)
 		(mirror y)
@@ -15241,7 +11225,7 @@
 			(at 101.6 283.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15250,7 +11234,7 @@
 			(at 100.755 278.13 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15286,7 +11270,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15355,7 +11339,7 @@
 			(at 330.2 76.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15365,7 +11349,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15401,7 +11385,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15433,7 +11417,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 88.9 203.2 0)
 		(mirror y)
@@ -15447,7 +11431,7 @@
 			(at 88.9 213.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15456,7 +11440,7 @@
 			(at 88.055 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15492,7 +11476,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15548,7 +11532,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 165 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15561,7 +11546,7 @@
 			(at 165 38.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15570,7 +11555,7 @@
 			(at 165 38.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15578,7 +11563,7 @@
 			(at 165 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -15587,7 +11572,7 @@
 			(at 165 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -15596,7 +11581,7 @@
 			(at 165 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -15617,7 +11602,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 88.9 254 0)
 		(mirror y)
@@ -15631,7 +11616,7 @@
 			(at 88.9 264 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15640,7 +11625,7 @@
 			(at 88.055 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15676,7 +11661,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15732,7 +11717,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 120.65 107.95 0)
 		(mirror y)
@@ -15746,7 +11731,7 @@
 			(at 120.65 117.95 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -15755,7 +11740,7 @@
 			(at 119.805 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -15791,7 +11776,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)

@@ -4758,24 +4758,6 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Проходной_3_3_1"
 			(unit_name "Мачта сталь")
@@ -4886,24 +4868,6 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Проходной_3_4_1"
 			(unit_name "С муфтой")
@@ -4958,24 +4922,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -5104,24 +5050,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -5280,24 +5208,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -5726,24 +5636,6 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Проходной_4_3_1"
 			(unit_name "Мачта сталь")
@@ -5854,24 +5746,6 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
 		)
 		(symbol "Проходной_4_4_1"
 			(unit_name "С муфтой")
@@ -5926,24 +5800,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -6072,24 +5928,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -6248,24 +6086,6 @@
 				(at -3 1 270)
 				(length 1)
 				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12 90)
-				(length 0)
-				(name "привязка"
 					(effects
 						(font
 							(size 1.8 1.8)

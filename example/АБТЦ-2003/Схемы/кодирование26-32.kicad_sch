@@ -223,143 +223,6 @@
 				)
 			)
 		)
-		(symbol "SCB:Генератор_Нитки"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Генератор"
-				(at 0 1.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Генератор_Нитки_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.5 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -7.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.5 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy -5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Генератор_Нитки_1_1"
-				(pin unspecified line
-					(at -5 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SCB:Изостык"
 			(pin_numbers hide)
 			(pin_names
@@ -367,11 +230,11 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "И"
-				(at -0.25 5.75 0)
+			(property "Reference" "Изостык"
+				(at 0 5 0)
 				(effects
 					(font
-						(size 0.0254 0.0254)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -380,7 +243,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -388,7 +251,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -397,7 +260,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -406,7 +269,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -458,26 +321,28 @@
 				)
 			)
 			(symbol "Изостык_1_1"
+				(unit_name "Одиночный")
 				(pin unspecified line
 					(at 0 0 90)
 					(length 0)
 					(name "привязка"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
 			)
 			(symbol "Изостык_2_1"
+				(unit_name "Со светофором")
 				(polyline
 					(pts
 						(xy -5 0) (xy 5 0)
@@ -490,38 +355,20 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 2 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin unspecified line
 					(at 5 0 180)
 					(length 0)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -532,139 +379,14 @@
 					(name "привязка"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SCB:Приемник_Нитки"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Приемник"
-				(at 0 1.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Приемник_Нитки_0_1"
-				(polyline
-					(pts
-						(xy -5 0) (xy 5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.5) (xy 0 -6.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.5 -4) (xy -2.5 -4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Приемник_Нитки_1_1"
-				(pin unspecified line
-					(at -5 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -679,62 +401,62 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Светофор"
-				(at -1 16 0)
+				(at -1 4 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
 			(property "Value" ""
-				(at 0 12 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 12 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 12 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -12 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
 			(property "Литера" "?"
-				(at 3 12 0)
+				(at 3 0 0)
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 				)
 			)
 			(symbol "Светофор_0_1"
 				(circle
-					(center -8 12)
+					(center -8 0)
 					(radius 2)
 					(stroke
 						(width 0)
@@ -746,7 +468,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 11) (xy 0 13)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -758,7 +480,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 12) (xy -6 12)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -766,26 +488,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "Светофор_1_1"
-				(pin unspecified line
-					(at 0 0 90)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -801,7 +503,7 @@
 				(at 0 10 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -810,7 +512,7 @@
 				(at 0 6 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -819,7 +521,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -828,7 +530,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -837,7 +539,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -847,7 +549,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 				)
 			)
@@ -874,6 +576,7 @@
 				)
 			)
 			(symbol "УКСПС_1_1"
+				(unit_name "Без направления")
 				(circle
 					(center 0 -2)
 					(radius 0.25)
@@ -902,20 +605,21 @@
 					(name "привязка"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
 			)
 			(symbol "УКСПС_2_1"
+				(unit_name "С направлением")
 				(circle
 					(center 0 -2)
 					(radius 0.25)
@@ -968,14 +672,14 @@
 					(name "привязка"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -992,7 +696,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1037,7 +741,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1082,6 +786,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1120,6 +825,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -1140,6 +846,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1160,6 +867,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -1288,6 +996,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -1344,6 +1053,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -1388,6 +1098,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -1450,10 +1161,11 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
-					(start 5 -8.5)
-					(mid 6.0355 -6)
-					(end 5 -3.5)
+					(start 5.5 -7.5)
+					(mid 6.5355 -5)
+					(end 5.5 -2.5)
 					(stroke
 						(width 0)
 						(type default)
@@ -1499,6 +1211,195 @@
 					)
 				)
 			)
+			(symbol "Контакт_нейтрального_якоря_9_1"
+				(unit_name "Фронтовой-тыловой термолемента")
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_10_1"
+				(unit_name "Тыловой термолемента")
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_11_1"
+				(unit_name "Фронтовой термолемента")
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "SCB_Relay:Контакт_нейтрального_якоря_НЗ"
 			(pin_numbers hide)
@@ -1510,7 +1411,7 @@
 				(at 0 -10 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -1555,7 +1456,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1600,6 +1501,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_1_1"
+				(unit_name "Фронтовой-Тыловой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1638,6 +1540,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_2_1"
+				(unit_name "Тыловой")
 				(pin bidirectional line
 					(at 3.81 -10.16 90)
 					(length 3.3)
@@ -1658,6 +1561,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_3_1"
+				(unit_name "Фронтовой")
 				(pin bidirectional line
 					(at 3.81 0 270)
 					(length 3)
@@ -1678,6 +1582,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_4_1"
+				(unit_name "Усиленный перелючающий")
 				(polyline
 					(pts
 						(xy 3.81 -10.16) (xy 7.62 -10.16)
@@ -1806,6 +1711,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_5_1"
+				(unit_name "Усиленный замыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -1.27) (xy 5.715 0)
@@ -1862,6 +1768,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_6_1"
+				(unit_name "Усиленный размыкающий")
 				(polyline
 					(pts
 						(xy 3.81 -8.89) (xy 5.715 -10.16)
@@ -1906,6 +1813,7 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_7_1"
+				(unit_name "С магнитным гашением")
 				(polyline
 					(pts
 						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
@@ -1968,10 +1876,11 @@
 				)
 			)
 			(symbol "Контакт_нейтрального_якоря_НЗ_8_1"
+				(unit_name "С безобрывным переключением")
 				(arc
-					(start 5 -8.5)
-					(mid 6.0355 -6)
-					(end 5 -3.5)
+					(start 5.5 -7.5)
+					(mid 6.5355 -5)
+					(end 5.5 -2.5)
 					(stroke
 						(width 0)
 						(type default)
@@ -2029,7 +1938,7 @@
 				(at 6.35 6.35 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 					(hide yes)
 				)
@@ -2039,7 +1948,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2075,7 +1984,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -2101,6 +2010,7 @@
 				)
 			)
 			(symbol "Нейтральное_1_1"
+				(unit_name "Общее")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2139,6 +2049,7 @@
 				)
 			)
 			(symbol "Нейтральное_2_1"
+				(unit_name "С раздельными")
 				(pin power_in line
 					(at -8.89 0 0)
 					(length 4.8)
@@ -2213,17 +2124,15 @@
 				)
 			)
 		)
-		(symbol "Контакт_нейтрального_якоря_НЗ_1"
-			(pin_numbers hide)
-			(pin_names hide)
+		(symbol "SCB_АБТЦ:Генератор_Нитки"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Н"
-				(at 0 -10 0)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
 				(effects
 					(font
-						(size 3 3)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -2232,7 +2141,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -2240,7 +2149,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -2249,7 +2158,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -2258,32 +2167,152 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
 			)
-			(property "Обозначение реле" "Н"
-				(at 0 2.54 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 2 2)
+			(symbol "Генератор_Нитки_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(symbol "Генератор_Нитки_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_АБТЦ:Приемник_Нитки"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_0_1"
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_0_1"
 				(polyline
 					(pts
-						(xy -3.81 -3) (xy 5.5 -3)
+						(xy -5 0) (xy 5 0)
 					)
 					(stroke
 						(width 0)
@@ -2293,438 +2322,64 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_1_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
+			(symbol "Приемник_Нитки_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_2_1"
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_3_1"
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_4_1"
-				(polyline
-					(pts
-						(xy 3.81 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_5_1"
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.715 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_6_1"
-				(polyline
-					(pts
-						(xy 3.81 -8.89) (xy 5.715 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 -10.16 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_7_1"
-				(polyline
-					(pts
-						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 0 180)
-					(length 2)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Контакт_нейтрального_якоря_НЗ_1_8_1"
-				(arc
-					(start 5 -8.5)
-					(mid 6.0355 -6)
-					(end 5 -3.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 0 270)
-					(length 3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 3.81 -10.16 90)
-					(length 3.3)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -2908,6 +2563,16 @@
 		)
 		(uuid "041123bb-ceac-422b-a427-30eb5402f969")
 	)
+	(polyline
+		(pts
+			(xy 158 30) (xy 161 33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082db447-925d-4c1c-99ae-351429b6e1ca")
+	)
 	(wire
 		(pts
 			(xy 283.21 113.03) (xy 283.21 115.57)
@@ -2938,15 +2603,15 @@
 		)
 		(uuid "0b481a44-cd60-4144-b88d-2ef1d1ef1f73")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 152 48) (xy 155 45)
+			(xy 110 25) (xy 115 25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e7bbaea-43cc-4181-b2ec-c7cb2e2e0e43")
+		(uuid "0fa2194a-ad3f-4a32-9c21-73e8c646e8ac")
 	)
 	(wire
 		(pts
@@ -3238,6 +2903,16 @@
 		)
 		(uuid "4e257dcd-b91f-43a4-b59b-94a4ba34b466")
 	)
+	(polyline
+		(pts
+			(xy 155 20) (xy 155 30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5ac569-788f-4cc1-8e7e-80be33af73c0")
+	)
 	(wire
 		(pts
 			(xy 283.21 95.25) (xy 292.1 95.25)
@@ -3338,6 +3013,16 @@
 		)
 		(uuid "67f28003-0bfa-48c4-8c07-2863c97df9f1")
 	)
+	(polyline
+		(pts
+			(xy 152 33) (xy 155 30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68116fab-0e18-414b-9695-fb9c13688bb6")
+	)
 	(wire
 		(pts
 			(xy 207.01 95.25) (xy 224.79 95.25)
@@ -3347,16 +3032,6 @@
 			(type default)
 		)
 		(uuid "686555ba-ba5a-4658-81b5-246fb85e547e")
-	)
-	(polyline
-		(pts
-			(xy 158 45) (xy 161 48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c62951d-64c0-499c-9554-1544b022083d")
 	)
 	(wire
 		(pts
@@ -3430,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 325 25) (xy 330 25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bed4f44-3e30-4dff-9777-8cbbbafd7459")
+	)
+	(wire
+		(pts
 			(xy 308.61 139.7) (xy 317.5 139.7)
 		)
 		(stroke
@@ -3478,16 +3163,6 @@
 		)
 		(uuid "80faa540-98f0-4773-9c23-dbbba55f673d")
 	)
-	(polyline
-		(pts
-			(xy 161 32) (xy 158 35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8392130e-5ba7-4cf8-90df-ed6f8c0452d8")
-	)
 	(wire
 		(pts
 			(xy 339.09 95.25) (xy 317.5 95.25)
@@ -3507,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "86248a9d-4cab-483c-9814-bddda1968ab7")
-	)
-	(wire
-		(pts
-			(xy 110 40) (xy 115 40)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "868ce922-f269-499e-951b-27a1af01758a")
 	)
 	(wire
 		(pts
@@ -3610,16 +3275,6 @@
 	)
 	(wire
 		(pts
-			(xy 325 40) (xy 330 40)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c27bdf-09d8-4546-985c-3f853f706dec")
-	)
-	(wire
-		(pts
 			(xy 146.05 153.67) (xy 154.94 153.67)
 		)
 		(stroke
@@ -3640,13 +3295,33 @@
 	)
 	(polyline
 		(pts
-			(xy 152 32) (xy 155 35)
+			(xy 152 17) (xy 155 20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f432020-5e7e-4be1-8483-6ce87da68018")
+		(uuid "96316984-75bc-4bae-9762-d2a0a3d95246")
+	)
+	(wire
+		(pts
+			(xy 155 25) (xy 165 25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97510277-750e-4dee-9fda-14c418eb8b92")
+	)
+	(polyline
+		(pts
+			(xy 161 17) (xy 158 20)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbf8e6f-ded0-493a-8208-3d2170804284")
 	)
 	(wire
 		(pts
@@ -3770,16 +3445,6 @@
 	)
 	(wire
 		(pts
-			(xy 205 40) (xy 210 40)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af884a5f-98e9-4076-9d64-d4bb5d99b7d4")
-	)
-	(wire
-		(pts
 			(xy 187.96 171.45) (xy 196.85 171.45)
 		)
 		(stroke
@@ -3807,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "b0fa951c-d304-48bc-bf2f-f2d67ed3bac7")
-	)
-	(wire
-		(pts
-			(xy 155 40) (xy 165 40)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2357d66-469b-4c06-9f22-576f4ddaa0b5")
 	)
 	(wire
 		(pts
@@ -3928,16 +3583,6 @@
 		)
 		(uuid "c40815c4-1671-4c20-bcbc-83ad8def7ca9")
 	)
-	(polyline
-		(pts
-			(xy 155 35) (xy 155 45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67236db-33e5-4ed3-827f-8a31c179819e")
-	)
 	(wire
 		(pts
 			(xy 292.1 139.7) (xy 300.99 139.7)
@@ -3947,16 +3592,6 @@
 			(type default)
 		)
 		(uuid "c807d78b-4d6e-48b7-8624-55f7291cc0c6")
-	)
-	(wire
-		(pts
-			(xy 280 40) (xy 285 40)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c949191c-72a8-414f-822d-a731d0a55e03")
 	)
 	(wire
 		(pts
@@ -4208,6 +3843,16 @@
 		)
 		(uuid "ef9ac475-41c3-46ea-8d62-416e52aedfeb")
 	)
+	(polyline
+		(pts
+			(xy 158 20) (xy 158 30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efae6ebb-d67a-4f1e-953f-dd7662753ed7")
+	)
 	(wire
 		(pts
 			(xy 317.5 95.25) (xy 317.5 102.87)
@@ -4217,6 +3862,26 @@
 			(type default)
 		)
 		(uuid "f2bf4429-3026-459c-a983-ab1d8f6173d0")
+	)
+	(wire
+		(pts
+			(xy 280 25) (xy 285 25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d44072-8ace-407b-bb67-76ecace9ec54")
+	)
+	(wire
+		(pts
+			(xy 205 25) (xy 210 25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43b10c3-f2ce-4183-a8e7-826b5e0df6bb")
 	)
 	(wire
 		(pts
@@ -4238,16 +3903,6 @@
 		)
 		(uuid "f4a78dae-f8d1-41c9-ba31-16189760b305")
 	)
-	(polyline
-		(pts
-			(xy 158 35) (xy 158 45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74d1b36-84dd-464a-9e79-60141164b669")
-	)
 	(wire
 		(pts
 			(xy 241.3 95.25) (xy 250.19 95.25)
@@ -4268,28 +3923,28 @@
 		)
 		(uuid "fde11e58-b6b4-44a9-98b0-b63cf60e38ee")
 	)
-	(text "Станция Б"
-		(exclude_from_sim no)
-		(at 396 26 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "7851660b-8089-4d36-91cd-08bb543cea44")
-	)
 	(text "Станция А"
 		(exclude_from_sim no)
-		(at 35 26 0)
+		(at 35 11 0)
 		(effects
 			(font
 				(size 2 2)
 			)
 		)
-		(uuid "86b5f4b3-e0b8-4daa-9626-65264eb267ec")
+		(uuid "6fb1fdd2-90b4-4c5e-aec7-5fe4ff74199f")
 	)
-	(label "Ч8П"
-		(at 96 40 0)
+	(text "Станция Б"
+		(exclude_from_sim no)
+		(at 396 11 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "f877f418-f3e1-4523-8dda-a4c428c4d2da")
+	)
+	(label "Н13П"
+		(at 301 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4297,9 +3952,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "12a57905-6fdb-4a67-9ab1-9196ac4dc7f0")
+		(uuid "007a9b41-73ac-4584-8c04-a7f9d06d54b8")
 		(property "Netclass" "Рельсы"
-			(at 96 42.135 0)
+			(at 301 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,24 +3965,46 @@
 			)
 		)
 	)
-	(label "Ч30П"
-		(at 234 40 180)
+	(label "Ч16П"
+		(at 141 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2 2)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "1aaf2677-f60b-483a-8d5f-07b1656daa41")
+		(uuid "02f3ab06-4521-437a-b8f8-f9b73b973a92")
 		(property "Netclass" "Рельсы"
-			(at 234 42.135 0)
+			(at 141 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч12П"
+		(at 121 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a7ddc63-0698-414c-9822-a8b3141a1382")
+		(property "Netclass" "Рельсы"
+			(at 121 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4337,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4354,12 +4031,34 @@
 			)
 		)
 	)
+	(label "Н19П"
+		(at 274 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d58232a-0032-4533-9b14-56eb9f9f9100")
+		(property "Netclass" "Рельсы"
+			(at 274 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(label "ЦП"
 		(at 107.95 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4376,30 +4075,8 @@
 			)
 		)
 	)
-	(label "Ч28П"
-		(at 216 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "271e20d4-741d-4fc7-93b1-19306c69db67")
-		(property "Netclass" "Рельсы"
-			(at 216 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "Ч6П"
-		(at 94 40 180)
+		(at 94 25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4407,9 +4084,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "29be9633-0d17-4f45-a362-c856560bc902")
+		(uuid "293094da-a0df-4f6b-b29b-79a1f0a38590")
 		(property "Netclass" "Рельсы"
-			(at 94 42.135 0)
+			(at 94 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,8 +4097,8 @@
 			)
 		)
 	)
-	(label "Н1П"
-		(at 366 40 0)
+	(label "Ч24П"
+		(at 191 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4429,9 +4106,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "308abfbd-3181-43a1-977b-e64670289955")
+		(uuid "371201cf-ddf6-486c-bd67-062d31f81235")
 		(property "Netclass" "Рельсы"
-			(at 366 42.135 0)
+			(at 191 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,30 +4119,8 @@
 			)
 		)
 	)
-	(label "Ч12П"
-		(at 121 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "36965b42-0866-4fca-9c8b-b4f704eb52cc")
-		(property "Netclass" "Рельсы"
-			(at 121 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч18П"
-		(at 168 40 180)
+	(label "Ч30П"
+		(at 234 25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4473,21 +4128,65 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3dd4b137-52d5-421b-b66f-af7dd3a2d421")
+		(uuid "5022268d-6240-4fa1-8820-eb032d5bb9a5")
 		(property "Netclass" "Рельсы"
-			(at 168 42.135 0)
+			(at 234 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н11П"
+		(at 319 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "504d441a-316c-4045-a659-8872c38d705e")
+		(property "Netclass" "Рельсы"
+			(at 319 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч4П"
+		(at 76 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5073a10c-5061-48e8-9868-650a02a869d6")
+		(property "Netclass" "Рельсы"
+			(at 76 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(label "Н9П"
-		(at 321 40 0)
+		(at 321 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4495,75 +4194,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "469db757-5283-4320-b00a-49ef152f059d")
+		(uuid "52d04758-7384-4173-9b3e-b15de885e476")
 		(property "Netclass" "Рельсы"
-			(at 321 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч32П"
-		(at 236 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "4db0218b-b004-422a-9ad4-84fbc0ebc5ef")
-		(property "Netclass" "Рельсы"
-			(at 236 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч10П"
-		(at 119 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "50cff521-1878-4688-b193-fc7931b1b573")
-		(property "Netclass" "Рельсы"
-			(at 119 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Н5П"
-		(at 346 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "52a85326-ce6c-4f43-9cbc-aeefca6afd92")
-		(property "Netclass" "Рельсы"
-			(at 346 42.135 0)
+			(at 321 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4208,7 @@
 		)
 	)
 	(label "Ч2П"
-		(at 74 40 180)
+		(at 74 25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4583,9 +4216,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5bf9c5db-4bb8-44d8-a85b-8fc14cff8f64")
+		(uuid "6377df73-2db5-44e7-99bd-c01263e625e1")
 		(property "Netclass" "Рельсы"
-			(at 74 42.135 0)
+			(at 74 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,34 +4229,12 @@
 			)
 		)
 	)
-	(label "Н17П"
-		(at 276 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "62d82e7e-e0c4-4929-a6e2-73825c017688")
-		(property "Netclass" "Рельсы"
-			(at 276 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "NЦП"
 		(at 368.3 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4640,12 +4251,78 @@
 			)
 		)
 	)
+	(label "Ч14П"
+		(at 139 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "668f4540-d21f-4dbf-ad04-f7d18225bb09")
+		(property "Netclass" "Рельсы"
+			(at 139 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н5П"
+		(at 346 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5ad9a5-950f-4d0a-b46e-6488a006e9e6")
+		(property "Netclass" "Рельсы"
+			(at 346 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч26П"
+		(at 214 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b69393e-6a83-42da-9ee3-654c1e4e817a")
+		(property "Netclass" "Рельсы"
+			(at 214 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(label "ЦМ"
 		(at 31.75 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4662,34 +4339,12 @@
 			)
 		)
 	)
-	(label "Н3П"
-		(at 364 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "703db05f-d1bb-4344-9af1-07a429b753f4")
-		(property "Netclass" "Рельсы"
-			(at 364 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(label "NЦП"
 		(at 247.65 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4706,8 +4361,52 @@
 			)
 		)
 	)
-	(label "Ч20П"
-		(at 171 40 0)
+	(label "Ч10П"
+		(at 119 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "78f047fb-de8b-43b7-9e51-91e6387fba69")
+		(property "Netclass" "Рельсы"
+			(at 119 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч18П"
+		(at 168 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b377609-13b8-4d04-9ed7-9cd6ed17e00e")
+		(property "Netclass" "Рельсы"
+			(at 168 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н21П"
+		(at 256 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4715,141 +4414,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "72aeaf7c-4ada-41a7-8c90-96716e47f533")
+		(uuid "900dbc27-97c6-401f-b697-434cb8b6c7cb")
 		(property "Netclass" "Рельсы"
-			(at 171 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "Н23П"
-		(at 254 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "73f70c1b-b877-4632-868a-bf36334db7ab")
-		(property "Netclass" "Рельсы"
-			(at 254 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч26П"
-		(at 214 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "787cc642-9b68-4b29-8dbd-468d8f609173")
-		(property "Netclass" "Рельсы"
-			(at 214 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч14П"
-		(at 139 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "82848bb3-4bd6-471c-8d5b-7023c359fef1")
-		(property "Netclass" "Рельсы"
-			(at 139 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Н15П"
-		(at 299 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "837311fa-ae93-42aa-8cd4-51a72dcd026d")
-		(property "Netclass" "Рельсы"
-			(at 299 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч24П"
-		(at 191 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "869bc9be-9d6b-43ee-8277-a70fa76e9c71")
-		(property "Netclass" "Рельсы"
-			(at 191 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(label "Н13П"
-		(at 301 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "9471d887-03ec-4b84-8837-f42dbed4b7d9")
-		(property "Netclass" "Рельсы"
-			(at 301 42.135 0)
+			(at 256 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4432,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4882,8 +4449,52 @@
 			)
 		)
 	)
-	(label "Ч4П"
-		(at 76 40 0)
+	(label "Н23П"
+		(at 254 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c6507ec-529f-4bc7-bb7d-aba7799decf9")
+		(property "Netclass" "Рельсы"
+			(at 254 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н3П"
+		(at 364 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "a56041f7-972f-4588-abf1-97d8c6c5136c")
+		(property "Netclass" "Рельсы"
+			(at 364 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч28П"
+		(at 216 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4891,9 +4502,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a5b93c76-eeb4-481d-a3eb-dc2e00cac659")
+		(uuid "ac81b01f-8e51-4de7-8555-e56f02bbc279")
 		(property "Netclass" "Рельсы"
-			(at 76 42.135 0)
+			(at 216 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,8 +4515,8 @@
 			)
 		)
 	)
-	(label "Н7П"
-		(at 344 40 180)
+	(label "Ч22П"
+		(at 189 25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4913,9 +4524,31 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b548744d-4625-41c9-9b2b-6fa9b7f1be40")
+		(uuid "ac84e069-d39e-4e1e-8dda-682bc49cf1e6")
 		(property "Netclass" "Рельсы"
-			(at 344 42.135 0)
+			(at 189 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н15П"
+		(at 299 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1186ea7-938b-473a-8a04-7235830a17d1")
+		(property "Netclass" "Рельсы"
+			(at 299 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4564,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4948,12 +4581,56 @@
 			)
 		)
 	)
+	(label "Н7П"
+		(at 344 25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8143641-0f9a-4365-81f6-e41b051d5f75")
+		(property "Netclass" "Рельсы"
+			(at 344 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н17П"
+		(at 276 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9337ae8-af12-4ba8-9e43-2b6a247a00d1")
+		(property "Netclass" "Рельсы"
+			(at 276 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(label "ЦП"
 		(at 127 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4970,34 +4647,12 @@
 			)
 		)
 	)
-	(label "Н21П"
-		(at 256 40 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1a6996f-0064-40a5-8ae2-c84d5a1b3cff")
-		(property "Netclass" "Рельсы"
-			(at 256 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "ЦМ"
 		(at 152.4 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -5014,30 +4669,8 @@
 			)
 		)
 	)
-	(label "Ч22П"
-		(at 189 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8910775-63a2-4f31-bc80-882743977c03")
-		(property "Netclass" "Рельсы"
-			(at 189 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Ч16П"
-		(at 141 40 0)
+	(label "Ч20П"
+		(at 171 25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5045,9 +4678,75 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e151ac84-94a3-4a4b-a87f-d5e72a5f3f4d")
+		(uuid "c7d3306b-661d-428a-9c5c-19db3411b106")
 		(property "Netclass" "Рельсы"
-			(at 141 42.135 0)
+			(at 171 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н1П"
+		(at 366 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dae523b2-c2ac-49ce-98fc-1a06e2c87f90")
+		(property "Netclass" "Рельсы"
+			(at 366 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч32П"
+		(at 236 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9f33073-103c-4042-80fd-f9c6eb578469")
+		(property "Netclass" "Рельсы"
+			(at 236 27.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Ч8П"
+		(at 96 25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea247ad6-d851-4d54-94b9-8540aae161a5")
+		(property "Netclass" "Рельсы"
+			(at 96 27.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +4762,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 2 2)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -5080,269 +4779,356 @@
 			)
 		)
 	)
-	(label "Н19П"
-		(at 274 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7a9277e-d44f-4b22-8f19-2fb2f9372bdf")
-		(property "Netclass" "Рельсы"
-			(at 274 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(label "Н11П"
-		(at 319 40 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc9347ec-fa0c-4a89-b018-02360d11b609")
-		(property "Netclass" "Рельсы"
-			(at 319 42.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
-		(lib_id "SCB:Изостык")
-		(at 55 40 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d93989-3f19-4f01-a0de-ae2b6cc49e49")
-		(property "Reference" "И1111"
-			(at 54.75 34.25 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 55 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "092af92d-0635-49b9-a698-d0d73ba5bf69")
-		)
-		(pin ""
-			(uuid "433467ae-b5d9-4fd9-a61a-4a1c1f470782")
-		)
-		(pin ""
-			(uuid "8f472470-1d94-405a-961e-f5be61fdb959")
-		)
-		(pin ""
-			(uuid "4ef478ed-f57f-48af-9a6d-967981931e18")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "И1111")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 105 40 180)
+		(lib_id "SCB:Светофор")
+		(at 286 32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01eb3ade-05e3-41e9-8d60-f7a4e366b3fe")
-		(property "Reference" "Генератор11111211"
-			(at 105 41.5 0)
+		(uuid "00831cfc-2562-4b62-bcfa-1b90b2ec6fd7")
+		(property "Reference" "Светофор11131"
+			(at 287 36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 105 30.48 0)
+			(at 286 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 105 40 0)
+			(at 286 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 105 40 0)
+			(at 286 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 105 40 0)
+			(at 286 20 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "6057ff37-f8eb-461c-9331-6d2500ced093")
-		)
-		(pin ""
-			(uuid "d9e72fda-3942-4102-b7f6-66659bb44b03")
+		(property "Литера" "3"
+			(at 283 32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор11111211")
+					(reference "Светофор11131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:УКСПС")
-		(at 204 40 0)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 275 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a546bdc-7a2a-47c3-9537-8e4a4a22358c")
-		(property "Reference" "УКСПС1121"
-			(at 204 30 0)
+		(uuid "0122d307-0bb0-4e55-a2a2-dcd6047edd5f")
+		(property "Reference" "Приемник1111161"
+			(at 275 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 204 34 0)
+			(at 275 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 204 40 0)
+			(at 275 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 204 40 0)
+			(at 275 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 204 40 0)
+			(at 275 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "?УКСПС"
-			(at 204 34 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "c5df3e81-f225-45b2-99ef-3e1bcecc5563")
+			(uuid "029c37e4-e91f-4b2f-8fb7-43f20f6decfe")
 		)
 		(pin ""
-			(uuid "7310e28a-c535-412f-879f-11474d8317dc")
+			(uuid "633111c9-79a2-49db-9f6b-69b6f176439b")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "УКСПС1121")
+					(reference "Приемник1111161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 310 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "065002c4-56d7-40c8-8148-36d19e22bccc")
+		(property "Reference" "Генератор11111171"
+			(at 310 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 310 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 310 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 310 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 310 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4cf6f8c6-8f21-4b91-b3d3-68425e28755c")
+		)
+		(pin ""
+			(uuid "5e66a474-2876-4bbb-93db-166eecb44793")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 55 15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c2719b6-834c-4893-877d-25edc4aabc6a")
+		(property "Reference" "Светофор111"
+			(at 54 11 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 55 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55 27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Ч"
+			(at 58 15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Светофор111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 290 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c417ef2-f26c-4443-98ef-0e201b74e7ad")
+		(property "Reference" "Генератор11111161"
+			(at 290 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 290 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d806f9af-af49-4ea9-98f1-74991141ffe7")
+		)
+		(pin ""
+			(uuid "3be8b2bf-4b6b-4841-9421-3c9f39be7746")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111161")
 					(unit 1)
 				)
 			)
@@ -5363,7 +5149,7 @@
 			(at 222.25 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5372,9 +5158,8 @@
 			(at 227.33 150.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5409,7 +5194,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5465,75 +5250,70 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Светофор")
-		(at 385 42 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 355 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0d86422d-7009-46fe-a281-72215ee40c2d")
-		(property "Reference" "Светофор11311"
-			(at 386 58 0)
+		(fields_autoplaced yes)
+		(uuid "0c699ab8-5b95-4f63-9519-5492ca4e14fd")
+		(property "Reference" "Генератор11111191"
+			(at 355 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 385 54 0)
+			(at 355 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 385 54 0)
+			(at 355 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 385 54 0)
+			(at 355 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 385 42 0)
+			(at 355 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Литера" "Н"
-			(at 382 54 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
+		(pin ""
+			(uuid "0a9d4b1f-c2ad-46e0-a5c1-acc3ab9381ab")
 		)
 		(pin ""
-			(uuid "f916afd6-dd17-43e5-a42c-90d6635cb455")
+			(uuid "1de9d5bd-dfda-4b15-a78e-aed6cde2c667")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор11311")
+					(reference "Генератор11111191")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5332,7 @@
 			(at 228.6 105.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5561,9 +5341,8 @@
 			(at 223.52 100.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5598,7 +5377,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5644,6 +5423,18 @@
 		(pin "3"
 			(uuid "58e23990-ac33-462f-8a93-ac08789e4e97")
 		)
+		(pin "2"
+			(uuid "db7ee01c-5480-4e06-87a6-090f28153d8b")
+		)
+		(pin "3"
+			(uuid "c7800bba-6c9e-4190-aea6-cd9b3d86c8ce")
+		)
+		(pin "3"
+			(uuid "fbb2534d-8ce4-4d34-b8ec-43b9aa252358")
+		)
+		(pin "2"
+			(uuid "5faa5448-98e2-490b-9273-0bae0f7909cd")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -5654,75 +5445,80 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 120 40 180)
+		(lib_id "SCB:Светофор")
+		(at 101 32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "117750cd-3f5a-47b7-8a32-fa3c8b007807")
-		(property "Reference" "Приемник11111111"
-			(at 120 41.5 0)
+		(uuid "10038e75-c260-4109-8838-044b01b72798")
+		(property "Reference" "Светофор121"
+			(at 102 36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 120 31.75 0)
+			(at 101 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 120 40 0)
+			(at 101 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 120 40 0)
+			(at 101 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 120 40 0)
+			(at 101 20 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "4128b24f-3fcd-40c2-b093-e08448fa4c52")
-		)
-		(pin ""
-			(uuid "ff59c6b7-e642-4593-8d05-d9b50eb7ecaf")
+		(property "Литера" "9"
+			(at 98 32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111111")
+					(reference "Светофор121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 171.45 0)
 		(unit 3)
@@ -5735,7 +5531,7 @@
 			(at 184.15 181.45 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5744,9 +5540,8 @@
 			(at 179.07 176.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5781,7 +5576,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5827,6 +5622,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a30")
 		)
+		(pin "2"
+			(uuid "6cef768c-134d-46f8-922f-600b3f2dccda")
+		)
+		(pin "3"
+			(uuid "df84c028-814d-44aa-98b4-5c314a88b42e")
+		)
+		(pin "3"
+			(uuid "08bcfa13-9f98-483a-a2d6-e72581cf2320")
+		)
+		(pin "2"
+			(uuid "9aecdecb-c237-4bc5-993b-d32261b40ccc")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -5837,6 +5644,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 304.8 120.65 0)
 		(unit 3)
@@ -5849,7 +5657,7 @@
 			(at 304.8 130.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5858,9 +5666,8 @@
 			(at 299.72 125.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5895,7 +5702,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -5941,6 +5748,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a31")
 		)
+		(pin "2"
+			(uuid "ff892188-58c9-4a49-9fe2-43e66532343c")
+		)
+		(pin "3"
+			(uuid "0b9d8677-64a9-457a-98b2-691d938e4024")
+		)
+		(pin "3"
+			(uuid "c99806be-8de5-4ce6-bd42-beb0e2512443")
+		)
+		(pin "2"
+			(uuid "39e8eaff-5e36-4ec0-955a-a59cf6f86020")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -5951,6 +5770,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 107.95 146.05 0)
 		(unit 1)
@@ -5963,7 +5783,7 @@
 			(at 107.95 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -5972,9 +5792,8 @@
 			(at 102.87 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6009,7 +5828,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6055,6 +5874,18 @@
 		(pin "3"
 			(uuid "58e23990-ac33-462f-8a93-ac08789e4e98")
 		)
+		(pin "2"
+			(uuid "379b6a8b-0b4a-4294-8c34-078a2f827879")
+		)
+		(pin "3"
+			(uuid "7e227fca-12e7-4af7-a4de-e79a7d0bca65")
+		)
+		(pin "3"
+			(uuid "81da5046-b162-45d5-8890-aec42a113c23")
+		)
+		(pin "2"
+			(uuid "aac8df18-3bd3-48bd-b041-9323aafe5d34")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -6065,421 +5896,359 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 95 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 215 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f2f4c39-960b-49a9-9c1f-c26af7eb1a76")
-		(property "Reference" "Приемник111211"
-			(at 95 41.5 0)
+		(uuid "1c1f1b51-a343-4480-ba98-91d31bd1401b")
+		(property "Reference" "Приемник1111131"
+			(at 215 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 95 31.75 0)
+			(at 215 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 95 40 0)
+			(at 215 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 95 40 0)
+			(at 215 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 95 40 0)
+			(at 215 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "d2398425-7fc3-48c9-ac00-6647e67495bf")
+			(uuid "cd9cf92f-d6c0-47ab-ab73-c184c0e92976")
 		)
 		(pin ""
-			(uuid "e7e50989-b05e-40a2-9103-47746eab1c3a")
+			(uuid "9b989db4-19c6-465a-98e1-01082bdfff9f")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник111211")
+					(reference "Приемник1111131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 235 40 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 180 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "20436003-4baa-418e-a465-3afb829df9ac")
-		(property "Reference" "Приемник11111411"
-			(at 235 41.5 0)
+		(uuid "1d5da198-8be2-4b51-bdda-d0ae3bc1ce2d")
+		(property "Reference" "Генератор111111121"
+			(at 180 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 235 31.75 0)
+			(at 180 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 235 40 0)
+			(at 180 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 235 40 0)
+			(at 180 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 235 40 0)
+			(at 180 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "23b07c7f-d908-43cc-bb5a-b27781429a76")
+			(uuid "6186d656-c455-4996-805a-2fa9382799ec")
 		)
 		(pin ""
-			(uuid "05ba1154-2ba6-4860-8c71-a4053c8f764d")
+			(uuid "b6c2ef8a-aed6-4b9d-8f44-ca00acb3c468")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111411")
+					(reference "Генератор111111121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 75 40 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 105 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21a00cd1-3e48-4063-8174-e94c24d60bb9")
-		(property "Reference" "Приемник111111"
-			(at 75 41.5 0)
+		(uuid "2a683e31-0a4a-436c-b251-b650c3d34931")
+		(property "Reference" "Генератор1111121"
+			(at 105 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 75 31.75 0)
+			(at 105 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 75 40 0)
+			(at 105 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 75 40 0)
+			(at 105 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 75 40 0)
+			(at 105 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "81248a1e-5ffa-4327-bcb0-a32f7c82df8b")
+			(uuid "35e2b7d4-14d8-4308-8900-8ba50eb99d4a")
 		)
 		(pin ""
-			(uuid "1bfc504c-0f9c-477a-b321-3d3ff2035e85")
+			(uuid "38d7e628-7f3e-4648-9ffd-c5c58da1dff6")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник111111")
+					(reference "Генератор1111121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 300 40 180)
+		(lib_id "SCB:Светофор")
+		(at 196 32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2be8cffc-8e64-4d61-96f9-095c1e9aecb5")
+		(property "Reference" "Светофор1111"
+			(at 197 36 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 196 32 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 196 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196 20 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "7"
+			(at 193 32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Светофор1111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 65 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "274de44d-2276-4cd8-9c41-b3ff5f45120a")
-		(property "Reference" "Приемник11111711"
-			(at 300 41.5 0)
+		(uuid "2e2ec155-363d-47a3-949e-9ba1475cbbb0")
+		(property "Reference" "Генератор11111"
+			(at 65 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 300 31.75 0)
+			(at 65 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 300 40 0)
+			(at 65 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 300 40 0)
+			(at 65 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 300 40 0)
+			(at 65 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "808dfe8d-4983-4e2e-ad9b-19f9ef2b0268")
+			(uuid "1e12d239-3ee6-412b-9a18-1738e09d396f")
 		)
 		(pin ""
-			(uuid "4ae7c6d8-856f-4a4f-bd5a-3f7de458e906")
+			(uuid "c54298ce-7d4a-4344-9cf2-23c389d65d24")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111711")
+					(reference "Генератор11111")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 85 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b2807d1-fac7-425a-88c4-95255fbfc16a")
-		(property "Reference" "Генератор11111111"
-			(at 85 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c8906e39-5f3b-4fa9-935f-664f48a89cf8")
-		)
-		(pin ""
-			(uuid "194bf895-5417-44e6-b0a5-df830a16c7de")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор11111111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 290 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30e7591d-c804-448a-aabd-f31e7d073a40")
-		(property "Reference" "Генератор111111611"
-			(at 290 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 290 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 290 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f94234ab-557b-41d6-a7e6-5edce94e4747")
-		)
-		(pin ""
-			(uuid "b20319e2-cae7-45b6-9220-d348b6b612a2")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111611")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 158.75 190.5 0)
 		(unit 2)
@@ -6493,7 +6262,7 @@
 			(at 158.75 200.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6502,9 +6271,8 @@
 			(at 165.1 195.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6539,7 +6307,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6595,6 +6363,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 133.35 146.05 0)
 		(unit 3)
@@ -6607,7 +6376,7 @@
 			(at 133.35 156.05 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6616,9 +6385,8 @@
 			(at 128.27 151.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6653,7 +6421,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6699,6 +6467,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a32")
 		)
+		(pin "2"
+			(uuid "387fab6e-b946-4146-a918-9554190affe4")
+		)
+		(pin "3"
+			(uuid "ee4a560a-02e8-48ba-aab3-c597ba659833")
+		)
+		(pin "3"
+			(uuid "837cd16f-23ab-4208-bbfc-32ee3d83281f")
+		)
+		(pin "2"
+			(uuid "cdedecbd-882e-4f41-8c68-14a60f1ef9cc")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -6709,6 +6489,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 342.9 69.85 0)
 		(mirror y)
@@ -6723,7 +6504,7 @@
 			(at 342.9 79.85 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6732,9 +6513,8 @@
 			(at 347.98 74.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6769,7 +6549,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6825,6 +6605,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 82.55 82.55 0)
 		(unit 3)
@@ -6837,7 +6618,7 @@
 			(at 82.55 92.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -6846,9 +6627,8 @@
 			(at 77.47 87.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6883,7 +6663,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6929,6 +6709,18 @@
 		(pin "3"
 			(uuid "58e23990-ac33-462f-8a93-ac08789e4e99")
 		)
+		(pin "2"
+			(uuid "2f10938a-af8f-45e7-a05b-bbbbc1c66976")
+		)
+		(pin "3"
+			(uuid "6e0eb4dc-01a5-44b5-9742-715e16877c0f")
+		)
+		(pin "3"
+			(uuid "35dce033-996c-4135-ae80-6183b28ad571")
+		)
+		(pin "2"
+			(uuid "0ca2ab5f-9277-4175-840e-a9878b3f9381")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -6939,145 +6731,227 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 140 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 320 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d5795ee-e314-4ede-937c-fd1932c9ed90")
-		(property "Reference" "Приемник111111111"
-			(at 140 41.5 0)
+		(uuid "3a3953d1-521e-4b4c-aede-a637ef5d5e83")
+		(property "Reference" "Приемник1111181"
+			(at 320 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 140 31.75 0)
+			(at 320 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 140 40 0)
+			(at 320 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 140 40 0)
+			(at 320 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 140 40 0)
+			(at 320 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "2570bb22-aed5-4a52-ad1d-6a6e935aab5e")
+			(uuid "689be8e6-c6cb-42cb-90e2-4e544b06a831")
 		)
 		(pin ""
-			(uuid "51852f62-f542-44ab-85f7-b583ae4b2757")
+			(uuid "031188f1-689c-4ea3-8f5e-594beb95f6f0")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник111111111")
+					(reference "Приемник1111181")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 200 40 180)
+		(lib_id "SCB:УКСПС")
+		(at 331 25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e39bd92-b6b2-4b2a-b936-315808981937")
-		(property "Reference" "Генератор111111211"
-			(at 200 41.5 0)
+		(uuid "3d03d918-c3ce-44d1-8391-dbe85d53f6e8")
+		(property "Reference" "УКСПС131"
+			(at 331 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 200 30.48 0)
+			(at 331 19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 200 40 0)
+			(at 331 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 200 40 0)
+			(at 331 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 200 40 0)
+			(at 331 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?УКСПС"
+			(at 331 19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "b86b56ae-afe0-4d3a-b6e5-4de89a9affce")
+			(uuid "9c081ac8-93dd-432a-b9a0-cb2b61763136")
 		)
 		(pin ""
-			(uuid "c1056d50-1bec-4443-9c0e-cf3fb68b3b40")
+			(uuid "005e07e2-06cf-4893-964d-4ff1f0ad9ff6")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111211")
+					(reference "УКСПС131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 375 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f29d4e3-30ba-45d0-9777-863a23f45ed2")
+		(property "Reference" "Генератор111111101"
+			(at 375 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 375 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "84b2ae0b-7a2c-44cc-976e-eb32856125a0")
+		)
+		(pin ""
+			(uuid "0dc5400a-8cc5-453a-93df-00324c2fd531")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор111111101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 279.4 120.65 0)
 		(unit 2)
@@ -7091,7 +6965,7 @@
 			(at 279.4 130.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7100,9 +6974,8 @@
 			(at 285.75 125.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7137,7 +7010,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7193,7 +7066,77 @@
 		)
 	)
 	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 265 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4400fdf9-bda6-46a4-96c2-71bd5f697a32")
+		(property "Reference" "Генератор11111151"
+			(at 265 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 265 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ebcf2956-f7d4-48c7-b37d-0005088d71f2")
+		)
+		(pin ""
+			(uuid "d2405974-6a98-4ae7-a9ce-ce08a5c5a6a5")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 279.4 139.7 0)
 		(unit 2)
@@ -7207,7 +7150,7 @@
 			(at 279.4 149.7 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7216,9 +7159,8 @@
 			(at 285.75 144.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7253,7 +7195,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7309,69 +7251,280 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 170 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 235 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4badc1f1-6646-4331-a23a-e39a2f04ac83")
-		(property "Reference" "Приемник11111211"
-			(at 170 41.5 0)
+		(uuid "4ab8f5c3-5137-40e6-ac11-35102420fcb3")
+		(property "Reference" "Приемник1111141"
+			(at 235 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 170 31.75 0)
+			(at 235 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 170 40 0)
+			(at 235 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 170 40 0)
+			(at 235 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 170 40 0)
+			(at 235 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "c55f0344-3b38-47cf-b28a-e806df39b3be")
+			(uuid "ab2fc51e-6817-4b6f-a19f-62360f15dda3")
 		)
 		(pin ""
-			(uuid "b0ddaddb-36d7-4785-a157-2897db278e23")
+			(uuid "708c9ca7-fe6f-4ede-a7f2-47521c885f8c")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111211")
+					(reference "Приемник1111141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 225 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c3e21da-6867-4840-a7f3-8f48c599a0ea")
+		(property "Reference" "Генератор11111131"
+			(at 225 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 225 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 225 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 225 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e1e8f3f2-5c40-4940-b5e6-2cd48a5ef000")
+		)
+		(pin ""
+			(uuid "8184a9c3-6dd5-4ec4-a188-4b66e7000688")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 140 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d032486-8fb9-43af-aa05-e591cf757cd0")
+		(property "Reference" "Приемник11111111"
+			(at 140 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 140 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f049dfba-6cf5-4212-8a10-19ce09de226c")
+		)
+		(pin ""
+			(uuid "57be6fbd-e30a-4d98-9a1f-00920fcba8b7")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник11111111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 75 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "513b42fd-bc64-4ede-8b49-8b72e9151d30")
+		(property "Reference" "Приемник11111"
+			(at 75 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 75 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 75 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 75 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1ac4c358-9c5c-4ef0-a7c2-ec4f7b7e1a8f")
+		)
+		(pin ""
+			(uuid "a06ceb67-8021-4d0f-9d76-d8dc47788b15")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник11111")
 					(unit 1)
 				)
 			)
@@ -7379,75 +7532,72 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 109 40 0)
+		(at 241 32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5367cc83-3cf2-48f4-b9da-c2bd4d2a859a")
-		(property "Reference" "Светофор1311"
-			(at 108 24 0)
+		(uuid "53ae6d41-7d60-491f-aafd-36319902c5fb")
+		(property "Reference" "Светофор11111"
+			(at 242 36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 109 28 0)
+			(at 241 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 109 28 0)
+			(at 241 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 109 28 0)
+			(at 241 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 109 40 0)
+			(at 241 20 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Литера" "2"
-			(at 112 28 0)
+		(property "Литера" "5"
+			(at 238 32 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "b4057150-4da5-40b7-8fd9-d62e224ed951")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор1311")
+					(reference "Светофор11111")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7617,7 @@
 			(at 114.3 114.3 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7477,7 +7627,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7513,7 +7663,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7545,224 +7695,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:УКСПС")
-		(at 286 40 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56fa4e88-4303-4af2-a1fe-b14448755cbd")
-		(property "Reference" "УКСПС1211"
-			(at 286 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 286 34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 286 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 286 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 286 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "?УКСПС"
-			(at 286 34 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9c7f5cbc-99bb-458f-956b-cc8537a85280")
-		)
-		(pin ""
-			(uuid "7310e28a-c535-412f-879f-11474d8317dd")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "УКСПС1211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 245 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57a3e161-48d0-4bb8-9bfb-e6533afe2309")
-		(property "Reference" "Генератор111111411"
-			(at 245 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 245 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "741f8bec-4e4b-446a-89e3-fd63b70d1036")
-		)
-		(pin ""
-			(uuid "ef8b095d-cf85-4c84-921e-a8919aabbbc5")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 130 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b384e64-e5ad-417a-a7a7-1deb326ed9b0")
-		(property "Reference" "Генератор1111111111"
-			(at 130 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 130 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7f72b05e-d086-4eeb-bc89-798813b8d0dc")
-		)
-		(pin ""
-			(uuid "b1a8bb74-9095-4e8e-8ec9-52d94051cc58")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор1111111111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 304.8 102.87 0)
 		(unit 3)
@@ -7775,7 +7708,7 @@
 			(at 304.8 112.87 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7784,9 +7717,8 @@
 			(at 299.72 108.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7821,7 +7753,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7867,6 +7799,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a3a")
 		)
+		(pin "2"
+			(uuid "41e6da45-8756-40a9-a8bc-ee1e4a3af91a")
+		)
+		(pin "3"
+			(uuid "9e4b4409-612d-4b29-8657-55ead695dd09")
+		)
+		(pin "3"
+			(uuid "19f87a46-6cf6-4e58-94ef-bc20fc5bdea8")
+		)
+		(pin "2"
+			(uuid "409f81d9-e8e3-4c44-a354-97faf74c4baa")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -7877,6 +7821,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 342.9 95.25 0)
 		(mirror y)
@@ -7891,7 +7836,7 @@
 			(at 342.9 105.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -7900,9 +7845,8 @@
 			(at 347.98 100.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7937,7 +7881,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -7993,6 +7937,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 254 95.25 0)
 		(unit 3)
@@ -8005,7 +7950,7 @@
 			(at 254 105.25 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8014,9 +7959,8 @@
 			(at 248.92 100.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8051,7 +7995,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8097,11 +8041,242 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a33")
 		)
+		(pin "2"
+			(uuid "92642d2c-89db-4546-82d4-2fd127662246")
+		)
+		(pin "3"
+			(uuid "2cf88bfc-33e5-45e1-961d-759ca0035be3")
+		)
+		(pin "3"
+			(uuid "96004015-4c3c-4227-bf8d-3cd7531ce20b")
+		)
+		(pin "2"
+			(uuid "79923087-c03e-42f7-90b4-67052c726c71")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
 					(reference "Н1111")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 249 15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61cb0783-0b6e-4b09-bb1f-c7aefe0f76f0")
+		(property "Reference" "Светофор11121"
+			(at 248 11 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 249 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 249 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 249 27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "6"
+			(at 252 15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Светофор11121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 331 32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d85a95-5bb6-44ec-80d3-3dd1d0e42a77")
+		(property "Reference" "Светофор1211"
+			(at 332 36 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 331 32 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 331 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331 20 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "1"
+			(at 328 32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Светофор1211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB:Изостык")
+		(lib_id "SCB:Изостык")
+		(at 55 25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65cbbb37-a0b2-4238-8f46-f27e2db68d4b")
+		(property "Reference" "И111"
+			(at 54.75 19.25 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 55 28.18 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "092af92d-0635-49b9-a698-d0d73ba5bf69")
+		)
+		(pin ""
+			(uuid "0c111ff0-38fe-4f24-b5dc-31a6901aef91")
+		)
+		(pin ""
+			(uuid "4f510861-9834-4430-b882-abb9e7cc7fd6")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "И111")
+					(unit 2)
 				)
 			)
 		)
@@ -8121,7 +8296,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8130,7 +8305,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8190,300 +8365,219 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 204 40 0)
+		(at 204 15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75860aa5-0d80-461a-89a7-3997afdf4c03")
-		(property "Reference" "Светофор11211"
-			(at 203 24 0)
+		(uuid "6ba91a10-0338-4f7f-942f-e08fc10f753b")
+		(property "Reference" "Светофор1121"
+			(at 203 11 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 204 28 0)
+			(at 204 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 204 28 0)
+			(at 204 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 204 28 0)
+			(at 204 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 204 40 0)
+			(at 204 27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "4"
-			(at 207 28 0)
+			(at 207 15 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "ef7fce38-d86a-4b10-8c61-2a24f8317df0")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор11211")
+					(reference "Светофор1121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Изостык")
-		(at 385 40 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "774a134d-d811-46f4-a4dd-1333a585a3e4")
-		(property "Reference" "И11111"
-			(at 385.25 45.75 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 385 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 385 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 385 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 385 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "0b89813e-169d-4bba-a3b2-6677b27080c8")
-		)
-		(pin ""
-			(uuid "6dcc83ee-8756-460a-88dd-b7bc17c8f88d")
-		)
-		(pin ""
-			(uuid "f541111f-632d-412d-a8f6-d4b85dba98e9")
-		)
-		(pin ""
-			(uuid "58e16d57-ae64-443b-8f93-0d113fb9fc2c")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "И11111")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Светофор")
-		(at 249 40 0)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 245 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b3fb7dc-b65c-4eec-b700-6a920a7e471d")
-		(property "Reference" "Светофор111211"
-			(at 248 24 0)
+		(uuid "6d7c05d4-05b0-4cbf-9c87-ade7ea3cdef8")
+		(property "Reference" "Генератор11111141"
+			(at 245 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 249 28 0)
+			(at 245 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 249 28 0)
+			(at 245 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 249 28 0)
+			(at 245 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 249 40 0)
+			(at 245 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Литера" "6"
-			(at 252 28 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
+		(pin ""
+			(uuid "0f99e945-87eb-4d18-a5c2-b0a8b18ebd1f")
 		)
 		(pin ""
-			(uuid "35b8922f-47e0-4549-ba73-af2beabf0220")
+			(uuid "135150c8-da74-4b42-99a0-6b6cec0fb673")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор111211")
+					(reference "Генератор11111141")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 180 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 120 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d29a70f-b1af-4c56-93cc-1064261ffc10")
-		(property "Reference" "Генератор1111111211"
-			(at 180 41.5 0)
+		(uuid "82f04a9b-6d3a-43c8-a02a-93aa6152c34b")
+		(property "Reference" "Приемник1111111"
+			(at 120 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 180 30.48 0)
+			(at 120 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 180 40 0)
+			(at 120 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 180 40 0)
+			(at 120 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 180 40 0)
+			(at 120 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "1cc53fdf-df42-4b43-b367-63d83f368c07")
+			(uuid "3d107415-1a2f-4676-a229-229440ead923")
 		)
 		(pin ""
-			(uuid "2380ed2e-f746-4d92-84c8-b88b23dd8419")
+			(uuid "8f00afbc-73b1-4559-8f4d-0e418c2589a9")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор1111111211")
+					(reference "Приемник1111111")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 133.35 0)
 		(unit 3)
@@ -8496,7 +8590,7 @@
 			(at 184.15 143.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8505,9 +8599,8 @@
 			(at 179.07 138.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8542,7 +8635,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8588,6 +8681,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a34")
 		)
+		(pin "2"
+			(uuid "de3d1f1c-7ffd-42c5-b8da-fa7c436ab767")
+		)
+		(pin "3"
+			(uuid "cc88414e-5dbd-4964-a637-9f9692ac8bc9")
+		)
+		(pin "3"
+			(uuid "84c2b555-3c4b-499f-a70b-a68969643b73")
+		)
+		(pin "2"
+			(uuid "757873be-980e-4a5d-8e04-f4c5bea418e7")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -8598,6 +8703,307 @@
 		)
 	)
 	(symbol
+		(lib_id "SCB:УКСПС")
+		(at 286 25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ac525c8-21e2-42c8-8b6f-66a695cd734f")
+		(property "Reference" "УКСПС121"
+			(at 286 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 286 19 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 286 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 286 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 286 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?УКСПС"
+			(at 286 19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3e28a1b3-681a-4c07-856a-c1d271369418")
+		)
+		(pin ""
+			(uuid "6f6704bd-ea17-4685-b621-0c0cb854c682")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "УКСПС121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:УКСПС")
+		(at 109 25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c1ca02e-fba5-417f-9018-e2d39613e2be")
+		(property "Reference" "УКСПС111"
+			(at 109 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 109 19 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?УКСПС"
+			(at 109 19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7cfd4845-7f6d-4ece-a3c7-341d0f8da0be")
+		)
+		(pin ""
+			(uuid "5a59315e-f37f-4cf1-bddb-e1d29e691fd7")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "УКСПС111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 335 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e74e579-2049-4e4b-8317-5cc30f2e9863")
+		(property "Reference" "Генератор11111181"
+			(at 335 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 335 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8e0e7c33-f8dc-4add-aafc-8270d4104952")
+		)
+		(pin ""
+			(uuid "f457aa0c-41c3-426c-a96f-d0b08b0f7caf")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 300 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc5aa25-177d-4b0a-bc25-450e3e72aa9a")
+		(property "Reference" "Приемник1111171"
+			(at 300 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 300 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 300 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2ce37901-dffe-4c1b-ba9c-49ae89073cde")
+		)
+		(pin ""
+			(uuid "116e35f1-e6f5-4b72-9873-5f2983df6933")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник1111171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 222.25 120.65 0)
 		(mirror y)
@@ -8612,7 +9018,7 @@
 			(at 222.25 130.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8621,9 +9027,8 @@
 			(at 227.33 125.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8658,7 +9063,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8714,6 +9119,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 133.35 120.65 0)
 		(unit 3)
@@ -8726,7 +9132,7 @@
 			(at 133.35 130.65 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8735,9 +9141,8 @@
 			(at 128.27 125.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8772,7 +9177,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8818,6 +9223,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a35")
 		)
+		(pin "2"
+			(uuid "a844522e-432e-48cc-bc85-6309b640aa6d")
+		)
+		(pin "3"
+			(uuid "80c58289-92b9-46c0-8da1-851a94cf36a2")
+		)
+		(pin "3"
+			(uuid "238a1ca4-6737-47b2-a9e7-1d33d9c52231")
+		)
+		(pin "2"
+			(uuid "000a276f-4b5b-4d39-bccf-61ef889f032f")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -8828,6 +9245,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 254 69.85 0)
 		(unit 3)
@@ -8840,7 +9258,7 @@
 			(at 254 79.85 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -8849,9 +9267,8 @@
 			(at 248.92 75.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -8886,7 +9303,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8932,6 +9349,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a36")
 		)
+		(pin "2"
+			(uuid "0b5c7ab4-c313-43af-a340-f362599c2c36")
+		)
+		(pin "3"
+			(uuid "b664deaf-d195-4c1a-989a-8b4b9074b4de")
+		)
+		(pin "3"
+			(uuid "c50e2f45-54ab-435e-a1e7-ac2a281e6672")
+		)
+		(pin "2"
+			(uuid "2c33108f-f6d5-44e0-82c2-20db8b061394")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -8942,83 +9371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Светофор")
-		(at 339 40 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93a841ad-a90d-4d5e-8a39-4dea79592975")
-		(property "Reference" "Светофор13111"
-			(at 338 24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 339 28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 339 28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 339 28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 339 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "10"
-			(at 342 28 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f010f82f-a955-44e3-907d-17c12a61b0fe")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор13111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 279.4 102.87 0)
 		(unit 2)
@@ -9032,7 +9385,7 @@
 			(at 279.4 112.87 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9041,9 +9394,8 @@
 			(at 285.75 107.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9078,7 +9430,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9134,145 +9486,77 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 225 40 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 130 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95a9e20b-b372-46f5-929e-002ed663f21b")
-		(property "Reference" "Генератор111111311"
-			(at 225 41.5 0)
+		(uuid "94fe5f45-c6e9-4337-b0c0-033347ac77d5")
+		(property "Reference" "Генератор111111111"
+			(at 130 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 225 30.48 0)
+			(at 130 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 225 40 0)
+			(at 130 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 225 40 0)
+			(at 130 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 225 40 0)
+			(at 130 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "9738feae-3f82-442b-87c6-7feb13c1b475")
+			(uuid "5f34f0d3-c98b-4962-8165-0006f870ee6e")
 		)
 		(pin ""
-			(uuid "3156fec6-4968-4272-be80-36c943e4d775")
+			(uuid "c7640129-40e0-4b27-8673-9f9165528723")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111311")
+					(reference "Генератор111111111")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 265 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96b93c4d-26b5-45b2-ba49-52aa708fce26")
-		(property "Reference" "Генератор111111511"
-			(at 265 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 265 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "eb45ea43-8565-4571-a47c-d2632710934c")
-		)
-		(pin ""
-			(uuid "beb432ba-0434-4ba9-a2c8-5a28920208b5")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 279.4 82.55 0)
 		(unit 2)
@@ -9286,7 +9570,7 @@
 			(at 279.4 92.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9295,9 +9579,8 @@
 			(at 285.75 87.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9332,7 +9615,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9388,379 +9671,363 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Светофор")
-		(at 294 40 0)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 345 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97fc6dce-ebb1-4501-a4c4-b7b31034fba4")
-		(property "Reference" "Светофор112111"
-			(at 293 24 0)
+		(uuid "98559126-05e2-4696-8053-4d212e70e7e7")
+		(property "Reference" "Приемник1111191"
+			(at 345 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 294 28 0)
+			(at 345 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 294 28 0)
+			(at 345 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 294 28 0)
+			(at 345 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 294 40 0)
+			(at 345 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "27043168-f874-4bf3-890f-ca566032751f")
+		)
+		(pin ""
+			(uuid "1a6f6c50-a0ed-432d-b2d3-1535f4f36319")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник1111191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 365 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f97533-6412-40b4-9c30-9b62715faac8")
+		(property "Reference" "Приемник11111101"
+			(at 365 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 365 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cf122f18-7a1c-44c6-82b8-c39f3301a376")
+		)
+		(pin ""
+			(uuid "37124461-35c4-4cb4-b134-6253e962e1f7")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник11111101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 170 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70b8405-f5dc-4816-98e5-60ffb56fb9a4")
+		(property "Reference" "Приемник1111121"
+			(at 170 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 170 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3c7857ad-99a8-4974-946f-92a64fdab680")
+		)
+		(pin ""
+			(uuid "35fc85dd-04a9-47de-b401-e8d110d9a94e")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник1111121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 109 15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c176ef-48fd-4a7f-acc4-060ac42005fb")
+		(property "Reference" "Светофор131"
+			(at 108 11 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 109 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109 27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "2"
+			(at 112 15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Светофор131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 294 15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ad1a11-c518-44c9-a695-4ace01709b95")
+		(property "Reference" "Светофор11211"
+			(at 293 11 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 294 15 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 294 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294 15 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294 27 0)
+			(effects
+				(font
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "8"
-			(at 297 28 0)
+			(at 297 15 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "cabca15b-1f2f-4c1e-a4eb-adf9530a798a")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор112111")
+					(reference "Светофор11211")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 215 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a672c88e-66da-46ff-a24f-2f538d03eec3")
-		(property "Reference" "Приемник11111311"
-			(at 215 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 215 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "81e43796-aafb-4159-a1ba-de09ae8da5d6")
-		)
-		(pin ""
-			(uuid "da449c02-c846-4d61-a478-406ee0fa9829")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Светофор")
-		(at 196 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7cb9e33-6d9b-46f6-83a3-323219567a9b")
-		(property "Reference" "Светофор11111"
-			(at 197 56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 196 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 196 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "7"
-			(at 193 52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a552c5f5-163f-48d9-b181-b477007f5a02")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор11111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Светофор")
-		(at 55 38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb314e9f-243f-4691-a913-87d01a86fd27")
-		(property "Reference" "Светофор1111"
-			(at 54 22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 55 26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 55 26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55 26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55 38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "Ч"
-			(at 58 26 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "59a0812f-de05-4272-affc-2046bb398ba3")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор1111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Светофор")
-		(at 101 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c66871da-72ba-4148-956c-b22699cd966f")
-		(property "Reference" "Светофор1211"
-			(at 102 56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 101 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 101 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "9"
-			(at 98 52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "852b622b-8494-4dfd-98ac-2719e2170e39")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор1211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 158.75 153.67 0)
 		(unit 2)
@@ -9774,7 +10041,7 @@
 			(at 158.75 163.67 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -9783,9 +10050,8 @@
 			(at 165.1 158.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9820,7 +10086,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -9876,151 +10142,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Светофор")
-		(at 286 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7fb91c7-6326-41f9-a64c-2e9096b70e66")
-		(property "Reference" "Светофор111311"
-			(at 287 56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 286 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 286 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 286 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 286 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "3"
-			(at 283 52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b91d6d80-dc93-4395-b7db-63e79876b0ac")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор111311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 365 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8918189-947d-45d2-8616-6998773d00d0")
-		(property "Reference" "Приемник111111011"
-			(at 365 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 365 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 365 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ffcd151c-753b-4b15-8ed5-4f7a5c5357f0")
-		)
-		(pin ""
-			(uuid "64f3e4be-ff75-4470-bf40-3bf38f10762e")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник111111011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 158.75 171.45 0)
 		(unit 2)
@@ -10034,7 +10156,7 @@
 			(at 158.75 181.45 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10043,9 +10165,8 @@
 			(at 165.1 176.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10080,7 +10201,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10136,6 +10257,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 153.67 0)
 		(unit 3)
@@ -10148,7 +10270,7 @@
 			(at 184.15 163.67 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10157,9 +10279,8 @@
 			(at 179.07 158.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10194,7 +10315,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10240,11 +10361,93 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a3b")
 		)
+		(pin "2"
+			(uuid "2344bf03-55ba-4c60-9226-b33d9390b82a")
+		)
+		(pin "3"
+			(uuid "fab2855f-3cfe-47db-b307-31d9b245f428")
+		)
+		(pin "3"
+			(uuid "0693d274-19a6-4e3d-9fd8-2d39382b5af8")
+		)
+		(pin "2"
+			(uuid "38c31000-426e-4932-b0a2-f6b9269972db")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
 					(reference "Н11111")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 190 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd708372-7d18-4283-8d19-c488834e3d76")
+		(property "Reference" "Приемник11111121"
+			(at 190 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 190 16.75 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6a73b93d-bfaa-4209-8757-0d73db0dfb44")
+		)
+		(pin ""
+			(uuid "407aeb97-0c74-4e73-939a-3af63ab6e876")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Приемник11111121")
+					(unit 1)
 				)
 			)
 		)
@@ -10264,7 +10467,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10273,7 +10476,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10332,82 +10535,77 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Светофор")
-		(at 241 40 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 150 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce5eb010-9977-4c1d-ade7-98607fdbabd9")
-		(property "Reference" "Светофор111111"
-			(at 242 56 0)
+		(uuid "d0a43046-8383-4091-b12b-24dd5cea7da5")
+		(property "Reference" "Генератор11111111"
+			(at 150 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 241 52 0)
+			(at 150 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 241 52 0)
+			(at 150 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 241 52 0)
+			(at 150 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 241 40 0)
+			(at 150 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Литера" "5"
-			(at 238 52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
+		(pin ""
+			(uuid "c6ddeb6d-e613-4e86-9806-6169ae6a90ef")
 		)
 		(pin ""
-			(uuid "a6f7e274-c210-4297-98f8-2901ba476021")
+			(uuid "61588a53-b5e0-492f-a273-ab4ad6dfabc4")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор111111")
+					(reference "Генератор11111111")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 304.8 139.7 0)
 		(unit 3)
@@ -10420,7 +10618,7 @@
 			(at 304.8 149.7 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10429,9 +10627,8 @@
 			(at 299.72 144.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10466,7 +10663,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10512,6 +10709,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a44")
 		)
+		(pin "2"
+			(uuid "a89fd7f5-ead2-45e7-8503-08178c6cf0a1")
+		)
+		(pin "3"
+			(uuid "7ea29e3e-7b1b-4c30-9051-6280fb316fbb")
+		)
+		(pin "3"
+			(uuid "94cd195d-9f0d-41bc-b7fd-e66b87b3c142")
+		)
+		(pin "2"
+			(uuid "9d233bca-695f-4925-b613-a621d4cbd2fa")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -10522,87 +10731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:УКСПС")
-		(at 331 40 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d212bcd1-88ef-42fa-85fc-8c9eb540e6be")
-		(property "Reference" "УКСПС1311"
-			(at 331 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 331 34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 331 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 331 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "?УКСПС"
-			(at 331 34 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a768fc98-cec1-4fdf-9a7a-4f78bfc51f6a")
-		)
-		(pin ""
-			(uuid "46e65831-f706-4564-9f39-dd653b2228e8")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "УКСПС1311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Контакт_нейтрального_якоря_НЗ_1")
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
 		(at 158.75 133.35 0)
 		(unit 2)
@@ -10616,7 +10745,7 @@
 			(at 158.75 143.35 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10625,9 +10754,8 @@
 			(at 165.1 138.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10662,7 +10790,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10718,75 +10846,87 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 310 40 180)
+		(lib_id "SCB:УКСПС")
+		(at 204 25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4b3cb78-a8d8-4d94-991f-2aa8e7743e9d")
-		(property "Reference" "Генератор111111711"
-			(at 310 41.5 0)
+		(uuid "d46e4e94-2c43-4c32-807e-9076a6cae4c8")
+		(property "Reference" "УКСПС112"
+			(at 204 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 310 30.48 0)
+			(at 204 19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 310 40 0)
+			(at 204 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 310 40 0)
+			(at 204 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 310 40 0)
+			(at 204 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "?УКСПС"
+			(at 204 19 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "2528140e-ecb8-42ac-bde6-56b6e506fed7")
+			(uuid "31334712-3e38-4aff-8b2f-5943a6f48d99")
 		)
 		(pin ""
-			(uuid "e743f015-7539-421b-8ff1-7154dd709826")
+			(uuid "7310e28a-c535-412f-879f-11474d8317dc")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111711")
+					(reference "УКСПС112")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 304.8 82.55 0)
 		(unit 3)
@@ -10799,7 +10939,7 @@
 			(at 304.8 92.55 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10808,9 +10948,8 @@
 			(at 299.72 87.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -10845,7 +10984,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10891,11 +11030,93 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a37")
 		)
+		(pin "2"
+			(uuid "3504fc35-1fc1-4ee3-89b0-b05347249e74")
+		)
+		(pin "3"
+			(uuid "ad668417-7d9a-41bc-906e-892bf8186592")
+		)
+		(pin "3"
+			(uuid "5e7de547-cb4c-4bd6-be62-c3766a3b4272")
+		)
+		(pin "2"
+			(uuid "a5b0a5a7-9e7c-4c3d-88e3-ce54f3269c65")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
 					(reference "Н11113")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 200 25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d91cdd60-0f31-40d7-b2be-7e4cf63261bb")
+		(property "Reference" "Генератор11111121"
+			(at 200 26.5 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 200 15.48 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200 25 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a16e5223-74f5-4911-b27c-d394c72e9567")
+		)
+		(pin ""
+			(uuid "a17cafa0-110c-4250-9fcb-1e579681eb1e")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "Генератор11111121")
+					(unit 1)
 				)
 			)
 		)
@@ -10914,7 +11135,7 @@
 			(at 63.5 76.2 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -10924,7 +11145,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10960,7 +11181,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -10992,276 +11213,212 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 345 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 95 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9865b90-9d05-49ef-a84c-2a21c69f9868")
-		(property "Reference" "Приемник11111911"
-			(at 345 41.5 0)
+		(uuid "d9638e22-7daa-4c94-9d9a-d186880d33e6")
+		(property "Reference" "Приемник11121"
+			(at 95 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 345 31.75 0)
+			(at 95 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 345 40 0)
+			(at 95 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 345 40 0)
+			(at 95 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 345 40 0)
+			(at 95 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "bbb48344-0ca4-4143-84f7-1fe6f42fbbba")
+			(uuid "2e0b74b1-0dad-4376-bba5-66721d7fc2a9")
 		)
 		(pin ""
-			(uuid "79f19e86-cea2-414f-9318-68ea00266907")
+			(uuid "bc28a9f3-7d80-4ebd-ad94-352808377581")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111911")
+					(reference "Приемник11121")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 320 40 180)
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
+		(at 255 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e0521aff-f934-4b98-8e5a-4603aa627ab0")
-		(property "Reference" "Приемник11111811"
-			(at 320 41.5 0)
+		(uuid "dc7f840f-8b29-43de-abee-1a747d7ef25d")
+		(property "Reference" "Приемник1111151"
+			(at 255 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 320 31.75 0)
+			(at 255 16.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 320 40 0)
+			(at 255 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 320 40 0)
+			(at 255 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 320 40 0)
+			(at 255 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "ab07b8d2-6201-4e65-bda6-c9a9a7af76e6")
+			(uuid "6ab1bf67-2141-447a-883c-5c7eb03ffb41")
 		)
 		(pin ""
-			(uuid "75fc9722-9ca2-4a21-af17-845ac2ee7029")
+			(uuid "032c4484-16d6-41a7-8ea1-69cb565ab8bc")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111811")
+					(reference "Приемник1111151")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 190 40 180)
+		(lib_id "SCB:Светофор")
+		(at 339 15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e17f20eb-42be-4998-95cd-76d6be4fbc7e")
-		(property "Reference" "Приемник111111211"
-			(at 190 41.5 0)
+		(uuid "df31add4-0bf9-4872-8ebf-ef200a4df56d")
+		(property "Reference" "Светофор1311"
+			(at 338 11 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 190 31.75 0)
+			(at 339 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 190 40 0)
+			(at 339 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 190 40 0)
+			(at 339 15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 190 40 0)
+			(at 339 27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "8bee3d14-02a7-4651-ae1d-a43896184b98")
-		)
-		(pin ""
-			(uuid "63dea42c-8600-41c6-8592-d1d2a4ddcf87")
+		(property "Литера" "10"
+			(at 343 15 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+			)
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник111111211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 275 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7ee71ce-c8e2-45b8-ab3b-23f843325e5a")
-		(property "Reference" "Приемник11111611"
-			(at 275 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 275 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "da9bd365-577d-42fe-b8df-a9d999c7124c")
-		)
-		(pin ""
-			(uuid "f973183a-9139-4e40-986a-f9f7c9c3ae4e")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111611")
+					(reference "Светофор1311")
 					(unit 1)
 				)
 			)
@@ -11281,7 +11438,7 @@
 			(at 234.95 63.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11291,7 +11448,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11327,7 +11484,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11359,358 +11516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
-		(at 255 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e931c99c-e703-417e-8a2d-0c7db6c7737f")
-		(property "Reference" "Приемник11111511"
-			(at 255 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 255 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ab5ca3f2-8669-43b7-b6fb-9deb69eb3a17")
-		)
-		(pin ""
-			(uuid "c0cae5e9-b01e-48da-9b62-b89727087ca8")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Приемник11111511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 375 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecfded1d-2e43-4f5b-931d-23395393e3f1")
-		(property "Reference" "Генератор1111111011"
-			(at 375 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 375 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "5ca22256-ef38-4fa5-8fc3-b67823f7ded3")
-		)
-		(pin ""
-			(uuid "da4bbfad-7e02-40bd-adfc-0483854dccab")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор1111111011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 65 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef14b596-3ea5-4d80-b028-7947d52e9d21")
-		(property "Reference" "Генератор111111"
-			(at 65 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 65 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 65 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 65 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 65 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "909abd4a-7567-4989-b073-10719156f022")
-		)
-		(pin ""
-			(uuid "af4eb2a8-baa9-4684-bd14-e211398021e9")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 150 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef98b067-e09a-4c26-b76a-b4a6eafc15d8")
-		(property "Reference" "Генератор111111111"
-			(at 150 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 150 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 150 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "1adc921e-3bd5-4327-935c-78ff47de0b06")
-		)
-		(pin ""
-			(uuid "5986fb4f-7b46-460a-bd97-9c2eb09806a9")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Светофор")
-		(at 331 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f15fbe9e-4cf8-4953-8823-55c8a64b4b15")
-		(property "Reference" "Светофор12111"
-			(at 332 56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 331 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 331 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331 52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 331 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "1"
-			(at 328 52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3 3)
-				)
-			)
-		)
-		(pin ""
-			(uuid "32a5cb25-8801-42de-ae75-3f06d9815318")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Светофор12111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "SCB_Relay:Контакт_нейтрального_якоря")
 		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
 		(at 184.15 190.5 0)
 		(unit 3)
@@ -11723,7 +11529,7 @@
 			(at 184.15 200.5 0)
 			(effects
 				(font
-					(size 3 3)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
@@ -11732,9 +11538,8 @@
 			(at 179.07 195.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -11769,7 +11574,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -11815,6 +11620,18 @@
 		(pin "3"
 			(uuid "d8e201d6-4981-43ea-8eae-021be7117a45")
 		)
+		(pin "2"
+			(uuid "13fc600f-26a7-42bd-9a00-fad7e3202116")
+		)
+		(pin "3"
+			(uuid "bbb84aa9-5d82-45ef-8ebb-a78c51806bde")
+		)
+		(pin "3"
+			(uuid "839065a8-9a5d-4159-9b24-4ae1de8c7f37")
+		)
+		(pin "2"
+			(uuid "17d2f92e-7c9f-471a-a3a7-ebe4ae836ead")
+		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
@@ -11825,218 +11642,214 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:УКСПС")
-		(at 109 40 0)
-		(unit 1)
+		(lib_name "SCB:Изостык")
+		(lib_id "SCB:Изостык")
+		(at 385 25 180)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb66fbb9-949e-49ce-9a19-374c6e5c8349")
-		(property "Reference" "УКСПС1111"
-			(at 109 30 0)
+		(uuid "f68c67c6-0c3a-4702-9842-fedbfc84f739")
+		(property "Reference" "И1111"
+			(at 385.25 30.75 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 109 34 0)
+			(at 385 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 109 40 0)
+			(at 385 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 109 40 0)
+			(at 385 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 109 40 0)
+			(at 385 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Литера" "?УКСПС"
-			(at 109 34 0)
+		(pin ""
+			(uuid "2c489f21-15fe-41ac-bda6-bfddd64e7bbe")
+		)
+		(pin ""
+			(uuid "9a8dbf48-83d3-4ac4-999e-3d30bb3b323d")
+		)
+		(pin ""
+			(uuid "306aa44f-9a63-4932-92b7-37f50cf6bde2")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
+					(reference "И1111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB:Светофор")
+		(at 385 32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7c9a3d9-04a0-4f6c-916d-b22e0a0b7758")
+		(property "Reference" "Светофор1131"
+			(at 386 36 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 385 32 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 385 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 385 32 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 385 20 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "Н"
+			(at 382 32 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
-				(hide yes)
 			)
-		)
-		(pin ""
-			(uuid "21a14466-0711-4bc5-8e07-8337314e9948")
-		)
-		(pin ""
-			(uuid "7310e28a-c535-412f-879f-11474d8317de")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "УКСПС1111")
+					(reference "Светофор1131")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 335 40 180)
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
+		(at 85 25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fed71d4e-e3d4-4b57-9d86-85d1fb81644b")
-		(property "Reference" "Генератор111111811"
-			(at 335 41.5 0)
+		(uuid "f8529e89-9589-4ec8-b130-296ac5cef4e1")
+		(property "Reference" "Генератор1111111"
+			(at 85 26.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 335 30.48 0)
+			(at 85 15.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.5 2.5)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 335 40 0)
+			(at 85 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 335 40 0)
+			(at 85 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 335 40 0)
+			(at 85 25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(pin ""
-			(uuid "eb8e52bd-6779-44f1-b779-b32de30b0238")
+			(uuid "6057f678-95f3-4437-a8c3-b39ca5840ebb")
 		)
 		(pin ""
-			(uuid "4063688c-845b-4ab9-a77a-baff2802b7bf")
+			(uuid "fb15651d-9086-45ac-83bc-81f8a31c3670")
 		)
 		(instances
 			(project "Схемы"
 				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111811")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Генератор_Нитки")
-		(at 355 40 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fef3fc48-6c51-44ac-87be-83b489b92da5")
-		(property "Reference" "Генератор111111911"
-			(at 355 41.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 355 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 355 40 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "f9cad1ca-dcb5-4acd-8be2-1f391f438f58")
-		)
-		(pin ""
-			(uuid "813e63c6-864f-4c31-8a11-785f64cb61d3")
-		)
-		(instances
-			(project "Схемы"
-				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/95267e39-9f15-4709-87bf-e0776d46ae96"
-					(reference "Генератор111111911")
+					(reference "Генератор1111111")
 					(unit 1)
 				)
 			)

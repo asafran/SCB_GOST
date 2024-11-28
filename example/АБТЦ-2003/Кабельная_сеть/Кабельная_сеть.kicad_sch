@@ -11,15 +11,18 @@
 		(comment 3 "Бузунова")
 	)
 	(lib_symbols
-		(symbol "SCB:Генератор_Нитки"
+		(symbol "SCB:Изостык"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Генератор"
-				(at 0 1.5 0)
+			(property "Reference" "Изостык"
+				(at 0 5 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -28,7 +31,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -36,7 +39,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -45,7 +48,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -54,7 +57,549 @@
 				(at 0 0 0)
 				(effects
 					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Изостык_0_1"
+				(polyline
+					(pts
+						(xy -1 -2) (xy 1 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1 2) (xy -1 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Изостык_1_1"
+				(unit_name "Одиночный")
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Изостык_2_1"
+				(unit_name "Со светофором")
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Пикет"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ПК"
+				(at 0 5.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Пикет" "ПК0000+00"
+				(at 0 2.5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "Объект" "Ч"
+				(at 0 -3 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Пикет_0_1"
+				(polyline
+					(pts
+						(xy -16 0) (xy 16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:Светофор"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SCB:УКСПС"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "УКСПС"
+				(at 0 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 6 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?УКСПС"
+				(at 0 6 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "УКСПС_0_1"
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "УКСПС_1_1"
+				(unit_name "Без направления")
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "УКСПС_2_1"
+				(unit_name "С направлением")
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5 2.5) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_АБТЦ:Генератор_Нитки"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -116,14 +661,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -134,21 +679,21 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "SCB:Деление_перегона"
+		(symbol "SCB_АБТЦ:Деление_перегона"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -156,7 +701,7 @@
 				(at 0 6.5 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -165,7 +710,7 @@
 				(at -1 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -173,7 +718,7 @@
 				(at -1 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -182,7 +727,7 @@
 				(at -1 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -191,7 +736,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -271,195 +816,7 @@
 				)
 			)
 		)
-		(symbol "SCB:Изостык"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "И"
-				(at -0.25 5.75 0)
-				(effects
-					(font
-						(size 0.0254 0.0254)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Изостык_0_1"
-				(polyline
-					(pts
-						(xy -1 -2) (xy 1 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2) (xy 0 2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1 2) (xy -1 2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Изостык_1_1"
-				(unit_name "Одиночный")
-				(pin unspecified line
-					(at 0 0 90)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Изостык_2_1"
-				(unit_name "Со светофором")
-				(polyline
-					(pts
-						(xy -5 0) (xy 5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5 0 0)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SCB:Муфта_Нитки"
+		(symbol "SCB_АБТЦ:Муфта_Нитки"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -467,7 +824,7 @@
 				(at 0 3 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -476,7 +833,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -485,7 +842,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -494,7 +851,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -503,7 +860,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -535,14 +892,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -602,14 +959,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -620,21 +977,21 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "SCB:Переезд_Нитки"
+		(symbol "SCB_АБТЦ:Переезд_Нитки"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -642,7 +999,7 @@
 				(at 0 11.5 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -651,7 +1008,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -660,7 +1017,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -669,7 +1026,7 @@
 				(at -2.5 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -678,7 +1035,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -688,7 +1045,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 				)
 			)
@@ -697,7 +1054,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 3 3)
+						(size 3.5 3.5)
 					)
 				)
 			)
@@ -741,7 +1098,7 @@
 				)
 				(polyline
 					(pts
-						(xy -15 35) (xy 15 35)
+						(xy -18 35) (xy 18 35)
 					)
 					(stroke
 						(width 0)
@@ -802,7 +1159,7 @@
 					(at 0 21 0)
 					(effects
 						(font
-							(size 2 2)
+							(size 2.5 2.5)
 						)
 					)
 				)
@@ -812,14 +1169,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -830,103 +1187,21 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "SCB:Пикет"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ПК"
-				(at 0 5.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Пикет" "ПК0000+00"
-				(at 0 2.5 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 3 3)
-					)
-				)
-			)
-			(property "Объект" "Ч"
-				(at 0 -3 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 3 3)
-					)
-				)
-			)
-			(symbol "Пикет_0_1"
-				(polyline
-					(pts
-						(xy -15 0) (xy 15 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "SCB:Приближение"
+		(symbol "SCB_АБТЦ:Приближение"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -934,7 +1209,7 @@
 				(at 0 3.5 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -943,7 +1218,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -951,7 +1226,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -960,7 +1235,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -969,7 +1244,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -979,7 +1254,7 @@
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 2 2)
+						(size 2.5 2.5)
 					)
 				)
 			)
@@ -1033,7 +1308,7 @@
 				)
 			)
 		)
-		(symbol "SCB:Приемник_Нитки"
+		(symbol "SCB_АБТЦ:Приемник_Нитки"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1041,7 +1316,7 @@
 				(at 0 1.5 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -1050,7 +1325,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 				)
 			)
@@ -1058,7 +1333,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -1067,7 +1342,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -1076,7 +1351,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8 1.8)
 					)
 					(hide yes)
 				)
@@ -1126,14 +1401,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -1144,327 +1419,14 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SCB:Светофор"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Светофор"
-				(at -1 16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 12 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Литера" "?"
-				(at 3 12 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 3 3)
-					)
-				)
-			)
-			(symbol "Светофор_0_1"
-				(circle
-					(center -8 12)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 11) (xy 0 13)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12) (xy -6 12)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Светофор_1_1"
-				(pin unspecified line
-					(at 0 0 90)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SCB:УКСПС"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "УКСПС"
-				(at 0 10 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 6 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Литера" "?УКСПС"
-				(at 0 6 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 3 3)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "УКСПС_0_1"
-				(polyline
-					(pts
-						(xy 0 -2) (xy 0 2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "УКСПС_1_1"
-				(unit_name "Без направления")
-				(circle
-					(center 0 -2)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 2)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "УКСПС_2_1"
-				(unit_name "С направлением")
-				(circle
-					(center 0 -2)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5 2.5) (xy -5.5 2.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 2)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -1477,12 +1439,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c71f0e3-1d38-4619-9059-7485e0f7d951")
-	)
-	(junction
-		(at 650 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35139630-2b8d-4e90-8b11-d0238f00e41d")
 	)
 	(junction
 		(at 500 210)
@@ -1503,12 +1459,6 @@
 		(uuid "4ea0bce4-1e72-44cb-9695-1d512c967be0")
 	)
 	(junction
-		(at 980 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56bff9de-0101-419f-ae6a-5354e4bbc911")
-	)
-	(junction
 		(at 970 210)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1521,22 +1471,10 @@
 		(uuid "738f5c5c-5b16-43b5-8750-4b6cb04c1e1c")
 	)
 	(junction
-		(at 490 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75f84435-e585-4e0e-948a-4f108f7dd3d2")
-	)
-	(junction
 		(at 265 210)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "767fdf1a-f349-4de0-9c2a-b5cb1290ba92")
-	)
-	(junction
-		(at 225 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83d4672f-253f-452d-a947-24a6061c53c8")
 	)
 	(junction
 		(at 810 210)
@@ -1549,18 +1487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9c72b33-e00c-42d6-9619-3e32b7e25d52")
-	)
-	(junction
-		(at 820 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa257f1d-6d13-45cd-8752-3c2e41610624")
-	)
-	(junction
-		(at 660 210)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cee2bf14-8e2f-4174-9ce7-9b3e82f011b7")
 	)
 	(wire
 		(pts
@@ -2368,7 +2294,7 @@
 		(at 35 145 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2389,7 +2315,7 @@
 		(at 1170 65 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2400,7 +2326,7 @@
 		(at 1170 135 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2421,7 +2347,7 @@
 		(at 35 75 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2443,7 +2369,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2454,7 +2380,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2465,7 +2391,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2487,7 +2413,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2498,7 +2424,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2520,7 +2446,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2542,7 +2468,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2564,7 +2490,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2586,7 +2512,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2608,7 +2534,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2630,7 +2556,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2652,7 +2578,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2663,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2674,7 +2600,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2685,7 +2611,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2707,7 +2633,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2718,7 +2644,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2740,7 +2666,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2751,7 +2677,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2762,7 +2688,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2773,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2795,7 +2721,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2806,7 +2732,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2828,7 +2754,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2850,7 +2776,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -2872,7 +2798,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2894,7 +2820,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2916,7 +2842,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2938,7 +2864,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2960,7 +2886,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2982,7 +2908,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -2993,7 +2919,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3004,7 +2930,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3015,7 +2941,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3026,7 +2952,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3037,7 +2963,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3048,7 +2974,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3070,7 +2996,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3081,7 +3007,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3092,7 +3018,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3103,7 +3029,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3114,7 +3040,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3136,7 +3062,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3147,7 +3073,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3169,7 +3095,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3191,7 +3117,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3202,7 +3128,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3213,7 +3139,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3235,7 +3161,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3246,7 +3172,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3257,7 +3183,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3279,7 +3205,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3301,7 +3227,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3312,7 +3238,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3323,7 +3249,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3334,7 +3260,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3345,7 +3271,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3356,7 +3282,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3367,7 +3293,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3389,7 +3315,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3400,7 +3326,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3422,7 +3348,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3444,7 +3370,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3455,7 +3381,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3466,7 +3392,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3488,7 +3414,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3510,7 +3436,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3521,7 +3447,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3532,7 +3458,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3554,7 +3480,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3576,7 +3502,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3598,7 +3524,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3620,7 +3546,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3631,7 +3557,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3642,7 +3568,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3664,7 +3590,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3686,7 +3612,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3697,7 +3623,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3719,7 +3645,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3741,7 +3667,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3752,7 +3678,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3774,7 +3700,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3785,7 +3711,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3807,7 +3733,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3829,7 +3755,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3840,7 +3766,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3851,7 +3777,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3862,7 +3788,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3873,7 +3799,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3895,7 +3821,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3917,7 +3843,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3939,7 +3865,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3961,7 +3887,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -3972,7 +3898,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -3994,7 +3920,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4005,7 +3931,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4016,7 +3942,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4038,7 +3964,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4049,7 +3975,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4071,7 +3997,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4093,7 +4019,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4115,7 +4041,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4137,7 +4063,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4159,7 +4085,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4170,7 +4096,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4181,7 +4107,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4192,7 +4118,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4214,7 +4140,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4236,7 +4162,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4258,7 +4184,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4280,7 +4206,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4302,7 +4228,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4313,7 +4239,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4324,7 +4250,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4335,7 +4261,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4346,7 +4272,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4357,7 +4283,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4368,7 +4294,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4390,7 +4316,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4412,7 +4338,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4434,7 +4360,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4445,7 +4371,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify right bottom)
 		)
@@ -4456,7 +4382,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4467,7 +4393,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4489,7 +4415,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4511,7 +4437,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
@@ -4529,7 +4455,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 190 135 0)
 		(mirror y)
 		(unit 1)
@@ -4543,7 +4470,7 @@
 			(at 190 132 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4552,7 +4479,7 @@
 			(at 192.5 135 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4561,7 +4488,7 @@
 			(at 192.5 135 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4570,7 +4497,7 @@
 			(at 192.5 135 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4579,7 +4506,7 @@
 			(at 190 135 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4609,7 +4536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 735 35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4622,7 +4550,7 @@
 			(at 735 32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4631,7 +4559,7 @@
 			(at 732.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4640,7 +4568,7 @@
 			(at 732.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4649,7 +4577,7 @@
 			(at 732.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4658,7 +4586,7 @@
 			(at 735 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4688,7 +4616,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 405.5 120 0)
 		(mirror y)
 		(unit 1)
@@ -4702,7 +4631,7 @@
 			(at 405.5 117 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4711,7 +4640,7 @@
 			(at 408 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4720,7 +4649,7 @@
 			(at 408 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4729,7 +4658,7 @@
 			(at 408 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4738,7 +4667,7 @@
 			(at 405.5 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4769,7 +4698,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 235 210 0)
+		(at 235 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4778,61 +4707,58 @@
 		(fields_autoplaced yes)
 		(uuid "075d093d-2819-40d0-b89e-17047999b9de")
 		(property "Reference" "Светофор1"
-			(at 234 194 0)
+			(at 234 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 235 198 0)
+			(at 235 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 235 198 0)
+			(at 235 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 235 198 0)
+			(at 235 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 235 210 0)
+			(at 235 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "2"
-			(at 238 198 0)
+			(at 238 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "3de0c8ba-bad2-4254-9dce-fb30273ac888")
 		)
 		(instances
 			(project "k"
@@ -4850,7 +4776,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 495 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4863,16 +4789,16 @@
 			(at 495 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 495 210 0)
+			(at 495 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -4880,7 +4806,7 @@
 			(at 495 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4889,7 +4815,7 @@
 			(at 495 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4898,7 +4824,7 @@
 			(at 495 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4925,7 +4851,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 150 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4938,16 +4865,16 @@
 			(at 150 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 150 210 0)
+			(at 150 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -4955,7 +4882,7 @@
 			(at 150 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4964,7 +4891,7 @@
 			(at 150 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -4973,7 +4900,7 @@
 			(at 150 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5001,7 +4928,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 70 208 0)
+		(at 70 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5010,61 +4937,58 @@
 		(fields_autoplaced yes)
 		(uuid "0c7dae8b-4a14-486e-8487-dc3b0a779760")
 		(property "Reference" "Светофор1"
-			(at 69 192 0)
+			(at 69 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 70 196 0)
+			(at 70 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 70 196 0)
+			(at 70 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 70 196 0)
+			(at 70 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 70 208 0)
+			(at 70 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "Ч"
-			(at 73 196 0)
+			(at 73 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "dbe72250-d4b6-46d3-8270-0de518003c44")
 		)
 		(instances
 			(project "k"
@@ -5082,7 +5006,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 1055 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5095,16 +5020,16 @@
 			(at 1055 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 1055 210 0)
+			(at 1055 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -5112,7 +5037,7 @@
 			(at 1055 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5121,7 +5046,7 @@
 			(at 1055 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5130,7 +5055,7 @@
 			(at 1055 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5157,7 +5082,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 895 45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5170,7 +5096,7 @@
 			(at 895 42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5179,7 +5105,7 @@
 			(at 892.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5188,7 +5114,7 @@
 			(at 892.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5197,7 +5123,7 @@
 			(at 892.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5206,7 +5132,7 @@
 			(at 895 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5237,7 +5163,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 810 210 180)
+		(at 810 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5245,61 +5171,58 @@
 		(dnp no)
 		(uuid "1adcff29-2fe0-4cc3-84a7-e88250a7f18d")
 		(property "Reference" "Светофор111"
-			(at 811 226 0)
+			(at 811 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 810 222 0)
+			(at 810 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 810 222 0)
+			(at 810 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 810 222 0)
+			(at 810 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 810 210 0)
+			(at 810 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "3"
-			(at 807 222 0)
+			(at 807 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "a85c7e11-c47b-4619-a9ec-49f7a6248d1c")
 		)
 		(instances
 			(project "k"
@@ -5317,7 +5240,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 110 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5330,16 +5254,16 @@
 			(at 110 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 110 210 0)
+			(at 110 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -5347,7 +5271,7 @@
 			(at 110 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5356,7 +5280,7 @@
 			(at 110 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5365,7 +5289,7 @@
 			(at 110 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5392,7 +5316,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1095 130 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5405,7 +5330,7 @@
 			(at 1095 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5414,7 +5339,7 @@
 			(at 1092.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5423,7 +5348,7 @@
 			(at 1092.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5432,7 +5357,7 @@
 			(at 1092.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5441,7 +5366,7 @@
 			(at 1095 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5471,7 +5396,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 615 105 0)
 		(mirror y)
 		(unit 1)
@@ -5485,7 +5411,7 @@
 			(at 615 102 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5494,7 +5420,7 @@
 			(at 617.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5503,7 +5429,7 @@
 			(at 617.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5512,7 +5438,7 @@
 			(at 617.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5521,7 +5447,7 @@
 			(at 615 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5551,6 +5477,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 1135 210 180)
 		(unit 2)
@@ -5560,10 +5487,10 @@
 		(dnp no)
 		(uuid "2d8c81ec-f488-4ecf-931f-2c662ae2dee9")
 		(property "Reference" "И11"
-			(at 1135.25 215.75 0)
+			(at 1135 215 0)
 			(effects
 				(font
-					(size 0.0254 0.0254)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5572,7 +5499,7 @@
 			(at 1135 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -5580,7 +5507,7 @@
 			(at 1135 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5589,7 +5516,7 @@
 			(at 1135 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5598,7 +5525,7 @@
 			(at 1135 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5611,9 +5538,6 @@
 		)
 		(pin ""
 			(uuid "96e0c08c-dca0-44e8-a781-bd1bc1b83db3")
-		)
-		(pin ""
-			(uuid "0ef4b372-3d5f-4a29-8684-25260e243139")
 		)
 		(instances
 			(project "k"
@@ -5631,7 +5555,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 465 115 0)
 		(mirror y)
 		(unit 1)
@@ -5645,7 +5570,7 @@
 			(at 465 112 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5654,7 +5579,7 @@
 			(at 467.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5663,7 +5588,7 @@
 			(at 467.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5672,7 +5597,7 @@
 			(at 467.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5681,7 +5606,7 @@
 			(at 465 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5711,7 +5636,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 975 50 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5724,7 +5650,7 @@
 			(at 975 47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5733,7 +5659,7 @@
 			(at 972.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5742,7 +5668,7 @@
 			(at 972.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5751,7 +5677,7 @@
 			(at 972.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5760,7 +5686,7 @@
 			(at 975 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5790,7 +5716,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 230 60 0)
 		(mirror y)
 		(unit 1)
@@ -5804,7 +5731,7 @@
 			(at 230 57 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5813,7 +5740,7 @@
 			(at 232.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5822,7 +5749,7 @@
 			(at 232.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5831,7 +5758,7 @@
 			(at 232.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5840,7 +5767,7 @@
 			(at 230 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5883,7 +5810,7 @@
 			(at 970 169.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5892,7 +5819,7 @@
 			(at 970 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5901,7 +5828,7 @@
 			(at 970 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5910,7 +5837,7 @@
 			(at 970 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5919,7 +5846,7 @@
 			(at 970 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5929,7 +5856,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -5938,7 +5865,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -5958,7 +5885,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 975 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5971,16 +5899,16 @@
 			(at 975 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 975 210 0)
+			(at 975 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -5988,7 +5916,7 @@
 			(at 975 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -5997,7 +5925,7 @@
 			(at 975 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6006,7 +5934,7 @@
 			(at 975 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6033,7 +5961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приближение")
+		(lib_id "SCB_АБТЦ:Приближение")
 		(at 535 235 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6046,24 +5974,25 @@
 			(at 535 238.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 535 235 0)
+			(at 538.48 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
 			(at 535 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6072,7 +6001,7 @@
 			(at 535 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6081,7 +6010,7 @@
 			(at 535 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6091,7 +6020,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -6111,7 +6040,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 435 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6124,16 +6054,16 @@
 			(at 435 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 435 210 0)
+			(at 435 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6141,7 +6071,7 @@
 			(at 435 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6150,7 +6080,7 @@
 			(at 435 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6159,7 +6089,7 @@
 			(at 435 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6186,7 +6116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 695 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6199,16 +6130,16 @@
 			(at 695 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 695 210 0)
+			(at 695 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6216,7 +6147,7 @@
 			(at 695 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6225,7 +6156,7 @@
 			(at 695 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6234,7 +6165,7 @@
 			(at 695 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6261,7 +6192,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 815 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6274,16 +6206,16 @@
 			(at 815 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 815 210 0)
+			(at 815 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6291,7 +6223,7 @@
 			(at 815 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6300,7 +6232,7 @@
 			(at 815 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6309,7 +6241,7 @@
 			(at 815 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6336,7 +6268,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 405 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6349,16 +6282,16 @@
 			(at 405 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 405 210 0)
+			(at 405 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6366,7 +6299,7 @@
 			(at 405 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6375,7 +6308,7 @@
 			(at 405 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6384,7 +6317,7 @@
 			(at 405 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6411,7 +6344,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 535 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6424,16 +6358,16 @@
 			(at 535 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 535 210 0)
+			(at 535 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6441,7 +6375,7 @@
 			(at 535 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6450,7 +6384,7 @@
 			(at 535 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6459,7 +6393,7 @@
 			(at 535 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6499,7 +6433,7 @@
 			(at 235 200 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6508,7 +6442,7 @@
 			(at 235 204 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6517,7 +6451,7 @@
 			(at 235 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6526,7 +6460,7 @@
 			(at 235 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6535,7 +6469,7 @@
 			(at 235 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6545,7 +6479,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6572,7 +6506,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 935 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6585,16 +6520,16 @@
 			(at 935 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 935 210 0)
+			(at 935 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6602,7 +6537,7 @@
 			(at 935 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6611,7 +6546,7 @@
 			(at 935 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6620,7 +6555,7 @@
 			(at 935 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6648,7 +6583,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 650 210 180)
+		(at 650 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6657,61 +6592,58 @@
 		(fields_autoplaced yes)
 		(uuid "4b332462-94e1-4670-960f-e3204a627f04")
 		(property "Reference" "Светофор111"
-			(at 651 226 0)
+			(at 651 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 650 222 0)
+			(at 650 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 650 222 0)
+			(at 650 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 650 222 0)
+			(at 650 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 650 210 0)
+			(at 650 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "5"
-			(at 647 222 0)
+			(at 647 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "ca116972-ccf6-4b17-8ab6-c583cf6affae")
 		)
 		(instances
 			(project "k"
@@ -6742,7 +6674,7 @@
 			(at 500 200 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6751,7 +6683,7 @@
 			(at 500 204 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6760,7 +6692,7 @@
 			(at 500 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6769,7 +6701,7 @@
 			(at 500 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6778,7 +6710,7 @@
 			(at 500 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6788,7 +6720,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -6828,7 +6760,7 @@
 			(at 500 169.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6837,7 +6769,7 @@
 			(at 500 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6846,7 +6778,7 @@
 			(at 500 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6855,7 +6787,7 @@
 			(at 500 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6864,7 +6796,7 @@
 			(at 500 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6874,7 +6806,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -6883,7 +6815,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -6903,7 +6835,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 655 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6916,16 +6849,16 @@
 			(at 655 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 655 210 0)
+			(at 655 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -6933,7 +6866,7 @@
 			(at 655 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6942,7 +6875,7 @@
 			(at 655 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6951,7 +6884,7 @@
 			(at 655 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -6978,7 +6911,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 615 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6991,16 +6925,16 @@
 			(at 615 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 615 210 0)
+			(at 615 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7008,7 +6942,7 @@
 			(at 615 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7017,7 +6951,7 @@
 			(at 615 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7026,7 +6960,7 @@
 			(at 615 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7053,7 +6987,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 1015 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7066,16 +7001,16 @@
 			(at 1015 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 1015 210 0)
+			(at 1015 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7083,7 +7018,7 @@
 			(at 1015 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7092,7 +7027,7 @@
 			(at 1015 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7101,7 +7036,7 @@
 			(at 1015 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7128,7 +7063,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 290 55 0)
 		(mirror y)
 		(unit 1)
@@ -7142,7 +7078,7 @@
 			(at 290 52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7151,7 +7087,7 @@
 			(at 292.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7160,7 +7096,7 @@
 			(at 292.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7169,7 +7105,7 @@
 			(at 292.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7178,7 +7114,7 @@
 			(at 290 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7209,7 +7145,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 660 210 0)
+		(at 660 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7218,61 +7154,58 @@
 		(fields_autoplaced yes)
 		(uuid "5e099193-c13c-4da6-99ba-453f2c7a0d59")
 		(property "Reference" "Светофор111"
-			(at 659 194 0)
+			(at 659 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 660 198 0)
+			(at 660 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 660 198 0)
+			(at 660 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 660 198 0)
+			(at 660 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 660 210 0)
+			(at 660 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "6"
-			(at 663 198 0)
+			(at 663 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "c2eb72d7-6cb8-49e1-aef1-0236b8c2388c")
 		)
 		(instances
 			(project "k"
@@ -7290,7 +7223,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 535 110 0)
 		(mirror y)
 		(unit 1)
@@ -7304,7 +7238,7 @@
 			(at 535 107 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7313,7 +7247,7 @@
 			(at 537.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7322,7 +7256,7 @@
 			(at 537.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7331,7 +7265,7 @@
 			(at 537.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7340,7 +7274,7 @@
 			(at 535 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7370,7 +7304,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 350 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7383,16 +7318,16 @@
 			(at 350 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 350 210 0)
+			(at 350 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7400,7 +7335,7 @@
 			(at 350 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7409,7 +7344,7 @@
 			(at 350 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7418,7 +7353,7 @@
 			(at 350 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7445,7 +7380,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 465 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7458,16 +7394,16 @@
 			(at 465 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 465 210 0)
+			(at 465 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7475,7 +7411,7 @@
 			(at 465 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7484,7 +7420,7 @@
 			(at 465 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7493,7 +7429,7 @@
 			(at 465 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7520,7 +7456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 230 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7533,16 +7470,16 @@
 			(at 230 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 230 210 0)
+			(at 230 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7550,7 +7487,7 @@
 			(at 230 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7559,7 +7496,7 @@
 			(at 230 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7568,7 +7505,7 @@
 			(at 230 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7595,7 +7532,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1125 60 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7608,7 +7546,7 @@
 			(at 1125 57 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7617,7 +7555,7 @@
 			(at 1122.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7626,7 +7564,7 @@
 			(at 1122.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7635,7 +7573,7 @@
 			(at 1122.5 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7644,7 +7582,7 @@
 			(at 1125 60 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7674,7 +7612,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 350 50 0)
 		(mirror y)
 		(unit 1)
@@ -7688,7 +7627,7 @@
 			(at 350 47 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7697,7 +7636,7 @@
 			(at 352.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7706,7 +7645,7 @@
 			(at 352.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7715,7 +7654,7 @@
 			(at 352.5 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7724,7 +7663,7 @@
 			(at 350 50 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7754,7 +7693,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 1095 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7767,16 +7707,16 @@
 			(at 1095 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 1095 210 0)
+			(at 1095 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -7784,7 +7724,7 @@
 			(at 1095 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7793,7 +7733,7 @@
 			(at 1095 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7802,7 +7742,7 @@
 			(at 1095 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -7830,7 +7770,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 490 210 180)
+		(at 490 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7838,61 +7778,58 @@
 		(dnp no)
 		(uuid "79db98ac-585e-4cc9-a523-03c4d8d48880")
 		(property "Reference" "Светофор11"
-			(at 491 226 0)
+			(at 491 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 490 222 0)
+			(at 490 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 490 222 0)
+			(at 490 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 490 222 0)
+			(at 490 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 490 210 0)
+			(at 490 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "7"
-			(at 487 222 0)
+			(at 487 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "f93d9f63-ca5a-4f2d-b05f-d2b0eafca14c")
 		)
 		(instances
 			(project "k"
@@ -7911,7 +7848,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 970 210 180)
+		(at 970 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7920,61 +7857,58 @@
 		(fields_autoplaced yes)
 		(uuid "7c1d0825-75fa-483a-bab5-8f1ac02f9e1b")
 		(property "Reference" "Светофор12"
-			(at 971 226 0)
+			(at 971 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 970 222 0)
+			(at 970 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 970 222 0)
+			(at 970 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 970 222 0)
+			(at 970 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 970 210 0)
+			(at 970 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "1"
-			(at 967 222 0)
+			(at 967 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "831b053f-1b9a-4fb7-bc31-b7c79188cc58")
 		)
 		(instances
 			(project "k"
@@ -7992,7 +7926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приближение")
+		(lib_id "SCB_АБТЦ:Приближение")
 		(at 190 235 0)
 		(mirror x)
 		(unit 1)
@@ -8005,7 +7939,7 @@
 			(at 190 238.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8014,7 +7948,7 @@
 			(at 190 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8022,7 +7956,7 @@
 			(at 190 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8031,7 +7965,7 @@
 			(at 190 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8040,7 +7974,7 @@
 			(at 190 235 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8050,7 +7984,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 2 2)
+					(size 2.5 2.5)
 				)
 			)
 		)
@@ -8070,7 +8004,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 260 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8083,16 +8018,16 @@
 			(at 260 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 260 210 0)
+			(at 260 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8100,7 +8035,7 @@
 			(at 260 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8109,7 +8044,7 @@
 			(at 260 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8118,7 +8053,7 @@
 			(at 260 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8145,7 +8080,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1015 125 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8158,7 +8094,7 @@
 			(at 1015 122 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8167,7 +8103,7 @@
 			(at 1012.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8176,7 +8112,7 @@
 			(at 1012.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8185,7 +8121,7 @@
 			(at 1012.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8194,7 +8130,7 @@
 			(at 1015 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8224,7 +8160,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 775 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8237,16 +8174,16 @@
 			(at 775 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 775 210 0)
+			(at 775 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8254,7 +8191,7 @@
 			(at 775 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8263,7 +8200,7 @@
 			(at 775 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8272,7 +8209,7 @@
 			(at 775 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8299,7 +8236,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 815 40 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8312,7 +8250,7 @@
 			(at 815 37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8321,7 +8259,7 @@
 			(at 812.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8330,7 +8268,7 @@
 			(at 812.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8339,7 +8277,7 @@
 			(at 812.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8348,7 +8286,7 @@
 			(at 815 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8378,7 +8316,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 935 120 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8391,7 +8330,7 @@
 			(at 935 117 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8400,7 +8339,7 @@
 			(at 932.5 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8409,7 +8348,7 @@
 			(at 932.5 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8418,7 +8357,7 @@
 			(at 932.5 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8427,7 +8366,7 @@
 			(at 935 120 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8457,7 +8396,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 150 65 0)
 		(mirror y)
 		(unit 1)
@@ -8471,7 +8411,7 @@
 			(at 150 62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8480,7 +8420,7 @@
 			(at 152.5 65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8489,7 +8429,7 @@
 			(at 152.5 65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8498,7 +8438,7 @@
 			(at 152.5 65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8507,7 +8447,7 @@
 			(at 150 65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8537,7 +8477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 855 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8550,16 +8490,16 @@
 			(at 855 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 855 210 0)
+			(at 855 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8567,7 +8507,7 @@
 			(at 855 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8576,7 +8516,7 @@
 			(at 855 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8585,7 +8525,7 @@
 			(at 855 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8613,7 +8553,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 500 210 0)
+		(at 500 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8622,61 +8562,58 @@
 		(fields_autoplaced yes)
 		(uuid "99a4c831-ec48-4468-9ca2-75290cf300bb")
 		(property "Reference" "Светофор11"
-			(at 499 194 0)
+			(at 499 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 500 198 0)
+			(at 500 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 500 198 0)
+			(at 500 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 500 198 0)
+			(at 500 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 500 210 0)
+			(at 500 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "4"
-			(at 503 198 0)
+			(at 503 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "584e3cb9-3991-4399-8e6a-4a970afc4898")
 		)
 		(instances
 			(project "k"
@@ -8694,7 +8631,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 735 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8707,16 +8645,16 @@
 			(at 735 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 735 210 0)
+			(at 735 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8724,7 +8662,7 @@
 			(at 735 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8733,7 +8671,7 @@
 			(at 735 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8742,7 +8680,7 @@
 			(at 735 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8779,19 +8717,19 @@
 		(fields_autoplaced yes)
 		(uuid "9a8e1cb1-2882-4df7-89da-ab4808fa8763")
 		(property "Reference" "И1"
-			(at 69.75 204.25 0)
+			(at 70 205 0)
 			(effects
 				(font
-					(size 0.0254 0.0254)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 70 210 0)
+			(at 70 205.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -8799,7 +8737,7 @@
 			(at 70 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8808,7 +8746,7 @@
 			(at 70 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -8817,13 +8755,10 @@
 			(at 70 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
-		)
-		(pin ""
-			(uuid "aaccf8c6-5ef5-4ed2-8555-49da23358fe1")
 		)
 		(pin ""
 			(uuid "64acdc0d-5887-4f62-af12-96e8a198f365")
@@ -8851,7 +8786,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 1135 212 180)
+		(at 1136 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8859,61 +8794,58 @@
 		(dnp no)
 		(uuid "9c1718ca-09b7-40db-83c4-63b21c1d7f5f")
 		(property "Reference" "Светофор11"
-			(at 1136 228 0)
+			(at 1137 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 1135 224 0)
+			(at 1136 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 1135 224 0)
+			(at 1136 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 1135 224 0)
+			(at 1136 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 1135 212 0)
+			(at 1136 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "Н"
-			(at 1132 224 0)
+			(at 1133 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "1f17cead-3b34-4629-8225-0c98d4d78f4a")
 		)
 		(instances
 			(project "k"
@@ -8932,7 +8864,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 225 210 180)
+		(at 225 225 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8941,61 +8873,58 @@
 		(fields_autoplaced yes)
 		(uuid "9da2804c-a34c-456e-a031-cdc25184295a")
 		(property "Reference" "Светофор1"
-			(at 226 226 0)
+			(at 226 229 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 225 222 0)
+			(at 225 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 225 222 0)
+			(at 225 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 225 222 0)
+			(at 225 225 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 225 210 0)
+			(at 225 213 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "9"
-			(at 222 222 0)
+			(at 222 225 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "4b0d01db-8e13-4e09-9d03-615744b6a14d")
 		)
 		(instances
 			(project "k"
@@ -9013,7 +8942,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 575 35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9026,7 +8956,7 @@
 			(at 575 38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9035,7 +8965,7 @@
 			(at 577.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9044,7 +8974,7 @@
 			(at 577.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9053,7 +8983,7 @@
 			(at 577.5 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9062,7 +8992,7 @@
 			(at 575 35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9092,7 +9022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Переезд_Нитки")
+		(lib_id "SCB_АБТЦ:Переезд_Нитки")
 		(at 365 210 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9105,7 +9035,7 @@
 			(at 365 198.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9114,7 +9044,7 @@
 			(at 362.5 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9123,7 +9053,7 @@
 			(at 362.5 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9132,7 +9062,7 @@
 			(at 362.5 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9141,7 +9071,7 @@
 			(at 365 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9151,7 +9081,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -9160,7 +9090,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -9187,7 +9117,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 820 210 0)
+		(at 820 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9196,61 +9126,58 @@
 		(fields_autoplaced yes)
 		(uuid "a755f384-e602-44a8-ad9a-771c892fb0c9")
 		(property "Reference" "Светофор112"
-			(at 819 194 0)
+			(at 819 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 820 198 0)
+			(at 820 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 820 198 0)
+			(at 820 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 820 198 0)
+			(at 820 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 820 210 0)
+			(at 820 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "8"
-			(at 823 198 0)
+			(at 823 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "344e3178-ea3b-408c-b446-23f633f93598")
 		)
 		(instances
 			(project "k"
@@ -9281,7 +9208,7 @@
 			(at 810 200 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9290,7 +9217,7 @@
 			(at 810 204 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9299,7 +9226,7 @@
 			(at 810 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9308,7 +9235,7 @@
 			(at 810 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9317,7 +9244,7 @@
 			(at 810 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9327,7 +9254,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -9354,7 +9281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1055 55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9367,7 +9295,7 @@
 			(at 1055 52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9376,7 +9304,7 @@
 			(at 1052.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9385,7 +9313,7 @@
 			(at 1052.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9394,7 +9322,7 @@
 			(at 1052.5 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9403,7 +9331,7 @@
 			(at 1055 55 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9433,7 +9361,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 575 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9446,16 +9375,16 @@
 			(at 575 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 575 210 0)
+			(at 575 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -9463,7 +9392,7 @@
 			(at 575 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9472,7 +9401,7 @@
 			(at 575 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9481,7 +9410,7 @@
 			(at 575 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9508,7 +9437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Деление_перегона")
+		(lib_id "SCB_АБТЦ:Деление_перегона")
 		(at 655 185 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9521,16 +9450,16 @@
 			(at 655 178.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 654 185 0)
+			(at 655 177.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -9538,7 +9467,7 @@
 			(at 654 185 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9547,7 +9476,7 @@
 			(at 654 185 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9556,7 +9485,7 @@
 			(at 655 185 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9577,7 +9506,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 190 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9590,16 +9520,16 @@
 			(at 190 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 190 210 0)
+			(at 190 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -9607,7 +9537,7 @@
 			(at 190 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9616,7 +9546,7 @@
 			(at 190 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9625,7 +9555,7 @@
 			(at 190 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9652,7 +9582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 495 40 0)
 		(mirror y)
 		(unit 1)
@@ -9666,7 +9596,7 @@
 			(at 495 37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9675,7 +9605,7 @@
 			(at 497.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9684,7 +9614,7 @@
 			(at 497.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9693,7 +9623,7 @@
 			(at 497.5 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9702,7 +9632,7 @@
 			(at 495 40 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9732,7 +9662,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 110 140 0)
 		(mirror y)
 		(unit 1)
@@ -9746,7 +9677,7 @@
 			(at 110 137 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9755,7 +9686,7 @@
 			(at 112.5 140 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9764,7 +9695,7 @@
 			(at 112.5 140 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9773,7 +9704,7 @@
 			(at 112.5 140 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9782,7 +9713,7 @@
 			(at 110 140 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9812,7 +9743,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Приемник_Нитки")
+		(lib_name "SCB_АБТЦ:Приемник_Нитки")
+		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 320 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9825,16 +9757,16 @@
 			(at 320 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 320 210 0)
+			(at 320 201.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -9842,7 +9774,7 @@
 			(at 320 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9851,7 +9783,7 @@
 			(at 320 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9860,7 +9792,7 @@
 			(at 320 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9887,7 +9819,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 660 30 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9900,7 +9833,7 @@
 			(at 660 27 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9909,7 +9842,7 @@
 			(at 657.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9918,7 +9851,7 @@
 			(at 657.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9927,7 +9860,7 @@
 			(at 657.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9936,7 +9869,7 @@
 			(at 660 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9966,7 +9899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 80 70 0)
 		(mirror y)
 		(unit 1)
@@ -9980,7 +9914,7 @@
 			(at 80 67 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9989,7 +9923,7 @@
 			(at 82.5 70 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -9998,7 +9932,7 @@
 			(at 82.5 70 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10007,7 +9941,7 @@
 			(at 82.5 70 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10016,7 +9950,7 @@
 			(at 80 70 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10046,7 +9980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 260 130 0)
 		(mirror y)
 		(unit 1)
@@ -10060,7 +9995,7 @@
 			(at 260 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10069,7 +10004,7 @@
 			(at 262.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10078,7 +10013,7 @@
 			(at 262.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10087,7 +10022,7 @@
 			(at 262.5 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10096,7 +10031,7 @@
 			(at 260 130 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10126,7 +10061,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 650 30 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10139,7 +10075,7 @@
 			(at 650 33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10148,7 +10084,7 @@
 			(at 652.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10157,7 +10093,7 @@
 			(at 652.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10166,7 +10102,7 @@
 			(at 652.5 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10175,7 +10111,7 @@
 			(at 650 30 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10205,7 +10141,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 895 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10218,16 +10155,16 @@
 			(at 895 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 895 210 0)
+			(at 895 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10235,7 +10172,7 @@
 			(at 895 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10244,7 +10181,7 @@
 			(at 895 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10253,7 +10190,7 @@
 			(at 895 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10280,7 +10217,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 80 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10293,16 +10231,16 @@
 			(at 80 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 80 210 0)
+			(at 80 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10310,7 +10248,7 @@
 			(at 80 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10319,7 +10257,7 @@
 			(at 80 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10328,7 +10266,7 @@
 			(at 80 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10355,7 +10293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 855 115 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10368,7 +10307,7 @@
 			(at 855 112 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10377,7 +10316,7 @@
 			(at 852.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10386,7 +10325,7 @@
 			(at 852.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10395,7 +10334,7 @@
 			(at 852.5 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10404,7 +10343,7 @@
 			(at 855 115 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10434,7 +10373,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 1125 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10447,16 +10387,16 @@
 			(at 1125 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 1125 210 0)
+			(at 1125 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -10464,7 +10404,7 @@
 			(at 1125 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10473,7 +10413,7 @@
 			(at 1125 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10482,7 +10422,7 @@
 			(at 1125 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10522,7 +10462,7 @@
 			(at 970 200 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10531,7 +10471,7 @@
 			(at 970 204 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10540,7 +10480,7 @@
 			(at 970 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10549,7 +10489,7 @@
 			(at 970 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10558,7 +10498,7 @@
 			(at 970 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10568,7 +10508,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 				(hide yes)
 			)
@@ -10607,7 +10547,7 @@
 			(at 50 180.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10616,7 +10556,7 @@
 			(at 50 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10625,7 +10565,7 @@
 			(at 50 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10634,7 +10574,7 @@
 			(at 50 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10643,7 +10583,7 @@
 			(at 50 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10653,7 +10593,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10662,7 +10602,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10695,7 +10635,7 @@
 			(at 235 169.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10704,7 +10644,7 @@
 			(at 235 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10713,7 +10653,7 @@
 			(at 235 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10722,7 +10662,7 @@
 			(at 235 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10731,7 +10671,7 @@
 			(at 235 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10741,7 +10681,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10750,7 +10690,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10783,7 +10723,7 @@
 			(at 810 169.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10792,7 +10732,7 @@
 			(at 810 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10801,7 +10741,7 @@
 			(at 810 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10810,7 +10750,7 @@
 			(at 810 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10819,7 +10759,7 @@
 			(at 810 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10829,7 +10769,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10838,7 +10778,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -10858,7 +10798,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 695 105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10871,7 +10812,7 @@
 			(at 695 102 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10880,7 +10821,7 @@
 			(at 692.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10889,7 +10830,7 @@
 			(at 692.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10898,7 +10839,7 @@
 			(at 692.5 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10907,7 +10848,7 @@
 			(at 695 105 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10937,7 +10878,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 775 110 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10950,7 +10892,7 @@
 			(at 775 107 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10959,7 +10901,7 @@
 			(at 772.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10968,7 +10910,7 @@
 			(at 772.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10977,7 +10919,7 @@
 			(at 772.5 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -10986,7 +10928,7 @@
 			(at 775 110 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11016,7 +10958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 320 125 0)
 		(mirror y)
 		(unit 1)
@@ -11030,7 +10973,7 @@
 			(at 320 122 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11039,7 +10982,7 @@
 			(at 322.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11048,7 +10991,7 @@
 			(at 322.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11057,7 +11000,7 @@
 			(at 322.5 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11066,7 +11009,7 @@
 			(at 320 125 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11109,7 +11052,7 @@
 			(at 1155 180.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11118,7 +11061,7 @@
 			(at 1155 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11127,7 +11070,7 @@
 			(at 1155 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11136,7 +11079,7 @@
 			(at 1155 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11145,7 +11088,7 @@
 			(at 1155 175 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11155,7 +11098,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -11164,7 +11107,7 @@
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
 		)
@@ -11185,7 +11128,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Светофор")
-		(at 980 210 0)
+		(at 980 195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11194,61 +11137,58 @@
 		(fields_autoplaced yes)
 		(uuid "f1e0d167-0b2a-48df-8b15-43ad48220145")
 		(property "Reference" "Светофор13"
-			(at 979 194 0)
+			(at 979 191 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 980 198 0)
+			(at 980 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 980 198 0)
+			(at 980 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 980 198 0)
+			(at 980 195 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 980 210 0)
+			(at 980 207 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Литера" "10"
-			(at 983 198 0)
+			(at 983 195 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3 3)
+					(size 3.5 3.5)
 				)
 			)
-		)
-		(pin ""
-			(uuid "bb3a623a-1b78-47d9-a760-a96188ae73f5")
 		)
 		(instances
 			(project "k"
@@ -11266,7 +11206,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Генератор_Нитки")
+		(lib_name "SCB_АБТЦ:Генератор_Нитки")
+		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 290 210 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11279,16 +11220,16 @@
 			(at 290 211.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 290 210 0)
+			(at 290 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 			)
 		)
@@ -11296,7 +11237,7 @@
 			(at 290 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11305,7 +11246,7 @@
 			(at 290 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11314,7 +11255,7 @@
 			(at 290 210 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11341,7 +11282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 365 100 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -11354,7 +11296,7 @@
 			(at 365 97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11363,7 +11305,7 @@
 			(at 362.5 100 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11372,7 +11314,7 @@
 			(at 362.5 100 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11381,7 +11323,7 @@
 			(at 362.5 100 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11390,7 +11332,7 @@
 			(at 365 100 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11420,7 +11362,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB:Муфта_Нитки")
+		(lib_name "SCB_АБТЦ:Муфта_Нитки")
+		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 435 45 0)
 		(mirror y)
 		(unit 1)
@@ -11434,7 +11377,7 @@
 			(at 435 42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11443,7 +11386,7 @@
 			(at 437.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11452,7 +11395,7 @@
 			(at 437.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11461,7 +11404,7 @@
 			(at 437.5 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11470,7 +11413,7 @@
 			(at 435 45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8 1.8)
 				)
 				(hide yes)
 			)
@@ -11530,7 +11473,7 @@
 			)
 		)
 		(instances
-			(project "Кабельная"
+			(project "Кабельная_сеть"
 				(path "/40d0e112-f218-4faa-a155-7d9cfb1b458c"
 					(page "2")
 				)

@@ -4647,7 +4647,7 @@
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
 				(justify left)
 				(hide yes)
@@ -4846,14 +4846,25 @@
 				(hide yes)
 			)
 		)
-		(property "Частота" "420/12"
+		(property "Частота1" "420/12"
 			(at 12 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Частота2" "720/8"
+			(at 1.5 3.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4935,6 +4946,24 @@
 			)
 			(pin unspecified line
 				(at 4 2 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 6.5 2 90)
 				(length 0)
 				(name ""
 					(effects
