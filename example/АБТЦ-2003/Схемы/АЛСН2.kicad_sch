@@ -1,0 +1,5636 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3ce26b15-11e9-4a4d-92ed-7771f1eb3682")
+	(paper "A3")
+	(title_block
+		(title "Станция А")
+		(company "МКТ РУТ (МИИТ)")
+		(comment 1 "КП 27.02.03.03.000 ГЧ")
+		(comment 2 "Сафранович")
+		(comment 3 "Бузунова")
+	)
+	(lib_symbols
+		(symbol "Blocks:ПТ/ПОБС"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ИПТ"
+				(at 0 10.16 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Value" "ПТ/ПОБС"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -6.35 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transformer coil magnet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ПТ/ПОБС_0_1"
+				(arc
+					(start -2.54 -6.35)
+					(mid -1.5736 -5.3975)
+					(end -2.54 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -4.445)
+					(mid -1.5736 -3.4925)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.5736 -1.5875)
+					(end -2.54 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.635)
+					(mid -1.5048 0.3175)
+					(end -2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 1.27)
+					(mid -1.5428 2.2225)
+					(end -2.54 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 3.175)
+					(mid -1.5875 4.1275)
+					(end -2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -4.445)
+					(mid 1.5452 -5.3975)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.5452 -3.4925)
+					(end 2.54 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.635)
+					(mid 1.4998 -1.5875)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 1.27)
+					(mid 1.5736 0.3175)
+					(end 2.54 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 3.175)
+					(mid 1.5875 2.2225)
+					(end 2.54 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.5633 4.1275)
+					(end 2.54 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ПТ/ПОБС_1_1"
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -6.35 0)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 7.62)
+					(name "Н"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -6.35 180)
+					(length 7.62)
+					(name "К"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device_GOST:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -3.175 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_*:C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -3.9878 -0.762) (xy 3.9878 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.9878 0.762) (xy 3.9878 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device_GOST:L_INDUCTOR"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Value" "L_INDUCTOR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_INDUCTOR_0_1"
+				(arc
+					(start -3.175 0)
+					(mid -4.7498 1.5748)
+					(end -6.35 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.5748 1.5748)
+					(end -3.175 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.175 0)
+					(mid 1.6002 1.5748)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 0)
+					(mid 4.7752 1.5748)
+					(end 3.175 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_INDUCTOR_1_1"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device_GOST:R_5W"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Value" "R_5W"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.635 -4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_5W_0_1"
+				(rectangle
+					(start -5.0038 2.0066)
+					(end 5.0038 -2.0066)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_5W_1_1"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 3.8862)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 3.8862)
+					(name "~"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 2.0066 2.0066)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_Relay:Кодовое"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.002) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "К"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 3 3)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "КДРШ"
+				(at 0 -8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3 -6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3 -6 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "К"
+				(at 0 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Кодовое_0_1"
+				(rectangle
+					(start -3 6)
+					(end 3 -6)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Кодовое_1_1"
+				(polyline
+					(pts
+						(xy -3 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3 0) (xy 6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Кодовое_2_1"
+				(rectangle
+					(start -3 -6)
+					(end 3 -12)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2 -11) (xy -1 -11) (xy 1.5 -7) (xy 2.5 -7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -8 0 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Кодовое_3_1"
+				(rectangle
+					(start -3 -6)
+					(end 3 -12)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3 -6) (xy 3 -12)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3 -6) (xy -3 -12)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -8 0 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Кодовое_4_1"
+				(rectangle
+					(start -3 -6)
+					(end 3 -12)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3 -6) (xy -3 -12)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -8 0 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Кодовое_5_1"
+				(rectangle
+					(start -3 -6)
+					(end 3 -12)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2 -10) (xy -2 -8)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2 -9) (xy 2 -9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2 -10) (xy 2 -8)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -8 0 0)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8 0 180)
+					(length 5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_Relay:Контакт_нейтрального_якоря"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Н"
+				(at 0 -10 0)
+				(effects
+					(font
+						(size 3 3)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "Н"
+				(at 0 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -3) (xy 5.19 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_1_1"
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_2_1"
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_3_1"
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_4_1"
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 5.715 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.858) (xy 3.81 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -10.16 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_5_1"
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_6_1"
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 5.715 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -10.16 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_7_1"
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_8_1"
+				(arc
+					(start 5.5 -7.5)
+					(mid 6.5355 -5)
+					(end 5.5 -2.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_9_1"
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_10_1"
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_11_1"
+				(polyline
+					(pts
+						(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.25 -6.5)
+					(mid 0.5225 -3.7106)
+					(end -2.25 -4.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SCB_Relay:Контакт_нейтрального_якоря_НЗ"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Н"
+				(at 0 -10 0)
+				(effects
+					(font
+						(size 3 3)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "Н"
+				(at 0 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2 2)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -3) (xy 5.5 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_1_1"
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_2_1"
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_3_1"
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_4_1"
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 5.715 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.858) (xy 3.81 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -10.16 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_5_1"
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_6_1"
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 5.715 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -10.16 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_7_1"
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Контакт_нейтрального_якоря_НЗ_8_1"
+				(arc
+					(start 5.5 -7.5)
+					(mid 6.5355 -5)
+					(end 5.5 -2.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 0 270)
+					(length 3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -10.16 90)
+					(length 3.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 336.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "124b62fa-79d1-41c2-9855-1174ad0f31e1")
+	)
+	(junction
+		(at 228.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397382d4-d706-40bd-9008-f88d063bc16d")
+	)
+	(junction
+		(at 342.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4036eab1-bd76-4f8c-82b8-9920fa43a0f7")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f10009b-d704-4e26-bac6-21652cd083b2")
+	)
+	(junction
+		(at 184.15 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52aea9d8-d4fb-45f4-b280-89729c9624f8")
+	)
+	(junction
+		(at 209.55 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d330467-eb2f-449c-bfaa-53f0ea250281")
+	)
+	(junction
+		(at 184.15 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69bd0566-3fca-43b3-8254-8f68db252a60")
+	)
+	(junction
+		(at 133.35 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab4f981-8f92-4b9a-be23-edac4c2c2a17")
+	)
+	(junction
+		(at 228.6 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d4c4bff-11ef-4839-aca5-aef4d81a322c")
+	)
+	(junction
+		(at 222.25 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4a1b9f-5bcf-4d8c-9eeb-45025c8c9c73")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01334de7-b0a2-4476-a411-265502073753")
+	)
+	(wire
+		(pts
+			(xy 281.94 63.5) (xy 304.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021fce67-bce2-4da1-aada-0867920249fa")
+	)
+	(wire
+		(pts
+			(xy 377.19 107.95) (xy 400.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b11395d-07f7-4979-9728-89674fbd5b99")
+	)
+	(wire
+		(pts
+			(xy 281.94 82.55) (xy 304.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1056bdc3-dc7c-4e59-a780-83a8e6cbb42c")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220b7f23-60a7-4683-b28b-fa6e655b84c6")
+	)
+	(wire
+		(pts
+			(xy 281.94 120.65) (xy 304.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e5d5d0-5a65-47ed-b266-caf4dda6e0f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d5be3f-51bd-4eeb-a9c2-ec1efe03f518")
+	)
+	(wire
+		(pts
+			(xy 222.25 50.8) (xy 342.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368107c1-db1b-4133-a300-71894ea97cd2")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e49fec-1ae0-47f1-8dd3-5c672846eed0")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 193.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac05fee-421e-45bf-add4-f998b2c25bdd")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4044ac17-0918-48b6-8326-b227462b13d6")
+	)
+	(wire
+		(pts
+			(xy 209.55 63.5) (xy 222.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435e9bda-ad0c-4627-bfa9-d0aa0acc083f")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bad5a8b-a2ba-403a-b904-66e19ab3fdb6")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 269.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f02004a-cdfc-497e-9b7b-55ee704859c4")
+	)
+	(wire
+		(pts
+			(xy 336.55 69.85) (xy 336.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ac901-3ba7-4a87-97d5-001b03d62731")
+	)
+	(wire
+		(pts
+			(xy 377.19 69.85) (xy 400.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62060ae0-ee90-4356-8a9a-0f149785747c")
+	)
+	(wire
+		(pts
+			(xy 68.58 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ef4dc3-31ce-436e-8adc-42c31f13b83e")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bf72ad-7379-41bb-85d5-2654a1a222e4")
+	)
+	(wire
+		(pts
+			(xy 336.55 107.95) (xy 364.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69197690-af22-4200-9208-de98f672a3de")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfa5575-a5a0-4f9f-89db-c92ff7348ffd")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7348ae11-ce10-4771-a5e7-9c775e4e1454")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742b128e-264e-4d87-979d-61a5eb212412")
+	)
+	(wire
+		(pts
+			(xy 377.19 88.9) (xy 400.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c829d2-ce9a-4331-b4a0-f559b7f158c1")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc1b2ea-d5b4-44f0-bbc9-50bdde94883f")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865bc967-822f-4273-aeec-595a41bfdf0b")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 243.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce31b19-b32e-4c29-aee4-aa8eccce798c")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900bba9d-72db-4f19-bebc-50d145eab759")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d469c6-93ea-48b6-a620-b4213d38c91c")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92695da8-bc53-4fd0-a6b8-7fb97c1751ca")
+	)
+	(wire
+		(pts
+			(xy 149.86 82.55) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969495f2-ff0c-44ee-aa3a-e8e801faf58f")
+	)
+	(wire
+		(pts
+			(xy 342.9 50.8) (xy 364.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9846f25d-d09c-44fe-babe-dd67a452ff50")
+	)
+	(wire
+		(pts
+			(xy 377.19 50.8) (xy 400.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d374a93-9f23-44ac-94ab-62a1860e8a0d")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56b2b2-0697-46a9-8bfd-f7bd98cc39c6")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2a07ec-aa19-48c0-bb39-94ab50975a9f")
+	)
+	(wire
+		(pts
+			(xy 209.55 82.55) (xy 209.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dbc4b2-ed05-4089-9348-b2611cb928e8")
+	)
+	(wire
+		(pts
+			(xy 342.9 88.9) (xy 364.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2422eff-8870-4271-9ff0-29780cd5a8bb")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa28d2dd-1fc8-4540-a1bc-78722a61386f")
+	)
+	(wire
+		(pts
+			(xy 336.55 107.95) (xy 336.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0a79dd-1838-41c6-a9c3-b7334b33c37c")
+	)
+	(wire
+		(pts
+			(xy 251.46 82.55) (xy 269.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd48574-03ca-4d4a-a3bf-e2c43fa12a11")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 228.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c063c7ff-7053-4ead-b829-794cb1656593")
+	)
+	(wire
+		(pts
+			(xy 205.74 82.55) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67bad78-4c9b-4534-84bb-e54ebbef6770")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96d69eb-c60c-42b2-b18d-5b1afcfa95f3")
+	)
+	(wire
+		(pts
+			(xy 281.94 101.6) (xy 304.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01c9575-cb60-45e2-8bb3-b1f9eed4d709")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 269.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2245e55-2fad-4a24-af71-61943faec808")
+	)
+	(wire
+		(pts
+			(xy 336.55 69.85) (xy 364.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d242343d-f86d-4a58-9dfd-a31e7951e886")
+	)
+	(wire
+		(pts
+			(xy 222.25 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fbc60e-ecf9-415c-a20d-6001f6abb399")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59423ee-f488-4e22-b54c-f0253e7b736f")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e983920d-29d6-41e1-a42d-71a7724b78ee")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed386934-4eff-40d8-ad0e-257fdb8050e5")
+	)
+	(wire
+		(pts
+			(xy 193.04 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee498886-c404-4278-a37e-a606c13de3b6")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 243.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02de25e-5e49-416e-bc02-016673cfd03c")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 228.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d7c999-dd19-4dae-9eb5-182676f8326c")
+	)
+	(wire
+		(pts
+			(xy 228.6 133.35) (xy 336.55 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fb73a2-2fae-4651-b2c1-02d10bcbd6f7")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc38fd30-fbed-4b9a-8c64-8b001bd86cd1")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc022fe-ecb4-4a35-b4e1-84fbc495419e")
+	)
+	(wire
+		(pts
+			(xy 342.9 50.8) (xy 342.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5079b3-1403-43a5-bf75-4d3b2b9f791f")
+	)
+	(text "И"
+		(exclude_from_sim no)
+		(at 62.23 85.09 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "5dcf09b7-cb15-4fc4-9ae6-7dac7c782fb1")
+	)
+	(label "РК"
+		(at 400.05 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "035b6cea-4f2f-40b7-a1b1-a3aacfe6d541")
+		(property "Netclass" "Цепь"
+			(at 400.05 90.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "К"
+		(at 168.91 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "0548d574-ac1c-4fe8-843c-fc1807ab17f2")
+	)
+	(label "РК"
+		(at 304.8 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "16e0eefa-e420-4826-b9fb-7f6880a7d577")
+		(property "Netclass" "Цепь"
+			(at 304.8 103.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ОК"
+		(at 400.05 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b2cfb34-3ba9-4bc1-a0cb-bff08072d58d")
+		(property "Netclass" "Цепь"
+			(at 400.05 71.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ЧППК"
+		(at 107.95 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "517b8b72-4ba5-48b2-9e03-7d47b6eb93ef")
+		(property "Netclass" "Цепь"
+			(at 107.95 100.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ЧПМК"
+		(at 38.1 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5847363d-5fa7-4c30-8fd8-5348b06c8d90")
+		(property "Netclass" "Цепь"
+			(at 38.1 90.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "ОК"
+		(at 304.8 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d2fab5a-ba07-4228-9358-856755c1d73d")
+		(property "Netclass" "Цепь"
+			(at 304.8 122.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ПК"
+		(at 304.8 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d24716f-635e-478c-83a1-e316ed052ffb")
+		(property "Netclass" "Цепь"
+			(at 304.8 65.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ОК"
+		(at 400.05 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c45f6f2-f554-4960-8ec5-f0f625f342cb")
+		(property "Netclass" "Цепь"
+			(at 400.05 109.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ЧОХК"
+		(at 88.9 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d88efb2-7909-4b60-9be0-3b224851a7d0")
+		(property "Netclass" "Цепь"
+			(at 88.9 76.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "Н"
+		(at 148.59 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9e3f398-f5bb-4032-9060-c3b428bc2c1d")
+	)
+	(label "ПК"
+		(at 400.05 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "daad64ea-c333-499e-9ea1-a8169ad1d3a1")
+		(property "Netclass" "Цепь"
+			(at 400.05 52.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ОК"
+		(at 304.8 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6605d2c-fcc2-44a4-bac4-0cb4118e73bc")
+		(property "Netclass" "Цепь"
+			(at 304.8 84.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(label "ЧПХК"
+		(at 38.1 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebbd8458-0c9c-4461-ba9d-81f149e9be74")
+		(property "Netclass" "Цепь"
+			(at 38.1 75.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 368.3 88.9 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bda7bb2-5dc1-46bb-974c-eefe893efdd5")
+		(property "Reference" "Н111111"
+			(at 368.3 98.9 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 363.22 92.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч30-32КВ"
+			(at 368.3 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32e98")
+		)
+		(pin "1"
+			(uuid "b1081319-b679-4d2f-9fa6-741b85fa9905")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9364b")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8e92")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5665")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab475")
+		)
+		(pin "1"
+			(uuid "f5029c38-a8d9-41aa-a93a-bebe2b3f1750")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774ca0")
+		)
+		(pin "2"
+			(uuid "1150aa7e-c917-4ee4-9c97-c5162951708f")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035a2")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645414")
+		)
+		(pin "2"
+			(uuid "2e16420b-e165-4a77-b18a-aeb9b5cfb9e8")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c839")
+		)
+		(pin "2"
+			(uuid "3d5fdfaa-f3dc-45a1-acfb-1b65f78f77e0")
+		)
+		(pin "2"
+			(uuid "cd90db5f-4dba-4c1b-a3fb-0de892588c9a")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f85")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993a1")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c554")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н111111")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 273.05 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf7ef6b-fb30-4234-ab3e-afe8ca4d9d70")
+		(property "Reference" "Н1116"
+			(at 273.05 130.65 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 124.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч26-28КВ"
+			(at 273.05 118.11 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32e99")
+		)
+		(pin "1"
+			(uuid "23f73066-2e80-46c9-8f4b-22c0fc7f6e94")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9364c")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8e93")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5666")
+		)
+		(pin "2"
+			(uuid "d4ce9c5e-721f-497f-b688-ece44230859e")
+		)
+		(pin "1"
+			(uuid "e9e389fb-198d-4159-8fbe-e3e464968c49")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774ca1")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830ec")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035a3")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645415")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a001245d")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c83a")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5906")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80df2")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f86")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993a2")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c555")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1116")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 196.85 82.55 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a09cf1-c5dc-4232-9732-6e58d017b99f")
+		(property "Reference" "Н111"
+			(at 196.85 92.55 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 86.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "4/5Т"
+			(at 196.85 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32e9a")
+		)
+		(pin "1"
+			(uuid "3b12cd93-d535-46db-be1a-cdecc5ff6c89")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9364d")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8e94")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5667")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab476")
+		)
+		(pin "1"
+			(uuid "eb4139c7-3be6-4f93-938a-de25c10a5889")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774ca2")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830ed")
+		)
+		(pin "2"
+			(uuid "16dab78b-3ff1-485c-b121-33f70c0e25b7")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645416")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a001245c")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c83b")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5905")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80df1")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f87")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993a3")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c556")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н111")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 247.65 82.55 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27190582-adaa-46bf-87eb-1a6a36813772")
+		(property "Reference" "Н113"
+			(at 247.65 92.55 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 254 87.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "ЧП7"
+			(at 247.65 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32e9f")
+		)
+		(pin "1"
+			(uuid "23f73066-2e80-46c9-8f4b-22c0fc7f6e95")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93652")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8e99")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b566c")
+		)
+		(pin "2"
+			(uuid "a5edc62a-923d-4ef7-8bc6-5850fb9fa4fb")
+		)
+		(pin "1"
+			(uuid "bb0ff1fa-de6a-467b-959e-abc8ff4d1308")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774ca6")
+		)
+		(pin "2"
+			(uuid "213f6c38-5b0c-47ba-b1b2-66214a93ff01")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035a7")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c364541b")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a0012461")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c840")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5907")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80df3")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f8c")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993a8")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c55b")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н113")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 273.05 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32530540-88b4-4b68-9af7-dc53fd5e524a")
+		(property "Reference" "Н1116"
+			(at 273.05 111.6 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 105.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч26-28КВ"
+			(at 273.05 99.06 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32ea1")
+		)
+		(pin "1"
+			(uuid "b1081319-b679-4d2f-9fa6-741b85fa9906")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93655")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8e9c")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b566f")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab479")
+		)
+		(pin "1"
+			(uuid "1d021d0c-89ff-49c8-ad40-bf1f106e5df3")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774ca9")
+		)
+		(pin "2"
+			(uuid "1150aa7e-c917-4ee4-9c97-c51629517090")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035a9")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c364541e")
+		)
+		(pin "2"
+			(uuid "e555141e-2594-49aa-a911-d46aab1682ba")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c843")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b590e")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80df7")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f8f")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993ab")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c55e")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1116")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 368.3 50.8 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e62ca7-a220-41be-a8c3-2c912ebab88e")
+		(property "Reference" "Н11112"
+			(at 368.3 60.8 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 363.22 54.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч28-30КВ"
+			(at 368.3 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32ea7")
+		)
+		(pin "1"
+			(uuid "b1081319-b679-4d2f-9fa6-741b85fa9907")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9365c")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8ea3")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5676")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab47e")
+		)
+		(pin "1"
+			(uuid "a91a608e-9967-4837-a23c-a9175564133a")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cad")
+		)
+		(pin "2"
+			(uuid "1150aa7e-c917-4ee4-9c97-c51629517091")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035ae")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645425")
+		)
+		(pin "2"
+			(uuid "2e16420b-e165-4a77-b18a-aeb9b5cfb9eb")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c84a")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5914")
+		)
+		(pin "2"
+			(uuid "6ddd59f6-b594-421c-9ff3-b901ee62fd7b")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f96")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993b2")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c565")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н11112")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 368.3 107.95 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da2d1ed-630b-4899-b4dd-32e526a9a3e6")
+		(property "Reference" "Н111212"
+			(at 368.3 117.95 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 363.22 111.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч30-32КВ"
+			(at 368.3 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eab")
+		)
+		(pin "1"
+			(uuid "ca5e2154-148f-44aa-887d-029911f8b00d")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93660")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8ea7")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b567a")
+		)
+		(pin "2"
+			(uuid "d9d6521c-f686-4d08-971d-275ac65d629c")
+		)
+		(pin "1"
+			(uuid "3c4e0891-8110-42e8-a70e-30a3a5f2a158")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cb3")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830ef")
+		)
+		(pin "2"
+			(uuid "ac0b5391-4cdb-4c57-b9b3-bd532f31e7b2")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645428")
+		)
+		(pin "2"
+			(uuid "bee3ce7d-d2c3-4666-97e1-2ba9af74a3fb")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c84e")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5917")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80dfa")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f9a")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993b6")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c569")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н111212")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 368.3 69.85 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8edb0839-03c1-4da8-9cae-318c4f4764af")
+		(property "Reference" "Н11122"
+			(at 368.3 79.85 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 363.22 73.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч28-30КВ"
+			(at 368.3 67.31 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eaf")
+		)
+		(pin "1"
+			(uuid "863269ff-78c5-4c1b-9d34-f993b1a7b31f")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93665")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eac")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b567f")
+		)
+		(pin "2"
+			(uuid "d9d6521c-f686-4d08-971d-275ac65d629e")
+		)
+		(pin "1"
+			(uuid "3c4e0891-8110-42e8-a70e-30a3a5f2a15a")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cb8")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830f1")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035b4")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c364542d")
+		)
+		(pin "2"
+			(uuid "7b04ac2e-debb-462c-8469-b4549cd1bb4b")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c853")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b591b")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80dff")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481f9f")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993bb")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c56e")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н11122")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Blocks:ПТ/ПОБС")
+		(at 107.95 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92fe6ecf-158e-4025-9f2b-3c7d90cc50ab")
+		(property "Reference" "4/5КТ"
+			(at 107.95 58.42 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Value" "ПОБС-3М"
+			(at 107.95 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ccc7a19-048a-4eca-818d-b5ffd812fd59")
+		)
+		(pin "3"
+			(uuid "c6c4748e-43d6-41d4-875a-556700804792")
+		)
+		(pin "2"
+			(uuid "ea044ab2-30e0-4500-abfd-ad8ff8889524")
+		)
+		(pin "7"
+			(uuid "21b7df32-60e6-4369-88ae-cc55befbd230")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "4/5КТ")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device_GOST:C")
+		(at 171.45 101.6 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade1160d-de99-476c-9b87-4b67c64051ca")
+		(property "Reference" "C34"
+			(at 171.45 111.76 90)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "К75-24-1000В"
+			(at 171.45 107.95 90)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 99.695 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 102.235 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82f3a6db-bffe-4769-a619-0977282966fa")
+		)
+		(pin "1"
+			(uuid "8c076100-80c5-497d-a3e4-9c25ba4cea55")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device_GOST:R_5W")
+		(at 146.05 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b664f87e-8293-46b8-91d3-1c55d592b8e4")
+		(property "Reference" "R26"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "39 Ом"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 100.965 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 106.045 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Тип" "C5-35В"
+			(at 146.05 106.68 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f6ba0e16-f622-4ca6-8445-19f812de27bd")
+		)
+		(pin "1"
+			(uuid "48eadb8f-5551-4fae-b014-12f2a6c71461")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 146.05 82.55 0)
+		(mirror y)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7f02f3d-95e1-4942-b275-3b27a55202cf")
+		(property "Reference" "Н1111"
+			(at 146.05 92.55 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 151.13 86.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Н"
+			(at 146.05 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eb2")
+		)
+		(pin "1"
+			(uuid "b28df9b1-48fa-4ac2-a963-afd8cea68b0e")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93668")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eaf")
+		)
+		(pin "3"
+			(uuid "66b1f04c-97bb-4b79-9ffc-ad4ccf1b539b")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab483")
+		)
+		(pin "1"
+			(uuid "eb4139c7-3be6-4f93-938a-de25c10a588d")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cbb")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830f3")
+		)
+		(pin "2"
+			(uuid "91262de8-8f42-4338-8b5b-49d02dc809c6")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c364542f")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a001246b")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c856")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b591e")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80e00")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fa2")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993be")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c571")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1111")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 196.85 63.5 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84b699d-3571-45d2-83c4-e5e5e73566db")
+		(property "Reference" "Н11"
+			(at 196.85 73.5 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 191.77 67.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "4/5Т"
+			(at 196.85 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eb3")
+		)
+		(pin "1"
+			(uuid "8f70e2ac-8b29-4e0f-ad1d-f8e4d1ad3ad6")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93669")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eb0")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5682")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab484")
+		)
+		(pin "1"
+			(uuid "eb4139c7-3be6-4f93-938a-de25c10a5890")
+		)
+		(pin "2"
+			(uuid "ccaad29e-097b-454c-8396-66893aa1f4a9")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830f4")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035b6")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645430")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a001246c")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c857")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b591f")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80e01")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fa3")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993bf")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c572")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н11")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device_GOST:C")
+		(at 171.45 82.55 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d07327-bb33-4202-a39f-d260e96ecf8d")
+		(property "Reference" "C33"
+			(at 171.45 92.71 90)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "К75-24-1000В"
+			(at 171.45 88.9 90)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 83.185 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "939394d4-577a-402d-bfd4-b8670c1d79fb")
+		)
+		(pin "1"
+			(uuid "b0ccd39e-ac39-439d-bab5-4de70549b415")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря_НЗ")
+		(at 64.77 63.5 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdf4ba47-08f3-47a4-b3d8-a35c7fec1e59")
+		(property "Reference" "Н1111111"
+			(at 64.77 73.5 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 68.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч26-32ПП"
+			(at 64.77 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a89ce37-60ce-43c7-aa47-5cd585816606")
+		)
+		(pin "3"
+			(uuid "b78d5059-cb92-4a17-85f5-569bb9577016")
+		)
+		(pin "2"
+			(uuid "ec35d64c-c01e-4b84-ab55-8e4cd89f7605")
+		)
+		(pin "2"
+			(uuid "33db9289-431f-4ae0-8b83-1751f55d48bc")
+		)
+		(pin "1"
+			(uuid "e122bbfa-95e4-41d6-bb4b-4f62c44422e4")
+		)
+		(pin "3"
+			(uuid "37347e19-16ee-4f09-85ea-34f6ab101b9e")
+		)
+		(pin "3"
+			(uuid "f2a93aec-fe71-455c-8d8d-7e40bb6e9faf")
+		)
+		(pin "1"
+			(uuid "31f83950-58f6-4445-a750-676c12b89662")
+		)
+		(pin "2"
+			(uuid "10c1ad90-113c-4706-82d7-1ac761c76f64")
+		)
+		(pin "2"
+			(uuid "1427f566-10db-41b8-b88c-533f71b6994e")
+		)
+		(pin "3"
+			(uuid "2738451a-ee0f-463b-9f35-5f701f829bc1")
+		)
+		(pin "2"
+			(uuid "b81ab729-80d5-417d-ac56-28b444a6c22f")
+		)
+		(pin "3"
+			(uuid "d45b13c1-6880-44f2-980d-e083dea8f967")
+		)
+		(pin "3"
+			(uuid "e356ae64-2e6b-4860-9d67-61c08bb6c7bc")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1111111")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 273.05 82.55 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11ed811-4d1a-4d93-adab-e9ef9c643b63")
+		(property "Reference" "Н1115"
+			(at 273.05 92.55 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 86.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч24-26КВ"
+			(at 273.05 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eb6")
+		)
+		(pin "1"
+			(uuid "368c2c2b-e50b-4be6-aa31-dfe815c0335e")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9366c")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eb3")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5685")
+		)
+		(pin "2"
+			(uuid "a5edc62a-923d-4ef7-8bc6-5850fb9fa500")
+		)
+		(pin "1"
+			(uuid "dd111884-c311-4f08-b7c9-cf14d16054fb")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cbd")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830f7")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035b7")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645433")
+		)
+		(pin "2"
+			(uuid "fd427442-5857-4fa4-add3-475a4879745e")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c85a")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5922")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80e03")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fa6")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993c2")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c575")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1115")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Кодовое")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6da5c0b-bfd3-4bfc-8f52-4383360a853c")
+		(property "Reference" "К1111"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ТЯ-12"
+			(at 63.5 97.79 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.5 94.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.5 94.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "4/5Т"
+			(at 63.5 80.01 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "53eebd2d-92b2-41f4-a002-896e7b8d43c9")
+		)
+		(pin "4"
+			(uuid "73076051-cf2c-4ef0-ba83-6786e66a4cc3")
+		)
+		(pin "1"
+			(uuid "200a576d-add9-4916-838a-b1a68b1689a6")
+		)
+		(pin "4"
+			(uuid "61a3cc48-9520-4e01-9d2c-896dfc0fe750")
+		)
+		(pin "1"
+			(uuid "3a1687cf-b410-4960-bd22-f6e29f9c7924")
+		)
+		(pin "1"
+			(uuid "4282e7a5-9e14-4778-91a7-4fc7c1283a99")
+		)
+		(pin "4"
+			(uuid "5388d077-e2f8-4601-87c7-90608735ee8e")
+		)
+		(pin "1"
+			(uuid "f36f665b-3f58-45f4-be7b-eef0bc4e7536")
+		)
+		(pin "4"
+			(uuid "c059cfbc-a8e8-46dd-8fb4-8e2e602d7b21")
+		)
+		(pin "1"
+			(uuid "6f76567f-427b-4e04-86c4-3f5d22dc480a")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "К1111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 88.9 88.9 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9dc1abf-f578-4633-9fde-54b4d58a3fad")
+		(property "Reference" "Н1111"
+			(at 88.9 98.9 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 95.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "4/5Т"
+			(at 88.9 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32eb8")
+		)
+		(pin "1"
+			(uuid "86805e63-a61f-4a52-bd28-57f1f80f04b4")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e9366e")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eb5")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b5687")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab488")
+		)
+		(pin "1"
+			(uuid "8a06efe2-b956-4f64-93d7-c173daea2eae")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cbf")
+		)
+		(pin "2"
+			(uuid "eb7fe658-3bef-4d99-ad92-5e8281b830f8")
+		)
+		(pin "2"
+			(uuid "d332ab0f-aec7-4065-a513-45816383af54")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645435")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a0012470")
+		)
+		(pin "3"
+			(uuid "93d1c674-d0bf-4625-96ce-931ee9eb18af")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5923")
+		)
+		(pin "2"
+			(uuid "02a26d9a-a3e8-40ce-900d-8f009ed464ae")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fa8")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993c4")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c577")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1111")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device_GOST:L_INDUCTOR")
+		(at 158.75 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9f78526-0950-4d73-bd29-013197699dc8")
+		(property "Reference" "4/5Д"
+			(at 158.75 58.42 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "РОБС-3М"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968dc759-7e83-4fef-97fd-7493bf32339c")
+		)
+		(pin "2"
+			(uuid "1d097fd1-8d10-4dc5-a4e0-d6d801f78b59")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "4/5Д")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 273.05 63.5 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef7468b-3b02-44d1-a0e8-f8baf3f809aa")
+		(property "Reference" "Н1114"
+			(at 273.05 73.5 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 67.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Ч24-26КВ"
+			(at 273.05 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32ebc")
+		)
+		(pin "1"
+			(uuid "3861de1e-dcec-4f07-b00e-2ffddc8d538e")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93672")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8eb9")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b568b")
+		)
+		(pin "2"
+			(uuid "844656e8-d0b9-4853-9114-9710615ab489")
+		)
+		(pin "1"
+			(uuid "eb4139c7-3be6-4f93-938a-de25c10a5892")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cc3")
+		)
+		(pin "2"
+			(uuid "1150aa7e-c917-4ee4-9c97-c51629517095")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035bc")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c3645439")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a0012471")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c85f")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5925")
+		)
+		(pin "2"
+			(uuid "26a65f75-60f3-4294-bb5c-246d941ac8fe")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fac")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993c8")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c57b")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н1114")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCB_Relay:Контакт_нейтрального_якоря")
+		(at 247.65 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f45c2c0c-7dfa-44ef-a8af-6211ab67fc3a")
+		(property "Reference" "Н113"
+			(at 247.65 73.5 0)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 254 68.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "ЧП7"
+			(at 247.65 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8227cbfe-b7a7-414d-b645-de093ee32ebe")
+		)
+		(pin "1"
+			(uuid "3b54abc5-fe4c-42f6-bae3-c1568ad3f54f")
+		)
+		(pin "3"
+			(uuid "8aed1117-bbbd-4c1c-b0df-33a678e93674")
+		)
+		(pin "3"
+			(uuid "63583a2a-06f7-490c-bcf7-f9bd0e9f8ebb")
+		)
+		(pin "3"
+			(uuid "15815e96-53fc-4651-b6b8-fe81f35b568d")
+		)
+		(pin "2"
+			(uuid "ed3ff866-3113-4223-96b7-ba8e23aed2c2")
+		)
+		(pin "1"
+			(uuid "eb4139c7-3be6-4f93-938a-de25c10a5893")
+		)
+		(pin "2"
+			(uuid "b1d92092-a99d-48c4-8f99-c5e69d774cc5")
+		)
+		(pin "2"
+			(uuid "1150aa7e-c917-4ee4-9c97-c51629517096")
+		)
+		(pin "2"
+			(uuid "2d8e77cb-5478-47aa-8607-fdddaae035be")
+		)
+		(pin "3"
+			(uuid "4e4fdb84-00bb-4240-a0ea-2db7c364543b")
+		)
+		(pin "2"
+			(uuid "c3016584-a5f0-4c7d-bbac-6678a0012472")
+		)
+		(pin "3"
+			(uuid "d418b9e4-f5a2-46a9-b760-c6bb28e4c861")
+		)
+		(pin "2"
+			(uuid "ac6d605b-b460-4d7c-aeeb-35c59d6b5926")
+		)
+		(pin "2"
+			(uuid "f7a0b3d2-382a-4e79-b17c-ef20f0a80e07")
+		)
+		(pin "3"
+			(uuid "96273e4c-1a0f-4e9c-9388-684dfc481fae")
+		)
+		(pin "3"
+			(uuid "4bb8e0c6-e4e0-4fac-bc39-2a0d3b5993ca")
+		)
+		(pin "3"
+			(uuid "967456ae-5db9-4463-8535-13837ec7c57d")
+		)
+		(instances
+			(project "Схемы"
+				(path "/ff26046b-0ad3-4329-8350-ed73b36fa86e/f7d67f3b-422e-498d-8476-a584bbf68bbf"
+					(reference "Н113")
+					(unit 3)
+				)
+			)
+		)
+	)
+)
