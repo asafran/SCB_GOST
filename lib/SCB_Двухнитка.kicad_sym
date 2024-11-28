@@ -74,6 +74,17 @@
 				)
 			)
 		)
+		(property "Кодирование1" "К"
+			(at -3.5 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -191,6 +202,42 @@
 				)
 			)
 			(pin passive line
+				(at -5 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 3.5 180)
 				(length 0)
 				(name ""
@@ -204,6 +251,42 @@
 					(effects
 						(font
 							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -464,6 +547,28 @@
 				)
 			)
 		)
+		(property "Кодирование1" "К"
+			(at 8.5 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Кодирование2" "К"
+			(at -3.5 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -625,6 +730,78 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin passive line
+				(at -5 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line
@@ -899,7 +1076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Секция" "М8П"
+		(property "Секция1" "М8П"
 			(at 0 3.5 0)
 			(do_not_autoplace)
 			(effects
@@ -907,6 +1084,17 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Кодирование1" "К"
+			(at 1 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1051,6 +1239,42 @@
 				)
 			)
 			(pin passive line
+				(at 0 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 5 3.5 180)
 				(length 0)
 				(name ""
@@ -1064,6 +1288,42 @@
 					(effects
 						(font
 							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -1321,6 +1581,28 @@
 				(hide yes)
 			)
 		)
+		(property "Кодирование1" "К"
+			(at 9 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Кодирование2" "К"
+			(at 1 -2.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -1507,6 +1789,78 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line
@@ -2086,271 +2440,6 @@
 			)
 		)
 	)
-	(symbol "Питающий_конец_перемен"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "П"
-			(at 4 8 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 4 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 4 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 4 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 4 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Питающий_конец_перемен_0_1"
-			(pin unspecified line
-				(at 0 0 0)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -5 0)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Питающий_конец_перемен_1_1"
-			(rectangle
-				(start 1 5)
-				(end 6 2)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 3.5 3.5)
-				(radius 0.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin unspecified line
-				(at 3.5 2 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.5 5 270)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Питающий_конец_перемен_2_1"
-			(rectangle
-				(start 1 5)
-				(end 11 2)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 3.5 3.5)
-				(radius 0.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 8.5 3.5)
-				(radius 0.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin unspecified line
-				(at 3.5 2 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.5 5 270)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.5 2 90)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 8.5 5 270)
-				(length 0)
-				(name ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.8 1.8)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Привод"
 		(pin_numbers hide)
 		(pin_names
@@ -2465,7 +2554,7 @@
 				(mid 0 -3.5)
 				(end -1.5 -2)
 				(stroke
-					(width -0.0001)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -2549,6 +2638,44 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Путь_0_1"
+			(pin passive line
+				(at -35 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -2935,7 +3062,7 @@
 			)
 		)
 		(symbol "Соединитель_2_1"
-			(unit_name "Тяговый")
+			(unit_name "Сигнальный")
 			(polyline
 				(pts
 					(xy 13 3.5) (xy 17.25 -5)
@@ -2972,7 +3099,7 @@
 			)
 		)
 		(symbol "Соединитель_3_1"
-			(unit_name "Сигнальный")
+			(unit_name "Тяговый")
 			(polyline
 				(pts
 					(xy 13 3.5) (xy 17.25 -5)
@@ -3149,6 +3276,150 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16 4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17 2 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 28 10 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 29 8 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line
@@ -3503,6 +3774,150 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -4 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16 4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 18 2 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -4 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20 -1 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 28 10 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30 8 180)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin unspecified line
@@ -4443,21 +4858,23 @@
 			)
 		)
 		(property "Секция1" "18"
-			(at 14.5 3.5 0)
+			(at 11.5 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 2.5 2.5)
 				)
+				(justify left)
 			)
 		)
 		(property "Секция2" "2П"
-			(at -1.5 3.5 0)
+			(at 1.5 3.5 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 2.5 2.5)
 				)
+				(justify right)
 			)
 		)
 		(property "ki_locked" ""
@@ -4876,6 +5293,71 @@
 							(size 1.8 1.8)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "Ящик_стрелочный-светофорный"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ЯС"
+			(at -4 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at -4 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -4 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -4 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -4 3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Ящик_стрелочный-светофорный_1_1"
+			(rectangle
+				(start -4 3)
+				(end 1 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)

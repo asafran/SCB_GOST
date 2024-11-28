@@ -4048,6 +4048,106 @@
 			)
 		)
 	)
+	(symbol "Пост_ЭЦ"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ЭЦ"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at -7.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -7.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -7.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -7.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Помещение" "Пост ЭЦ"
+			(at 10 -5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(symbol "Пост_ЭЦ_0_1"
+			(rectangle
+				(start -7.5 0)
+				(end 7.5 -10)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5 -2.5) (xy 5 -2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Пост_ЭЦ_1_1"
+			(circle
+				(center 0 -6.25)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+	)
 	(symbol "Предупредительный"
 		(pin_numbers hide)
 		(pin_names
@@ -8240,7 +8340,8 @@
 			)
 		)
 		(property "Шкаф" "РШ"
-			(at 0 5 0)
+			(at 0 6 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 3.5 3.5)
