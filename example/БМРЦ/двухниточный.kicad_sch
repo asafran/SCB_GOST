@@ -1812,7 +1812,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "РШ"
-				(at 0 -4 0)
+				(at 7 0 0)
 				(effects
 					(font
 						(size 1.8 1.8)
@@ -1857,10 +1857,31 @@
 			)
 			(property "Шкаф" "РШ"
 				(at 0 5 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 3.5 3.5)
+						(size 2.5 2.5)
 					)
+				)
+			)
+			(property "Ордината" "(720)"
+				(at 0 -9 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Тип" "ШРУ-М"
+				(at 0 -5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -2068,12 +2089,32 @@
 				)
 			)
 			(property "Шкаф" "БШ"
-				(at 0 6 0)
+				(at 0 5 0)
 				(do_not_autoplace)
 				(effects
 					(font
-						(size 3.5 3.5)
+						(size 2.5 2.5)
 					)
+				)
+			)
+			(property "Ордината" "(720)"
+				(at 0 -5 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Тип" "ШМБ-У"
+				(at 0 -10 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "Ящик_батарейный_0_1"
@@ -16388,7 +16429,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 565 100 0)
 		(unit 1)
@@ -17885,7 +17925,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 430 100 0)
 		(unit 1)
@@ -19211,7 +19250,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 200 100 0)
 		(unit 1)
@@ -19837,7 +19875,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 685 105 0)
 		(unit 1)
@@ -24910,7 +24947,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 170 130 0)
 		(unit 1)
@@ -25987,7 +26023,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 295 100 0)
 		(unit 1)
@@ -26397,7 +26432,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 85.8 156 0)
+			(at 86.36 156 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26442,12 +26477,30 @@
 			)
 		)
 		(property "Шкаф" "БШ"
-			(at 90 162 0)
+			(at 90 161 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
+			)
+		)
+		(property "Ордината" "(720)"
+			(at 90 151 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Тип" "ШМБ-У"
+			(at 90 146 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
 			)
 		)
 		(pin ""
@@ -26932,11 +26985,30 @@
 			)
 		)
 		(property "Шкаф" "РШ"
-			(at 100 162 0)
+			(at 100 161 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
+			)
+		)
+		(property "Ордината" "(720)"
+			(at 100 147 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Тип" "ШРУ-М"
+			(at 100 151 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -27396,7 +27468,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 280 100 0)
 		(unit 1)
@@ -27994,7 +28065,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 550 100 0)
 		(unit 1)
@@ -29388,7 +29458,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
 		(at 415 100 0)
 		(unit 1)
