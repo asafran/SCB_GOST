@@ -8116,7 +8116,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "РШ"
-			(at 0 -4 0)
+			(at 7 0 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -8160,12 +8160,32 @@
 			)
 		)
 		(property "Шкаф" "РШ"
-			(at 0 6 0)
+			(at 0 5 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
+			)
+		)
+		(property "Ордината" "(720)"
+			(at 0 -9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Тип" "ШРУ-М"
+			(at 0 -5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
@@ -8526,12 +8546,32 @@
 			)
 		)
 		(property "Шкаф" "БШ"
-			(at 0 6 0)
+			(at 0 5 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 3.5 3.5)
+					(size 2.5 2.5)
 				)
+			)
+		)
+		(property "Ордината" "(720)"
+			(at 0 -5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Тип" "ШМБ-У"
+			(at 0 -10 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "Ящик_батарейный_0_1"
