@@ -14,9 +14,9 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
 			(property "Reference" "Входной"
 				(at 0 4 0)
 				(effects
@@ -26,7 +26,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "Входной"
 				(at 0 4 0)
 				(effects
 					(font
@@ -4885,6 +4885,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 330 160 0)
 		(unit 1)
@@ -5106,6 +5107,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 208 190 0)
 		(unit 1)
@@ -5179,6 +5181,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная")
 		(lib_id "SCB:Стрелка_спаренная")
 		(at 284 175 0)
 		(unit 1)
@@ -5345,6 +5348,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 157 175 0)
 		(unit 1)
@@ -5640,6 +5644,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 334 130 0)
 		(unit 1)
@@ -5711,6 +5716,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 226 175 0)
 		(unit 1)
@@ -5784,6 +5790,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 350 220 0)
 		(unit 1)
@@ -6045,6 +6052,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 86 160 0)
 		(unit 1)
@@ -6282,6 +6290,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 279 175 0)
 		(unit 1)
@@ -6359,9 +6368,9 @@
 		(at 40 185 0)
 		(mirror y)
 		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a87675-d80f-4cf2-8106-203a59ce3a02")
@@ -6480,6 +6489,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 148 175 0)
 		(mirror y)
@@ -6653,6 +6663,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 313 175 0)
 		(unit 1)
@@ -6801,6 +6812,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 127 205 0)
 		(unit 1)
@@ -6894,6 +6906,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 74 190 0)
 		(unit 1)
@@ -7280,6 +7293,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 249 160 0)
 		(unit 1)
@@ -7467,6 +7481,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 132 190 0)
 		(unit 1)
@@ -7540,6 +7555,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 167 205 0)
 		(unit 1)
@@ -7789,6 +7805,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 350 205 0)
 		(unit 1)
@@ -8049,6 +8066,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 40 190 0)
 		(unit 1)
@@ -8122,6 +8140,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 40 205 0)
 		(unit 1)
@@ -8269,6 +8288,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 294 205 0)
 		(mirror y)
@@ -8363,6 +8383,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 375 160 0)
 		(unit 1)
@@ -8436,6 +8457,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 82 175 0)
 		(unit 1)
@@ -8509,6 +8531,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 190 175 0)
 		(unit 1)
@@ -8601,6 +8624,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 79 190 0)
 		(unit 1)
@@ -8969,6 +8993,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 123 205 0)
 		(unit 1)
@@ -9042,6 +9067,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 307 205 0)
 		(unit 1)
@@ -9431,9 +9457,9 @@
 		(lib_id "SCB:Входной")
 		(at 40 210 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8cf2f4e-e845-41cd-8c97-2eff481ca2ce")
@@ -9698,6 +9724,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 128 160 0)
 		(unit 1)
@@ -9771,6 +9798,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 286 190 0)
 		(unit 1)
@@ -9844,6 +9872,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 290 160 0)
 		(unit 1)
