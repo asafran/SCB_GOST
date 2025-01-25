@@ -4885,7 +4885,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 330 160 0)
 		(unit 1)
@@ -5107,7 +5106,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 208 190 0)
 		(unit 1)
@@ -5181,7 +5179,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная")
 		(lib_id "SCB:Стрелка_спаренная")
 		(at 284 175 0)
 		(unit 1)
@@ -5348,7 +5345,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 157 175 0)
 		(unit 1)
@@ -5644,7 +5640,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 334 130 0)
 		(unit 1)
@@ -5716,7 +5711,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 226 175 0)
 		(unit 1)
@@ -5790,7 +5784,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 350 220 0)
 		(unit 1)
@@ -6052,7 +6045,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 86 160 0)
 		(unit 1)
@@ -6290,7 +6282,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 279 175 0)
 		(unit 1)
@@ -6489,7 +6480,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 148 175 0)
 		(mirror y)
@@ -6663,7 +6653,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 313 175 0)
 		(unit 1)
@@ -6812,7 +6801,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 127 205 0)
 		(unit 1)
@@ -6906,7 +6894,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 74 190 0)
 		(unit 1)
@@ -7293,7 +7280,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 249 160 0)
 		(unit 1)
@@ -7481,7 +7467,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 132 190 0)
 		(unit 1)
@@ -7555,7 +7540,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 167 205 0)
 		(unit 1)
@@ -7805,7 +7789,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 350 205 0)
 		(unit 1)
@@ -8066,7 +8049,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 40 190 0)
 		(unit 1)
@@ -8140,7 +8122,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 40 205 0)
 		(unit 1)
@@ -8288,7 +8269,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 294 205 0)
 		(mirror y)
@@ -8383,7 +8363,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 375 160 0)
 		(unit 1)
@@ -8457,7 +8436,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 82 175 0)
 		(unit 1)
@@ -8531,7 +8509,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 190 175 0)
 		(unit 1)
@@ -8624,7 +8601,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Стрелка_спаренная_15")
 		(lib_id "SCB:Стрелка_спаренная_15")
 		(at 79 190 0)
 		(unit 1)
@@ -8993,7 +8969,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 123 205 0)
 		(unit 1)
@@ -9067,7 +9042,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 307 205 0)
 		(unit 1)
@@ -9724,7 +9698,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 128 160 0)
 		(unit 1)
@@ -9798,7 +9771,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 286 190 0)
 		(unit 1)
@@ -9872,7 +9844,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 290 160 0)
 		(unit 1)
@@ -9941,82 +9912,6 @@
 				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
 					(reference "Изостык16")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 430 270)
-		(size 13 4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "167c6b13-7c09-4296-b6a4-c0246e205ca8")
-		(property "Sheetname" "Двухниточный_план_станции"
-			(at 430 269.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "двухниточный.kicad_sch"
-			(at 430 274.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "БМРЦ"
-				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 430 280)
-		(size 13 4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5d930155-a7a8-4cbe-91e2-d6c250ce3c0c")
-		(property "Sheetname" "Канализация_тягового_тока"
-			(at 430 279.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "канализация.kicad_sch"
-			(at 430 284.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "БМРЦ"
-				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
-					(page "3")
 				)
 			)
 		)
