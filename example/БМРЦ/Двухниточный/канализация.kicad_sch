@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(company "АТ-451")
+		(comment 1 "КП27.02.03.10.000 ГЧ")
 		(comment 2 "Михайлов А.К.")
 		(comment 3 "Ворона В.К.")
 	)
@@ -1897,7 +1898,7 @@
 		)
 		(uuid "15d9d239-54a4-435f-aed5-e23921b56fcc")
 	)
-	(text "М29П"
+	(text "М27П"
 		(exclude_from_sim no)
 		(at 360 75 0)
 		(effects
@@ -2172,7 +2173,7 @@
 		)
 		(uuid "e949c308-080d-4057-8e13-31ef4fcd7735")
 	)
-	(text "М5П"
+	(text "М3П"
 		(exclude_from_sim no)
 		(at 100 135 0)
 		(effects

@@ -1616,7 +1616,7 @@
 			)
 		)
 	)
-	(symbol "Изостыки_бок"
+	(symbol "Изостыки_без_контроля_отв"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -1675,7 +1675,7 @@
 				)
 			)
 		)
-		(symbol "Изостыки_бок_0_1"
+		(symbol "Изостыки_без_контроля_отв_0_1"
 			(polyline
 				(pts
 					(xy -1.5 3) (xy -0.5 1)
@@ -1785,8 +1785,178 @@
 				)
 			)
 		)
-		(symbol "Изостыки_бок_1_1"
-			(unit_name "Негабарит")
+	)
+	(symbol "Изостыки_с_контролем_отв"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Изостыки"
+			(at 0 6 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Изостыки_с_контролем_отв_0_1"
+			(polyline
+				(pts
+					(xy -1.5 3) (xy -0.5 1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5 3.5) (xy -2.5 2.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5 -1) (xy 1.5 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5 1.5) (xy -1.5 0.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.5 -0.5) (xy -0.5 -1.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5 -2.5) (xy 0.5 -3.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -1 2 270)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 1 -2 270)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Изостыки_с_контролем_отв_1_1"
+			(unit_name "С контролем")
 			(circle
 				(center -1 2)
 				(radius 2)

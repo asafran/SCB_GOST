@@ -3,9 +3,10 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "c1fee4cc-f523-47ad-b173-005c42d1774f")
-	(paper "User" 740 297)
+	(paper "User" 800 297)
 	(title_block
 		(company "АТ-451")
+		(comment 1 "КП27.02.03.10.000 ГЧ")
 		(comment 2 "Михайлов А.К.")
 		(comment 3 "Ворона В.К.")
 	)
@@ -3051,7 +3052,7 @@
 				)
 			)
 		)
-		(symbol "SCB_Двухнитка:Изостыки_бок"
+		(symbol "SCB_Двухнитка:Изостыки_без_контроля_отв"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -3110,7 +3111,7 @@
 					)
 				)
 			)
-			(symbol "Изостыки_бок_0_1"
+			(symbol "Изостыки_без_контроля_отв_0_1"
 				(polyline
 					(pts
 						(xy -1.5 3) (xy -0.5 1)
@@ -3217,31 +3218,6 @@
 								(size 1.8 1.8)
 							)
 						)
-					)
-				)
-			)
-			(symbol "Изостыки_бок_1_1"
-				(unit_name "Негабарит")
-				(circle
-					(center -1 2)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1 -2)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -5838,7 +5814,7 @@
 		(uuid "048f96d6-4c50-4c27-9731-9805bc4e9ee9")
 	)
 	(junction
-		(at 603 155)
+		(at 660 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "058977e0-f8dc-4a8a-bf88-c25609224673")
@@ -5862,7 +5838,7 @@
 		(uuid "09462df2-2e1e-4944-aa90-51c7438f77c1")
 	)
 	(junction
-		(at 255 135)
+		(at 270 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c9d7a70-2bea-4de6-ac58-f7a035792828")
@@ -5874,13 +5850,19 @@
 		(uuid "1102ef04-6b1a-4db2-a170-2cb37d10ad46")
 	)
 	(junction
-		(at 568 170)
+		(at 625 170)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118fdb8c-c9d5-4a2f-a376-9a228938903b")
 	)
 	(junction
-		(at 666 60)
+		(at 560 130)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11f58f44-d86f-45fd-bb67-be019fbb6b55")
+	)
+	(junction
+		(at 723 60)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12daf21a-c5cb-4d82-8ee7-33f0f3211bea")
@@ -5892,13 +5874,13 @@
 		(uuid "1526b16f-cbb7-4c6b-9757-19ae5aaf9ed0")
 	)
 	(junction
-		(at 550 105)
+		(at 607 105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "157c06fc-63ee-4781-b524-2095e6612ba7")
 	)
 	(junction
-		(at 720 105)
+		(at 777 105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15bd4e21-c68e-4f4c-958f-eb4cc4616ea0")
@@ -5916,22 +5898,16 @@
 		(uuid "1907c9f6-4536-4b01-8c50-1e1c3d30607d")
 	)
 	(junction
-		(at 540 160)
+		(at 597 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c21b82b-d062-47dd-9617-4eaf99a3d5ae")
 	)
 	(junction
-		(at 585 80)
+		(at 642 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c9bf01c-b02b-437c-bb47-8681c88c995d")
-	)
-	(junction
-		(at 495 155)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d1ec258-7e7c-4df0-ba5c-8eead84c794a")
 	)
 	(junction
 		(at 260 80)
@@ -5940,7 +5916,7 @@
 		(uuid "1d24c8fd-048a-4221-9994-ae1aba9152ed")
 	)
 	(junction
-		(at 720 160)
+		(at 777 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d272659-d156-4547-9fa5-43dd6dfa6d7f")
@@ -5958,43 +5934,37 @@
 		(uuid "2372ecc3-8f80-48d8-8b4c-f14ca73a7571")
 	)
 	(junction
-		(at 720 85)
+		(at 777 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "250eac3d-2e9e-4988-b5a6-7dec8374a9d5")
 	)
 	(junction
-		(at 540 155)
+		(at 597 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2578cc63-fa0a-450d-b6f4-40cd65e4c1ef")
 	)
 	(junction
-		(at 656 80)
+		(at 713 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27280b92-51a6-41c4-898c-9523bf92ab60")
 	)
 	(junction
-		(at 656 85)
+		(at 713 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "288dd9f6-debe-44c6-9d7f-af10779c5581")
 	)
 	(junction
-		(at 570 168)
+		(at 627 168)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29285243-421d-45dd-b268-866e8d2a10e8")
 	)
 	(junction
-		(at 480 135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2af14c3d-6146-48e8-9864-a6b5f7b64620")
-	)
-	(junction
-		(at 263.5 130)
+		(at 278.5 130)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c3b725a-3d27-448e-ae29-d0d2055f0b8c")
@@ -6006,25 +5976,19 @@
 		(uuid "2d13c0eb-6c27-49ff-8fea-1b5241a411f1")
 	)
 	(junction
-		(at 488.5 135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ec83f8e-b4ab-4525-9256-056461733b9d")
-	)
-	(junction
 		(at 113 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fa92bef-2c35-4230-a391-bab663c58f7b")
 	)
 	(junction
-		(at 720 35)
+		(at 777 35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fe4b2de-c327-476c-9994-b9be1b9c15b1")
 	)
 	(junction
-		(at 690 155)
+		(at 747 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32be852c-9bca-4abe-9cac-fb18ea6f3b56")
@@ -6036,16 +6000,22 @@
 		(uuid "34ac9e1a-4c69-428a-a7fb-a356f0c7f672")
 	)
 	(junction
-		(at 550 110)
+		(at 607 110)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b7ccea6-ff45-4650-aa97-6eddf0af4d79")
 	)
 	(junction
-		(at 506.5 160)
+		(at 563.5 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec133b1-6b6e-40af-884d-ce99efb497c8")
+	)
+	(junction
+		(at 495 155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3efae518-51ec-47ba-87f1-7241f268d6e0")
 	)
 	(junction
 		(at 208.5 80)
@@ -6060,22 +6030,22 @@
 		(uuid "427f4060-4142-47ab-af27-d4a0ad577d9e")
 	)
 	(junction
-		(at 485 110)
+		(at 542 110)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42a0f713-91b1-4324-9389-c5b470f5f0a0")
 	)
 	(junction
-		(at 547 80)
+		(at 565 80)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42a99cc9-d6c6-4826-a0cf-68823924d2f0")
+	)
+	(junction
+		(at 604 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44829a3c-3bed-4f2e-89cb-98e9ca8fc192")
-	)
-	(junction
-		(at 480 130)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48a8e6ac-3fb2-44ba-8460-cbcd5a15838b")
 	)
 	(junction
 		(at 393 135)
@@ -6096,7 +6066,7 @@
 		(uuid "4da89fce-f3bd-4f41-bb82-2db28c888928")
 	)
 	(junction
-		(at 547 85)
+		(at 604 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ff42f21-f675-492b-9871-3a337ae7e809")
@@ -6114,28 +6084,16 @@
 		(uuid "5031a056-9bf6-40fb-ae67-241d2b37a563")
 	)
 	(junction
-		(at 498 85)
+		(at 568.5 135)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52e05f82-c96b-4834-a8c8-e1e483dbdf78")
+		(uuid "54919ec3-e9bd-4bb7-81f9-425115fb67e4")
 	)
 	(junction
 		(at 465 143)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "565a64b9-d508-4a0a-9c41-3f0a182ce6cb")
-	)
-	(junction
-		(at 498 80)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5711bf6d-c3d4-4a56-ab62-49506d11ea98")
-	)
-	(junction
-		(at 509 80)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5892d3ba-fa74-4f16-a64e-395ae34117e9")
 	)
 	(junction
 		(at 476 110)
@@ -6150,16 +6108,10 @@
 		(uuid "5a0d9c75-f1c8-46ec-84bb-aa70ed7370f7")
 	)
 	(junction
-		(at 614 185)
+		(at 671 185)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae6d305-156d-4864-9767-2f55644d4d08")
-	)
-	(junction
-		(at 471.5 135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e9d9e46-b7c1-4b98-a4c2-40dcd4920b66")
 	)
 	(junction
 		(at 328.5 160)
@@ -6174,13 +6126,13 @@
 		(uuid "5f7c62aa-37d1-4453-afe2-ee4eceba9ee4")
 	)
 	(junction
-		(at 720 55)
+		(at 777 55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fbbaf3e-8349-4da3-9c3b-bfb77206c8a3")
 	)
 	(junction
-		(at 560 85)
+		(at 617 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60757441-24b1-4844-921a-60fd81b9cc92")
@@ -6198,13 +6150,19 @@
 		(uuid "6211ab28-faf3-4bcc-91b7-6efd115bf934")
 	)
 	(junction
+		(at 551.5 130)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621736d6-4bd0-4d63-9f3b-3c81282b496e")
+	)
+	(junction
 		(at 243 97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62e2330a-63ff-44c0-a422-aab0edd3fcf5")
 	)
 	(junction
-		(at 585 85)
+		(at 642 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632cde85-2711-45a0-b4e0-469dbad61333")
@@ -6216,25 +6174,19 @@
 		(uuid "63cbd7a9-4b4f-4ff5-96c8-a21f4f2e5da9")
 	)
 	(junction
-		(at 488.5 130)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6429d74c-82aa-47aa-9a8b-7f51de2ee6b9")
-	)
-	(junction
 		(at 173.5 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a5539f-b4e5-46c4-8e62-d8b52388bef8")
 	)
 	(junction
-		(at 720 180)
+		(at 777 180)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6549674f-7ac6-403e-a423-99b7722c9671")
 	)
 	(junction
-		(at 515 155)
+		(at 572 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65a8b645-c10f-4f4b-9f2f-54e6c81f06b3")
@@ -6282,7 +6234,7 @@
 		(uuid "69554b0e-2476-4c80-ad2d-5b1491606900")
 	)
 	(junction
-		(at 246.5 135)
+		(at 261.5 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a31ccf7-2d45-446f-97d2-2a89a705f165")
@@ -6330,13 +6282,13 @@
 		(uuid "70b02c3e-99d2-4dd9-a6de-b89d42e3728a")
 	)
 	(junction
-		(at 655 55)
+		(at 712 55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7253e9b7-9938-4767-91ef-3eee897172c7")
 	)
 	(junction
-		(at 655 60)
+		(at 712 60)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "730d908e-d633-40cb-9f7c-7c685f49a14e")
@@ -6348,7 +6300,7 @@
 		(uuid "755b6b41-5525-41ef-8a58-a28b17400be3")
 	)
 	(junction
-		(at 720 80)
+		(at 777 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7742c791-bd53-458a-a274-cb607290366b")
@@ -6360,19 +6312,19 @@
 		(uuid "77d23b29-395d-4a87-9af0-39448286c57f")
 	)
 	(junction
-		(at 561 110)
+		(at 618 110)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "784230b5-9bc5-4019-afb7-1fe372f3a111")
 	)
 	(junction
-		(at 614 180)
+		(at 671 180)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bd53cee-fb3d-4ebf-a822-80960ad0b46e")
 	)
 	(junction
-		(at 720 30)
+		(at 777 30)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c18ee67-7747-4f60-ad7d-891ff92082c1")
@@ -6390,37 +6342,31 @@
 		(uuid "7c23cd36-7f54-4e46-aab2-edb11ac497e2")
 	)
 	(junction
-		(at 471.5 130)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cbc5564-5604-4825-8e37-3c885e9d9257")
-	)
-	(junction
-		(at 246.5 130)
+		(at 261.5 130)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d07249f-5c28-4b68-ac5b-d3ac4e3bcee0")
 	)
 	(junction
-		(at 611.5 155)
+		(at 668.5 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d35d62c-c474-4370-a526-cbfad16ed2a7")
 	)
 	(junction
-		(at 690 105)
+		(at 747 105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e5762b8-f545-4c8d-a6f3-276b80b5a0bf")
 	)
 	(junction
-		(at 690 185)
+		(at 747 185)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e594f57-40a8-4db4-9915-fc0274f80830")
 	)
 	(junction
-		(at 603 160)
+		(at 660 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e9cb54b-4337-4711-b079-e240ba2a34b7")
@@ -6438,16 +6384,10 @@
 		(uuid "8084c6b0-b547-4227-acce-becb986627c8")
 	)
 	(junction
-		(at 645 80)
+		(at 702 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82765f63-3a44-46af-8b82-0588aa3bef15")
-	)
-	(junction
-		(at 495 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84cb0dbe-95ca-4928-a9ad-3d818cd84dce")
 	)
 	(junction
 		(at 156.5 135)
@@ -6456,7 +6396,7 @@
 		(uuid "8500f0b0-cbef-442f-a7ba-6f243e1bb26b")
 	)
 	(junction
-		(at 594.5 155)
+		(at 651.5 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "870cd6d6-59a7-4d03-8b78-cbde41d17e2d")
@@ -6480,13 +6420,13 @@
 		(uuid "8b3a113e-1cef-4926-a7a3-e6c9ebea78fb")
 	)
 	(junction
-		(at 517 97)
+		(at 574 97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b44f41c-5831-4af5-8b79-0c410b14404e")
 	)
 	(junction
-		(at 611.5 160)
+		(at 668.5 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c5de1cf-1252-4700-89f6-4bf35f71886d")
@@ -6510,7 +6450,7 @@
 		(uuid "8cc1dc27-b086-4b1d-b4b3-4cb9048b43d4")
 	)
 	(junction
-		(at 690 80)
+		(at 747 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8daee5db-c605-4772-8cfb-5545b884e6d4")
@@ -6540,13 +6480,25 @@
 		(uuid "99cb3369-504f-487a-a9d7-4bfb1ea26f22")
 	)
 	(junction
-		(at 666 55)
+		(at 574 80)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a71f31c-781b-42bf-801f-e10a2a05da07")
+	)
+	(junction
+		(at 723 55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b117a69-1322-4c1f-8e77-324132c995ea")
 	)
 	(junction
-		(at 720 135)
+		(at 551.5 135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4a3c52-2c39-4396-b56b-78a7c86e3aaf")
+	)
+	(junction
+		(at 777 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b4f5a46-dc2e-4832-b08d-2babc88a50ce")
@@ -6564,7 +6516,13 @@
 		(uuid "9dae82d6-1e99-4b8a-97d3-4deede52237f")
 	)
 	(junction
-		(at 523.5 160)
+		(at 560 135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed731f1-e822-4c70-ab5b-17c24e226f31")
+	)
+	(junction
+		(at 580.5 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ff8b0c3-9b3c-4b87-b9d8-b4ae49746858")
@@ -6594,13 +6552,19 @@
 		(uuid "a5c720b8-dbfc-46a3-81f8-8a6e2cce342f")
 	)
 	(junction
-		(at 523.5 155)
+		(at 495 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e85ae7-bc1c-4ff1-a97f-21279db896f1")
+	)
+	(junction
+		(at 580.5 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6e9a87e-2088-497e-9fdc-a9f894a2d5a2")
 	)
 	(junction
-		(at 506.5 155)
+		(at 563.5 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7152f61-50e3-4a0a-9857-a69cd69b5cf8")
@@ -6618,13 +6582,13 @@
 		(uuid "aaba0997-e48e-4208-87e0-2c4d9021349c")
 	)
 	(junction
-		(at 690 180)
+		(at 747 180)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abba807d-29fa-4353-a0a4-2c4faf0c5a52")
 	)
 	(junction
-		(at 255 130)
+		(at 270 130)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9b00fd-0179-46a1-8f9a-f419e2fcf1f4")
@@ -6642,7 +6606,7 @@
 		(uuid "b08e530c-8bd7-414e-b565-38b8d451d1e3")
 	)
 	(junction
-		(at 485 105)
+		(at 542 105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2ba7b3f-0f23-45a2-8052-38a977898a65")
@@ -6684,7 +6648,7 @@
 		(uuid "ba43b6f2-3e1a-40ef-a7d1-3ed36bdbd00e")
 	)
 	(junction
-		(at 645 85)
+		(at 702 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba470855-a096-41e9-b867-b8ff8925fc59")
@@ -6702,37 +6666,37 @@
 		(uuid "bd8a6b2f-0d9f-4bd2-8bc4-857903e4f10b")
 	)
 	(junction
-		(at 515 93)
+		(at 572 93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdde7387-9645-4e32-8501-bbf021dcd227")
 	)
 	(junction
-		(at 720 60)
+		(at 777 60)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be80c7c3-a1e2-4e16-bb58-5f61f3f3fa9a")
 	)
 	(junction
-		(at 690 160)
+		(at 747 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c05e5d7d-c759-4dbe-a338-26a408126319")
 	)
 	(junction
-		(at 560 80)
+		(at 617 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16c1431-e27c-4178-ada7-8e0ed7b63ee2")
 	)
 	(junction
-		(at 571 85)
+		(at 628 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1819cf3-8786-412c-9ec3-bd9db1a0acc7")
 	)
 	(junction
-		(at 603 180)
+		(at 660 180)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2849670-e614-43b8-a485-e2ed260bcebb")
@@ -6762,7 +6726,7 @@
 		(uuid "c9ed1890-329c-427e-a91b-9db0aabc861c")
 	)
 	(junction
-		(at 690 85)
+		(at 747 85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc44d31d-6f8a-4758-bca6-d86cbe1cd56f")
@@ -6786,7 +6750,7 @@
 		(uuid "d3510975-4741-4392-8e36-ca4eb9476e9c")
 	)
 	(junction
-		(at 720 130)
+		(at 777 130)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4cdf437-e207-4d91-8db4-8d0a6b781187")
@@ -6804,7 +6768,7 @@
 		(uuid "d51b6058-f2e1-4537-aa5e-f22af8b309eb")
 	)
 	(junction
-		(at 690 135)
+		(at 747 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5b4e838-a376-430e-9416-e957e460f0e5")
@@ -6816,13 +6780,13 @@
 		(uuid "d6eb9322-0c5f-463c-ba7b-9a5a81c1a7aa")
 	)
 	(junction
-		(at 515 160)
+		(at 572 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d71a9c4e-ce21-4322-8bb5-8eb6967bc474")
 	)
 	(junction
-		(at 720 110)
+		(at 777 110)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddcba67b-294a-4012-bdbb-d2a3ccc3db8a")
@@ -6834,10 +6798,16 @@
 		(uuid "e4fd4165-8b2d-46cc-bac9-d3471d7f285f")
 	)
 	(junction
-		(at 690 130)
+		(at 747 130)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6a459a9-3d05-4ec0-a97b-f1fc4d52c557")
+	)
+	(junction
+		(at 568.5 130)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9339fcf-fd50-4b0e-a649-65f77cd4b1ec")
 	)
 	(junction
 		(at 388.5 135)
@@ -6864,7 +6834,7 @@
 		(uuid "ec42ce98-e764-4a0e-999d-7c6d90eca91c")
 	)
 	(junction
-		(at 720 185)
+		(at 777 185)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc2660e-7f8c-4180-a168-0d60a6afb6b0")
@@ -6882,7 +6852,7 @@
 		(uuid "ecfd4a7e-9871-49f1-a210-1de0d2b0e5b8")
 	)
 	(junction
-		(at 603 185)
+		(at 660 185)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed1ff18b-b9d0-40fb-9631-cb7c60639e78")
@@ -6894,13 +6864,19 @@
 		(uuid "ed94b0e2-66e4-4939-b22b-4a794cdd55d2")
 	)
 	(junction
-		(at 720 155)
+		(at 777 155)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edddace9-81aa-4939-8da0-c5f023388cdb")
 	)
 	(junction
-		(at 263.5 135)
+		(at 565 85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4a89eb-8f28-4d1c-8aec-e1ec624e9fb7")
+	)
+	(junction
+		(at 278.5 135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0ac0d3c-8a3e-405b-b178-fe7df46dc041")
@@ -6924,7 +6900,7 @@
 		(uuid "f27f35bf-e52e-46ea-8219-b6adc237d040")
 	)
 	(junction
-		(at 571 80)
+		(at 628 80)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35e2293-41fa-4585-997a-6f530f6e0d57")
@@ -6942,7 +6918,7 @@
 		(uuid "f61f40a3-3a29-4f95-ab1c-d3ab51955b80")
 	)
 	(junction
-		(at 594.5 160)
+		(at 651.5 160)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f748f880-5d97-40fc-b0bf-8eaca4932f31")
@@ -6954,7 +6930,7 @@
 		(uuid "f7515c8c-b7d1-4fd7-8d87-c944f8d76143")
 	)
 	(junction
-		(at 690 110)
+		(at 747 110)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7d8760c-b11d-4fd0-b308-b9eabad8a01c")
@@ -6966,7 +6942,7 @@
 		(uuid "f826dc2f-c7e1-452c-b559-8e8b046dc37e")
 	)
 	(junction
-		(at 561 105)
+		(at 618 105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f852cb90-9612-485b-bd10-601e2fd0315c")
@@ -7018,12 +6994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc780f63-c13a-44d3-997f-85b7685f8b10")
-	)
-	(junction
-		(at 509 85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcc1f487-c06b-4ad7-a4cf-784d1005f58d")
 	)
 	(junction
 		(at 215 122)
@@ -7083,7 +7053,7 @@
 	)
 	(wire
 		(pts
-			(xy 527 84) (xy 503 84)
+			(xy 584 84) (xy 570 84)
 		)
 		(stroke
 			(width 0)
@@ -7093,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 596 184) (xy 598 184)
+			(xy 653 184) (xy 655 184)
 		)
 		(stroke
 			(width 0)
@@ -7133,7 +7103,7 @@
 	)
 	(wire
 		(pts
-			(xy 710 134) (xy 730 134)
+			(xy 767 134) (xy 787 134)
 		)
 		(stroke
 			(width 0)
@@ -7143,7 +7113,7 @@
 	)
 	(wire
 		(pts
-			(xy 547 85) (xy 560 85)
+			(xy 604 85) (xy 617 85)
 		)
 		(stroke
 			(width 0.5)
@@ -7163,7 +7133,7 @@
 	)
 	(wire
 		(pts
-			(xy 560 159) (xy 598 159)
+			(xy 617 159) (xy 655 159)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +7163,7 @@
 	)
 	(wire
 		(pts
-			(xy 255 130) (xy 263.5 130)
+			(xy 270 130) (xy 278.5 130)
 		)
 		(stroke
 			(width 0)
@@ -7203,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 485 109) (xy 470 109)
+			(xy 542 109) (xy 470 109)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 596 181) (xy 570 168)
+			(xy 653 181) (xy 627 168)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7233,7 @@
 	)
 	(wire
 		(pts
-			(xy 515 160) (xy 523.5 160)
+			(xy 572 160) (xy 580.5 160)
 		)
 		(stroke
 			(width 0)
@@ -7283,7 +7253,7 @@
 	)
 	(wire
 		(pts
-			(xy 710 106) (xy 730 106)
+			(xy 767 106) (xy 787 106)
 		)
 		(stroke
 			(width 0)
@@ -7293,7 +7263,7 @@
 	)
 	(wire
 		(pts
-			(xy 561 105) (xy 690 105)
+			(xy 618 105) (xy 747 105)
 		)
 		(stroke
 			(width 0)
@@ -7303,7 +7273,7 @@
 	)
 	(wire
 		(pts
-			(xy 203 134) (xy 250 134)
+			(xy 203 134) (xy 265 134)
 		)
 		(stroke
 			(width 0)
@@ -7363,7 +7333,7 @@
 	)
 	(wire
 		(pts
-			(xy 570 160) (xy 594.5 160)
+			(xy 627 160) (xy 651.5 160)
 		)
 		(stroke
 			(width 0)
@@ -7403,7 +7373,7 @@
 	)
 	(polyline
 		(pts
-			(xy 701 210.5) (xy 700 212)
+			(xy 758 210.5) (xy 757 212)
 		)
 		(stroke
 			(width 0)
@@ -7423,17 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 495 159) (xy 510 159)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "13f4b2af-84d8-4393-a6d2-8a3d525c4044")
-	)
-	(wire
-		(pts
-			(xy 555 84) (xy 547 84)
+			(xy 612 84) (xy 604 84)
 		)
 		(stroke
 			(width 0)
@@ -7453,7 +7413,7 @@
 	)
 	(wire
 		(pts
-			(xy 520 159) (xy 540 159)
+			(xy 577 159) (xy 597 159)
 		)
 		(stroke
 			(width 0)
@@ -7463,7 +7423,7 @@
 	)
 	(wire
 		(pts
-			(xy 550 110) (xy 561 110)
+			(xy 607 110) (xy 618 110)
 		)
 		(stroke
 			(width 0.5)
@@ -7633,23 +7593,13 @@
 	)
 	(wire
 		(pts
-			(xy 594.5 155) (xy 603 155)
+			(xy 651.5 155) (xy 660 155)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20592612-ccfa-40fd-8c10-5e41246a482c")
-	)
-	(wire
-		(pts
-			(xy 488.5 135) (xy 690 135)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "20c15c1e-e9b0-45b6-999b-2ddc8ada0684")
 	)
 	(wire
 		(pts
@@ -7693,7 +7643,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 130) (xy 730 130)
+			(xy 777 130) (xy 787 130)
 		)
 		(stroke
 			(width 0)
@@ -7723,16 +7673,6 @@
 	)
 	(wire
 		(pts
-			(xy 498 80) (xy 509 80)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "251cc231-d3ad-4d73-8612-5c679c9cc037")
-	)
-	(wire
-		(pts
 			(xy 80 110) (xy 190 110)
 		)
 		(stroke
@@ -7740,16 +7680,6 @@
 			(type default)
 		)
 		(uuid "25b07d0d-8163-4aa6-8747-ea69f87aef6a")
-	)
-	(wire
-		(pts
-			(xy 495 160) (xy 506.5 160)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "25d00eb3-a5be-41ff-bc03-dbe9c082a8c7")
 	)
 	(polyline
 		(pts
@@ -7763,17 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 509 80) (xy 517 80)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262e5ac7-310f-4cf3-8370-edcf2c730685")
-	)
-	(wire
-		(pts
-			(xy 213 130) (xy 246.5 130)
+			(xy 213 130) (xy 261.5 130)
 		)
 		(stroke
 			(width 0.5)
@@ -7783,7 +7703,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 105) (xy 730 105)
+			(xy 777 105) (xy 787 105)
 		)
 		(stroke
 			(width 0)
@@ -7823,7 +7743,7 @@
 	)
 	(wire
 		(pts
-			(xy 700 70) (xy 700 72)
+			(xy 757 70) (xy 757 72)
 		)
 		(stroke
 			(width 0)
@@ -7883,13 +7803,23 @@
 	)
 	(wire
 		(pts
-			(xy 503 81) (xy 527 81)
+			(xy 570 81) (xy 584 81)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "2d5deff4-c7bc-4f75-b633-ab2ec935e398")
+	)
+	(wire
+		(pts
+			(xy 568.5 135) (xy 747 135)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "2d7abce4-940b-42bf-bcb7-15c47f2e40ad")
 	)
 	(wire
 		(pts
@@ -7933,7 +7863,7 @@
 	)
 	(polyline
 		(pts
-			(xy 703 200) (xy 700 212)
+			(xy 760 200) (xy 757 212)
 		)
 		(stroke
 			(width 0)
@@ -7943,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 260 131) (xy 307 131)
+			(xy 275 131) (xy 307 131)
 		)
 		(stroke
 			(width 0)
@@ -7953,23 +7883,23 @@
 	)
 	(wire
 		(pts
-			(xy 495 65) (xy 491 65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3025d792-fabd-4fa9-b3ab-306375261aa8")
-	)
-	(wire
-		(pts
-			(xy 560 85) (xy 571 85)
+			(xy 617 85) (xy 628 85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "304271a9-4a0d-4dd0-869e-d3270ecb3b81")
+	)
+	(wire
+		(pts
+			(xy 576 80) (xy 574 80)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3099351f-cb12-4908-9f50-7440e780d8fc")
 	)
 	(wire
 		(pts
@@ -7983,13 +7913,23 @@
 	)
 	(wire
 		(pts
-			(xy 710 181) (xy 730 181)
+			(xy 767 181) (xy 787 181)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "3166f417-3239-44f5-898d-797529b12bf4")
+	)
+	(wire
+		(pts
+			(xy 560 130) (xy 568.5 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320e5119-ce78-4343-bbcd-3bbe31fa055c")
 	)
 	(wire
 		(pts
@@ -8013,7 +7953,7 @@
 	)
 	(wire
 		(pts
-			(xy 476 105) (xy 485 105)
+			(xy 476 105) (xy 542 105)
 		)
 		(stroke
 			(width 0.5)
@@ -8033,7 +7973,7 @@
 	)
 	(wire
 		(pts
-			(xy 710 109) (xy 730 109)
+			(xy 767 109) (xy 787 109)
 		)
 		(stroke
 			(width 0)
@@ -8043,7 +7983,7 @@
 	)
 	(wire
 		(pts
-			(xy 615 85) (xy 645 85)
+			(xy 672 85) (xy 702 85)
 		)
 		(stroke
 			(width 0)
@@ -8063,17 +8003,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.5 130) (xy 480 130)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "3896bde1-8c66-44c7-96d1-b5a25d352305")
-	)
-	(wire
-		(pts
-			(xy 501 101) (xy 513 95)
+			(xy 558 101) (xy 570 95)
 		)
 		(stroke
 			(width 0)
@@ -8093,7 +8023,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 180) (xy 720 180)
+			(xy 747 180) (xy 777 180)
 		)
 		(stroke
 			(width 0.5)
@@ -8103,7 +8033,17 @@
 	)
 	(wire
 		(pts
-			(xy 710 156) (xy 730 156)
+			(xy 463 135) (xy 551.5 135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393898d2-666f-48ad-a005-bc566ab7eeed")
+	)
+	(wire
+		(pts
+			(xy 767 156) (xy 787 156)
 		)
 		(stroke
 			(width 0)
@@ -8123,7 +8063,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 130) (xy 720 130)
+			(xy 747 130) (xy 777 130)
 		)
 		(stroke
 			(width 0)
@@ -8143,7 +8083,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 110) (xy 730 110)
+			(xy 777 110) (xy 787 110)
 		)
 		(stroke
 			(width 0.5)
@@ -8193,7 +8133,7 @@
 	)
 	(wire
 		(pts
-			(xy 535 65) (xy 540 65)
+			(xy 592 65) (xy 597 65)
 		)
 		(stroke
 			(width 0)
@@ -8203,7 +8143,7 @@
 	)
 	(wire
 		(pts
-			(xy 603 155) (xy 611.5 155)
+			(xy 660 155) (xy 668.5 155)
 		)
 		(stroke
 			(width 0)
@@ -8243,7 +8183,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 135) (xy 720 135)
+			(xy 747 135) (xy 777 135)
 		)
 		(stroke
 			(width 0.5)
@@ -8263,7 +8203,7 @@
 	)
 	(wire
 		(pts
-			(xy 505 106) (xy 545 106)
+			(xy 562 106) (xy 602 106)
 		)
 		(stroke
 			(width 0)
@@ -8343,7 +8283,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.5 160) (xy 603 160)
+			(xy 651.5 160) (xy 660 160)
 		)
 		(stroke
 			(width 0)
@@ -8363,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 515 97) (xy 503 103)
+			(xy 572 97) (xy 560 103)
 		)
 		(stroke
 			(width 0)
@@ -8373,7 +8313,7 @@
 	)
 	(wire
 		(pts
-			(xy 515 155) (xy 523.5 155)
+			(xy 572 155) (xy 580.5 155)
 		)
 		(stroke
 			(width 0.5)
@@ -8403,7 +8343,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.5 155) (xy 603 155)
+			(xy 651.5 155) (xy 660 155)
 		)
 		(stroke
 			(width 0.5)
@@ -8433,7 +8373,7 @@
 	)
 	(wire
 		(pts
-			(xy 655 60) (xy 666 60)
+			(xy 712 60) (xy 723 60)
 		)
 		(stroke
 			(width 0)
@@ -8443,7 +8383,7 @@
 	)
 	(wire
 		(pts
-			(xy 515 105) (xy 550 105)
+			(xy 572 105) (xy 607 105)
 		)
 		(stroke
 			(width 0.5)
@@ -8453,7 +8393,7 @@
 	)
 	(wire
 		(pts
-			(xy 470 85) (xy 498 85)
+			(xy 470 85) (xy 565 85)
 		)
 		(stroke
 			(width 0)
@@ -8473,7 +8413,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.5 155) (xy 540 155)
+			(xy 580.5 155) (xy 597 155)
 		)
 		(stroke
 			(width 0.5)
@@ -8483,7 +8423,7 @@
 	)
 	(wire
 		(pts
-			(xy 523.5 160) (xy 540 160)
+			(xy 580.5 160) (xy 597 160)
 		)
 		(stroke
 			(width 0)
@@ -8533,7 +8473,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 185) (xy 720 185)
+			(xy 747 185) (xy 777 185)
 		)
 		(stroke
 			(width 0)
@@ -8543,7 +8483,7 @@
 	)
 	(wire
 		(pts
-			(xy 555 81) (xy 547 81)
+			(xy 612 81) (xy 604 81)
 		)
 		(stroke
 			(width 0)
@@ -8563,7 +8503,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 105) (xy 720 105)
+			(xy 747 105) (xy 777 105)
 		)
 		(stroke
 			(width 0)
@@ -8673,7 +8613,7 @@
 	)
 	(wire
 		(pts
-			(xy 645 85) (xy 656 85)
+			(xy 702 85) (xy 713 85)
 		)
 		(stroke
 			(width 0.5)
@@ -8693,7 +8633,7 @@
 	)
 	(wire
 		(pts
-			(xy 596 185) (xy 603 185)
+			(xy 653 185) (xy 660 185)
 		)
 		(stroke
 			(width 0.5)
@@ -8710,6 +8650,16 @@
 			(type default)
 		)
 		(uuid "5a5e2315-a158-4a8b-bfdf-0df1ff0f99d4")
+	)
+	(wire
+		(pts
+			(xy 495 160) (xy 563.5 160)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "5b4719d4-f0a0-41d9-be1f-f2723b75946d")
 	)
 	(wire
 		(pts
@@ -8843,7 +8793,7 @@
 	)
 	(wire
 		(pts
-			(xy 614 180) (xy 690 180)
+			(xy 671 180) (xy 747 180)
 		)
 		(stroke
 			(width 0.5)
@@ -8853,7 +8803,7 @@
 	)
 	(wire
 		(pts
-			(xy 695 70) (xy 700 70)
+			(xy 752 70) (xy 757 70)
 		)
 		(stroke
 			(width 0)
@@ -8883,7 +8833,7 @@
 	)
 	(wire
 		(pts
-			(xy 560 156) (xy 598 156)
+			(xy 617 156) (xy 655 156)
 		)
 		(stroke
 			(width 0)
@@ -8953,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 570 172) (xy 596 185)
+			(xy 627 172) (xy 653 185)
 		)
 		(stroke
 			(width 0.5)
@@ -8963,7 +8913,7 @@
 	)
 	(wire
 		(pts
-			(xy 615 80) (xy 645 80)
+			(xy 672 80) (xy 702 80)
 		)
 		(stroke
 			(width 0.5)
@@ -8983,7 +8933,7 @@
 	)
 	(wire
 		(pts
-			(xy 255 135) (xy 263.5 135)
+			(xy 270 135) (xy 278.5 135)
 		)
 		(stroke
 			(width 0.5)
@@ -8993,7 +8943,7 @@
 	)
 	(wire
 		(pts
-			(xy 666 60) (xy 720 60)
+			(xy 723 60) (xy 777 60)
 		)
 		(stroke
 			(width 0)
@@ -9003,7 +8953,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 85) (xy 730 85)
+			(xy 777 85) (xy 787 85)
 		)
 		(stroke
 			(width 0.5)
@@ -9083,17 +9033,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.5 130) (xy 690 130)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f790dac-a07a-433b-9419-ddbfa878f66e")
-	)
-	(wire
-		(pts
-			(xy 463 130) (xy 471.5 130)
+			(xy 463 130) (xy 551.5 130)
 		)
 		(stroke
 			(width 0.5)
@@ -9113,7 +9053,17 @@
 	)
 	(wire
 		(pts
-			(xy 720 155) (xy 730 155)
+			(xy 520 160) (xy 495 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c9c291-5fdc-4524-a045-e1f9e2649768")
+	)
+	(wire
+		(pts
+			(xy 777 155) (xy 787 155)
 		)
 		(stroke
 			(width 0)
@@ -9123,7 +9073,7 @@
 	)
 	(wire
 		(pts
-			(xy 453 131) (xy 475 131)
+			(xy 453 131) (xy 555 131)
 		)
 		(stroke
 			(width 0)
@@ -9203,7 +9153,7 @@
 	)
 	(wire
 		(pts
-			(xy 531 89) (xy 519 95)
+			(xy 588 89) (xy 576 95)
 		)
 		(stroke
 			(width 0)
@@ -9213,7 +9163,7 @@
 	)
 	(wire
 		(pts
-			(xy 641 55) (xy 655 55)
+			(xy 698 55) (xy 712 55)
 		)
 		(stroke
 			(width 0)
@@ -9243,7 +9193,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 160) (xy 720 160)
+			(xy 747 160) (xy 777 160)
 		)
 		(stroke
 			(width 0.5)
@@ -9303,17 +9253,7 @@
 	)
 	(wire
 		(pts
-			(xy 495 155) (xy 506.5 155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba5bdb1-ccbe-4f93-9453-37d452ac1614")
-	)
-	(wire
-		(pts
-			(xy 655 55) (xy 666 55)
+			(xy 712 55) (xy 723 55)
 		)
 		(stroke
 			(width 0.5)
@@ -9363,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 80) (xy 730 80)
+			(xy 777 80) (xy 787 80)
 		)
 		(stroke
 			(width 0)
@@ -9413,7 +9353,7 @@
 	)
 	(wire
 		(pts
-			(xy 556 164) (xy 568 170)
+			(xy 613 164) (xy 625 170)
 		)
 		(stroke
 			(width 0)
@@ -9433,7 +9373,7 @@
 	)
 	(wire
 		(pts
-			(xy 517 93) (xy 529 87)
+			(xy 574 93) (xy 586 87)
 		)
 		(stroke
 			(width 0)
@@ -9463,7 +9403,7 @@
 	)
 	(wire
 		(pts
-			(xy 550 105) (xy 561 105)
+			(xy 607 105) (xy 618 105)
 		)
 		(stroke
 			(width 0)
@@ -9473,7 +9413,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 110) (xy 720 110)
+			(xy 747 110) (xy 777 110)
 		)
 		(stroke
 			(width 0.5)
@@ -9503,7 +9443,7 @@
 	)
 	(wire
 		(pts
-			(xy 608 159) (xy 655 159)
+			(xy 665 159) (xy 712 159)
 		)
 		(stroke
 			(width 0)
@@ -9523,7 +9463,7 @@
 	)
 	(wire
 		(pts
-			(xy 515 110) (xy 550 110)
+			(xy 572 110) (xy 607 110)
 		)
 		(stroke
 			(width 0)
@@ -9543,7 +9483,7 @@
 	)
 	(wire
 		(pts
-			(xy 453 134) (xy 475 134)
+			(xy 453 134) (xy 555 134)
 		)
 		(stroke
 			(width 0)
@@ -9553,7 +9493,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 30) (xy 730 30)
+			(xy 777 30) (xy 787 30)
 		)
 		(stroke
 			(width 0.5)
@@ -9573,6 +9513,16 @@
 	)
 	(wire
 		(pts
+			(xy 495 159) (xy 567 159)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8a61477a-e021-4957-a7d6-293a30793f6e")
+	)
+	(wire
+		(pts
 			(xy 455 110) (xy 465 110)
 		)
 		(stroke
@@ -9583,7 +9533,17 @@
 	)
 	(wire
 		(pts
-			(xy 720 35) (xy 730 35)
+			(xy 568.5 130) (xy 747 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b00f216-3f8a-4bde-b771-6e06c7023cba")
+	)
+	(wire
+		(pts
+			(xy 777 35) (xy 787 35)
 		)
 		(stroke
 			(width 0)
@@ -9593,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 568 170) (xy 596 184)
+			(xy 625 170) (xy 653 184)
 		)
 		(stroke
 			(width 0)
@@ -9603,7 +9563,7 @@
 	)
 	(wire
 		(pts
-			(xy 555 106) (xy 655 106)
+			(xy 612 106) (xy 712 106)
 		)
 		(stroke
 			(width 0)
@@ -9623,7 +9583,7 @@
 	)
 	(polyline
 		(pts
-			(xy 700 212) (xy 699.5 210.5)
+			(xy 757 212) (xy 756.5 210.5)
 		)
 		(stroke
 			(width 0)
@@ -9653,6 +9613,16 @@
 	)
 	(wire
 		(pts
+			(xy 495 155) (xy 563.5 155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec59fe7-5327-4b06-a76e-f07465752079")
+	)
+	(wire
+		(pts
 			(xy 112 161) (xy 109 161)
 		)
 		(stroke
@@ -9663,7 +9633,7 @@
 	)
 	(wire
 		(pts
-			(xy 641 60) (xy 655 60)
+			(xy 698 60) (xy 712 60)
 		)
 		(stroke
 			(width 0.5)
@@ -9693,7 +9663,7 @@
 	)
 	(wire
 		(pts
-			(xy 485 134) (xy 655 134)
+			(xy 565 134) (xy 712 134)
 		)
 		(stroke
 			(width 0)
@@ -9703,7 +9673,7 @@
 	)
 	(wire
 		(pts
-			(xy 666 55) (xy 720 55)
+			(xy 723 55) (xy 777 55)
 		)
 		(stroke
 			(width 0.5)
@@ -9733,7 +9703,7 @@
 	)
 	(wire
 		(pts
-			(xy 611.5 160) (xy 690 160)
+			(xy 668.5 160) (xy 747 160)
 		)
 		(stroke
 			(width 0.5)
@@ -9773,7 +9743,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 80) (xy 720 80)
+			(xy 747 80) (xy 777 80)
 		)
 		(stroke
 			(width 0)
@@ -9783,7 +9753,7 @@
 	)
 	(wire
 		(pts
-			(xy 505 109) (xy 545 109)
+			(xy 562 109) (xy 602 109)
 		)
 		(stroke
 			(width 0)
@@ -9823,7 +9793,17 @@
 	)
 	(wire
 		(pts
-			(xy 617 72) (xy 641 60)
+			(xy 491 65) (xy 492 65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ed0843-4ac1-4c3d-8482-6267502b566f")
+	)
+	(wire
+		(pts
+			(xy 674 72) (xy 698 60)
 		)
 		(stroke
 			(width 0.5)
@@ -9853,7 +9833,7 @@
 	)
 	(wire
 		(pts
-			(xy 470 80) (xy 498 80)
+			(xy 470 80) (xy 565 80)
 		)
 		(stroke
 			(width 0.5)
@@ -9883,7 +9863,7 @@
 	)
 	(wire
 		(pts
-			(xy 203 131) (xy 250 131)
+			(xy 203 131) (xy 265 131)
 		)
 		(stroke
 			(width 0)
@@ -9893,7 +9873,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 185) (xy 730 185)
+			(xy 777 185) (xy 787 185)
 		)
 		(stroke
 			(width 0)
@@ -9903,13 +9883,23 @@
 	)
 	(polyline
 		(pts
-			(xy 699.5 210.5) (xy 701 210.5)
+			(xy 756.5 210.5) (xy 758 210.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ac911db-b2c8-40af-aaf3-d5964c0fee30")
+	)
+	(wire
+		(pts
+			(xy 495 156) (xy 567 156)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9ae660c0-c5dd-4526-8223-bc8d64a4bf03")
 	)
 	(wire
 		(pts
@@ -9923,7 +9913,7 @@
 	)
 	(wire
 		(pts
-			(xy 710 131) (xy 730 131)
+			(xy 767 131) (xy 787 131)
 		)
 		(stroke
 			(width 0)
@@ -9940,6 +9930,16 @@
 			(type dash)
 		)
 		(uuid "9b7e924c-cc9d-41b0-a386-ad8fe1478ebe")
+	)
+	(wire
+		(pts
+			(xy 560 130) (xy 551.5 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba2ca2d-a76b-42fd-aeaf-bdeb93e0c386")
 	)
 	(wire
 		(pts
@@ -9983,7 +9983,7 @@
 	)
 	(wire
 		(pts
-			(xy 596 180) (xy 603 180)
+			(xy 653 180) (xy 660 180)
 		)
 		(stroke
 			(width 0)
@@ -10013,7 +10013,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 130) (xy 255 130)
+			(xy 261.5 130) (xy 270 130)
 		)
 		(stroke
 			(width 0.5)
@@ -10033,7 +10033,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 180) (xy 730 180)
+			(xy 777 180) (xy 787 180)
 		)
 		(stroke
 			(width 0.5)
@@ -10043,7 +10043,7 @@
 	)
 	(wire
 		(pts
-			(xy 710 159) (xy 730 159)
+			(xy 767 159) (xy 787 159)
 		)
 		(stroke
 			(width 0)
@@ -10073,7 +10073,7 @@
 	)
 	(wire
 		(pts
-			(xy 485 131) (xy 655 131)
+			(xy 565 131) (xy 712 131)
 		)
 		(stroke
 			(width 0)
@@ -10083,7 +10083,7 @@
 	)
 	(wire
 		(pts
-			(xy 645 80) (xy 656 80)
+			(xy 702 80) (xy 713 80)
 		)
 		(stroke
 			(width 0)
@@ -10103,7 +10103,7 @@
 	)
 	(wire
 		(pts
-			(xy 260 134) (xy 307 134)
+			(xy 275 134) (xy 307 134)
 		)
 		(stroke
 			(width 0)
@@ -10113,7 +10113,7 @@
 	)
 	(wire
 		(pts
-			(xy 608 156) (xy 655 156)
+			(xy 665 156) (xy 712 156)
 		)
 		(stroke
 			(width 0)
@@ -10133,17 +10133,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.5 135) (xy 480 135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9a4d56-cb03-4ffd-8526-a54792ab9bef")
-	)
-	(wire
-		(pts
-			(xy 571 85) (xy 585 85)
+			(xy 628 85) (xy 642 85)
 		)
 		(stroke
 			(width 0)
@@ -10163,7 +10153,7 @@
 	)
 	(wire
 		(pts
-			(xy 506.5 155) (xy 515 155)
+			(xy 563.5 155) (xy 572 155)
 		)
 		(stroke
 			(width 0)
@@ -10183,7 +10173,17 @@
 	)
 	(wire
 		(pts
-			(xy 598 181) (xy 596 181)
+			(xy 568.5 135) (xy 560 135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c50c67-79c3-4158-9a1c-61a196da307e")
+	)
+	(wire
+		(pts
+			(xy 655 181) (xy 653 181)
 		)
 		(stroke
 			(width 0)
@@ -10193,23 +10193,13 @@
 	)
 	(wire
 		(pts
-			(xy 506.5 160) (xy 515 160)
+			(xy 563.5 160) (xy 572 160)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
 		(uuid "b50db052-9b98-4ba7-bf3d-9787afa75845")
-	)
-	(wire
-		(pts
-			(xy 463 135) (xy 471.5 135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b606d937-fef5-418f-9d8f-0b19680e949f")
 	)
 	(wire
 		(pts
@@ -10253,7 +10243,7 @@
 	)
 	(wire
 		(pts
-			(xy 470 106) (xy 485 106)
+			(xy 470 106) (xy 542 106)
 		)
 		(stroke
 			(width 0)
@@ -10263,7 +10253,7 @@
 	)
 	(wire
 		(pts
-			(xy 615 68) (xy 641 55)
+			(xy 672 68) (xy 698 55)
 		)
 		(stroke
 			(width 0)
@@ -10283,7 +10273,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 135) (xy 730 135)
+			(xy 777 135) (xy 787 135)
 		)
 		(stroke
 			(width 0.5)
@@ -10293,7 +10283,7 @@
 	)
 	(wire
 		(pts
-			(xy 547 80) (xy 560 80)
+			(xy 604 80) (xy 617 80)
 		)
 		(stroke
 			(width 0)
@@ -10343,7 +10333,7 @@
 	)
 	(wire
 		(pts
-			(xy 263.5 135) (xy 297 135)
+			(xy 278.5 135) (xy 297 135)
 		)
 		(stroke
 			(width 0.5)
@@ -10443,7 +10433,17 @@
 	)
 	(wire
 		(pts
-			(xy 572 168) (xy 596 180)
+			(xy 565 85) (xy 574 85)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "c03fe774-9144-42df-a29d-9a326e5a03b9")
+	)
+	(wire
+		(pts
+			(xy 629 168) (xy 653 180)
 		)
 		(stroke
 			(width 0)
@@ -10473,7 +10473,7 @@
 	)
 	(wire
 		(pts
-			(xy 571 35) (xy 720 35)
+			(xy 571 35) (xy 777 35)
 		)
 		(stroke
 			(width 0)
@@ -10483,13 +10483,13 @@
 	)
 	(wire
 		(pts
-			(xy 498 85) (xy 509 85)
+			(xy 560 135) (xy 568.5 135)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
-		(uuid "c2911e61-d381-4d12-ba32-181f4da4c7f5")
+		(uuid "c28b77a4-6c5e-4a4e-bb93-eaf9f5c98349")
 	)
 	(wire
 		(pts
@@ -10513,17 +10513,7 @@
 	)
 	(wire
 		(pts
-			(xy 495 156) (xy 510 156)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "c3c265b5-4f71-4f08-bfb9-6242242a98f7")
-	)
-	(wire
-		(pts
-			(xy 710 184) (xy 730 184)
+			(xy 767 184) (xy 787 184)
 		)
 		(stroke
 			(width 0)
@@ -10563,7 +10553,7 @@
 	)
 	(wire
 		(pts
-			(xy 570 155) (xy 594.5 155)
+			(xy 627 155) (xy 651.5 155)
 		)
 		(stroke
 			(width 0.5)
@@ -10583,13 +10573,23 @@
 	)
 	(wire
 		(pts
-			(xy 560 80) (xy 571 80)
+			(xy 617 80) (xy 628 80)
 		)
 		(stroke
 			(width 0.5)
 			(type default)
 		)
 		(uuid "cb1d92fd-f7e7-4157-8c12-f2eabbec4d6c")
+	)
+	(wire
+		(pts
+			(xy 560 130) (xy 551.5 130)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "cb284eca-9d77-4775-936c-6de6bceb4142")
 	)
 	(wire
 		(pts
@@ -10693,7 +10693,7 @@
 	)
 	(wire
 		(pts
-			(xy 611.5 160) (xy 603 160)
+			(xy 668.5 160) (xy 660 160)
 		)
 		(stroke
 			(width 0)
@@ -10703,7 +10703,7 @@
 	)
 	(wire
 		(pts
-			(xy 656 80) (xy 690 80)
+			(xy 713 80) (xy 747 80)
 		)
 		(stroke
 			(width 0)
@@ -10803,7 +10803,7 @@
 	)
 	(wire
 		(pts
-			(xy 603 180) (xy 614 180)
+			(xy 660 180) (xy 671 180)
 		)
 		(stroke
 			(width 0.5)
@@ -10823,7 +10823,7 @@
 	)
 	(wire
 		(pts
-			(xy 571 30) (xy 720 30)
+			(xy 571 30) (xy 777 30)
 		)
 		(stroke
 			(width 0.5)
@@ -10833,7 +10833,7 @@
 	)
 	(wire
 		(pts
-			(xy 690 155) (xy 720 155)
+			(xy 747 155) (xy 777 155)
 		)
 		(stroke
 			(width 0)
@@ -10853,7 +10853,7 @@
 	)
 	(wire
 		(pts
-			(xy 213 135) (xy 246.5 135)
+			(xy 213 135) (xy 261.5 135)
 		)
 		(stroke
 			(width 0)
@@ -10903,7 +10903,7 @@
 	)
 	(wire
 		(pts
-			(xy 520 156) (xy 540 156)
+			(xy 577 156) (xy 597 156)
 		)
 		(stroke
 			(width 0)
@@ -10933,7 +10933,7 @@
 	)
 	(wire
 		(pts
-			(xy 614 185) (xy 690 185)
+			(xy 671 185) (xy 747 185)
 		)
 		(stroke
 			(width 0)
@@ -10943,17 +10943,7 @@
 	)
 	(wire
 		(pts
-			(xy 480 135) (xy 488.5 135)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "d885f3af-7620-45c9-8be1-f45203da2f0f")
-	)
-	(wire
-		(pts
-			(xy 690 85) (xy 720 85)
+			(xy 747 85) (xy 777 85)
 		)
 		(stroke
 			(width 0.5)
@@ -10963,7 +10953,7 @@
 	)
 	(polyline
 		(pts
-			(xy 720 200) (xy 703 200)
+			(xy 777 200) (xy 760 200)
 		)
 		(stroke
 			(width 0)
@@ -10973,7 +10963,7 @@
 	)
 	(wire
 		(pts
-			(xy 608 181) (xy 655 181)
+			(xy 665 181) (xy 712 181)
 		)
 		(stroke
 			(width 0)
@@ -10993,16 +10983,6 @@
 	)
 	(wire
 		(pts
-			(xy 509 85) (xy 517 85)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "de1938f2-9dcc-4372-bd4c-c824c19ab855")
-	)
-	(wire
-		(pts
 			(xy 290 109) (xy 305 109)
 		)
 		(stroke
@@ -11013,7 +10993,17 @@
 	)
 	(wire
 		(pts
-			(xy 263.5 130) (xy 297 130)
+			(xy 565 80) (xy 574 80)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded75777-e3d4-4e2c-9c03-3a9b84d4f0ac")
+	)
+	(wire
+		(pts
+			(xy 278.5 130) (xy 297 130)
 		)
 		(stroke
 			(width 0)
@@ -11033,7 +11023,7 @@
 	)
 	(wire
 		(pts
-			(xy 656 85) (xy 690 85)
+			(xy 713 85) (xy 747 85)
 		)
 		(stroke
 			(width 0.5)
@@ -11060,16 +11050,6 @@
 			(type default)
 		)
 		(uuid "dfe2895d-0d7f-4d3f-a900-cb9161f7ed95")
-	)
-	(wire
-		(pts
-			(xy 480 130) (xy 488.5 130)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01f50b7-ea83-444f-b6ed-911af6e5953b")
 	)
 	(wire
 		(pts
@@ -11103,7 +11083,7 @@
 	)
 	(wire
 		(pts
-			(xy 603 160) (xy 611.5 160)
+			(xy 660 160) (xy 668.5 160)
 		)
 		(stroke
 			(width 0.5)
@@ -11123,7 +11103,7 @@
 	)
 	(wire
 		(pts
-			(xy 555 109) (xy 655 109)
+			(xy 612 109) (xy 712 109)
 		)
 		(stroke
 			(width 0)
@@ -11183,7 +11163,7 @@
 	)
 	(wire
 		(pts
-			(xy 570 168) (xy 558 162)
+			(xy 627 168) (xy 615 162)
 		)
 		(stroke
 			(width 0)
@@ -11243,7 +11223,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 55) (xy 730 55)
+			(xy 777 55) (xy 787 55)
 		)
 		(stroke
 			(width 0.5)
@@ -11273,7 +11253,7 @@
 	)
 	(wire
 		(pts
-			(xy 608 184) (xy 655 184)
+			(xy 665 184) (xy 712 184)
 		)
 		(stroke
 			(width 0)
@@ -11323,7 +11303,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 60) (xy 730 60)
+			(xy 777 60) (xy 787 60)
 		)
 		(stroke
 			(width 0)
@@ -11353,7 +11333,7 @@
 	)
 	(wire
 		(pts
-			(xy 476 110) (xy 485 110)
+			(xy 476 110) (xy 542 110)
 		)
 		(stroke
 			(width 0)
@@ -11373,7 +11353,7 @@
 	)
 	(wire
 		(pts
-			(xy 720 160) (xy 730 160)
+			(xy 777 160) (xy 787 160)
 		)
 		(stroke
 			(width 0.5)
@@ -11383,7 +11363,7 @@
 	)
 	(wire
 		(pts
-			(xy 611.5 155) (xy 690 155)
+			(xy 668.5 155) (xy 747 155)
 		)
 		(stroke
 			(width 0)
@@ -11453,7 +11433,7 @@
 	)
 	(wire
 		(pts
-			(xy 561 110) (xy 690 110)
+			(xy 618 110) (xy 747 110)
 		)
 		(stroke
 			(width 0.5)
@@ -11483,6 +11463,16 @@
 	)
 	(wire
 		(pts
+			(xy 560 135) (xy 551.5 135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e765da-4d90-4807-a5ca-c75e4ffea4f6")
+	)
+	(wire
+		(pts
 			(xy 439 114) (xy 427 120)
 		)
 		(stroke
@@ -11503,7 +11493,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.5 135) (xy 255 135)
+			(xy 261.5 135) (xy 270 135)
 		)
 		(stroke
 			(width 0)
@@ -11523,7 +11513,7 @@
 	)
 	(wire
 		(pts
-			(xy 603 185) (xy 614 185)
+			(xy 660 185) (xy 671 185)
 		)
 		(stroke
 			(width 0)
@@ -11573,7 +11563,7 @@
 	)
 	(wire
 		(pts
-			(xy 571 80) (xy 585 80)
+			(xy 628 80) (xy 642 80)
 		)
 		(stroke
 			(width 0.5)
@@ -11697,7 +11687,7 @@
 		)
 		(uuid e2225081-acf7-445c-a977-6423837cdd8d)
 	)
-	(text "М5П"
+	(text "М3П"
 		(exclude_from_sim no)
 		(at 167.5 108 0)
 		(effects
@@ -11720,13 +11710,23 @@
 	)
 	(text "Ввод\nкаб.СЦБ"
 		(exclude_from_sim no)
-		(at 711 197 0)
+		(at 768 197 0)
 		(effects
 			(font
 				(size 2.5 2.5)
 			)
 		)
 		(uuid "2ff02621-2e16-44ef-9586-d9e0d686c1b3")
+	)
+	(text "Схема полной изоляции путей и\nстрелок с канализацией\nтягового тока"
+		(exclude_from_sim no)
+		(at 710 285 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "4cb39829-e003-4d4f-a731-22ecef940e0f")
 	)
 	(text "Т"
 		(exclude_from_sim no)
@@ -11762,7 +11762,7 @@
 	)
 	(text "М37П"
 		(exclude_from_sim no)
-		(at 675 58 0)
+		(at 732 58 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -11770,9 +11770,9 @@
 		)
 		(uuid "d6a955b5-e9de-4716-a903-2f0c5b3062b6")
 	)
-	(text "М29П"
+	(text "М27П"
 		(exclude_from_sim no)
-		(at 675 33 0)
+		(at 732 33 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -11782,7 +11782,7 @@
 	)
 	(text "Оборудование горловины\nстанции устройсвами блочной\nмаршрутно-релейной \nцентрализации (БМРЦ)"
 		(exclude_from_sim no)
-		(at 650 265 0)
+		(at 710 265 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -11869,8 +11869,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 571 80 0)
+		(at 628 80 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11879,7 +11880,7 @@
 		(dnp no)
 		(uuid "02d8f1fc-7626-408a-bb73-c2071c36c23d")
 		(property "Reference" "ЯП37"
-			(at 570.5 72 0)
+			(at 627.5 72 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -11888,7 +11889,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 557.61 80 0)
+			(at 614.61 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -11896,7 +11897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 576 73.5 0)
+			(at 633 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -11905,7 +11906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 576 73.5 0)
+			(at 633 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -11914,7 +11915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 571 80 0)
+			(at 628 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -11923,7 +11924,7 @@
 			)
 		)
 		(property "Секция1" "33"
-			(at 566 76.5 0)
+			(at 623 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11934,7 +11935,7 @@
 			)
 		)
 		(property "Секция2" "37"
-			(at 576 76.5 0)
+			(at 633 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11944,7 +11945,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 565.5 76.5 0)
+			(at 622.5 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -11954,7 +11955,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 576 76.5 0)
+			(at 633 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -12050,7 +12051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "НД"
+		(property "Литера" "Н"
 			(at 114 169 0)
 			(do_not_autoplace yes)
 			(effects
@@ -12119,7 +12120,7 @@
 			)
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
-					(reference "Входной?")
+					(reference "Входной1")
 					(unit 1)
 				)
 			)
@@ -12127,7 +12128,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Соединитель")
-		(at 485 105 0)
+		(at 542 105 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12136,7 +12137,7 @@
 		(fields_autoplaced yes)
 		(uuid "032192fa-6d3b-4fa1-a576-747128a44c65")
 		(property "Reference" "Соединитель15"
-			(at 485 99 0)
+			(at 542 99 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12145,7 +12146,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 503.94 105.75 0)
+			(at 560.94 105.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485 105 0)
+			(at 542 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485 105 0)
+			(at 542 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485 105 0)
+			(at 542 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12278,7 +12279,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 155 0)
+		(at 777 155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12287,7 +12288,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e1f908-a7c7-4a3a-b511-96ff88a18d93")
 		(property "Reference" "Электротяга7"
-			(at 720 155 0)
+			(at 777 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,7 +12297,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 150.34 0)
+			(at 777 150.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 155 0)
+			(at 777 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 155 0)
+			(at 777 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 155 0)
+			(at 777 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,6 +12347,76 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Электротяга?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB:Магистральный_кабель")
+		(lib_id "SCB:Магистральный_кабель")
+		(at 522 65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ecb260-fad8-4466-bc80-1c51208ffd4b")
+		(property "Reference" "Магистральный_кабель1"
+			(at 522 62 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 522 61.52 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 522 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 522 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 522 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3f772c92-930b-4794-b0d0-94c58a19ed8e")
+		)
+		(pin ""
+			(uuid "6d912d3b-fc3c-4838-b022-93cdafe4b7d0")
+		)
+		(instances
+			(project "Двухниточный"
+				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
+					(reference "Магистральный_кабель1")
 					(unit 1)
 				)
 			)
@@ -12428,7 +12499,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Пост_ЭЦ")
-		(at 695 212 0)
+		(at 752 212 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12437,7 +12508,7 @@
 		(dnp no)
 		(uuid "0b124966-3025-45b7-9cec-0e55406f1905")
 		(property "Reference" "ЭЦ11"
-			(at 695 212 0)
+			(at 752 212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12446,7 +12517,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 686.34 217 0)
+			(at 743.34 217 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +12526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 702.5 212 0)
+			(at 759.5 212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 702.5 212 0)
+			(at 759.5 212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12473,7 +12544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 702.5 212 0)
+			(at 759.5 212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12482,7 +12553,7 @@
 			)
 		)
 		(property "Помещение" "Пост ЭЦ"
-			(at 685 217 0)
+			(at 742 217 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12626,8 +12697,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 611.5 160 0)
+		(at 668.5 160 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim yes)
@@ -12636,7 +12708,7 @@
 		(dnp no)
 		(uuid "0c639778-4bfa-40e5-b76e-09ccf0d4d093")
 		(property "Reference" "ЯР1П"
-			(at 608 167.5 0)
+			(at 665 167.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12645,7 +12717,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 615.57 160 0)
+			(at 672.57 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12653,7 +12725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 609 166 0)
+			(at 666 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12662,7 +12734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 609 166 0)
+			(at 666 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12671,7 +12743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 611.5 160 0)
+			(at 668.5 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12680,7 +12752,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 614.5 163.5 0)
+			(at 671.5 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12691,7 +12763,7 @@
 			)
 		)
 		(property "Секция1" "1П"
-			(at 614 163.5 0)
+			(at 671 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12722,14 +12794,15 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР1П?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Путь")
 		(lib_id "SCB_Двухнитка:Путь")
-		(at 690 180 0)
+		(at 747 180 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12738,7 +12811,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cdbaf0c-a9f3-4142-a066-656c8ce77ec0")
 		(property "Reference" "Путь3"
-			(at 690 180 0)
+			(at 747 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12820,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 672.5 178.28 0)
+			(at 729.5 178.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +12828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690 180 0)
+			(at 747 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +12837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690 180 0)
+			(at 747 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 690 180 0)
+			(at 747 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,7 +12855,7 @@
 			)
 		)
 		(property "Путь" "3П"
-			(at 675 182.5 0)
+			(at 732 182.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12791,7 +12864,7 @@
 			)
 		)
 		(property "Длина" "900 м"
-			(at 692.5 182.5 0)
+			(at 749.5 182.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -12922,8 +12995,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Стрелка_ДСШ")
 		(lib_id "SCB_Двухнитка:Стрелка_ДСШ")
-		(at 540 160 0)
+		(at 597 160 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12933,7 +13007,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fd2fc7d-95af-47c2-a830-75d656710f5b")
 		(property "Reference" "Стрелка15"
-			(at 550 170 0)
+			(at 607 170 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12942,7 +13016,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 555.875 152.88 0)
+			(at 612.875 152.88 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12950,7 +13024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 555 165 0)
+			(at 612 165 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12959,7 +13033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 555 165 0)
+			(at 612 165 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12968,7 +13042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 555 165 0)
+			(at 612 165 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -12977,7 +13051,7 @@
 			)
 		)
 		(property "Номер.стр." "1"
-			(at 545 164 0)
+			(at 602 164 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13044,8 +13118,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 640 80 0)
+		(at 697 80 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13054,7 +13129,7 @@
 		(fields_autoplaced yes)
 		(uuid "109297e1-f80e-43ac-b312-f773d8b642a6")
 		(property "Reference" "ДТ21"
-			(at 645 72 0)
+			(at 702 72 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13064,7 +13139,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 645 72.87 0)
+			(at 702 72.87 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13072,7 +13147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 645 81 0)
+			(at 702 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13081,7 +13156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645 81 0)
+			(at 702 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13090,7 +13165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 645 80 0)
+			(at 702 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13099,7 +13174,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 650 76.5 0)
+			(at 707 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13110,7 +13185,7 @@
 			)
 		)
 		(property "Секция2" "37А"
-			(at 640 76.5 0)
+			(at 697 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13120,7 +13195,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 649 82.5 0)
+			(at 706 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13130,7 +13205,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 641 82.5 0)
+			(at 698 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13253,7 +13328,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 180 0)
+		(at 777 180 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13262,7 +13337,7 @@
 		(fields_autoplaced yes)
 		(uuid "145fa7a2-e32b-4125-b251-732a67a0d7b9")
 		(property "Reference" "Электротяга8"
-			(at 720 180 0)
+			(at 777 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13346,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 175.74 0)
+			(at 777 175.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 180 0)
+			(at 777 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13288,7 +13363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 180 0)
+			(at 777 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 180 0)
+			(at 777 180 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +13403,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 560 90 0)
+		(at 617 90 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -13338,7 +13413,7 @@
 		(fields_autoplaced yes)
 		(uuid "14c12c66-7ac7-4fd0-9770-0b20ea29aeb7")
 		(property "Reference" "Маневровый32"
-			(at 560 86 0)
+			(at 617 86 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13347,7 +13422,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 560 86 0)
+			(at 617 86 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13356,7 +13431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560 90 0)
+			(at 617 90 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13365,7 +13440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560 90 0)
+			(at 617 90 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13374,7 +13449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 560 97 0)
+			(at 617 97 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13383,7 +13458,7 @@
 			)
 		)
 		(property "Литера" "М33"
-			(at 559 90 0)
+			(at 616 90 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13408,8 +13483,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 594.5 160 180)
+		(at 651.5 160 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13418,7 +13494,7 @@
 		(fields_autoplaced yes)
 		(uuid "1654b99b-c485-4b1f-ac71-ef7e3195dab3")
 		(property "Reference" "ЯП35"
-			(at 594 167.5 0)
+			(at 651 167.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13427,7 +13503,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 590.86 160 0)
+			(at 647.86 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13436,7 +13512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 597 166 0)
+			(at 654 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13445,7 +13521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 597 166 0)
+			(at 654 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13454,7 +13530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 594.5 160 0)
+			(at 651.5 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -13463,7 +13539,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 591.5 163.5 0)
+			(at 648.5 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13474,7 +13550,7 @@
 			)
 		)
 		(property "Секция1" "35"
-			(at 592 163.5 0)
+			(at 649 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13591,6 +13667,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
 		(at 388.5 130 0)
 		(unit 1)
@@ -13693,7 +13770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 366 95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13712,7 +13789,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 369.64 95 0)
+			(at 369.57 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +13987,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 229 103.35 0)
+			(at 229 102.87 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14006,7 +14083,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -14221,8 +14298,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
-		(at 516 95 0)
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
+		(at 573 95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14231,7 +14308,7 @@
 		(fields_autoplaced yes)
 		(uuid "234262a0-265d-443f-aa4e-aea2d223f7a4")
 		(property "Reference" "Изостыки9"
-			(at 516 95 0)
+			(at 573 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14317,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 520.45 95 0)
+			(at 576.43 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +14326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 516 95 0)
+			(at 573 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14258,7 +14335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 516 95 0)
+			(at 573 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +14344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 516 95 0)
+			(at 573 95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14298,7 +14375,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 80 0)
+		(at 777 80 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14307,7 +14384,7 @@
 		(fields_autoplaced yes)
 		(uuid "23750ed9-91c1-4a49-926f-2209d93a6691")
 		(property "Reference" "Электротяга4"
-			(at 720 80 0)
+			(at 777 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14316,7 +14393,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 75.41 0)
+			(at 777 75.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 80 0)
+			(at 777 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 80 0)
+			(at 777 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14342,7 +14419,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 80 0)
+			(at 777 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14513,7 +14590,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 409 136.37 0)
+			(at 409 137.16 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14609,14 +14686,15 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 162 90)
+		(at 757 162 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14625,7 +14703,7 @@
 		(fields_autoplaced yes)
 		(uuid "263105ed-9718-426b-b638-5290431efcda")
 		(property "Reference" "Магистральный_1"
-			(at 697 162 0)
+			(at 754 162 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14634,7 +14712,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 162 90)
+			(at 760.23 162 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14643,7 +14721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 162 0)
+			(at 757 162 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14652,7 +14730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 162 0)
+			(at 757 162 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14661,7 +14739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 162 0)
+			(at 757 162 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14711,7 +14789,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 152.71 130 0)
+			(at 152.4 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14789,7 +14867,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯРНДП?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -14889,7 +14967,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 439 103.35 0)
+			(at 439 102.87 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -14985,14 +15063,15 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
-		(at 565 65 0)
+		(at 622 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15001,7 +15080,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ad0ed03-4bca-45ff-a491-98e88964f1c0")
 		(property "Reference" "К111"
-			(at 563.5 65 0)
+			(at 620.5 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15010,7 +15089,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 560 65 0)
+			(at 617 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15019,7 +15098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560 65 0)
+			(at 617 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15028,7 +15107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560 65 0)
+			(at 617 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15037,7 +15116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 565 65 0)
+			(at 622 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15046,7 +15125,7 @@
 			)
 		)
 		(property "Направления" "8"
-			(at 565 65 0)
+			(at 622 65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15055,7 +15134,7 @@
 			)
 		)
 		(property "Ордината" "(720)"
-			(at 565 57 0)
+			(at 622 57 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -15064,7 +15143,7 @@
 			)
 		)
 		(property "Литера" "СТ1"
-			(at 565 53 0)
+			(at 622 53 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -15100,8 +15179,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 545 105 0)
+		(at 602 105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15110,7 +15190,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c6b6798-5013-4a14-a6a0-4e52d41df29a")
 		(property "Reference" "ДТ17"
-			(at 550 97 0)
+			(at 607 97 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15120,7 +15200,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 550 98.27 0)
+			(at 607 98.27 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15128,7 +15208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 550 106 0)
+			(at 607 106 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15137,7 +15217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 550 106 0)
+			(at 607 106 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15146,7 +15226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 550 105 0)
+			(at 607 105 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15155,7 +15235,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 555 101.5 0)
+			(at 612 101.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15166,7 +15246,7 @@
 			)
 		)
 		(property "Секция2" "31"
-			(at 545 101.5 0)
+			(at 602 101.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15176,7 +15256,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 554 107.5 0)
+			(at 611 107.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15186,7 +15266,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 546 107.5 0)
+			(at 603 107.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15234,7 +15314,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 105 0)
+		(at 777 105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15243,7 +15323,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d787f9a-e578-445f-b26e-6266a9ba3924")
 		(property "Reference" "Электротяга5"
-			(at 720 105 0)
+			(at 777 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15252,7 +15332,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 100.81 0)
+			(at 777 100.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15260,7 +15340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 105 0)
+			(at 777 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15269,7 +15349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 105 0)
+			(at 777 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15278,7 +15358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 105 0)
+			(at 777 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,6 +15696,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(at 571 30 0)
 		(unit 2)
@@ -15668,7 +15749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Секция1" "М29П"
+		(property "Секция1" "М27П"
 			(at 576 26.5 0)
 			(do_not_autoplace yes)
 			(effects
@@ -15737,7 +15818,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯРМ29П?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -15845,8 +15926,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 561 105 0)
+		(at 618 105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15854,7 +15936,7 @@
 		(dnp no)
 		(uuid "329507bc-de44-4b27-8322-430a07b55486")
 		(property "Reference" "ЯП4П"
-			(at 561.5 97 0)
+			(at 618.5 97 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15863,7 +15945,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 574.39 105 0)
+			(at 631.39 105 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15871,7 +15953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 556 98.5 0)
+			(at 613 98.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15880,7 +15962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556 98.5 0)
+			(at 613 98.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15889,7 +15971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 561 105 0)
+			(at 618 105 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -15898,7 +15980,7 @@
 			)
 		)
 		(property "Секция1" "4П"
-			(at 566 101.5 0)
+			(at 623 101.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15908,7 +15990,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 556 101.5 0)
+			(at 613 101.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15919,7 +16001,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 566.5 101.5 0)
+			(at 623.5 101.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -15929,7 +16011,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 556 101.5 0)
+			(at 613 101.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -15991,7 +16073,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 351 112.24 0)
+			(at 351 111.76 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16087,14 +16169,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 603 150 0)
+		(at 660 150 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16103,7 +16185,7 @@
 		(fields_autoplaced yes)
 		(uuid "32e5913d-4d54-4e7b-9e06-8f231a4d8466")
 		(property "Reference" "Маневровый7"
-			(at 603 146 0)
+			(at 660 146 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16112,7 +16194,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 603 146 0)
+			(at 660 146 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16121,7 +16203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603 150 0)
+			(at 660 150 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16130,7 +16212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603 150 0)
+			(at 660 150 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16139,7 +16221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603 157 0)
+			(at 660 157 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16148,7 +16230,7 @@
 			)
 		)
 		(property "Литера" "М35"
-			(at 604 150 0)
+			(at 661 150 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16173,8 +16255,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 585 65 0)
+		(at 642 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16183,7 +16266,7 @@
 		(fields_autoplaced yes)
 		(uuid "33901547-261d-4ec8-8650-5d395c969bf6")
 		(property "Reference" "Магистральный_кабель1"
-			(at 585 62 0)
+			(at 642 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16192,7 +16275,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 585 61.52 0)
+			(at 642 61.52 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16200,7 +16283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 585 65 0)
+			(at 642 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16209,7 +16292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 585 65 0)
+			(at 642 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16218,7 +16301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 585 65 0)
+			(at 642 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16248,8 +16331,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 475 130 0)
+		(at 555 130 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16258,7 +16342,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d8a170-fbe1-4179-a2dd-5f48f1c7341b")
 		(property "Reference" "ДТ14"
-			(at 480 122 0)
+			(at 560 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16267,7 +16351,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 480 123.67 0)
+			(at 560 123.67 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16275,7 +16359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 480 131 0)
+			(at 560 131 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16284,7 +16368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480 131 0)
+			(at 560 131 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16293,7 +16377,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 480 130 0)
+			(at 560 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16302,7 +16386,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 485 126.5 0)
+			(at 565 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16313,7 +16397,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 475 126.5 0)
+			(at 555 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16324,7 +16408,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 484 132.5 0)
+			(at 564 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16334,7 +16418,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 476 132.5 0)
+			(at 556 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16381,8 +16465,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 488.5 130 0)
+		(at 568.5 130 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -16391,7 +16476,7 @@
 		(fields_autoplaced yes)
 		(uuid "35225636-5d01-41eb-baa9-96b40bc73d86")
 		(property "Reference" "ЯП2П"
-			(at 485 122.5 0)
+			(at 565 122.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16400,7 +16485,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 492.45 130 0)
+			(at 572.45 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16409,7 +16494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 486 124 0)
+			(at 566 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16418,7 +16503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 486 124 0)
+			(at 566 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16427,7 +16512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 488.5 130 0)
+			(at 568.5 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16436,7 +16521,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 491.5 126.5 0)
+			(at 571.5 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16447,7 +16532,7 @@
 			)
 		)
 		(property "Секция1" "2П"
-			(at 491 126.5 0)
+			(at 571 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16484,7 +16569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 214 120 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16503,7 +16588,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 218.51 120 0)
+			(at 217.17 120 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16846,7 +16931,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 199 136.37 0)
+			(at 199 137.16 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -16942,7 +17027,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -17242,7 +17327,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Привод")
-		(at 490 105 0)
+		(at 547 105 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17251,7 +17336,7 @@
 		(dnp no)
 		(uuid "46ed125c-c547-48fa-8d05-7a8842fb1cbb")
 		(property "Reference" "СП15"
-			(at 490 107 0)
+			(at 547 107 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17260,7 +17345,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 486.16 102.5 0)
+			(at 543.16 102.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17268,7 +17353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 490.5 105.5 0)
+			(at 547.5 105.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17277,7 +17362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 490.5 105.5 0)
+			(at 547.5 105.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17286,7 +17371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 490.5 105.5 0)
+			(at 547.5 105.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +17380,7 @@
 			)
 		)
 		(property "Номер.стр." "31"
-			(at 489 97.5 0)
+			(at 546 97.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17320,7 +17405,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Выходной_к")
-		(at 645 69 0)
+		(at 702 69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17329,7 +17414,7 @@
 		(fields_autoplaced yes)
 		(uuid "471b4794-e9bf-4541-8a15-65132b1a6acc")
 		(property "Reference" "Выходной8"
-			(at 652.5 65 0)
+			(at 709.5 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17338,7 +17423,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 645 63.5 0)
+			(at 702 63.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17347,7 +17432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 645 67.5 0)
+			(at 702 67.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17356,7 +17441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 645 67.5 0)
+			(at 702 67.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17365,7 +17450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 645 81 0)
+			(at 702 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -17374,7 +17459,7 @@
 			)
 		)
 		(property "Литера" "Ч6"
-			(at 646 69 0)
+			(at 703 69 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17384,7 +17469,7 @@
 			)
 		)
 		(property "ДвухнитеваяК" "2"
-			(at 643 74.5 0)
+			(at 700 74.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17394,7 +17479,7 @@
 			)
 		)
 		(property "ДвухнитеваяЖ" "2"
-			(at 639 74.5 0)
+			(at 696 74.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17404,7 +17489,7 @@
 			)
 		)
 		(property "ДвухнитеваяЗ" "2"
-			(at 639 63.5 0)
+			(at 696 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17414,7 +17499,7 @@
 			)
 		)
 		(property "ДвухнитеваяБ" "2"
-			(at 643 63.5 0)
+			(at 700 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17439,7 +17524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 424 120 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17458,7 +17543,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 428.06 120 0)
+			(at 427.99 120 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,7 +17798,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 55 0)
+		(at 777 55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17722,7 +17807,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c21b3fd-122a-49fe-9874-f37c807faaf9")
 		(property "Reference" "Электротяга3"
-			(at 720 55 0)
+			(at 777 55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17731,7 +17816,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 51.28 0)
+			(at 777 51.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17739,7 +17824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 55 0)
+			(at 777 55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17748,7 +17833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 55 0)
+			(at 777 55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17757,7 +17842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 55 0)
+			(at 777 55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17863,8 +17948,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Путь")
 		(lib_id "SCB_Двухнитка:Путь")
-		(at 690 155 0)
+		(at 747 155 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17873,7 +17959,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db9d216-4337-4b49-bd7d-bc043ad35f63")
 		(property "Reference" "Путь1"
-			(at 690 155 0)
+			(at 747 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,7 +17968,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 672.5 152.88 0)
+			(at 729.5 152.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17890,7 +17976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690 155 0)
+			(at 747 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17899,7 +17985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690 155 0)
+			(at 747 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,7 +17994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 690 155 0)
+			(at 747 155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +18003,7 @@
 			)
 		)
 		(property "Путь" "IП"
-			(at 675 157.5 0)
+			(at 732 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -17926,7 +18012,7 @@
 			)
 		)
 		(property "Длина" "900 м"
-			(at 692.5 157.5 0)
+			(at 749.5 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18091,8 +18177,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Путь")
 		(lib_id "SCB_Двухнитка:Путь")
-		(at 690 80 0)
+		(at 747 80 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18101,7 +18188,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e621dfc-e0f7-46f1-b5bf-c486f6ae54fb")
 		(property "Reference" "Путь6"
-			(at 690 80 0)
+			(at 747 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18110,7 +18197,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 672.5 77.95 0)
+			(at 729.5 77.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690 80 0)
+			(at 747 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18127,7 +18214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690 80 0)
+			(at 747 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18136,7 +18223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 690 80 0)
+			(at 747 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +18232,7 @@
 			)
 		)
 		(property "Путь" "6П"
-			(at 675 82.5 0)
+			(at 732 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18154,7 +18241,7 @@
 			)
 		)
 		(property "Длина" "900 м"
-			(at 692.5 82.5 0)
+			(at 749.5 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18487,14 +18574,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 250 130 0)
+		(at 265 130 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18503,7 +18590,7 @@
 		(fields_autoplaced yes)
 		(uuid "53d6b880-400f-4005-b892-21a20e2143e3")
 		(property "Reference" "ДТ6"
-			(at 255 122 0)
+			(at 270 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18512,7 +18599,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 255 123.67 0)
+			(at 270 123.67 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18520,7 +18607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255 131 0)
+			(at 270 131 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18529,7 +18616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255 131 0)
+			(at 270 131 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18538,7 +18625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255 130 0)
+			(at 270 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18547,7 +18634,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 260 126.5 0)
+			(at 275 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18558,7 +18645,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 250 126.5 0)
+			(at 265 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18569,7 +18656,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 259 132.5 0)
+			(at 274 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18579,7 +18666,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 251 132.5 0)
+			(at 266 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18626,8 +18713,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
 		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
-		(at 685 70 0)
+		(at 742 70 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18636,7 +18724,7 @@
 		(fields_autoplaced yes)
 		(uuid "5468a651-5f61-432c-8c46-882a9251bd95")
 		(property "Reference" "К11"
-			(at 683.5 70 0)
+			(at 740.5 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18645,7 +18733,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 680 70 0)
+			(at 737 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18654,7 +18742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 680 70 0)
+			(at 737 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18663,7 +18751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 680 70 0)
+			(at 737 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18672,7 +18760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 685 70 0)
+			(at 742 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18681,7 +18769,7 @@
 			)
 		)
 		(property "Направления" "7"
-			(at 685 70 0)
+			(at 742 70 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18690,7 +18778,7 @@
 			)
 		)
 		(property "Ордината" "(720)"
-			(at 685 62 0)
+			(at 742 62 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -18699,7 +18787,7 @@
 			)
 		)
 		(property "Литера" "СТ1"
-			(at 685 58 0)
+			(at 742 58 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -18814,8 +18902,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 608 160 180)
+		(at 665 160 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18823,7 +18912,7 @@
 		(dnp no)
 		(uuid "56679f91-72ec-4ebd-9e08-1e40f58bf434")
 		(property "Reference" "ДТ22"
-			(at 603 168 0)
+			(at 660 168 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18833,7 +18922,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 603 166.33 0)
+			(at 660 166.33 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18841,7 +18930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603 159 0)
+			(at 660 159 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18850,7 +18939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603 159 0)
+			(at 660 159 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18859,7 +18948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603 160 0)
+			(at 660 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -18868,7 +18957,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 598 163.5 0)
+			(at 655 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18879,7 +18968,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 608 163.5 0)
+			(at 665 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18890,7 +18979,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 599 157.5 0)
+			(at 656 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -18900,7 +18989,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 607 157.5 0)
+			(at 664 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19023,8 +19112,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 82 90)
+		(at 757 82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19033,7 +19123,7 @@
 		(fields_autoplaced yes)
 		(uuid "58955d63-ab7b-4f0f-9b2f-f0462a946c8f")
 		(property "Reference" "Магистральный_6"
-			(at 697 82 0)
+			(at 754 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19042,7 +19132,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 82 90)
+			(at 760.23 82 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19051,7 +19141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 82 0)
+			(at 757 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19060,7 +19150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 82 0)
+			(at 757 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19069,7 +19159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 82 0)
+			(at 757 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19174,8 +19264,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 520 160 180)
+		(at 577 160 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19183,7 +19274,7 @@
 		(dnp no)
 		(uuid "5b92d354-c25f-40b1-88c6-a867bfdaa319")
 		(property "Reference" "ДТ16"
-			(at 515 168 0)
+			(at 572 168 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19193,7 +19284,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 515 167.13 0)
+			(at 572 167.13 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19201,7 +19292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515 159 0)
+			(at 572 159 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19210,7 +19301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515 159 0)
+			(at 572 159 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19219,7 +19310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 515 160 0)
+			(at 572 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19228,7 +19319,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 510 163.5 0)
+			(at 567 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19239,7 +19330,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 520 163.5 0)
+			(at 577 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19250,7 +19341,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 511 157.5 0)
+			(at 568 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19260,7 +19351,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 519 157.5 0)
+			(at 576 157.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19761,7 +19852,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -19922,8 +20013,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 493 80 0)
+		(at 560 80 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19932,7 +20024,7 @@
 		(fields_autoplaced yes)
 		(uuid "68e8dbd0-042e-49de-a9c9-542129be3982")
 		(property "Reference" "ДТ15"
-			(at 498 72 0)
+			(at 565 72 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19941,7 +20033,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 498 72.87 0)
+			(at 565 72.87 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19949,7 +20041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 498 81 0)
+			(at 565 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19958,7 +20050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 498 81 0)
+			(at 565 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19967,7 +20059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 498 80 0)
+			(at 565 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -19976,7 +20068,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 503 76.5 0)
+			(at 570 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19987,7 +20079,7 @@
 			)
 		)
 		(property "Секция2" "29А"
-			(at 493 76.5 0)
+			(at 560 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -19997,7 +20089,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 502 82.5 0)
+			(at 569 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20008,7 +20100,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 494 82.5 0)
+			(at 561 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20291,7 +20383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 244 95 0)
 		(mirror y)
 		(unit 1)
@@ -20366,8 +20458,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 598 185 0)
+		(at 655 185 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20377,7 +20470,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ecb2f0d-aeb0-484a-8417-65e104994f90")
 		(property "Reference" "ДТ23"
-			(at 603 193 0)
+			(at 660 193 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20387,7 +20480,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 603 177.01 0)
+			(at 660 177.01 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20395,7 +20488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603 184 0)
+			(at 660 184 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20404,7 +20497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603 184 0)
+			(at 660 184 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20413,7 +20506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603 185 0)
+			(at 660 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20422,7 +20515,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 608 188.5 0)
+			(at 665 188.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20433,7 +20526,7 @@
 			)
 		)
 		(property "Секция2" "35Б"
-			(at 598 188.5 0)
+			(at 655 188.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20443,7 +20536,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 607 182.5 0)
+			(at 664 182.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20453,7 +20546,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 599 182.5 0)
+			(at 656 182.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20500,8 +20593,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 525 65 0)
+		(at 582 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20510,7 +20604,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fac5892-8678-47f7-8411-1531de038668")
 		(property "Reference" "Магистральный_кабель1"
-			(at 525 62 0)
+			(at 582 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20519,7 +20613,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 525 61.52 0)
+			(at 582 61.52 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20527,7 +20621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 525 65 0)
+			(at 582 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20536,7 +20630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 525 65 0)
+			(at 582 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20545,7 +20639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 525 65 0)
+			(at 582 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20575,8 +20669,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Стрелка_ДСШ")
 		(lib_id "SCB_Двухнитка:Стрелка_ДСШ")
-		(at 585 80 0)
+		(at 642 80 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20585,7 +20680,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fb47a71-c8a9-496b-b198-833c6f9c8807")
 		(property "Reference" "Стрелка20"
-			(at 595 70 0)
+			(at 652 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20594,7 +20689,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 601 86.84 0)
+			(at 658 86.84 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20602,7 +20697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 600 75 0)
+			(at 657 75 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20611,7 +20706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 600 75 0)
+			(at 657 75 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20620,7 +20715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 600 75 0)
+			(at 657 75 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -20629,7 +20724,7 @@
 			)
 		)
 		(property "Номер.стр." "1"
-			(at 590 76 0)
+			(at 647 76 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20690,7 +20785,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -21024,8 +21119,8 @@
 			)
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
-					(reference "Входной?")
-					(unit 1)
+					(reference "Входной2")
+					(unit 2)
 				)
 			)
 		)
@@ -21108,7 +21203,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Соединитель")
-		(at 540 160 0)
+		(at 597 160 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -21117,7 +21212,7 @@
 		(dnp no)
 		(uuid "74c0667f-99fc-4cfe-b69d-793022207425")
 		(property "Reference" "Соединитель17"
-			(at 540 166 0)
+			(at 597 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21126,7 +21221,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 548.75 153.66 0)
+			(at 605.75 153.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,7 +21229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 540 160 0)
+			(at 597 160 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21143,7 +21238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 540 160 0)
+			(at 597 160 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21152,7 +21247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 540 160 0)
+			(at 597 160 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21182,8 +21277,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 523.5 160 0)
+		(at 580.5 160 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim yes)
@@ -21192,7 +21288,7 @@
 		(dnp no)
 		(uuid "75310a92-ed38-441f-b82e-7d0f40db2a43")
 		(property "Reference" "ЯР35А"
-			(at 520 167.5 0)
+			(at 577 167.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21201,7 +21297,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 531.81 160 0)
+			(at 588.81 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21210,7 +21306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 521 166 0)
+			(at 578 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21219,7 +21315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 521 166 0)
+			(at 578 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21228,7 +21324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 523.5 160 0)
+			(at 580.5 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21237,7 +21333,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 526.5 163.5 0)
+			(at 583.5 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21248,7 +21344,7 @@
 			)
 		)
 		(property "Секция1" "35А"
-			(at 530 165 0)
+			(at 587 165 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21279,14 +21375,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР35А?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 498 71 0)
+		(at 565 71 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21294,7 +21390,7 @@
 		(dnp no)
 		(uuid "75a4072b-2d94-4a7d-a9a4-9cf81b7ddda3")
 		(property "Reference" "Маневровый30"
-			(at 498 67 0)
+			(at 565 67 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21303,7 +21399,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 498 67 0)
+			(at 565 67 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21312,7 +21408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 498 71 0)
+			(at 565 71 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21321,7 +21417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 498 71 0)
+			(at 565 71 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21330,7 +21426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 498 78 0)
+			(at 565 78 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21338,8 +21434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М25"
-			(at 499 71 0)
+		(property "Литера" "М29"
+			(at 566 71 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21444,7 +21540,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Привод")
-		(at 545 160 0)
+		(at 602 160 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21453,7 +21549,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c8ff60-841a-46b3-a6c7-3db5e98eb5e0")
 		(property "Reference" "СП18"
-			(at 545 158 0)
+			(at 602 158 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21462,7 +21558,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 545.93 162.5 0)
+			(at 602.93 162.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21471,7 +21567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 545.5 159.5 0)
+			(at 602.5 159.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21480,7 +21576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 545.5 159.5 0)
+			(at 602.5 159.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21489,7 +21585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 545.5 159.5 0)
+			(at 602.5 159.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21498,7 +21594,7 @@
 			)
 		)
 		(property "Номер.стр." "35"
-			(at 543.5 168 0)
+			(at 600.5 168 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -21655,6 +21751,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(at 185 105 0)
 		(unit 1)
@@ -21718,7 +21815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Секция2" "М5П"
+		(property "Секция2" "М3П"
 			(at 185 101.5 0)
 			(do_not_autoplace yes)
 			(effects
@@ -21885,7 +21982,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 332.43 160 0)
+			(at 332.74 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -21963,7 +22060,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -22063,7 +22160,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 281 161.77 0)
+			(at 281 161.29 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22159,14 +22256,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB:Выходной_к")
-		(at 603 173 0)
+		(at 660 173 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22175,7 +22272,7 @@
 		(fields_autoplaced yes)
 		(uuid "849570d2-377f-43db-9360-39bc2099aa4d")
 		(property "Reference" "Выходной7"
-			(at 610.5 169 0)
+			(at 667.5 169 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22184,7 +22281,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 603 167.5 0)
+			(at 660 167.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22193,7 +22290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603 171.5 0)
+			(at 660 171.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22202,7 +22299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603 171.5 0)
+			(at 660 171.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22211,7 +22308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603 185 0)
+			(at 660 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22220,7 +22317,7 @@
 			)
 		)
 		(property "Литера" "Ч3"
-			(at 604 173 0)
+			(at 661 173 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22230,7 +22327,7 @@
 			)
 		)
 		(property "ДвухнитеваяК" "2"
-			(at 601 178.5 0)
+			(at 658 178.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22240,7 +22337,7 @@
 			)
 		)
 		(property "ДвухнитеваяЖ" "2"
-			(at 597 178.5 0)
+			(at 654 178.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22250,7 +22347,7 @@
 			)
 		)
 		(property "ДвухнитеваяЗ" "2"
-			(at 597 167.5 0)
+			(at 654 167.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22260,7 +22357,7 @@
 			)
 		)
 		(property "ДвухнитеваяБ" "2"
-			(at 601 167.5 0)
+			(at 658 167.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22285,8 +22382,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 509 80 0)
+		(at 576 80 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22294,7 +22392,7 @@
 		(dnp no)
 		(uuid "84fbf33f-8347-426c-a9ee-4106973240a2")
 		(property "Reference" "ЯР33"
-			(at 509.5 72 0)
+			(at 576.5 72 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22303,7 +22401,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 522.39 80 0)
+			(at 589.39 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22311,7 +22409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 504 73.5 0)
+			(at 571 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22320,7 +22418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 504 73.5 0)
+			(at 571 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22329,7 +22427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 509 80 0)
+			(at 576 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22338,7 +22436,7 @@
 			)
 		)
 		(property "Секция1" "33"
-			(at 514 76.5 0)
+			(at 581 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22348,7 +22446,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 504 76.5 0)
+			(at 571 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -22359,7 +22457,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 514.5 76.5 0)
+			(at 581.5 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -22369,7 +22467,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 504 76.5 0)
+			(at 571 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -22406,7 +22504,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -22488,8 +22586,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 102 90)
+		(at 757 102 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22498,7 +22597,7 @@
 		(fields_autoplaced yes)
 		(uuid "86da5949-0ca3-483f-a4b6-164401dfd4bc")
 		(property "Reference" "Магистральный_5"
-			(at 697 102 0)
+			(at 754 102 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22507,7 +22606,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 102 90)
+			(at 760.23 102 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22516,7 +22615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 102 0)
+			(at 757 102 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22525,7 +22624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 102 0)
+			(at 757 102 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22534,7 +22633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 102 0)
+			(at 757 102 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -22692,7 +22791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М11"
+		(property "Литера" "М9"
 			(at 261 71 0)
 			(do_not_autoplace yes)
 			(effects
@@ -22894,7 +22993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М29"
+		(property "Литера" "М27"
 			(at 561 21 0)
 			(do_not_autoplace yes)
 			(effects
@@ -23148,7 +23247,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 311 128.75 0)
+			(at 311 128.27 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23244,7 +23343,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -23332,7 +23431,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 130 0)
+		(at 777 130 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23341,7 +23440,7 @@
 		(fields_autoplaced yes)
 		(uuid "93d52e5e-d344-4d51-bd07-beee358cc7a8")
 		(property "Reference" "Электротяга6"
-			(at 720 130 0)
+			(at 777 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23350,7 +23449,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 126.21 0)
+			(at 777 126.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23358,7 +23457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 130 0)
+			(at 777 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23367,7 +23466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 130 0)
+			(at 777 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23376,7 +23475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 130 0)
+			(at 777 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23617,7 +23716,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Соединитель")
-		(at 547 85 180)
+		(at 604 85 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23626,7 +23725,7 @@
 		(fields_autoplaced yes)
 		(uuid "9742a0f3-5d6c-49aa-9884-3db1d5d897cb")
 		(property "Reference" "Соединитель18"
-			(at 547 91 0)
+			(at 604 91 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23635,7 +23734,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 538.125 77.95 0)
+			(at 595.125 77.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23643,7 +23742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 547 85 0)
+			(at 604 85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23652,7 +23751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 547 85 0)
+			(at 604 85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23661,7 +23760,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 547 85 0)
+			(at 604 85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23863,14 +23962,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР11-?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 246.5 130 0)
+		(at 261.5 130 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim yes)
@@ -23880,7 +23979,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e9975f-d984-4c94-a54b-261cf5aaa737")
 		(property "Reference" "ЯР1"
-			(at 250 122.5 0)
+			(at 265 122.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23889,7 +23988,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 242.88 130 0)
+			(at 257.57 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23898,7 +23997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 249 124 0)
+			(at 264 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23907,7 +24006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 249 124 0)
+			(at 264 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23916,7 +24015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.5 130 0)
+			(at 261.5 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -23925,7 +24024,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 243.5 126.5 0)
+			(at 258.5 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -23936,7 +24035,7 @@
 			)
 		)
 		(property "Секция1" "1"
-			(at 244 126.5 0)
+			(at 259 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -23967,7 +24066,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -24082,8 +24181,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 650 55 0)
+		(at 707 55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24092,7 +24192,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a4579dc-1544-436d-b8ad-c786f3551570")
 		(property "Reference" "ДТ20"
-			(at 655 47 0)
+			(at 712 47 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24101,7 +24201,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 655 48.74 0)
+			(at 712 48.74 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24109,7 +24209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 655 56 0)
+			(at 712 56 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24118,7 +24218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 655 56 0)
+			(at 712 56 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24127,7 +24227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 655 55 0)
+			(at 712 55 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24136,7 +24236,7 @@
 			)
 		)
 		(property "Секция1" "1-9"
-			(at 660 51.5 0)
+			(at 717 51.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24147,7 +24247,7 @@
 			)
 		)
 		(property "Секция2" "37Б"
-			(at 650 51.5 0)
+			(at 707 51.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24157,7 +24257,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 659 57.5 0)
+			(at 716 57.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24168,7 +24268,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 651 57.5 0)
+			(at 708 57.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24215,8 +24315,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 505 65 0)
+		(at 562 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24225,7 +24326,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b0244a5-51d9-41df-a5a7-45a5e70e8cf7")
 		(property "Reference" "Магистральный_кабель1"
-			(at 505 62 0)
+			(at 562 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24234,7 +24335,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 505 61.52 0)
+			(at 562 61.52 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24242,7 +24343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 505 65 0)
+			(at 562 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24251,7 +24352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 505 65 0)
+			(at 562 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24260,7 +24361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 505 65 0)
+			(at 562 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24369,8 +24470,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Стрелка_ДСШ")
 		(lib_id "SCB_Двухнитка:Стрелка_ДСШ")
-		(at 547 85 180)
+		(at 604 85 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24379,7 +24481,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e9025bc-c0ef-4330-ac4c-59a251838d34")
 		(property "Reference" "Стрелка19"
-			(at 537 95 0)
+			(at 594 95 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24388,7 +24490,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 531 77.95 0)
+			(at 588 77.95 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24396,7 +24498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 532 90 0)
+			(at 589 90 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24405,7 +24507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532 90 0)
+			(at 589 90 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24414,7 +24516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 532 90 0)
+			(at 589 90 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24423,7 +24525,7 @@
 			)
 		)
 		(property "Номер.стр." "1"
-			(at 542 89 0)
+			(at 599 89 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24484,7 +24586,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -24663,7 +24765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М5"
+		(property "Литера" "М3"
 			(at 189 115 0)
 			(do_not_autoplace yes)
 			(effects
@@ -24689,8 +24791,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 625 65 0)
+		(at 682 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24699,7 +24802,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3821b9d-a441-4de7-b1ef-942fa9d16bb4")
 		(property "Reference" "Магистральный_кабель1"
-			(at 625 62 0)
+			(at 682 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24708,7 +24811,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 625 61.33 0)
+			(at 682 61.33 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24716,7 +24819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 625 65 0)
+			(at 682 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24725,7 +24828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 625 65 0)
+			(at 682 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24734,7 +24837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 625 65 0)
+			(at 682 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24783,7 +24886,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 456 86.84 0)
+			(at 456 86.36 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24879,14 +24982,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Привод")
-		(at 542 80 180)
+		(at 599 80 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24894,7 +24997,7 @@
 		(dnp no)
 		(uuid "a3f856b2-cfc0-457b-a407-8daae5aa4fc8")
 		(property "Reference" "СП17"
-			(at 542 82 0)
+			(at 599 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -24903,7 +25006,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 545.77 77.5 0)
+			(at 602.77 77.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24911,7 +25014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 541.5 80.5 0)
+			(at 598.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24920,7 +25023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 541.5 80.5 0)
+			(at 598.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24929,7 +25032,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 541.5 80.5 0)
+			(at 598.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24938,7 +25041,7 @@
 			)
 		)
 		(property "Номер.стр." "33"
-			(at 538.5 77 0)
+			(at 595.5 77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -25041,7 +25144,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Электрификация")
-		(at 720 30 0)
+		(at 777 30 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25050,7 +25153,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4e7a1d5-6c54-427f-92dc-5c50d4d56c8f")
 		(property "Reference" "Электротяга2"
-			(at 720 30 0)
+			(at 777 30 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25059,7 +25162,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 720 25.88 0)
+			(at 777 25.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25067,7 +25170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 720 30 0)
+			(at 777 30 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25076,7 +25179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 720 30 0)
+			(at 777 30 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25085,7 +25188,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 720 30 0)
+			(at 777 30 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25300,7 +25403,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 255 121 0)
+		(at 270 121 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25308,7 +25411,7 @@
 		(dnp no)
 		(uuid "ac9579e8-1d26-4b39-ab72-b1a7083e7af9")
 		(property "Reference" "Маневровый21"
-			(at 255 117 0)
+			(at 270 117 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -25317,7 +25420,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 255 117 0)
+			(at 270 117 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -25326,7 +25429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255 121 0)
+			(at 270 121 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -25335,7 +25438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255 121 0)
+			(at 270 121 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -25344,7 +25447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255 128 0)
+			(at 270 128 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -25352,8 +25455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М9"
-			(at 256 121 0)
+		(property "Литера" "М11"
+			(at 271 121 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26197,8 +26300,79 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
+		(lib_id "SCB:Магистральный_кабель")
+		(at 542 65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e587e1-79b0-43b6-848b-365894ee3a76")
+		(property "Reference" "Магистральный_кабель1"
+			(at 542 62 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 542 61.52 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 542 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 542 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 542 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dc28f4e9-6197-4dcb-adfe-a9b31c36db83")
+		)
+		(pin ""
+			(uuid "632c0a08-2072-4edb-8e1a-6c861847b5fd")
+		)
+		(instances
+			(project "Двухниточный"
+				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
+					(reference "Магистральный_кабель1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 471.5 130 0)
+		(at 551.5 130 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim yes)
@@ -26208,7 +26382,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f7eba1-1f2b-400d-bbe1-ebb545893d8c")
 		(property "Reference" "ЯР21-25"
-			(at 475 122.5 0)
+			(at 555 122.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26217,7 +26391,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 467.67 130 0)
+			(at 547.36 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26226,7 +26400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 474 124 0)
+			(at 554 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26235,7 +26409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 474 124 0)
+			(at 554 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26244,7 +26418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 471.5 130 0)
+			(at 551.5 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26253,7 +26427,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 468.5 126.5 0)
+			(at 548.5 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26264,7 +26438,7 @@
 			)
 		)
 		(property "Секция1" "21-25"
-			(at 469 126.5 0)
+			(at 549 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26295,7 +26469,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР21-?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -26422,7 +26596,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -26558,8 +26732,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 666 55 0)
+		(at 723 55 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26567,7 +26742,7 @@
 		(dnp no)
 		(uuid "b98aabf8-2de3-41d0-9004-d69e8b67a4e1")
 		(property "Reference" "ЯРМ37П"
-			(at 666.5 47 0)
+			(at 723.5 47 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26576,7 +26751,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 679.39 55 0)
+			(at 736.39 55 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26584,7 +26759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 661 48.5 0)
+			(at 718 48.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26593,7 +26768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 661 48.5 0)
+			(at 718 48.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26602,7 +26777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 666 55 0)
+			(at 723 55 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -26611,7 +26786,7 @@
 			)
 		)
 		(property "Секция1" "М37П"
-			(at 671 51.5 0)
+			(at 728 51.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26621,7 +26796,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 661 51.5 0)
+			(at 718 51.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -26632,7 +26807,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 671.5 51.5 0)
+			(at 728.5 51.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -26642,7 +26817,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 661 51.5 0)
+			(at 718 51.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -26679,7 +26854,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯРМ37П?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -27026,7 +27201,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Привод")
-		(at 590 80 0)
+		(at 647 80 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27035,7 +27210,7 @@
 		(dnp no)
 		(uuid "be3bd938-0c5b-448e-8492-1aec76515b54")
 		(property "Reference" "СП19"
-			(at 590 82 0)
+			(at 647 82 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27044,7 +27219,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 586.25 77.5 0)
+			(at 643.25 77.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27053,7 +27228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 590.5 80.5 0)
+			(at 647.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27062,7 +27237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 590.5 80.5 0)
+			(at 647.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27071,7 +27246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 590.5 80.5 0)
+			(at 647.5 80.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27080,7 +27255,7 @@
 			)
 		)
 		(property "Номер.стр." "37"
-			(at 588.5 72 0)
+			(at 645.5 72 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27179,8 +27354,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 122 90)
+		(at 757 122 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27189,7 +27365,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3f05e46-d800-4140-b04b-e6f3c0ec8bdc")
 		(property "Reference" "Магистральный_4"
-			(at 697 122 0)
+			(at 754 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27198,7 +27374,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 122 90)
+			(at 760.23 122 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27207,7 +27383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 122 0)
+			(at 757 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27216,7 +27392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 122 0)
+			(at 757 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27225,7 +27401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 122 0)
+			(at 757 122 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27330,17 +27506,18 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
-		(at 550 65 0)
+		(lib_name "SCB:Магистральный_кабель")
+		(lib_id "SCB:Магистральный_кабель")
+		(at 502 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8a31ed7-33e5-483b-b6db-633f95b2d105")
-		(property "Reference" "К1111"
-			(at 548.5 65 0)
+		(uuid "c7173940-0dea-4436-8eac-3d44f5a34396")
+		(property "Reference" "Магистральный_кабель1"
+			(at 502 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27349,16 +27526,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 545 65 0)
+			(at 502 61.52 0)
 			(effects
 				(font
 					(size 1.8 1.8)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 545 65 0)
+			(at 502 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27367,7 +27543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 545 65 0)
+			(at 502 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27376,7 +27552,78 @@
 			)
 		)
 		(property "Description" ""
-			(at 550 65 0)
+			(at 502 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7ec910ff-8c3f-4f0c-be0b-3bbb1afabec3")
+		)
+		(pin ""
+			(uuid "949b4339-ffad-4ea2-93c0-efab3476503b")
+		)
+		(instances
+			(project "Двухниточный"
+				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
+					(reference "Магистральный_кабель1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SCB_Двухнитка:Муфта_ЭЦ")
+		(lib_id "SCB_Двухнитка:Муфта_ЭЦ")
+		(at 607 65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8a31ed7-33e5-483b-b6db-633f95b2d105")
+		(property "Reference" "К1111"
+			(at 605.5 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 602 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 602 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 602 65 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 607 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27385,7 +27632,7 @@
 			)
 		)
 		(property "Направления" "8"
-			(at 550 65 0)
+			(at 607 65 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27394,7 +27641,7 @@
 			)
 		)
 		(property "Ордината" "(720)"
-			(at 550 57 0)
+			(at 607 57 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -27403,7 +27650,7 @@
 			)
 		)
 		(property "Литера" "СТ1"
-			(at 550 53 0)
+			(at 607 53 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -27439,8 +27686,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 605 65 0)
+		(at 662 65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27449,7 +27697,7 @@
 		(fields_autoplaced yes)
 		(uuid "cae38bf1-39e8-4f46-be3e-69580cb17d07")
 		(property "Reference" "Магистральный_кабель1"
-			(at 605 62 0)
+			(at 662 62 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27458,7 +27706,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 605 61.52 0)
+			(at 662 61.52 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27466,7 +27714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 605 65 0)
+			(at 662 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27475,7 +27723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 605 65 0)
+			(at 662 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27484,7 +27732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 605 65 0)
+			(at 662 65 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27589,8 +27837,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
-		(at 555 80 0)
+		(at 612 80 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27599,7 +27848,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccd9018c-14ee-4f21-8965-1ed1f34b84f1")
 		(property "Reference" "ДТ18"
-			(at 560 72 0)
+			(at 617 72 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27609,7 +27858,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 560 72.87 0)
+			(at 617 72.87 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27617,7 +27866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 560 81 0)
+			(at 617 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27626,7 +27875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 560 81 0)
+			(at 617 81 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27635,7 +27884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 560 80 0)
+			(at 617 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27644,7 +27893,7 @@
 			)
 		)
 		(property "Секция1" "33"
-			(at 565 76.5 0)
+			(at 622 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27655,7 +27904,7 @@
 			)
 		)
 		(property "Секция2" "33"
-			(at 555 76.5 0)
+			(at 612 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27665,7 +27914,7 @@
 			)
 		)
 		(property "Кодирование1" "К"
-			(at 564 82.5 0)
+			(at 621 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27676,7 +27925,7 @@
 			)
 		)
 		(property "Кодирование2" "К"
-			(at 556 82.5 0)
+			(at 613 82.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27724,7 +27973,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 515 169 0)
+		(at 572 169 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -27734,7 +27983,7 @@
 		(fields_autoplaced yes)
 		(uuid "cde8eb9d-2f89-4dd9-aa01-b9ea2cc0cd35")
 		(property "Reference" "Маневровый31"
-			(at 515 165 0)
+			(at 572 165 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27743,7 +27992,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 515 165 0)
+			(at 572 165 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27752,7 +28001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 515 169 0)
+			(at 572 169 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27761,7 +28010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 515 169 0)
+			(at 572 169 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27770,7 +28019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 515 176 0)
+			(at 572 176 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -27779,7 +28028,7 @@
 			)
 		)
 		(property "Литера" "М31"
-			(at 514 169 0)
+			(at 571 169 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -27804,7 +28053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 296 145 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27823,7 +28072,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 299.79 145 0)
+			(at 299.72 145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27880,7 +28129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 464 145 0)
 		(mirror y)
 		(unit 1)
@@ -28030,7 +28279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SCB_Двухнитка:Изостыки_бок")
+		(lib_id "SCB_Двухнитка:Изостыки_без_контроля_отв")
 		(at 336 120 0)
 		(mirror y)
 		(unit 1)
@@ -28314,8 +28563,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 665 70 0)
+		(at 722 70 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28324,7 +28574,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3b40d6f-4946-4fa6-a6b5-5435f22dd16b")
 		(property "Reference" "Магистральный_7"
-			(at 665 67 0)
+			(at 722 67 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28333,7 +28583,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 665 66.6 0)
+			(at 722 66.6 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28341,7 +28591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 665 70 0)
+			(at 722 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28350,7 +28600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 665 70 0)
+			(at 722 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28359,7 +28609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 665 70 0)
+			(at 722 70 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28518,8 +28768,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 506.5 160 180)
+		(at 563.5 160 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -28528,7 +28779,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b9dd63-f507-4eb0-8387-36f634098214")
 		(property "Reference" "ЯП27"
-			(at 510 167.5 0)
+			(at 567 167.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28537,7 +28788,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 502.42 160 0)
+			(at 559.42 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28546,7 +28797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 509 166 0)
+			(at 566 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28555,7 +28806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509 166 0)
+			(at 566 166 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28564,7 +28815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 506.5 160 0)
+			(at 563.5 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28573,7 +28824,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 503.5 163.5 0)
+			(at 560.5 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -28584,7 +28835,7 @@
 			)
 		)
 		(property "Секция1" "27"
-			(at 504 163.5 0)
+			(at 561 163.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -28621,8 +28872,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Стрелка_ДСШ")
 		(lib_id "SCB_Двухнитка:Стрелка_ДСШ")
-		(at 485 105 0)
+		(at 542 105 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28631,7 +28883,7 @@
 		(fields_autoplaced yes)
 		(uuid "da103303-eafd-43e6-9cd4-19edc3c81ca4")
 		(property "Reference" "Стрелка18"
-			(at 495 95 0)
+			(at 552 95 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28640,7 +28892,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 501 112.24 0)
+			(at 558 111.76 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28648,7 +28900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 500 100 0)
+			(at 557 100 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28657,7 +28909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 500 100 0)
+			(at 557 100 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28666,7 +28918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 500 100 0)
+			(at 557 100 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -28675,7 +28927,7 @@
 			)
 		)
 		(property "Номер.стр." "1"
-			(at 490 101 0)
+			(at 547 101 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -28736,7 +28988,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -28982,7 +29234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М27"
+		(property "Литера" "М25"
 			(at 469 115 0)
 			(do_not_autoplace yes)
 			(effects
@@ -29009,7 +29261,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Соединитель")
-		(at 585 80 0)
+		(at 642 80 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29018,7 +29270,7 @@
 		(fields_autoplaced yes)
 		(uuid "df2b37bc-1072-4d31-a270-2b8832af2585")
 		(property "Reference" "Соединитель19"
-			(at 585 74 0)
+			(at 642 74 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29027,7 +29279,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 604.03 80.75 0)
+			(at 661.03 80.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29036,7 +29288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 585 80 0)
+			(at 642 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29045,7 +29297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 585 80 0)
+			(at 642 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29054,7 +29306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 585 80 0)
+			(at 642 80 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29084,8 +29336,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Путь")
 		(lib_id "SCB_Двухнитка:Путь")
-		(at 690 130 0)
+		(at 747 130 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29094,7 +29347,7 @@
 		(fields_autoplaced yes)
 		(uuid "e06bd0f2-04f9-456d-85d4-e0ab0ff46364")
 		(property "Reference" "Путь2"
-			(at 690 130 0)
+			(at 747 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29103,7 +29356,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 672.5 128.75 0)
+			(at 729.5 128.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29111,7 +29364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690 130 0)
+			(at 747 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29120,7 +29373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690 130 0)
+			(at 747 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29129,7 +29382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 690 130 0)
+			(at 747 130 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29138,7 +29391,7 @@
 			)
 		)
 		(property "Путь" "IIП"
-			(at 675 132.5 0)
+			(at 732 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29147,7 +29400,7 @@
 			)
 		)
 		(property "Длина" "900 м"
-			(at 692.5 132.5 0)
+			(at 749.5 132.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29204,7 +29457,7 @@
 	)
 	(symbol
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
-		(at 263.5 130 0)
+		(at 278.5 130 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -29213,7 +29466,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3ca8eca-9b1e-4c44-8d25-cf995ea81831")
 		(property "Reference" "ЯП11-15"
-			(at 260 122.5 0)
+			(at 275 122.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29222,7 +29475,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 267.66 130 0)
+			(at 282.66 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29231,7 +29484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261 124 0)
+			(at 276 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29240,7 +29493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261 124 0)
+			(at 276 124 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29249,7 +29502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 263.5 130 0)
+			(at 278.5 130 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29258,7 +29511,7 @@
 			)
 		)
 		(property "Частота" "420/12"
-			(at 266.5 126.5 0)
+			(at 281.5 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29269,7 +29522,7 @@
 			)
 		)
 		(property "Секция1" "11-15"
-			(at 266 126.5 0)
+			(at 281 126.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29306,8 +29559,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 202 90)
+		(at 757 202 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29316,7 +29570,7 @@
 		(fields_autoplaced yes)
 		(uuid "e468090a-2c33-4514-9cf5-b3b52d60e019")
 		(property "Reference" "Магистральный_8"
-			(at 697 202 0)
+			(at 754 202 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29325,7 +29579,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 202 90)
+			(at 760.23 202 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29334,7 +29588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 202 0)
+			(at 757 202 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29343,7 +29597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 202 0)
+			(at 757 202 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29352,7 +29606,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 202 0)
+			(at 757 202 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29654,7 +29908,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Выходной")
-		(at 480 121 0)
+		(at 560 121 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29663,7 +29917,7 @@
 		(fields_autoplaced yes)
 		(uuid "e919cde4-2515-49ac-bd1c-b96a72d76088")
 		(property "Reference" "Выходной5"
-			(at 480 117 0)
+			(at 560 117 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29672,7 +29926,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 480 117 0)
+			(at 560 117 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29681,7 +29935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 480 121 0)
+			(at 560 121 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29690,7 +29944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480 121 0)
+			(at 560 121 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29699,7 +29953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 480 133 0)
+			(at 560 133 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29708,7 +29962,7 @@
 			)
 		)
 		(property "Литера" "ЧII"
-			(at 481 121 0)
+			(at 561 121 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29718,7 +29972,7 @@
 			)
 		)
 		(property "ДвухнитеваяК" "2"
-			(at 468 117.5 0)
+			(at 548 117.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29728,7 +29982,7 @@
 			)
 		)
 		(property "ДвухнитеваяЖ" "2"
-			(at 460 117.5 0)
+			(at 540 117.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29738,7 +29992,7 @@
 			)
 		)
 		(property "ДвухнитеваяЗ" "2"
-			(at 464 117.5 0)
+			(at 544 117.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29748,7 +30002,7 @@
 			)
 		)
 		(property "ДвухнитеваяБ" "2"
-			(at 472 117.5 0)
+			(at 552 117.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29774,7 +30028,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 655 46 0)
+		(at 712 46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29783,7 +30037,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9ff6c06-6843-4bb1-b502-29915c996c9e")
 		(property "Reference" "Маневровый8"
-			(at 655 42 0)
+			(at 712 42 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29792,7 +30046,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 655 42 0)
+			(at 712 42 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29801,7 +30055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 655 46 0)
+			(at 712 46 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29810,7 +30064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 655 46 0)
+			(at 712 46 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29819,7 +30073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 655 53 0)
+			(at 712 53 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29828,7 +30082,7 @@
 			)
 		)
 		(property "Литера" "М37"
-			(at 656 46 0)
+			(at 713 46 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29853,8 +30107,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 614 185 0)
+		(at 671 185 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -29864,7 +30119,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea02d0d4-b202-4616-a191-7435126a6621")
 		(property "Reference" "ЯР3П"
-			(at 614.5 193 0)
+			(at 671.5 193 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29873,7 +30128,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 619.76 185 0)
+			(at 676.76 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29882,7 +30137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 609 191.5 0)
+			(at 666 191.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29891,7 +30146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 609 191.5 0)
+			(at 666 191.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29900,7 +30155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 614 185 0)
+			(at 671 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -29909,7 +30164,7 @@
 			)
 		)
 		(property "Секция1" "3П"
-			(at 619 188.5 0)
+			(at 676 188.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29919,7 +30174,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 609 188.5 0)
+			(at 666 188.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -29930,7 +30185,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 619.5 188.5 0)
+			(at 676.5 188.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -29940,7 +30195,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 609 188.5 0)
+			(at 666 188.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -29977,14 +30232,15 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР3П?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 142 90)
+		(at 757 142 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29993,7 +30249,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea137835-d483-450e-aa31-60ad45a89fbd")
 		(property "Reference" "Магистральный_3"
-			(at 697 142 0)
+			(at 754 142 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30002,7 +30258,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 142 90)
+			(at 760.23 142 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30011,7 +30267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 142 0)
+			(at 757 142 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30020,7 +30276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 142 0)
+			(at 757 142 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30029,7 +30285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 142 0)
+			(at 757 142 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30364,7 +30620,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 381 77.95 0)
+			(at 381 78.74 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30460,7 +30716,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "Стрелка?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -30619,8 +30875,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой_сдвоенный")
-		(at 656 80 0)
+		(at 713 80 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30628,7 +30885,7 @@
 		(dnp no)
 		(uuid "f8d4d4f9-43b3-461a-b7e9-48dc8f19e5ad")
 		(property "Reference" "ЯР6П"
-			(at 656.5 72 0)
+			(at 713.5 72 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30637,7 +30894,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 669.39 80 0)
+			(at 726.39 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30645,7 +30902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 651 73.5 0)
+			(at 708 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30654,7 +30911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 651 73.5 0)
+			(at 708 73.5 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30663,7 +30920,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 656 80 0)
+			(at 713 80 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -30672,7 +30929,7 @@
 			)
 		)
 		(property "Секция1" "6П"
-			(at 661 76.5 0)
+			(at 718 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -30682,7 +30939,7 @@
 			)
 		)
 		(property "Секция2" "2П"
-			(at 651 76.5 0)
+			(at 708 76.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -30693,7 +30950,7 @@
 			)
 		)
 		(property "Частота1" "420/12"
-			(at 661.5 76.5 0)
+			(at 718.5 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -30703,7 +30960,7 @@
 			)
 		)
 		(property "Частота2" "720/8"
-			(at 651 76.5 0)
+			(at 708 76.5 0)
 			(effects
 				(font
 					(size 2.5 2.5)
@@ -30740,7 +30997,7 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР6П?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -30988,14 +31245,14 @@
 			(project "двухниточный"
 				(path "/c1fee4cc-f523-47ad-b173-005c42d1774f"
 					(reference "ЯР13-?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "SCB:Выходной")
-		(at 550 96 0)
+		(at 607 96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31004,7 +31261,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb254bb1-bef9-4dc8-b139-60c7266fe84f")
 		(property "Reference" "Выходной6"
-			(at 550 92 0)
+			(at 607 92 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31013,7 +31270,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 550 92 0)
+			(at 607 92 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31022,7 +31279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 550 96 0)
+			(at 607 96 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31031,7 +31288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 550 96 0)
+			(at 607 96 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31040,7 +31297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 550 108 0)
+			(at 607 108 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31049,7 +31306,7 @@
 			)
 		)
 		(property "Литера" "Ч4"
-			(at 551 96 0)
+			(at 608 96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31059,7 +31316,7 @@
 			)
 		)
 		(property "ДвухнитеваяК" "2"
-			(at 538 92.5 0)
+			(at 595 92.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31069,7 +31326,7 @@
 			)
 		)
 		(property "ДвухнитеваяЖ" "2"
-			(at 530 92.5 0)
+			(at 587 92.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31079,7 +31336,7 @@
 			)
 		)
 		(property "ДвухнитеваяЗ" "2"
-			(at 534 92.5 0)
+			(at 591 92.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31089,7 +31346,7 @@
 			)
 		)
 		(property "ДвухнитеваяБ" "2"
-			(at 542 92.5 0)
+			(at 599 92.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31248,8 +31505,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB:Магистральный_кабель")
 		(lib_id "SCB:Магистральный_кабель")
-		(at 700 182 90)
+		(at 757 182 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31258,7 +31516,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc55dfea-14dd-499c-86f7-0b82bedf0bd9")
 		(property "Reference" "Магистральный_кабель1"
-			(at 697 182 0)
+			(at 754 182 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31267,7 +31525,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 703.23 182 90)
+			(at 760.23 182 90)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31276,7 +31534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 700 182 0)
+			(at 757 182 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31285,7 +31543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 700 182 0)
+			(at 757 182 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31294,7 +31552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 700 182 0)
+			(at 757 182 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -31378,7 +31636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М3"
+		(property "Литера" "М5"
 			(at 199 90 0)
 			(do_not_autoplace yes)
 			(effects
@@ -31479,8 +31737,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SCB_Двухнитка:Путь")
 		(lib_id "SCB_Двухнитка:Путь")
-		(at 690 105 0)
+		(at 747 105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31489,7 +31748,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff341cd4-1d08-40f7-bd8f-96db7d4d69be")
 		(property "Reference" "Путь4"
-			(at 690 105 0)
+			(at 747 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31498,7 +31757,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 672.5 103.35 0)
+			(at 729.5 103.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31506,7 +31765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 690 105 0)
+			(at 747 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31515,7 +31774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 690 105 0)
+			(at 747 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31524,7 +31783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 690 105 0)
+			(at 747 105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31533,7 +31792,7 @@
 			)
 		)
 		(property "Путь" "4П"
-			(at 675 107.5 0)
+			(at 732 107.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31542,7 +31801,7 @@
 			)
 		)
 		(property "Длина" "900 м"
-			(at 692.5 107.5 0)
+			(at 749.5 107.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -31598,7 +31857,7 @@
 		)
 	)
 	(sheet
-		(at 750 180)
+		(at 810 180)
 		(size 13 4)
 		(fields_autoplaced yes)
 		(stroke
@@ -31610,7 +31869,7 @@
 		)
 		(uuid "eadfe841-7000-432c-938e-a52a301259c2")
 		(property "Sheetname" "Канализация"
-			(at 750 179.2884 0)
+			(at 810 179.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31619,7 +31878,7 @@
 			)
 		)
 		(property "Sheetfile" "канализация.kicad_sch"
-			(at 750 184.5846 0)
+			(at 810 184.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

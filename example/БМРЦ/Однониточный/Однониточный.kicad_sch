@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(company "АТ-451")
+		(comment 1 "КП27.02.03.10.000 ГЧ")
 		(comment 2 "Михайлов А.К.")
 		(comment 3 "Ворона В.К.")
 	)
@@ -3028,6 +3029,321 @@
 				)
 			)
 		)
+		(symbol "Изостык_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Изостык20"
+				(at -0.25 5.75 0)
+				(effects
+					(font
+						(size 0.0254 0.0254)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 2.86 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Изостык_1_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.5) (xy 2 -1.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.5) (xy -2 1.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1 -2) (xy -1 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Изостык_1_1_1"
+				(unit_name "Одиночный")
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Изостык_1_2_1"
+				(unit_name "Со светофором")
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Маневровый_к_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Маневровый2"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -7 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "М27"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Маневровый_к_2_0_1"
+				(circle
+					(center -5.5 -2)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.5 -2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1 -1) (xy -1 3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Маневровый_к_2_1_1"
+				(unit_name "Красный")
+				(circle
+					(center -2 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Маневровый_к_2_2_1"
+				(unit_name "Синий")
+				(circle
+					(center -2 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -2 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 167 205)
@@ -3036,22 +3352,16 @@
 		(uuid "04c7bbb8-2371-4f62-a410-0df384b6286b")
 	)
 	(junction
-		(at 279 175)
+		(at 280 175)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f370ebe-7534-4529-b97f-b4a4b464d3e8")
+		(uuid "0d2a1a57-ca23-4f02-a34a-8423942b9a02")
 	)
 	(junction
 		(at 226 175)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c9deec-3a21-430f-97dc-d347149d4811")
-	)
-	(junction
-		(at 334 130)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "276702d2-2213-473b-965a-51024ae858ea")
 	)
 	(junction
 		(at 350 220)
@@ -3072,10 +3382,10 @@
 		(uuid "34dc8adb-8f04-4a72-97ac-92ad8250d942")
 	)
 	(junction
-		(at 82 175)
+		(at 133 190)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ba870f9-6e80-415f-a999-b43d49980441")
+		(uuid "4dcc90f4-f932-483c-a23a-7b2503a776ef")
 	)
 	(junction
 		(at 208 190)
@@ -3088,6 +3398,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c2f815e-e47e-4cee-9366-cf0a092e4072")
+	)
+	(junction
+		(at 292 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8239f493-68c3-4194-9a29-114edb80d73b")
 	)
 	(junction
 		(at 128 160)
@@ -3126,18 +3442,6 @@
 		(uuid "9a69b867-5ebf-43b9-af24-ec2a95332069")
 	)
 	(junction
-		(at 290 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be056876-d590-445c-b730-14bc8ee4d3ff")
-	)
-	(junction
-		(at 132 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c578df7f-f257-4ddf-b268-56e39447acd8")
-	)
-	(junction
 		(at 40 205)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3148,6 +3452,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce4adb48-6e52-49d0-8637-4028c0806cce")
+	)
+	(junction
+		(at 80 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daed94b1-3395-44c0-9f25-a77df4a1e895")
+	)
+	(junction
+		(at 286 144)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de977382-3c62-4f63-bf3e-d9fbcaae95c1")
 	)
 	(junction
 		(at 350 205)
@@ -3201,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 292 160) (xy 309 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08923ca6-3acb-4703-8155-a10fd850c36f")
+	)
+	(wire
+		(pts
 			(xy 318 205) (xy 350 205)
 		)
 		(stroke
@@ -3211,6 +3537,16 @@
 	)
 	(wire
 		(pts
+			(xy 133 190) (xy 163 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c969888-1931-4aea-bda2-e00aaefa17c7")
+	)
+	(wire
+		(pts
 			(xy 286 190) (xy 410 190)
 		)
 		(stroke
@@ -3218,6 +3554,16 @@
 			(type default)
 		)
 		(uuid "11cf54e6-081b-4d7f-ae84-b2740fc17adf")
+	)
+	(wire
+		(pts
+			(xy 286 144) (xy 314 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cc21c6-6a35-4828-a351-30ef23aa18e6")
 	)
 	(polyline
 		(pts
@@ -3261,13 +3607,13 @@
 	)
 	(wire
 		(pts
-			(xy 284 145) (xy 314 130)
+			(xy 284 145) (xy 286 144)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ac6ceb1-eca8-48a9-8aa9-92859e3cc40b")
+		(uuid "1e04bcf1-b738-4008-977a-f3b87905eb77")
 	)
 	(wire
 		(pts
@@ -3311,7 +3657,7 @@
 	)
 	(wire
 		(pts
-			(xy 264 175) (xy 279 175)
+			(xy 264 175) (xy 280 175)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 307 205) (xy 309 205)
+			(xy 307 205) (xy 311 205)
 		)
 		(stroke
 			(width 0)
@@ -3421,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 290 160) (xy 309 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de6d929-dd69-40ca-ac1c-60ceaec5cecb")
-	)
-	(wire
-		(pts
 			(xy 197 175) (xy 226 175)
 		)
 		(stroke
@@ -3468,16 +3804,6 @@
 			(type default)
 		)
 		(uuid "6739a19f-1463-4405-a3fa-46c7cad4c9f8")
-	)
-	(wire
-		(pts
-			(xy 82 175) (xy 115 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b8dcd8-0755-4aec-952b-ef4cb5cc1755")
 	)
 	(wire
 		(pts
@@ -3521,7 +3847,7 @@
 	)
 	(wire
 		(pts
-			(xy 314 130) (xy 334 130)
+			(xy 314 130) (xy 410 130)
 		)
 		(stroke
 			(width 0)
@@ -3551,17 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 132 190) (xy 163 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858c91be-230b-4ac4-a065-2464106b3ab6")
-	)
-	(wire
-		(pts
-			(xy 50 175) (xy 82 175)
+			(xy 50 175) (xy 80 175)
 		)
 		(stroke
 			(width 0)
@@ -3618,6 +3934,16 @@
 			(type dash)
 		)
 		(uuid "8b1fbf71-57ec-4db7-b522-e3952b83a5af")
+	)
+	(wire
+		(pts
+			(xy 80 175) (xy 115 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c004d72-51f0-4230-9203-a3d53b1a6171")
 	)
 	(wire
 		(pts
@@ -3731,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 86 190) (xy 132 190)
+			(xy 86 190) (xy 133 190)
 		)
 		(stroke
 			(width 0)
@@ -3748,6 +4074,16 @@
 			(type default)
 		)
 		(uuid "afa4c506-c93d-4846-b19f-62be7e6475f3")
+	)
+	(wire
+		(pts
+			(xy 280 175) (xy 284 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b316614c-17a2-4efd-b1a8-047a8f855d91")
 	)
 	(wire
 		(pts
@@ -3831,17 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 279 175) (xy 284 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea6a540-36f8-4cfa-909a-5aaac3fccd1e")
-	)
-	(wire
-		(pts
-			(xy 260 160) (xy 290 160)
+			(xy 260 160) (xy 292 160)
 		)
 		(stroke
 			(width 0)
@@ -3888,16 +4214,6 @@
 			(type default)
 		)
 		(uuid "f950bfef-797b-4366-829a-c167db811da1")
-	)
-	(wire
-		(pts
-			(xy 334 130) (xy 410 130)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9e56d6-14b9-42f6-b233-e4dd65b26cf9")
 	)
 	(rectangle
 		(start 25 10)
@@ -4001,9 +4317,9 @@
 		)
 		(uuid "0ed27abe-b63c-4619-82d1-81447b07b444")
 	)
-	(text "М5"
+	(text "М3"
 		(exclude_from_sim no)
-		(at 82 89 90)
+		(at 80 89 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4043,7 +4359,7 @@
 	)
 	(text "875"
 		(exclude_from_sim no)
-		(at 82 62 90)
+		(at 80 62 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4211,6 +4527,16 @@
 		)
 		(uuid "4037aba3-9f8f-4b40-84b8-f15d065d6880")
 	)
+	(text "Оборудование горловины\nстанции устройсвами блочной\nмаршрутно-релейной \nцентрализации (БМРЦ)"
+		(exclude_from_sim no)
+		(at 330 265 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "40c543c4-fc69-4cbf-a667-492718a270a5")
+	)
 	(text "483"
 		(exclude_from_sim no)
 		(at 340 21 90)
@@ -4321,6 +4647,16 @@
 		)
 		(uuid "633a6819-d51a-4dab-9910-94c75f232a8f")
 	)
+	(text "Схематический план\nстанции с \nосигнализованием"
+		(exclude_from_sim no)
+		(at 330 285 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "64788502-2b19-4844-bda2-a7189aa52227")
+	)
 	(text "5"
 		(exclude_from_sim no)
 		(at 105 39 90)
@@ -4341,7 +4677,7 @@
 		)
 		(uuid "659ccbae-7182-4963-8ec2-1fa7be50c097")
 	)
-	(text "Ч2"
+	(text "Ч2,М27"
 		(exclude_from_sim no)
 		(at 286 90 90)
 		(effects
@@ -4353,7 +4689,7 @@
 	)
 	(text "557"
 		(exclude_from_sim no)
-		(at 290 62 90)
+		(at 292 62 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4363,7 +4699,7 @@
 	)
 	(text "776"
 		(exclude_from_sim no)
-		(at 132 64 90)
+		(at 133 63 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4421,16 +4757,6 @@
 		)
 		(uuid "81b9b5fd-3469-486b-be40-123f95a08eb9")
 	)
-	(text "561"
-		(exclude_from_sim no)
-		(at 333.66 61.23 90)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-		)
-		(uuid "821cbd32-3da8-4157-a7f1-42c6014e599b")
-	)
 	(text "37"
 		(exclude_from_sim no)
 		(at 340 39 90)
@@ -4441,9 +4767,9 @@
 		)
 		(uuid "844876a6-8fe5-4508-b59a-45d7f76cba59")
 	)
-	(text "М27"
+	(text "М25"
 		(exclude_from_sim no)
-		(at 279 90 90)
+		(at 280 90 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4511,9 +4837,9 @@
 		)
 		(uuid "9c162263-5849-46a5-8a0a-d364d4593e3f")
 	)
-	(text "М9"
+	(text "М11"
 		(exclude_from_sim no)
-		(at 132 91 90)
+		(at 133 90 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4591,7 +4917,7 @@
 		)
 		(uuid "b4acbd6a-0e1b-4742-b5ef-76fe3340aafe")
 	)
-	(text "М3"
+	(text "М5"
 		(exclude_from_sim no)
 		(at 86 89 90)
 		(effects
@@ -4621,9 +4947,9 @@
 		)
 		(uuid "c45e754e-9037-4d52-9062-008f72327ce5")
 	)
-	(text "М25"
+	(text "М29"
 		(exclude_from_sim no)
-		(at 290 90 90)
+		(at 292 90 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4731,16 +5057,6 @@
 		)
 		(uuid "eb72bbd6-dc93-4e9d-8c8f-731002b03d42")
 	)
-	(text "М29"
-		(exclude_from_sim no)
-		(at 334.295 91.075 90)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-		)
-		(uuid "efa8df84-8397-4116-b873-636f6bcef588")
-	)
 	(text "31"
 		(exclude_from_sim no)
 		(at 284 39 90)
@@ -4753,7 +5069,7 @@
 	)
 	(text "576,6"
 		(exclude_from_sim no)
-		(at 279 62 90)
+		(at 280 62 90)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -4791,7 +5107,7 @@
 		)
 		(uuid "fbef8e0e-7dd5-4e74-ad50-dd1422184820")
 	)
-	(text "М11"
+	(text "М9"
 		(exclude_from_sim no)
 		(at 128 90 90)
 		(effects
@@ -4813,7 +5129,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 279 180 180)
+		(at 280 180 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4821,7 +5137,7 @@
 		(dnp no)
 		(uuid "008bf06a-e0df-44da-8b77-3e12ffdd38d3")
 		(property "Reference" "Маневровый13"
-			(at 279 184 0)
+			(at 280 184 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -4830,7 +5146,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 279 184 0)
+			(at 280 184 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -4839,7 +5155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279 180 0)
+			(at 280 180 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -4848,7 +5164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279 180 0)
+			(at 280 180 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -4857,7 +5173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279 173 0)
+			(at 280 173 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -4865,8 +5181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М27"
-			(at 278 180 0)
+		(property "Литера" "М25"
+			(at 279 180 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5013,7 +5329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М3"
+		(property "Литера" "М5"
 			(at 85 165 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5545,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М11"
+		(property "Литера" "М9"
 			(at 129 155 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5566,7 +5882,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый")
-		(at 71 180 0)
+		(at 74 180 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5576,7 +5892,7 @@
 		(fields_autoplaced yes)
 		(uuid "1acc2cd0-b3c3-4359-9136-472ab92e0922")
 		(property "Reference" "Маневровый1"
-			(at 71 176 0)
+			(at 74 176 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5585,7 +5901,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 71 176 0)
+			(at 74 176 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5594,7 +5910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71 180 0)
+			(at 74 180 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5603,7 +5919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71 180 0)
+			(at 74 180 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5612,7 +5928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71 187 0)
+			(at 74 187 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5620,8 +5936,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М5"
-			(at 70 180 0)
+		(property "Литера" "М3"
+			(at 73 180 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5640,8 +5956,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Изостык_1")
 		(lib_id "SCB:Изостык")
-		(at 334 130 0)
+		(at 286 144 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5649,7 +5966,7 @@
 		(dnp no)
 		(uuid "1d5ab75a-c9fb-45ba-821b-3011f332b321")
 		(property "Reference" "Изостык20"
-			(at 333.75 124.25 0)
+			(at 285.75 138.25 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -5658,7 +5975,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 336.86 130 0)
+			(at 288.86 144 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5666,7 +5983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334 130 0)
+			(at 286 144 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5675,7 +5992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334 130 0)
+			(at 286 144 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -5684,7 +6001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334 130 0)
+			(at 286 144 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -6283,7 +6600,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Изостык")
-		(at 279 175 0)
+		(at 280 175 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6292,7 +6609,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f1f5582-2591-4a9f-a0a1-3a211a950844")
 		(property "Reference" "Изостык14"
-			(at 278.75 169.25 0)
+			(at 279.75 169.25 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -6301,7 +6618,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 281.59 175 0)
+			(at 282.59 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -6310,7 +6627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279 175 0)
+			(at 280 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -6319,7 +6636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279 175 0)
+			(at 280 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -6328,7 +6645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279 175 0)
+			(at 280 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -6721,81 +7038,6 @@
 				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
 					(reference "Изостык18")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCB:Маневровый_к")
-		(at 74 195 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60e81b3d-5553-416a-8893-64b382bb8237")
-		(property "Reference" "Маневровый2"
-			(at 74 191 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 74 191 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 74 195 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74 195 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74 202 0)
-			(effects
-				(font
-					(size 1.8 1.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Литера" "М1"
-			(at 73 195 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 3.5 3.5)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project ""
-				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
-					(reference "Маневровый2")
-					(unit 2)
 				)
 			)
 		)
@@ -7468,7 +7710,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Изостык")
-		(at 132 190 0)
+		(at 133 190 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7477,7 +7719,7 @@
 		(fields_autoplaced yes)
 		(uuid "86a7261e-bb09-4761-afda-d07f45e2ac77")
 		(property "Reference" "Изостык8"
-			(at 131.75 184.25 0)
+			(at 132.75 184.25 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -7486,7 +7728,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 134.27 190 0)
+			(at 135.27 190 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7495,7 +7737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132 190 0)
+			(at 133 190 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7504,7 +7746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132 190 0)
+			(at 133 190 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7513,7 +7755,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132 190 0)
+			(at 133 190 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7716,8 +7958,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Маневровый_к_2")
 		(lib_id "SCB:Маневровый_к")
-		(at 334 125 0)
+		(at 283 140 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7725,7 +7968,7 @@
 		(dnp no)
 		(uuid "8f06a91f-8713-4c6e-84f7-fab548c15beb")
 		(property "Reference" "Маневровый2"
-			(at 334 121 0)
+			(at 283 136 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7734,7 +7977,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 334 121 0)
+			(at 283 136 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7743,7 +7986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334 125 0)
+			(at 283 140 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7752,7 +7995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334 125 0)
+			(at 283 140 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7761,7 +8004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334 132 0)
+			(at 283 147 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -7769,9 +8012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М29"
-			(at 335 125 0)
-			(do_not_autoplace yes)
+		(property "Литера" "М27"
+			(at 283 138 0)
 			(effects
 				(font
 					(size 3.5 3.5)
@@ -8122,6 +8364,80 @@
 		)
 	)
 	(symbol
+		(lib_id "SCB:Маневровый_к")
+		(at 74 195 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ec7a39-babe-4a72-a9cb-cc517793d144")
+		(property "Reference" "Маневровый613"
+			(at 74 191 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 74 191 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 74 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74 195 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74 202 0)
+			(effects
+				(font
+					(size 1.8 1.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Литера" "М1"
+			(at 73 195 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Однониточный"
+				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
+					(reference "Маневровый613")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCB:Изостык")
 		(at 40 205 0)
 		(unit 1)
@@ -8437,7 +8753,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Изостык")
-		(at 82 175 0)
+		(at 80 175 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8446,7 +8762,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb94c412-0673-40da-93f4-91bbe0cc5bd3")
 		(property "Reference" "Изостык4"
-			(at 81.75 169.25 0)
+			(at 79.75 169.25 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -8455,7 +8771,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 84.74 175 0)
+			(at 82.74 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -8464,7 +8780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82 175 0)
+			(at 80 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -8473,7 +8789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82 175 0)
+			(at 80 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -8482,7 +8798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82 175 0)
+			(at 80 175 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9116,7 +9432,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 290 155 0)
+		(at 292 155 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9125,7 +9441,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd1e7b24-a8bb-4a62-852a-e019a1c56a81")
 		(property "Reference" "Маневровый14"
-			(at 290 151 0)
+			(at 292 151 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9134,7 +9450,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 290 151 0)
+			(at 292 151 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9143,7 +9459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290 155 0)
+			(at 292 155 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9152,7 +9468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290 155 0)
+			(at 292 155 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9161,7 +9477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290 162 0)
+			(at 292 162 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9169,8 +9485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М25"
-			(at 291 155 0)
+		(property "Литера" "М29"
+			(at 293 155 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9190,7 +9506,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
-		(at 132 185 0)
+		(at 133 185 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9198,7 +9514,7 @@
 		(dnp no)
 		(uuid "df04c4b1-64d7-4931-b157-5aff807507b2")
 		(property "Reference" "Маневровый6"
-			(at 132 181 0)
+			(at 133 181 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9207,7 +9523,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 132 181 0)
+			(at 133 181 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9216,7 +9532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132 185 0)
+			(at 133 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9225,7 +9541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132 185 0)
+			(at 133 185 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9234,7 +9550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132 192 0)
+			(at 133 192 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9242,8 +9558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Литера" "М9"
-			(at 133 185 0)
+		(property "Литера" "М11"
+			(at 134 185 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9845,7 +10161,7 @@
 	)
 	(symbol
 		(lib_id "SCB:Изостык")
-		(at 290 160 0)
+		(at 292 160 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9854,7 +10170,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd9ade0f-812a-4a61-9e82-bf51b976dd1b")
 		(property "Reference" "Изостык16"
-			(at 289.75 154.25 0)
+			(at 291.75 154.25 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -9863,7 +10179,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 291.75 160 0)
+			(at 293.75 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9872,7 +10188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290 160 0)
+			(at 292 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9881,7 +10197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290 160 0)
+			(at 292 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
@@ -9890,7 +10206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290 160 0)
+			(at 292 160 0)
 			(effects
 				(font
 					(size 1.8 1.8)
