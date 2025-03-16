@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b2ec49a1-a956-4d7e-997a-c0b051ded1fe")
 	(paper "A3")
 	(title_block
@@ -11,6 +11,480 @@
 		(comment 3 "Ворона В.К.")
 	)
 	(lib_symbols)
+	(circle
+		(center 80 180)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 066fada1-6677-4ca2-bafa-dcef53dc3073)
+	)
+	(circle
+		(center 120 110)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 0c38a38f-77d4-4831-be07-d50e39fc7869)
+	)
+	(circle
+		(center 80 160)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 0f715270-fb05-428d-bf51-41327500fcc3)
+	)
+	(circle
+		(center 110 110)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 1935b166-2c68-4498-940e-4befad27c3b9)
+	)
+	(circle
+		(center 130 130)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 2cc8347e-8656-41b1-a1a6-2e5ca9f9c61a)
+	)
+	(circle
+		(center 130 120)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 3b92c3ff-7e22-449c-b0d1-99ec3f10a874)
+	)
+	(circle
+		(center 110 120)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid 3d2e5a4f-fd5d-4730-86f9-e37a25465465)
+	)
+	(rectangle
+		(start 50 95)
+		(end 70 115)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7fd078f2-a746-4ff1-9d57-9b5b9fbb5596)
+	)
+	(circle
+		(center 80 150)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid a5f94f7e-d53f-4963-b62d-c7865824b30a)
+	)
+	(circle
+		(center 130 140)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid c3b0fd51-8745-4d32-9533-556e259d79b0)
+	)
+	(circle
+		(center 80 170)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid c8110f3d-e431-4078-8fd5-63cd25641932)
+	)
+	(circle
+		(center 120 120)
+		(radius 1)
+		(stroke
+			(width 0.5)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type color)
+			(color 0 0 194 1)
+		)
+		(uuid d33224e6-6403-4826-8d8f-5388e77ac2b0)
+	)
+	(text "19СП"
+		(exclude_from_sim no)
+		(at 195 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "073a8464-f1ad-4466-a55b-a84a6c406b92")
+	)
+	(text "29СП"
+		(exclude_from_sim no)
+		(at 235 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "15d9d239-54a4-435f-aed5-e23921b56fcc")
+	)
+	(text "М27П"
+		(exclude_from_sim no)
+		(at 360 75 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "224f421c-3ca8-4e4f-962e-f68552838c99")
+	)
+	(text "37СП"
+		(exclude_from_sim no)
+		(at 310 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "2ac7c129-bc2e-4649-9f87-07beb29fd3ac")
+	)
+	(text "НДП"
+		(exclude_from_sim no)
+		(at 100 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "2df017a6-3532-4e89-a684-8a5473ace5e2")
+	)
+	(text "1СП"
+		(exclude_from_sim no)
+		(at 135 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "422a0aff-0639-495e-878f-08eecf2c5687")
+	)
+	(text "27СП"
+		(exclude_from_sim no)
+		(at 220 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "545def95-0082-4ffe-b43f-9c15bf5bf357")
+	)
+	(text "11-15СП"
+		(exclude_from_sim no)
+		(at 180 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "6165a113-a89c-43ae-ba47-80bdaec44968")
+	)
+	(text "М37П"
+		(exclude_from_sim no)
+		(at 360 95 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "676bfd45-b1b6-49c9-8c7e-ad150c293379")
+	)
+	(text "13-17СП"
+		(exclude_from_sim no)
+		(at 190 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "732fa323-a531-4b11-9c17-0e9c429ab5dd")
+	)
+	(text "23СП"
+		(exclude_from_sim no)
+		(at 230 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "824b0239-79c4-4f6a-bd21-9043c2775ba9")
+	)
+	(text "НП"
+		(exclude_from_sim no)
+		(at 100 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "8f91f7ef-6485-4b72-9727-a59356c0ab14")
+	)
+	(text "31СП"
+		(exclude_from_sim no)
+		(at 270 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "969926d8-bb3c-4b61-9b4c-ea7f35734cab")
+	)
+	(text "9СП"
+		(exclude_from_sim no)
+		(at 140 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "9a7f643c-415a-4c58-b05b-a5d45a8c7feb")
+	)
+	(text "3П"
+		(exclude_from_sim no)
+		(at 360 195 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "9af848fb-ea8b-4902-82fe-9e3ee8b1ed82")
+	)
+	(text "21-25СП"
+		(exclude_from_sim no)
+		(at 235 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "9d3bffd1-4e74-4d02-86aa-0e35df2e9137")
+	)
+	(text "6П"
+		(exclude_from_sim no)
+		(at 360 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "a38b8909-9ea3-4947-b2e4-d6a0286e080c")
+	)
+	(text "5СП"
+		(exclude_from_sim no)
+		(at 150 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "aee1fd3f-fd6a-4e30-986c-07a1450b9b79")
+	)
+	(text "3-7СП"
+		(exclude_from_sim no)
+		(at 150 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "b252bc2d-eda1-40bc-b2d1-07a8875abfc1")
+	)
+	(text "35СП"
+		(exclude_from_sim no)
+		(at 290 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "b25457fd-dace-4feb-a317-399b049fd5cc")
+	)
+	(text "К ТЯГОВОЙ\nПОДСТАНЦИИ"
+		(exclude_from_sim no)
+		(at 85 202 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify top)
+		)
+		(uuid "b281482b-c9b5-490a-8119-b6aa9e53df70")
+	)
+	(text "IП"
+		(exclude_from_sim no)
+		(at 360 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "ba547ddc-2d81-44ca-9d69-4073ef44c750")
+	)
+	(text "33СП"
+		(exclude_from_sim no)
+		(at 270 115 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "bfbb86ef-3696-48d7-b621-31d7e7dec7c6")
+	)
+	(text "ЗАВОД"
+		(exclude_from_sim no)
+		(at 60 105 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "ca739c58-bafc-46a8-b718-5b281f979b4d")
+	)
+	(text "4П"
+		(exclude_from_sim no)
+		(at 360 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "cada7c9d-3c51-4d1a-9677-f306d2eea6ac")
+	)
+	(text "IIП"
+		(exclude_from_sim no)
+		(at 360 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "cb316c84-c38b-4cc9-80de-1383efcb5e31")
+	)
+	(text "IНПП"
+		(exclude_from_sim no)
+		(at 60 175 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "e949c308-080d-4057-8e13-31ef4fcd7735")
+	)
+	(text "М3П"
+		(exclude_from_sim no)
+		(at 100 135 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "e9c8ea32-8075-4cc6-b3ca-9ee5a685d5b1")
+	)
+	(text "IIНУП"
+		(exclude_from_sim no)
+		(at 60 155 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+				(thickness 0.4375)
+			)
+		)
+		(uuid "ef87a82d-d295-4d80-8d1c-bd515060c70f")
+	)
 	(polyline
 		(pts
 			(xy 390 120) (xy 280 120)
@@ -1720,479 +2194,5 @@
 			(type default)
 		)
 		(uuid "fef3991b-3db5-4cd7-b33d-94f58ea6f793")
-	)
-	(circle
-		(center 80 180)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 066fada1-6677-4ca2-bafa-dcef53dc3073)
-	)
-	(circle
-		(center 120 110)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 0c38a38f-77d4-4831-be07-d50e39fc7869)
-	)
-	(circle
-		(center 80 160)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 0f715270-fb05-428d-bf51-41327500fcc3)
-	)
-	(circle
-		(center 110 110)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 1935b166-2c68-4498-940e-4befad27c3b9)
-	)
-	(circle
-		(center 130 130)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 2cc8347e-8656-41b1-a1a6-2e5ca9f9c61a)
-	)
-	(circle
-		(center 130 120)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 3b92c3ff-7e22-449c-b0d1-99ec3f10a874)
-	)
-	(circle
-		(center 110 120)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid 3d2e5a4f-fd5d-4730-86f9-e37a25465465)
-	)
-	(rectangle
-		(start 50 95)
-		(end 70 115)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7fd078f2-a746-4ff1-9d57-9b5b9fbb5596)
-	)
-	(circle
-		(center 80 150)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid a5f94f7e-d53f-4963-b62d-c7865824b30a)
-	)
-	(circle
-		(center 130 140)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid c3b0fd51-8745-4d32-9533-556e259d79b0)
-	)
-	(circle
-		(center 80 170)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid c8110f3d-e431-4078-8fd5-63cd25641932)
-	)
-	(circle
-		(center 120 120)
-		(radius 1)
-		(stroke
-			(width 0.5)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type color)
-			(color 0 0 194 1)
-		)
-		(uuid d33224e6-6403-4826-8d8f-5388e77ac2b0)
-	)
-	(text "19СП"
-		(exclude_from_sim no)
-		(at 195 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "073a8464-f1ad-4466-a55b-a84a6c406b92")
-	)
-	(text "29СП"
-		(exclude_from_sim no)
-		(at 235 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "15d9d239-54a4-435f-aed5-e23921b56fcc")
-	)
-	(text "М27П"
-		(exclude_from_sim no)
-		(at 360 75 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "224f421c-3ca8-4e4f-962e-f68552838c99")
-	)
-	(text "37СП"
-		(exclude_from_sim no)
-		(at 310 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "2ac7c129-bc2e-4649-9f87-07beb29fd3ac")
-	)
-	(text "НДП"
-		(exclude_from_sim no)
-		(at 100 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "2df017a6-3532-4e89-a684-8a5473ace5e2")
-	)
-	(text "1СП"
-		(exclude_from_sim no)
-		(at 135 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "422a0aff-0639-495e-878f-08eecf2c5687")
-	)
-	(text "27СП"
-		(exclude_from_sim no)
-		(at 220 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "545def95-0082-4ffe-b43f-9c15bf5bf357")
-	)
-	(text "11-15СП"
-		(exclude_from_sim no)
-		(at 180 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "6165a113-a89c-43ae-ba47-80bdaec44968")
-	)
-	(text "М37П"
-		(exclude_from_sim no)
-		(at 360 95 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "676bfd45-b1b6-49c9-8c7e-ad150c293379")
-	)
-	(text "13-17СП"
-		(exclude_from_sim no)
-		(at 190 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "732fa323-a531-4b11-9c17-0e9c429ab5dd")
-	)
-	(text "23СП"
-		(exclude_from_sim no)
-		(at 230 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "824b0239-79c4-4f6a-bd21-9043c2775ba9")
-	)
-	(text "НП"
-		(exclude_from_sim no)
-		(at 100 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "8f91f7ef-6485-4b72-9727-a59356c0ab14")
-	)
-	(text "31СП"
-		(exclude_from_sim no)
-		(at 270 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "969926d8-bb3c-4b61-9b4c-ea7f35734cab")
-	)
-	(text "9СП"
-		(exclude_from_sim no)
-		(at 140 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "9a7f643c-415a-4c58-b05b-a5d45a8c7feb")
-	)
-	(text "3П"
-		(exclude_from_sim no)
-		(at 360 195 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "9af848fb-ea8b-4902-82fe-9e3ee8b1ed82")
-	)
-	(text "21-25СП"
-		(exclude_from_sim no)
-		(at 235 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "9d3bffd1-4e74-4d02-86aa-0e35df2e9137")
-	)
-	(text "6П"
-		(exclude_from_sim no)
-		(at 360 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "a38b8909-9ea3-4947-b2e4-d6a0286e080c")
-	)
-	(text "5СП"
-		(exclude_from_sim no)
-		(at 150 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "aee1fd3f-fd6a-4e30-986c-07a1450b9b79")
-	)
-	(text "3-7СП"
-		(exclude_from_sim no)
-		(at 150 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "b252bc2d-eda1-40bc-b2d1-07a8875abfc1")
-	)
-	(text "35СП"
-		(exclude_from_sim no)
-		(at 290 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "b25457fd-dace-4feb-a317-399b049fd5cc")
-	)
-	(text "К ТЯГОВОЙ\nПОДСТАНЦИИ"
-		(exclude_from_sim no)
-		(at 85 202 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify top)
-		)
-		(uuid "b281482b-c9b5-490a-8119-b6aa9e53df70")
-	)
-	(text "IП"
-		(exclude_from_sim no)
-		(at 360 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "ba547ddc-2d81-44ca-9d69-4073ef44c750")
-	)
-	(text "33СП"
-		(exclude_from_sim no)
-		(at 270 115 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "bfbb86ef-3696-48d7-b621-31d7e7dec7c6")
-	)
-	(text "ЗАВОД"
-		(exclude_from_sim no)
-		(at 60 105 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "ca739c58-bafc-46a8-b718-5b281f979b4d")
-	)
-	(text "4П"
-		(exclude_from_sim no)
-		(at 360 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "cada7c9d-3c51-4d1a-9677-f306d2eea6ac")
-	)
-	(text "IIП"
-		(exclude_from_sim no)
-		(at 360 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "cb316c84-c38b-4cc9-80de-1383efcb5e31")
-	)
-	(text "IНПП"
-		(exclude_from_sim no)
-		(at 60 175 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "e949c308-080d-4057-8e13-31ef4fcd7735")
-	)
-	(text "М3П"
-		(exclude_from_sim no)
-		(at 100 135 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "e9c8ea32-8075-4cc6-b3ca-9ee5a685d5b1")
-	)
-	(text "IIНУП"
-		(exclude_from_sim no)
-		(at 60 155 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-				(thickness 0.4375)
-			)
-		)
-		(uuid "ef87a82d-d295-4d80-8d1c-bd515060c70f")
 	)
 )
