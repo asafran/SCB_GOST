@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "59e30762-dbae-41fa-856e-a9035e08cb51")
 	(paper "A3")
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "SCB:Входной"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
@@ -140,7 +144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -152,7 +156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -6 0)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -165,61 +169,6 @@
 			)
 			(symbol "Входной_1_1"
 				(unit_name "Без заглушек")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 1)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -227,6 +176,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -280,6 +240,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -287,6 +258,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -352,42 +334,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Входной_2_1"
-				(unit_name "Заглушка З")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -8 0)
 					(radius 1)
@@ -410,6 +356,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Входной_2_1"
+				(unit_name "Заглушка З")
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -417,6 +366,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -494,6 +454,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -501,6 +472,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -566,42 +548,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Входной_3_1"
-				(unit_name "Заглушка ЗБ")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -8 0)
 					(radius 1)
@@ -624,6 +570,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Входной_3_1"
+				(unit_name "Заглушка ЗБ")
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -631,6 +580,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -708,6 +668,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -715,6 +686,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -792,6 +774,28 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -6 0) (xy -10 0)
@@ -805,11 +809,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Выходной"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -918,7 +927,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -930,7 +939,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -6 0)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -943,50 +952,6 @@
 			)
 			(symbol "Выходной_1_1"
 				(unit_name "Без заглушек")
-				(circle
-					(center -20 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -12 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 1)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -20 2) (xy -22 0)
@@ -994,6 +959,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -20 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1047,12 +1023,50 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -12 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Выходной_к"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1174,50 +1188,6 @@
 			)
 			(symbol "Выходной_к_1_1"
 				(unit_name "Без заглушек")
-				(circle
-					(center -6 2)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2 -2)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -2 2)
-					(radius 1)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2 2)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -6 4) (xy -8 2)
@@ -1225,6 +1195,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6 2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1278,12 +1259,50 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -2 2)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2 2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2 -2)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Изостык"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1413,24 +1432,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5 0 0)
 					(length 0)
 					(name "привязка"
@@ -1448,12 +1449,35 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Маневровый"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1545,7 +1569,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy 0 0) (xy -5 0)
 					)
 					(stroke
 						(width 0)
@@ -1557,7 +1581,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -5 0)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -1607,11 +1631,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Маневровый_к"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1753,11 +1782,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Пост_ЭЦ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1853,11 +1887,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Стрелка"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1954,24 +1993,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 31 15 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 7 0 180)
 					(length 2)
 					(name "~"
@@ -1989,21 +2010,27 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 31 15 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Стрелка_2_1"
 				(unit_name "К. замок")
-				(polyline
-					(pts
-						(xy 2 0) (xy 2 4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(rectangle
 					(start 0 6)
 					(end 2 4)
@@ -2015,9 +2042,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Стрелка_3_1"
-				(unit_name "К. замки")
 				(polyline
 					(pts
 						(xy 2 0) (xy 2 4)
@@ -2030,6 +2054,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Стрелка_3_1"
+				(unit_name "К. замки")
 				(rectangle
 					(start 0 6)
 					(end 2 4)
@@ -2044,6 +2071,18 @@
 				(rectangle
 					(start 2 6)
 					(end 4 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2 0) (xy 2 4)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2095,42 +2134,6 @@
 			)
 			(symbol "Стрелка_6_1"
 				(unit_name "Изостык")
-				(polyline
-					(pts
-						(xy 19.25 11) (xy 17.25 10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.75 7.5) (xy 18.25 10.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.75 8) (xy 18.75 7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(rectangle
 					(start 2 2)
 					(end 5 0)
@@ -2142,9 +2145,6 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "Стрелка_7_1"
-				(unit_name "Негабарит")
 				(polyline
 					(pts
 						(xy 19.25 11) (xy 17.25 10)
@@ -2181,6 +2181,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Стрелка_7_1"
+				(unit_name "Негабарит")
 				(rectangle
 					(start 2 2)
 					(end 5 0)
@@ -2203,12 +2206,53 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 19.25 11) (xy 17.25 10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.75 7.5) (xy 18.25 10.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.75 8) (xy 18.75 7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Стрелка_спаренная"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2444,11 +2488,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Стрелка_спаренная_15"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2684,6 +2733,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Шкаф_релейный"
 			(exclude_from_sim no)
@@ -2810,17 +2860,6 @@
 			)
 			(symbol "Шкаф_релейный_2_1"
 				(unit_name "С телефоном")
-				(rectangle
-					(start -4 2)
-					(end -2.5 -2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -6 1.5) (xy -6 -1.5)
@@ -2831,6 +2870,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -4 2)
+					(end -2.5 -2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -2885,7 +2935,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.5 -0.5) (xy 4 0.5)
+						(xy 2.5 2) (xy 2.5 -2)
 					)
 					(stroke
 						(width 0)
@@ -2897,7 +2947,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.5 2) (xy 2.5 -2)
+						(xy 2.5 -0.5) (xy 4 0.5)
 					)
 					(stroke
 						(width 0)
@@ -2908,6 +2958,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Ящик_батарейный"
 			(exclude_from_sim no)
@@ -3028,11 +3079,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Изостык_1"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3091,7 +3147,7 @@
 			(symbol "Изостык_1_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.5) (xy 2 -1.5)
+						(xy 0 2.5) (xy -2 1.5)
 					)
 					(stroke
 						(width 0)
@@ -3103,7 +3159,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.5) (xy -2 1.5)
+						(xy 0 -2.5) (xy 2 -1.5)
 					)
 					(stroke
 						(width 0)
@@ -3162,24 +3218,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5 0 0)
 					(length 0)
 					(name "привязка"
@@ -3197,12 +3235,35 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Маневровый_к_2"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3343,877 +3404,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 167 205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04c7bbb8-2371-4f62-a410-0df384b6286b")
-	)
-	(junction
-		(at 280 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d2a1a57-ca23-4f02-a34a-8423942b9a02")
-	)
-	(junction
-		(at 226 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c9deec-3a21-430f-97dc-d347149d4811")
-	)
-	(junction
-		(at 350 220)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "283a38a5-4916-485b-85c8-5b48e5c7f208")
-	)
-	(junction
-		(at 249 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "305abf10-ec47-4d4f-a430-7ce4f5e4aa5d")
-	)
-	(junction
-		(at 330 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34dc8adb-8f04-4a72-97ac-92ad8250d942")
-	)
-	(junction
-		(at 133 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dcc90f4-f932-483c-a23a-7b2503a776ef")
-	)
-	(junction
-		(at 208 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cdfa4c2-3a80-4004-b071-9a28595fb5f4")
-	)
-	(junction
-		(at 86 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2f815e-e47e-4cee-9366-cf0a092e4072")
-	)
-	(junction
-		(at 292 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8239f493-68c3-4194-9a29-114edb80d73b")
-	)
-	(junction
-		(at 128 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89a63136-6064-42c4-af1c-d81be87a44b8")
-	)
-	(junction
-		(at 286 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b2c2232-c9c6-46c7-b3e2-1b42ca7e53fd")
-	)
-	(junction
-		(at 123 205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ce333d3-6041-407e-bfd4-264d7bce91f8")
-	)
-	(junction
-		(at 375 160)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "915f10f3-699c-4291-a9c4-8722f435b592")
-	)
-	(junction
-		(at 313 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92e555f1-bfd5-4853-9d45-8a61a8ac4706")
-	)
-	(junction
-		(at 375 145)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a69b867-5ebf-43b9-af24-ec2a95332069")
-	)
-	(junction
-		(at 40 205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5a1a461-baea-455b-8ec4-3f508d1bcf07")
-	)
-	(junction
-		(at 157 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce4adb48-6e52-49d0-8637-4028c0806cce")
-	)
-	(junction
-		(at 80 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daed94b1-3395-44c0-9f25-a77df4a1e895")
-	)
-	(junction
-		(at 286 144)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de977382-3c62-4f63-bf3e-d9fbcaae95c1")
-	)
-	(junction
-		(at 350 205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4f6d8b2-7ed0-4912-806f-074711edf510")
-	)
-	(junction
-		(at 264 175)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ee3d8c-f36b-46e1-bd36-5960eee0045d")
-	)
-	(junction
-		(at 40 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6eb2e9f-f97c-44c2-a0b3-c76e58373f80")
-	)
-	(junction
-		(at 307 205)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a1e94c-721c-4227-b7e6-024f2fc94c97")
-	)
-	(junction
-		(at 74 190)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7361101-2d18-4d5e-8d65-8d266c96a3d0")
-	)
-	(wire
-		(pts
-			(xy 258 190) (xy 286 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04218cfa-dac9-46e6-8e88-becab9d592b7")
-	)
-	(wire
-		(pts
-			(xy 112 160) (xy 128 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "066ff1c7-fbc2-47a1-a129-eddb996716f6")
-	)
-	(wire
-		(pts
-			(xy 292 160) (xy 309 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08923ca6-3acb-4703-8155-a10fd850c36f")
-	)
-	(wire
-		(pts
-			(xy 318 205) (xy 350 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09cfd417-5f43-40fb-afd7-535712499de6")
-	)
-	(wire
-		(pts
-			(xy 133 190) (xy 163 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c969888-1931-4aea-bda2-e00aaefa17c7")
-	)
-	(wire
-		(pts
-			(xy 286 190) (xy 410 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11cf54e6-081b-4d7f-ae84-b2740fc17adf")
-	)
-	(wire
-		(pts
-			(xy 286 144) (xy 314 130)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12cc21c6-6a35-4828-a351-30ef23aa18e6")
-	)
-	(polyline
-		(pts
-			(xy 35 30) (xy 410 30)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14aa3608-4b5f-402c-b786-aca83294ca50")
-	)
-	(polyline
-		(pts
-			(xy 35 75) (xy 410 75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18643f91-8a93-49b2-a2e7-c4de33d85473")
-	)
-	(polyline
-		(pts
-			(xy 397 202) (xy 400 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1869c56d-d2ce-4607-9610-aac66d093543")
-	)
-	(polyline
-		(pts
-			(xy 397 157) (xy 403 163)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186d81fa-17d6-4cf0-9b36-6e59030de835")
-	)
-	(wire
-		(pts
-			(xy 284 145) (xy 286 144)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e04bcf1-b738-4008-977a-f3b87905eb77")
-	)
-	(wire
-		(pts
-			(xy 342 220) (xy 350 220)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2293a397-14e2-4318-8cb5-8c30cb0e355b")
-	)
-	(polyline
-		(pts
-			(xy 30 50) (xy 419 50)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2500a7de-83d6-401a-a181-c5dfcea9b237")
-	)
-	(polyline
-		(pts
-			(xy 403 187) (xy 400 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261f1b48-34cb-405f-b356-6a5312c79306")
-	)
-	(polyline
-		(pts
-			(xy 397 172) (xy 403 178)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd56e42-990d-4360-9fcd-89c061abbf04")
-	)
-	(wire
-		(pts
-			(xy 264 175) (xy 280 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ed7f3ea-cfb9-4a91-b13c-5dfea70580b2")
-	)
-	(wire
-		(pts
-			(xy 134 205) (xy 167 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f04c42d-5030-4460-a35a-ad25485ce51e")
-	)
-	(wire
-		(pts
-			(xy 307 205) (xy 311 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46fa48f6-b13a-4a1f-9b0b-258bf46f809b")
-	)
-	(polyline
-		(pts
-			(xy 397 223) (xy 403 217)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48568400-c189-4a78-a12b-63fbd5bbc8e6")
-	)
-	(wire
-		(pts
-			(xy 313 175) (xy 410 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1670ee-2c4a-47a6-8e19-473872de71cf")
-	)
-	(wire
-		(pts
-			(xy 50 160) (xy 48 158)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fbc9c4a-3c25-4b49-ac9d-3d12eb6d8e4d")
-	)
-	(wire
-		(pts
-			(xy 350 205) (xy 410 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5027da10-5da6-4524-9a9e-4dd7a6940893")
-	)
-	(wire
-		(pts
-			(xy 233 160) (xy 249 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ddab42-2a17-4be7-9e25-e9a99c5195c4")
-	)
-	(wire
-		(pts
-			(xy 167 205) (xy 287 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525c9d03-4855-47b6-9954-b6cd1c130ba7")
-	)
-	(wire
-		(pts
-			(xy 228 190) (xy 251 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5804d33f-ba55-45ab-87f8-4ccf7afe3de9")
-	)
-	(wire
-		(pts
-			(xy 86 160) (xy 105 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aa870c7-f45f-4354-b215-fe00c76f47fa")
-	)
-	(wire
-		(pts
-			(xy 197 175) (xy 226 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d10081-8051-4b20-935d-a8c3b3e75c83")
-	)
-	(polyline
-		(pts
-			(xy 48 172) (xy 50 172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c14a19-96ca-4480-92d9-596461c65061")
-	)
-	(wire
-		(pts
-			(xy 30 205) (xy 40 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bd6bd9-15b3-4378-82b4-651ca9116247")
-	)
-	(wire
-		(pts
-			(xy 30 190) (xy 40 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6739a19f-1463-4405-a3fa-46c7cad4c9f8")
-	)
-	(wire
-		(pts
-			(xy 262 175) (xy 264 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72d0a3e8-6770-441e-aa26-22c1436a7da4")
-	)
-	(polyline
-		(pts
-			(xy 35 10) (xy 35 110)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73744328-ca1c-43ed-8f68-787965914692")
-	)
-	(wire
-		(pts
-			(xy 40 190) (xy 74 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7726efc1-c8f8-4e14-b3ec-d9710d2fca5a")
-	)
-	(polyline
-		(pts
-			(xy 397 163) (xy 403 157)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de0e46e-3a5d-4660-844d-37825a194e62")
-	)
-	(wire
-		(pts
-			(xy 314 130) (xy 410 130)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9c2be3-2e49-4eb2-ab23-9bc0c6c72aa8")
-	)
-	(wire
-		(pts
-			(xy 316 160) (xy 330 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8153e4ca-c647-4803-8d55-36d8b7cc9f1e")
-	)
-	(wire
-		(pts
-			(xy 226 175) (xy 257 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b1ba4d-2252-4b8a-ae63-633c2af74fd7")
-	)
-	(wire
-		(pts
-			(xy 50 175) (xy 80 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865bad10-a863-4911-8888-1fcdf600ae01")
-	)
-	(wire
-		(pts
-			(xy 173 175) (xy 190 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8756332c-376c-4c92-8b85-cf2087e70bc8")
-	)
-	(wire
-		(pts
-			(xy 50 160) (xy 86 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88616b99-ed6b-4c73-9e0a-cd2e76baf8ba")
-	)
-	(polyline
-		(pts
-			(xy 403 193) (xy 400 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88857129-5568-4277-a87c-b8506baf8813")
-	)
-	(wire
-		(pts
-			(xy 294 205) (xy 307 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a776e71-5a3f-46ca-b301-ba7af7187ac4")
-	)
-	(polyline
-		(pts
-			(xy 400 110) (xy 400 225)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "8b1fbf71-57ec-4db7-b522-e3952b83a5af")
-	)
-	(wire
-		(pts
-			(xy 80 175) (xy 115 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c004d72-51f0-4230-9203-a3d53b1a6171")
-	)
-	(wire
-		(pts
-			(xy 350 220) (xy 410 220)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ceeda0d-5b3b-4382-a198-ddd48cf012fb")
-	)
-	(wire
-		(pts
-			(xy 291 175) (xy 313 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd567c2-7aaa-4b1a-bb32-188efa1562af")
-	)
-	(wire
-		(pts
-			(xy 347 160) (xy 375 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91263283-210d-4115-8969-eb8130a88a8f")
-	)
-	(polyline
-		(pts
-			(xy 397 208) (xy 400 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92d443be-29fe-4750-a0f4-13f06b966faf")
-	)
-	(polyline
-		(pts
-			(xy 48 178) (xy 50 178)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97dba214-9c59-48a5-8089-0c5a3441645f")
-	)
-	(wire
-		(pts
-			(xy 170 190) (xy 191 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998e3e63-526f-4413-a1cb-10d18ada4318")
-	)
-	(wire
-		(pts
-			(xy 375 160) (xy 410 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a67e7db-2a56-4f59-a544-7215f5cb8ee0")
-	)
-	(wire
-		(pts
-			(xy 157 175) (xy 166 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5cdcdc-ba97-4b26-b362-a19b8a2d0d13")
-	)
-	(wire
-		(pts
-			(xy 123 205) (xy 127 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0f495c-73ae-4083-8846-bf8d005f99e7")
-	)
-	(wire
-		(pts
-			(xy 46 153) (xy 48 158)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47e6ed4-36f2-4460-a00f-c3a79cff6527")
-	)
-	(wire
-		(pts
-			(xy 128 160) (xy 226 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8391fdc-585c-4687-b1c7-07aece49a7cf")
-	)
-	(wire
-		(pts
-			(xy 86 190) (xy 133 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af06869a-36c2-47ed-b326-04ee34a56c51")
-	)
-	(wire
-		(pts
-			(xy 74 190) (xy 79 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa4c506-c93d-4846-b19f-62be7e6475f3")
-	)
-	(wire
-		(pts
-			(xy 280 175) (xy 284 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b316614c-17a2-4efd-b1a8-047a8f855d91")
-	)
-	(wire
-		(pts
-			(xy 148 175) (xy 157 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b78ce6df-d6d1-4912-ab12-b6d5199ca96c")
-	)
-	(wire
-		(pts
-			(xy 40 205) (xy 123 205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba47780b-3bd5-4066-98ac-6a752c571dfe")
-	)
-	(wire
-		(pts
-			(xy 249 160) (xy 253 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb22646e-a375-4d97-9726-bf4b0cd2cb93")
-	)
-	(wire
-		(pts
-			(xy 330 160) (xy 340 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb41c70-6152-4b86-91db-87753cfb1561")
-	)
-	(wire
-		(pts
-			(xy 375 145) (xy 410 145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdee1b64-9873-44b9-ac70-ded9437650dc")
-	)
-	(polyline
-		(pts
-			(xy 397 178) (xy 403 172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d89b7d9a-e258-49df-999a-07eaa2411077")
-	)
-	(wire
-		(pts
-			(xy 198 190) (xy 208 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4e6fe8-befc-4b91-87f1-c3684e6411d6")
-	)
-	(wire
-		(pts
-			(xy 122 175) (xy 141 175)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def40fdd-97c5-434e-a9b4-f6b841f22ce3")
-	)
-	(wire
-		(pts
-			(xy 260 160) (xy 292 160)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef24f4a6-19c1-4c99-b679-36a147e15d80")
-	)
-	(polyline
-		(pts
-			(xy 50 172) (xy 50 178)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efdf9de7-f632-42da-86bd-a6b0c4e91912")
-	)
-	(wire
-		(pts
-			(xy 371 145) (xy 375 145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f212d1ad-6893-4226-bba3-5534d8498a9b")
-	)
-	(wire
-		(pts
-			(xy 208 190) (xy 221 190)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62070b8-e75e-4005-82d8-e5d418f976c3")
-	)
-	(polyline
-		(pts
-			(xy 397 217) (xy 403 223)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f950bfef-797b-4366-829a-c167db811da1")
 	)
 	(rectangle
 		(start 25 10)
@@ -5126,6 +4318,876 @@
 			)
 		)
 		(uuid "fed7d979-ea3b-4729-a0f2-fae74e8f409e")
+	)
+	(junction
+		(at 167 205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c7bbb8-2371-4f62-a410-0df384b6286b")
+	)
+	(junction
+		(at 280 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2a1a57-ca23-4f02-a34a-8423942b9a02")
+	)
+	(junction
+		(at 226 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c9deec-3a21-430f-97dc-d347149d4811")
+	)
+	(junction
+		(at 350 220)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "283a38a5-4916-485b-85c8-5b48e5c7f208")
+	)
+	(junction
+		(at 249 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "305abf10-ec47-4d4f-a430-7ce4f5e4aa5d")
+	)
+	(junction
+		(at 330 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34dc8adb-8f04-4a72-97ac-92ad8250d942")
+	)
+	(junction
+		(at 133 190)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dcc90f4-f932-483c-a23a-7b2503a776ef")
+	)
+	(junction
+		(at 208 190)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cdfa4c2-3a80-4004-b071-9a28595fb5f4")
+	)
+	(junction
+		(at 86 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2f815e-e47e-4cee-9366-cf0a092e4072")
+	)
+	(junction
+		(at 292 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8239f493-68c3-4194-9a29-114edb80d73b")
+	)
+	(junction
+		(at 128 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a63136-6064-42c4-af1c-d81be87a44b8")
+	)
+	(junction
+		(at 286 190)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b2c2232-c9c6-46c7-b3e2-1b42ca7e53fd")
+	)
+	(junction
+		(at 123 205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce333d3-6041-407e-bfd4-264d7bce91f8")
+	)
+	(junction
+		(at 375 160)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "915f10f3-699c-4291-a9c4-8722f435b592")
+	)
+	(junction
+		(at 313 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e555f1-bfd5-4853-9d45-8a61a8ac4706")
+	)
+	(junction
+		(at 375 145)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a69b867-5ebf-43b9-af24-ec2a95332069")
+	)
+	(junction
+		(at 40 205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5a1a461-baea-455b-8ec4-3f508d1bcf07")
+	)
+	(junction
+		(at 157 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce4adb48-6e52-49d0-8637-4028c0806cce")
+	)
+	(junction
+		(at 80 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daed94b1-3395-44c0-9f25-a77df4a1e895")
+	)
+	(junction
+		(at 286 144)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de977382-3c62-4f63-bf3e-d9fbcaae95c1")
+	)
+	(junction
+		(at 350 205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f6d8b2-7ed0-4912-806f-074711edf510")
+	)
+	(junction
+		(at 264 175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5ee3d8c-f36b-46e1-bd36-5960eee0045d")
+	)
+	(junction
+		(at 40 190)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6eb2e9f-f97c-44c2-a0b3-c76e58373f80")
+	)
+	(junction
+		(at 307 205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a1e94c-721c-4227-b7e6-024f2fc94c97")
+	)
+	(junction
+		(at 74 190)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7361101-2d18-4d5e-8d65-8d266c96a3d0")
+	)
+	(wire
+		(pts
+			(xy 258 190) (xy 286 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04218cfa-dac9-46e6-8e88-becab9d592b7")
+	)
+	(wire
+		(pts
+			(xy 112 160) (xy 128 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066ff1c7-fbc2-47a1-a129-eddb996716f6")
+	)
+	(wire
+		(pts
+			(xy 292 160) (xy 309 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08923ca6-3acb-4703-8155-a10fd850c36f")
+	)
+	(wire
+		(pts
+			(xy 318 205) (xy 350 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cfd417-5f43-40fb-afd7-535712499de6")
+	)
+	(wire
+		(pts
+			(xy 133 190) (xy 163 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c969888-1931-4aea-bda2-e00aaefa17c7")
+	)
+	(wire
+		(pts
+			(xy 286 190) (xy 410 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cf54e6-081b-4d7f-ae84-b2740fc17adf")
+	)
+	(wire
+		(pts
+			(xy 286 144) (xy 314 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cc21c6-6a35-4828-a351-30ef23aa18e6")
+	)
+	(polyline
+		(pts
+			(xy 35 30) (xy 410 30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aa3608-4b5f-402c-b786-aca83294ca50")
+	)
+	(polyline
+		(pts
+			(xy 35 75) (xy 410 75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18643f91-8a93-49b2-a2e7-c4de33d85473")
+	)
+	(polyline
+		(pts
+			(xy 397 202) (xy 400 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1869c56d-d2ce-4607-9610-aac66d093543")
+	)
+	(polyline
+		(pts
+			(xy 397 157) (xy 403 163)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186d81fa-17d6-4cf0-9b36-6e59030de835")
+	)
+	(wire
+		(pts
+			(xy 284 145) (xy 286 144)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e04bcf1-b738-4008-977a-f3b87905eb77")
+	)
+	(wire
+		(pts
+			(xy 342 220) (xy 350 220)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2293a397-14e2-4318-8cb5-8c30cb0e355b")
+	)
+	(polyline
+		(pts
+			(xy 30 50) (xy 419 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2500a7de-83d6-401a-a181-c5dfcea9b237")
+	)
+	(polyline
+		(pts
+			(xy 403 187) (xy 400 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261f1b48-34cb-405f-b356-6a5312c79306")
+	)
+	(polyline
+		(pts
+			(xy 397 172) (xy 403 178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd56e42-990d-4360-9fcd-89c061abbf04")
+	)
+	(wire
+		(pts
+			(xy 264 175) (xy 280 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed7f3ea-cfb9-4a91-b13c-5dfea70580b2")
+	)
+	(wire
+		(pts
+			(xy 134 205) (xy 167 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f04c42d-5030-4460-a35a-ad25485ce51e")
+	)
+	(wire
+		(pts
+			(xy 307 205) (xy 311 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fa48f6-b13a-4a1f-9b0b-258bf46f809b")
+	)
+	(polyline
+		(pts
+			(xy 397 223) (xy 403 217)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48568400-c189-4a78-a12b-63fbd5bbc8e6")
+	)
+	(wire
+		(pts
+			(xy 313 175) (xy 410 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1670ee-2c4a-47a6-8e19-473872de71cf")
+	)
+	(wire
+		(pts
+			(xy 50 160) (xy 48 158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbc9c4a-3c25-4b49-ac9d-3d12eb6d8e4d")
+	)
+	(wire
+		(pts
+			(xy 350 205) (xy 410 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5027da10-5da6-4524-9a9e-4dd7a6940893")
+	)
+	(wire
+		(pts
+			(xy 233 160) (xy 249 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ddab42-2a17-4be7-9e25-e9a99c5195c4")
+	)
+	(wire
+		(pts
+			(xy 167 205) (xy 287 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525c9d03-4855-47b6-9954-b6cd1c130ba7")
+	)
+	(wire
+		(pts
+			(xy 228 190) (xy 251 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5804d33f-ba55-45ab-87f8-4ccf7afe3de9")
+	)
+	(wire
+		(pts
+			(xy 86 160) (xy 105 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa870c7-f45f-4354-b215-fe00c76f47fa")
+	)
+	(wire
+		(pts
+			(xy 197 175) (xy 226 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d10081-8051-4b20-935d-a8c3b3e75c83")
+	)
+	(polyline
+		(pts
+			(xy 48 172) (xy 50 172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c14a19-96ca-4480-92d9-596461c65061")
+	)
+	(wire
+		(pts
+			(xy 30 205) (xy 40 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65bd6bd9-15b3-4378-82b4-651ca9116247")
+	)
+	(wire
+		(pts
+			(xy 30 190) (xy 40 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6739a19f-1463-4405-a3fa-46c7cad4c9f8")
+	)
+	(wire
+		(pts
+			(xy 262 175) (xy 264 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d0a3e8-6770-441e-aa26-22c1436a7da4")
+	)
+	(polyline
+		(pts
+			(xy 35 10) (xy 35 110)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73744328-ca1c-43ed-8f68-787965914692")
+	)
+	(wire
+		(pts
+			(xy 40 190) (xy 74 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7726efc1-c8f8-4e14-b3ec-d9710d2fca5a")
+	)
+	(polyline
+		(pts
+			(xy 397 163) (xy 403 157)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de0e46e-3a5d-4660-844d-37825a194e62")
+	)
+	(wire
+		(pts
+			(xy 314 130) (xy 410 130)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9c2be3-2e49-4eb2-ab23-9bc0c6c72aa8")
+	)
+	(wire
+		(pts
+			(xy 316 160) (xy 330 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8153e4ca-c647-4803-8d55-36d8b7cc9f1e")
+	)
+	(wire
+		(pts
+			(xy 226 175) (xy 257 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b1ba4d-2252-4b8a-ae63-633c2af74fd7")
+	)
+	(wire
+		(pts
+			(xy 50 175) (xy 80 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865bad10-a863-4911-8888-1fcdf600ae01")
+	)
+	(wire
+		(pts
+			(xy 173 175) (xy 190 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8756332c-376c-4c92-8b85-cf2087e70bc8")
+	)
+	(wire
+		(pts
+			(xy 50 160) (xy 86 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88616b99-ed6b-4c73-9e0a-cd2e76baf8ba")
+	)
+	(polyline
+		(pts
+			(xy 403 193) (xy 400 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88857129-5568-4277-a87c-b8506baf8813")
+	)
+	(wire
+		(pts
+			(xy 294 205) (xy 307 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a776e71-5a3f-46ca-b301-ba7af7187ac4")
+	)
+	(polyline
+		(pts
+			(xy 400 110) (xy 400 225)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8b1fbf71-57ec-4db7-b522-e3952b83a5af")
+	)
+	(wire
+		(pts
+			(xy 80 175) (xy 115 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c004d72-51f0-4230-9203-a3d53b1a6171")
+	)
+	(wire
+		(pts
+			(xy 350 220) (xy 410 220)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceeda0d-5b3b-4382-a198-ddd48cf012fb")
+	)
+	(wire
+		(pts
+			(xy 291 175) (xy 313 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd567c2-7aaa-4b1a-bb32-188efa1562af")
+	)
+	(wire
+		(pts
+			(xy 347 160) (xy 375 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91263283-210d-4115-8969-eb8130a88a8f")
+	)
+	(polyline
+		(pts
+			(xy 397 208) (xy 400 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d443be-29fe-4750-a0f4-13f06b966faf")
+	)
+	(polyline
+		(pts
+			(xy 48 178) (xy 50 178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dba214-9c59-48a5-8089-0c5a3441645f")
+	)
+	(wire
+		(pts
+			(xy 170 190) (xy 191 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998e3e63-526f-4413-a1cb-10d18ada4318")
+	)
+	(wire
+		(pts
+			(xy 375 160) (xy 410 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a67e7db-2a56-4f59-a544-7215f5cb8ee0")
+	)
+	(wire
+		(pts
+			(xy 157 175) (xy 166 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5cdcdc-ba97-4b26-b362-a19b8a2d0d13")
+	)
+	(wire
+		(pts
+			(xy 123 205) (xy 127 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0f495c-73ae-4083-8846-bf8d005f99e7")
+	)
+	(wire
+		(pts
+			(xy 46 153) (xy 48 158)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e6ed4-36f2-4460-a00f-c3a79cff6527")
+	)
+	(wire
+		(pts
+			(xy 128 160) (xy 226 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8391fdc-585c-4687-b1c7-07aece49a7cf")
+	)
+	(wire
+		(pts
+			(xy 86 190) (xy 133 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af06869a-36c2-47ed-b326-04ee34a56c51")
+	)
+	(wire
+		(pts
+			(xy 74 190) (xy 79 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa4c506-c93d-4846-b19f-62be7e6475f3")
+	)
+	(wire
+		(pts
+			(xy 280 175) (xy 284 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b316614c-17a2-4efd-b1a8-047a8f855d91")
+	)
+	(wire
+		(pts
+			(xy 148 175) (xy 157 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78ce6df-d6d1-4912-ab12-b6d5199ca96c")
+	)
+	(wire
+		(pts
+			(xy 40 205) (xy 123 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba47780b-3bd5-4066-98ac-6a752c571dfe")
+	)
+	(wire
+		(pts
+			(xy 249 160) (xy 253 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb22646e-a375-4d97-9726-bf4b0cd2cb93")
+	)
+	(wire
+		(pts
+			(xy 330 160) (xy 340 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb41c70-6152-4b86-91db-87753cfb1561")
+	)
+	(wire
+		(pts
+			(xy 375 145) (xy 410 145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdee1b64-9873-44b9-ac70-ded9437650dc")
+	)
+	(polyline
+		(pts
+			(xy 397 178) (xy 403 172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89b7d9a-e258-49df-999a-07eaa2411077")
+	)
+	(wire
+		(pts
+			(xy 198 190) (xy 208 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4e6fe8-befc-4b91-87f1-c3684e6411d6")
+	)
+	(wire
+		(pts
+			(xy 122 175) (xy 141 175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def40fdd-97c5-434e-a9b4-f6b841f22ce3")
+	)
+	(wire
+		(pts
+			(xy 260 160) (xy 292 160)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef24f4a6-19c1-4c99-b679-36a147e15d80")
+	)
+	(polyline
+		(pts
+			(xy 50 172) (xy 50 178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdf9de7-f632-42da-86bd-a6b0c4e91912")
+	)
+	(wire
+		(pts
+			(xy 371 145) (xy 375 145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f212d1ad-6893-4226-bba3-5534d8498a9b")
+	)
+	(wire
+		(pts
+			(xy 208 190) (xy 221 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62070b8-e75e-4005-82d8-e5d418f976c3")
+	)
+	(polyline
+		(pts
+			(xy 397 217) (xy 403 223)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950bfef-797b-4366-829a-c167db811da1")
 	)
 	(symbol
 		(lib_id "SCB:Маневровый_к")
@@ -6676,9 +6738,9 @@
 		(at 40 185 0)
 		(mirror y)
 		(unit 2)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a87675-d80f-4cf2-8106-203a59ce3a02")
@@ -9747,13 +9809,13 @@
 		(lib_id "SCB:Входной")
 		(at 40 210 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8cf2f4e-e845-41cd-8c97-2eff481ca2ce")
-		(property "Reference" "Входной1"
+		(property "Reference" "Входной2"
 			(at 40 214 0)
 			(effects
 				(font
@@ -9861,7 +9923,7 @@
 		(instances
 			(project ""
 				(path "/59e30762-dbae-41fa-856e-a9035e08cb51"
-					(reference "Входной1")
+					(reference "Входной2")
 					(unit 1)
 				)
 			)
@@ -10237,4 +10299,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

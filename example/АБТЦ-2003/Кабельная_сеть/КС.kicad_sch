@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "60b1e6ae-9a7f-4e4b-8e53-3c1d3d224943")
 	(paper "User" 2000 297)
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "SCB:Входной"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -140,7 +144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -152,7 +156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -6 0)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -165,61 +169,6 @@
 			)
 			(symbol "Входной_1_1"
 				(unit_name "Без заглушек")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 1)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -227,6 +176,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -280,6 +240,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -287,6 +258,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -352,42 +334,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Входной_2_1"
-				(unit_name "Заглушка З")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -8 0)
 					(radius 1)
@@ -410,6 +356,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Входной_2_1"
+				(unit_name "Заглушка З")
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -417,6 +366,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -494,6 +454,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -501,6 +472,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -566,42 +548,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Входной_3_1"
-				(unit_name "Заглушка ЗБ")
-				(circle
-					(center -25 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -17 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -13 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -8 0)
 					(radius 1)
@@ -624,6 +570,9 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Входной_3_1"
+				(unit_name "Заглушка ЗБ")
 				(polyline
 					(pts
 						(xy -25 2) (xy -27 0)
@@ -631,6 +580,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -25 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -708,6 +668,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -17 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -13 2) (xy -15 0)
@@ -715,6 +686,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -13 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -792,6 +774,28 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -8 0)
+					(radius 1)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -6 0) (xy -10 0)
@@ -805,11 +809,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Заградительный"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -880,14 +889,14 @@
 				(unit_name "Мачтовый")
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy -6 0) (xy -9 -2) (xy -12 0) (xy -9 2) (xy -6 0)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -904,22 +913,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6 0) (xy -9 -2) (xy -12 0) (xy -9 2) (xy -6 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Заградительный_2_1"
-				(unit_name "Кабельная")
-				(polyline
-					(pts
-						(xy 0 -8) (xy 0 -6)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -927,6 +921,21 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Заградительный_2_1"
+				(unit_name "Кабельная")
+				(polyline
+					(pts
+						(xy -6 -7) (xy -9 -9) (xy -12 -7) (xy -9 -5) (xy -6 -7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -943,14 +952,14 @@
 				)
 				(polyline
 					(pts
-						(xy -6 -7) (xy -9 -9) (xy -12 -7) (xy -9 -5) (xy -6 -7)
+						(xy 0 -8) (xy 0 -6)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -983,6 +992,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Муфта"
 			(exclude_from_sim no)
@@ -1082,24 +1092,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2 -1.5 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -2 1.5 0)
 					(length 0)
 					(name ""
@@ -1118,7 +1110,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -2.5 90)
+					(at -2 -1.5 0)
 					(length 0)
 					(name ""
 						(effects
@@ -1154,7 +1146,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2 -1.5 180)
+					(at 0 -2.5 90)
 					(length 0)
 					(name ""
 						(effects
@@ -1173,6 +1165,24 @@
 				)
 				(pin bidirectional line
 					(at 2 1.5 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2 -1.5 180)
 					(length 0)
 					(name ""
 						(effects
@@ -1213,6 +1223,18 @@
 			)
 			(symbol "Муфта_2_1"
 				(unit_name "С заземлением")
+				(polyline
+					(pts
+						(xy 5 0) (xy 10 0) (xy 10 -3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 8 -3) (xy 12 -3)
@@ -1261,19 +1283,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5 0) (xy 10 0) (xy 10 -3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Пикет"
 			(exclude_from_sim no)
@@ -1356,11 +1367,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Проходной_3"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1454,17 +1470,6 @@
 				)
 			)
 			(symbol "Проходной_3_0_0"
-				(circle
-					(center -16 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -1472,6 +1477,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1552,17 +1568,6 @@
 			)
 			(symbol "Проходной_3_1_1"
 				(unit_name "Мачта ЖБИ")
-				(circle
-					(center -16 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -1570,6 +1575,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1614,18 +1630,6 @@
 				(polyline
 					(pts
 						(xy -14 0) (xy -16 -2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -1647,20 +1651,21 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "Проходной_3_2_1"
-				(unit_name "В туннелях")
-				(circle
-					(center -16 0)
-					(radius 2)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "Проходной_3_2_1"
+				(unit_name "В туннелях")
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -1668,6 +1673,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1712,6 +1728,30 @@
 				(polyline
 					(pts
 						(xy -14 0) (xy -16 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1) (xy 1 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -1745,44 +1785,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -6 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1) (xy 1 1)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "Проходной_3_3_1"
 				(unit_name "Мачта сталь")
-				(circle
-					(center -16 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -1790,6 +1795,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -1845,7 +1861,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy -7 -1)
+						(xy 0 2) (xy 0 -2)
 					)
 					(stroke
 						(width 0)
@@ -1869,7 +1885,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2) (xy 0 -2)
+						(xy 0 -1) (xy -7 -1)
 					)
 					(stroke
 						(width 0)
@@ -1882,6 +1898,18 @@
 			)
 			(symbol "Проходной_3_4_1"
 				(unit_name "С муфтой")
+				(polyline
+					(pts
+						(xy -6 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -3 0)
 					(radius 0.5)
@@ -1895,7 +1923,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6 0) (xy 0 0)
+						(xy 0 1) (xy -3 1) (xy -3 1)
 					)
 					(stroke
 						(width 0)
@@ -1908,18 +1936,6 @@
 				(polyline
 					(pts
 						(xy 0 -2) (xy 0 2)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1) (xy -3 1) (xy -3 1)
 					)
 					(stroke
 						(width 0)
@@ -1950,17 +1966,6 @@
 			)
 			(symbol "Проходной_3_5_1"
 				(unit_name "1ТЯ")
-				(circle
-					(center -16 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -1968,6 +1973,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -2023,7 +2039,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2) (xy 0 2)
+						(xy -3 1) (xy -3 1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -2047,7 +2063,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3 1) (xy -3 1) (xy 0 1)
+						(xy 0 -2) (xy 0 2)
 					)
 					(stroke
 						(width 0)
@@ -2078,17 +2094,6 @@
 			)
 			(symbol "Проходной_3_6_1"
 				(unit_name "2ТЯ")
-				(circle
-					(center -16 0)
-					(radius 2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -16 2) (xy -18 0)
@@ -2096,6 +2101,17 @@
 					(stroke
 						(width 0)
 						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -16 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -2163,7 +2179,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2) (xy 0 2)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -2187,7 +2203,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -6 0)
+						(xy 0 -2) (xy 0 2)
 					)
 					(stroke
 						(width 0)
@@ -2195,24 +2211,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin input line
-					(at -3 -1 90)
-					(length 1)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -2233,11 +2231,34 @@
 						)
 					)
 				)
+				(pin input line
+					(at -3 -1 90)
+					(length 1)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Трансформатор"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2297,28 +2318,6 @@
 				)
 			)
 			(symbol "Трансформатор_0_1"
-				(circle
-					(center 0 -5.5)
-					(radius 2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.5)
-					(radius 2.5)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5 5) (xy 30 5)
@@ -2333,7 +2332,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 5)
+						(xy 0 5) (xy -1 3.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5) (xy 1 3.5)
 					)
 					(stroke
 						(width 0)
@@ -2369,7 +2380,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 5) (xy -1 3.5)
+						(xy 0 0) (xy 0 5)
 					)
 					(stroke
 						(width 0)
@@ -2379,10 +2390,20 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 5) (xy 1 3.5)
+				(circle
+					(center 0 -2.5)
+					(radius 2.5)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.5)
+					(radius 2.5)
 					(stroke
 						(width 0)
 						(type default)
@@ -2448,6 +2469,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Ящик_батарейный"
 			(exclude_from_sim no)
@@ -2548,6 +2570,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Генератор_Кабельная"
 			(exclude_from_sim no)
@@ -2608,9 +2631,10 @@
 				)
 			)
 			(symbol "Генератор_Кабельная_0_1"
-				(rectangle
-					(start -2.5 5)
-					(end 2.5 2)
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2631,10 +2655,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5 0) (xy 5 0)
-					)
+				(rectangle
+					(start -2.5 5)
+					(end 2.5 2)
 					(stroke
 						(width 0)
 						(type default)
@@ -2656,7 +2679,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5 -5 0)
+					(at -5 0 0)
 					(length 0)
 					(name ""
 						(effects
@@ -2674,7 +2697,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5 0 0)
+					(at -5 -5 0)
 					(length 0)
 					(name ""
 						(effects
@@ -2710,7 +2733,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 -5 180)
+					(at 5 0 180)
 					(length 0)
 					(name ""
 						(effects
@@ -2728,7 +2751,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 0 180)
+					(at 5 -5 180)
 					(length 0)
 					(name ""
 						(effects
@@ -2760,11 +2783,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Переезд_Кабельная"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2846,79 +2874,19 @@
 				)
 				(polyline
 					(pts
+						(xy 9 -22) (xy 12 -19) (xy 12 14) (xy 9 17)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 10 29) (xy 10 19)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11 29) (xy 9 29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13 21) (xy 7 21)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27 -26) (xy 33 -26)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 29 -34) (xy 31 -34)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 30 -34) (xy 30 -24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 35 -5) (xy 35 -34)
 					)
 					(stroke
 						(width 0)
@@ -2942,19 +2910,7 @@
 				)
 				(polyline
 					(pts
-						(xy 30 -30) (xy 24 -30) (xy 24 -24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9 -22) (xy 12 -19) (xy 12 14) (xy 9 17)
+						(xy 11 29) (xy 9 29)
 					)
 					(stroke
 						(width 0)
@@ -2978,7 +2934,111 @@
 				)
 				(polyline
 					(pts
+						(xy 13 21) (xy 7 21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 13 14)
+					(end 19 10)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 13 -15)
+					(end 19 -19)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 21 14)
+					(end 27 10)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 21 -15)
+					(end 27 -19)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27 -26) (xy 33 -26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 28 2.5) (xy 33 3.5) (xy 33 1.5) (xy 28 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 29 -34) (xy 31 -34)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30 -30) (xy 24 -30) (xy 24 -24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30 -34) (xy 30 -24)
 					)
 					(stroke
 						(width 0)
@@ -3002,7 +3062,7 @@
 				)
 				(polyline
 					(pts
-						(xy 35 -34) (xy 36 -29) (xy 34 -29) (xy 35 -34)
+						(xy 35 -5) (xy 35 -34)
 					)
 					(stroke
 						(width 0)
@@ -3024,42 +3084,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 13 -15)
-					(end 19 -19)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy 35 -34) (xy 36 -29) (xy 34 -29) (xy 35 -34)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 13 14)
-					(end 19 10)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 21 -15)
-					(end 27 -19)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 21 14)
-					(end 27 10)
 					(stroke
 						(width 0)
 						(type default)
@@ -3070,150 +3098,6 @@
 				)
 			)
 			(symbol "Переезд_Кабельная_1_1"
-				(polyline
-					(pts
-						(xy 13 -15) (xy 19 -19)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13 14) (xy 19 10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19 -15) (xy 13 -19)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19 14) (xy 13 10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20 22) (xy 20 -37)
-					)
-					(stroke
-						(width 0)
-						(type dash_dot)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 21 -15) (xy 27 -19)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 21 14) (xy 27 10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27 -15) (xy 21 -19)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27 14) (xy 21 10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 35 -34) (xy 32 -34)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 37.5 -5) (xy 2.5 -5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 37.5 0) (xy 2.5 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 7 21)
 					(radius 1)
@@ -3245,6 +3129,114 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13 14) (xy 19 10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13 -15) (xy 19 -19)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19 14) (xy 13 10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19 -15) (xy 13 -19)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20 22) (xy 20 -37)
+					)
+					(stroke
+						(width 0)
+						(type dash_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21 14) (xy 27 10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21 -15) (xy 27 -19)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27 14) (xy 21 10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27 -15) (xy 21 -19)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(circle
@@ -3280,16 +3272,52 @@
 						(type outline)
 					)
 				)
-				(text "УЗ1"
-					(at 16 -21 0)
+				(polyline
+					(pts
+						(xy 35 -34) (xy 32 -34)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 37.5 0) (xy 2.5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 37.5 -5) (xy 2.5 -5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "УЗ2"
+					(at 16 16 0)
 					(effects
 						(font
 							(size 1.8 1.8)
 						)
 					)
 				)
-				(text "УЗ2"
-					(at 16 16 0)
+				(text "УЗ1"
+					(at 16 -21 0)
 					(effects
 						(font
 							(size 1.8 1.8)
@@ -3312,10 +3340,28 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10 31.5 270)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name ""
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5 0)
+					(length 2.54)
+					(name "привязка"
 						(effects
 							(font
 								(size 1.8 1.8)
@@ -3331,8 +3377,8 @@
 					)
 				)
 				(pin input line
-					(at 13 -17 0)
-					(length 0)
+					(at 10 31.5 270)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -3367,7 +3413,7 @@
 					)
 				)
 				(pin input line
-					(at 27 -17 180)
+					(at 13 -17 0)
 					(length 0)
 					(name ""
 						(effects
@@ -3403,6 +3449,24 @@
 					)
 				)
 				(pin input line
+					(at 27 -17 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 30 -36.5 90)
 					(length 2.54)
 					(name ""
@@ -3421,25 +3485,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5 0)
-					(length 2.54)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
+					(at 40 0 180)
 					(length 2.54)
 					(name "привязка"
 						(effects
@@ -3474,25 +3520,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 40 0 180)
-					(length 2.54)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Приближение"
 			(exclude_from_sim no)
@@ -3552,10 +3581,9 @@
 				)
 			)
 			(symbol "Приближение_0_1"
-				(polyline
-					(pts
-						(xy 2 0) (xy 10 0)
-					)
+				(circle
+					(center 0 0)
+					(radius 2)
 					(stroke
 						(width 0)
 						(type default)
@@ -3566,7 +3594,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10 0) (xy 8 -0.5)
+						(xy 2 0) (xy 10 0)
 					)
 					(stroke
 						(width 0)
@@ -3588,9 +3616,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 2)
+				(polyline
+					(pts
+						(xy 10 0) (xy 8 -0.5)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3600,11 +3629,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Приемник_Кабельная"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3749,7 +3783,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5 -5 0)
+					(at -5 0 0)
 					(length 0)
 					(name ""
 						(effects
@@ -3767,7 +3801,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5 0 0)
+					(at -5 -5 0)
 					(length 0)
 					(name ""
 						(effects
@@ -3803,24 +3837,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 -5 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 5 0 180)
 					(length 0)
 					(name ""
@@ -3838,12 +3854,35 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5 -5 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:УКСПС_Кабельная"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3924,91 +3963,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.25 -9.5) (xy 2.25 -10)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -9.5) (xy 2.25 -9)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -9.5) (xy 25 -9.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -4.5) (xy 1.25 -6)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 -4.5) (xy 1.25 4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 4.5) (xy 1.25 6)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 7) (xy 1.25 12.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.25 9.5) (xy 2.25 9)
+						(xy -1.25 12.5) (xy -1.25 -10) (xy 1.25 -10) (xy 1.25 -7)
 					)
 					(stroke
 						(width 0)
@@ -4032,6 +3987,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.25 9.5) (xy 2.25 9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.25 9.5) (xy 25 9.5)
 					)
 					(stroke
@@ -4044,7 +4011,54 @@
 				)
 				(polyline
 					(pts
-						(xy -1.25 12.5) (xy -1.25 -10) (xy 1.25 -10) (xy 1.25 -7)
+						(xy 1.25 7) (xy 1.25 12.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.25 6.5)
+					(radius 0.5)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 4.5) (xy 1.25 6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -4.5) (xy 1.25 4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -4.5) (xy 1.25 -6)
 					)
 					(stroke
 						(width 0)
@@ -4065,9 +4079,34 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.25 6.5)
-					(radius 0.5)
+				(polyline
+					(pts
+						(xy 1.25 -9.5) (xy 2.25 -9)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -9.5) (xy 2.25 -10)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.25 -9.5) (xy 25 -9.5)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4133,17 +4172,6 @@
 			)
 			(symbol "УКСПС_Кабельная_1_1"
 				(circle
-					(center 1.25 -4.5)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
 					(center 1.25 4.5)
 					(radius 0.25)
 					(stroke
@@ -4154,22 +4182,15 @@
 						(type outline)
 					)
 				)
-				(pin unspecified line
-					(at 1.25 -2.5 180)
-					(length 0)
-					(name "привязка"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
+				(circle
+					(center 1.25 -4.5)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
+					(fill
+						(type outline)
 					)
 				)
 				(pin unspecified line
@@ -4190,11 +4211,34 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 1.25 -2.5 180)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Шкаф_переезд"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4289,114 +4333,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5 -3 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -3 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5 -3 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10 -3 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15 -3 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -25 0 0)
 					(length 0)
 					(name ""
@@ -4415,7 +4351,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 25 0 180)
+					(at -15 3 270)
 					(length 0)
 					(name ""
 						(effects
@@ -4424,115 +4360,7 @@
 							)
 						)
 					)
-					(number "16"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15 3 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.8 1.8)
@@ -4559,6 +4387,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at -10 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at -10 -3 90)
 					(length 0)
 					(name ""
@@ -4576,12 +4422,215 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -5 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5 -3 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -3 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5 -3 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10 -3 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15 3 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15 -3 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_Двухнитка:ДТ-1_сдвоенный"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4683,10 +4732,33 @@
 				)
 			)
 			(symbol "ДТ-1_сдвоенный_0_1"
+				(rectangle
+					(start 0 5)
+					(end 10 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1 2) (xy 1 -5)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1 3.5437)
+					(mid 1.75 3.842)
+					(end 2.5 3.5437)
 					(stroke
 						(width 0)
 						(type default)
@@ -4707,10 +4779,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4 -6) (xy 6 -6)
-					)
+				(arc
+					(start 4 3.5437)
+					(mid 3.25 3.2367)
+					(end 2.5 3.5437)
 					(stroke
 						(width 0)
 						(type default)
@@ -4721,7 +4793,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4 -4) (xy 6 -4)
+						(xy 4 1) (xy 6 1)
 					)
 					(stroke
 						(width 0)
@@ -4745,7 +4817,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4 1) (xy 6 1)
+						(xy 4 -4) (xy 6 -4)
 					)
 					(stroke
 						(width 0)
@@ -4757,7 +4829,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 -4) (xy 5 -6)
+						(xy 4 -6) (xy 6 -6)
 					)
 					(stroke
 						(width 0)
@@ -4781,8 +4853,44 @@
 				)
 				(polyline
 					(pts
+						(xy 5 -4) (xy 5 -6)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6 3.5437)
+					(mid 6.75 3.842)
+					(end 7.5 3.5437)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7 2) (xy 7 0)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 9 3.5437)
+					(mid 8.25 3.2367)
+					(end 7.5 3.5437)
 					(stroke
 						(width 0)
 						(type default)
@@ -4803,79 +4911,20 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0 5)
-					(end 10 2)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5 3.5437)
-					(mid 1.75 3.842)
-					(end 1 3.5437)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5 3.5437)
-					(mid 3.25 3.2367)
-					(end 4 3.5437)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.5 3.5437)
-					(mid 6.75 3.842)
-					(end 6 3.5437)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.5 3.5437)
-					(mid 8.25 3.2367)
-					(end 9 3.5437)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -4 0)
-					(length 0)
-					(name ""
+				(pin unspecified line
+					(at 0 0 0)
+					(length 1)
+					(name "П"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
 					(number ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.8 1.8)
 							)
 						)
 					)
@@ -4899,25 +4948,7 @@
 					)
 				)
 				(pin passive line
-					(at 10 -4 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10 -1 180)
+					(at 0 -4 0)
 					(length 0)
 					(name ""
 						(effects
@@ -4952,35 +4983,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 1)
-					(name "П"
+				(pin passive line
+					(at 5 2 0)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.8 1.8)
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10 -5 180)
-					(length 1)
-					(name "П"
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
+					(number "-UB"
 						(effects
 							(font
 								(size 1.8 1.8)
@@ -5007,16 +5020,52 @@
 					)
 				)
 				(pin passive line
-					(at 5 2 0)
+					(at 10 -1 180)
 					(length 0)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10 -4 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10 -5 180)
+					(length 1)
+					(name "П"
 						(effects
 							(font
 								(size 1.8 1.8)
 							)
 						)
 					)
-					(number "-UB"
+					(number ""
 						(effects
 							(font
 								(size 1.8 1.8)
@@ -5067,18 +5116,6 @@
 				)
 				(polyline
 					(pts
-						(xy 5 -5) (xy 10 -5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5 0) (xy 0 0)
 					)
 					(stroke
@@ -5095,6 +5132,18 @@
 					)
 					(stroke
 						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 -5) (xy 10 -5)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -5118,7 +5167,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 -5) (xy 10 -5)
+						(xy 5 0) (xy 0 0)
 					)
 					(stroke
 						(width 0.5)
@@ -5130,7 +5179,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 0) (xy 0 0)
+						(xy 5 -5) (xy 10 -5)
 					)
 					(stroke
 						(width 0.5)
@@ -5153,6 +5202,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_Двухнитка:Трансформатор_путевой"
 			(exclude_from_sim no)
@@ -5244,24 +5294,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -5 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 0 0)
 					(length 0)
 					(name ""
@@ -5280,7 +5312,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 4 2 90)
+					(at 0 -5 0)
 					(length 0)
 					(name ""
 						(effects
@@ -5299,6 +5331,24 @@
 				)
 				(pin input line
 					(at 4 5 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 4 2 90)
 					(length 0)
 					(name ""
 						(effects
@@ -5357,12 +5407,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5489,7 +5544,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "211"
+		(exclude_from_sim no)
+		(at 1072 231.5 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d15d48e-f8e6-4852-b78a-b321e51a3dd3")
+	)
+	(text "211"
+		(exclude_from_sim no)
+		(at 272 231.5 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dee94e62-0051-48e7-ab44-b97dff663ad0")
 	)
 	(junction
 		(at 743 217)
@@ -8999,28 +9077,6 @@
 		)
 		(uuid "fd1d11c7-52ff-4938-84ad-c361672f6c5c")
 	)
-	(text "211"
-		(exclude_from_sim no)
-		(at 1072 231.5 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d15d48e-f8e6-4852-b78a-b321e51a3dd3")
-	)
-	(text "211"
-		(exclude_from_sim no)
-		(at 272 231.5 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "dee94e62-0051-48e7-ab44-b97dff663ad0")
-	)
 	(label "725"
 		(at 1575 205 0)
 		(fields_autoplaced yes)
@@ -12522,7 +12578,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 450 200 0)
 		(unit 1)
@@ -12704,7 +12759,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1675 200 0)
 		(unit 1)
@@ -12798,7 +12852,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1825 150 180)
 		(unit 1)
@@ -12902,7 +12955,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 348 188 0)
 		(unit 4)
@@ -13109,7 +13161,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 850 150 180)
 		(unit 1)
@@ -13213,7 +13264,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1875 150 0)
 		(mirror x)
@@ -13562,7 +13612,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1213.5 217 180)
 		(unit 4)
@@ -13682,7 +13731,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1275 200 0)
 		(unit 1)
@@ -13939,7 +13987,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:УКСПС_Кабельная")
 		(lib_id "SCB_АБТЦ:УКСПС_Кабельная")
 		(at 1035 202.5 0)
 		(unit 1)
@@ -14132,7 +14179,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1698 188 0)
 		(unit 4)
@@ -14253,7 +14299,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 275 200 0)
 		(unit 1)
@@ -14308,19 +14353,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3d")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519008")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d36")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73c")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2f")
 		)
 		(instances
 			(project ""
@@ -14332,7 +14377,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 900 200 0)
 		(unit 1)
@@ -14516,7 +14560,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1600 200 0)
 		(unit 1)
@@ -14571,19 +14614,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3e")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519009")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d37")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73d")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d30")
 		)
 		(instances
 			(project ""
@@ -14859,7 +14902,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1000 150 180)
 		(unit 1)
@@ -15052,7 +15094,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1248 188 0)
 		(unit 4)
@@ -15261,7 +15302,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1775 150 180)
 		(unit 1)
@@ -15365,7 +15405,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 900 150 180)
 		(unit 1)
@@ -15647,7 +15686,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 988.5 217 180)
 		(unit 4)
@@ -16027,7 +16065,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:УКСПС_Кабельная")
 		(lib_id "SCB_АБТЦ:УКСПС_Кабельная")
 		(at 1435 202.5 0)
 		(mirror y)
@@ -16221,7 +16258,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1550 200 0)
 		(unit 1)
@@ -16315,7 +16351,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1125 150 180)
 		(unit 1)
@@ -16594,7 +16629,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1275 150 180)
 		(unit 1)
@@ -16698,7 +16732,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(at 1884 205 0)
 		(mirror x)
@@ -16835,7 +16868,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 313.5 217 180)
 		(unit 4)
@@ -17080,7 +17112,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1500 150 180)
 		(unit 1)
@@ -17310,7 +17341,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1675 150 180)
 		(unit 1)
@@ -17486,7 +17516,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1175 150 180)
 		(unit 1)
@@ -17590,7 +17619,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1225 150 180)
 		(unit 1)
@@ -17694,7 +17722,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1225 200 0)
 		(unit 1)
@@ -17788,7 +17815,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 175 200 0)
 		(unit 1)
@@ -17843,19 +17869,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3f")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900a")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d38")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73e")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d31")
 		)
 		(instances
 			(project ""
@@ -17867,7 +17893,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1825 200 0)
 		(unit 1)
@@ -17922,19 +17947,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a40")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900b")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d39")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73f")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d32")
 		)
 		(instances
 			(project ""
@@ -17946,7 +17971,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1325 200 0)
 		(unit 1)
@@ -18129,7 +18153,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 500 150 180)
 		(unit 1)
@@ -18233,7 +18256,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 400 150 180)
 		(unit 1)
@@ -18499,7 +18521,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 325 150 180)
 		(unit 1)
@@ -18603,7 +18624,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1473 188 0)
 		(unit 4)
@@ -18724,7 +18744,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 950 200 0)
 		(unit 1)
@@ -18779,19 +18798,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a41")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900c")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3a")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a740")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d33")
 		)
 		(instances
 			(project ""
@@ -18892,7 +18911,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 175 150 180)
 		(unit 1)
@@ -18996,7 +19014,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(lib_id "SCB_Двухнитка:ДТ-1_сдвоенный")
 		(at 111 200 0)
 		(unit 1)
@@ -19132,7 +19149,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 400 200 0)
 		(unit 1)
@@ -19187,19 +19203,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a42")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900d")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3b")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a741")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d34")
 		)
 		(instances
 			(project ""
@@ -19301,7 +19317,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1375 200 0)
 		(unit 1)
@@ -19356,19 +19371,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a43")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900e")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3c")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a742")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d35")
 		)
 		(instances
 			(project ""
@@ -19380,7 +19395,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:УКСПС_Кабельная")
 		(lib_id "SCB_АБТЦ:УКСПС_Кабельная")
 		(at 360 202.5 0)
 		(unit 1)
@@ -19573,7 +19587,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 850 200 0)
 		(unit 1)
@@ -19628,19 +19641,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a44")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe1351900f")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3d")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a743")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d36")
 		)
 		(instances
 			(project ""
@@ -19741,7 +19754,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 450 150 180)
 		(unit 1)
@@ -19845,7 +19857,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1775 200 0)
 		(unit 1)
@@ -19939,7 +19950,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1725 200 0)
 		(unit 1)
@@ -19994,19 +20004,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a45")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519010")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3e")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a744")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d37")
 		)
 		(instances
 			(project ""
@@ -20018,7 +20028,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1325 150 180)
 		(unit 1)
@@ -20300,7 +20309,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:УКСПС_Кабельная")
 		(lib_id "SCB_АБТЦ:УКСПС_Кабельная")
 		(at 1660 202.5 0)
 		(mirror y)
@@ -20494,7 +20502,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 550 200 0)
 		(unit 1)
@@ -20589,7 +20596,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 500 200 0)
 		(unit 1)
@@ -20644,19 +20650,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a46")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519011")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d3f")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a745")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d38")
 		)
 		(instances
 			(project ""
@@ -20759,7 +20765,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 225 150 180)
 		(unit 1)
@@ -20952,7 +20957,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1175 200 0)
 		(unit 1)
@@ -21007,19 +21011,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a47")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519012")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d40")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a746")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d39")
 		)
 		(instances
 			(project ""
@@ -21031,7 +21035,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1000 200 0)
 		(unit 1)
@@ -21126,7 +21129,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1075 150 180)
 		(unit 1)
@@ -21406,7 +21408,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1663.5 217 180)
 		(unit 4)
@@ -21917,7 +21918,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1450 200 0)
 		(unit 1)
@@ -22011,7 +22011,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1023 188 0)
 		(unit 4)
@@ -22132,7 +22131,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 225 200 0)
 		(unit 1)
@@ -22226,7 +22224,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1725 150 180)
 		(unit 1)
@@ -22330,7 +22327,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 950 150 180)
 		(unit 1)
@@ -22434,7 +22430,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 1125 200 0)
 		(unit 1)
@@ -22615,7 +22610,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1375 150 180)
 		(unit 1)
@@ -23051,7 +23045,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1500 200 0)
 		(unit 1)
@@ -23106,19 +23099,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a48")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519013")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d41")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a747")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d3a")
 		)
 		(instances
 			(project ""
@@ -23219,7 +23212,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Кабельная")
 		(lib_id "SCB_АБТЦ:Приемник_Кабельная")
 		(at 1075 200 0)
 		(unit 1)
@@ -23274,19 +23266,19 @@
 			)
 		)
 		(pin ""
-			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a3c")
+			(uuid "77ec3f9b-5f8c-46b0-b7c8-ee7669a41a49")
 		)
 		(pin ""
-			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519007")
+			(uuid "68bc3457-01a3-4a55-adc7-d8fe13519014")
 		)
 		(pin ""
-			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d35")
+			(uuid "946e9118-49d4-407c-b0b6-bfd5c4172d42")
 		)
 		(pin ""
-			(uuid "e163163c-d9b5-4964-abca-ce350fd2a73b")
+			(uuid "e163163c-d9b5-4964-abca-ce350fd2a748")
 		)
 		(pin ""
-			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d2e")
+			(uuid "43ee9921-706a-4b4b-996f-e54e21d55d3b")
 		)
 		(instances
 			(project ""
@@ -23298,7 +23290,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 125 150 180)
 		(unit 1)
@@ -23402,7 +23393,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1550 150 180)
 		(unit 1)
@@ -23506,7 +23496,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Кабельная")
 		(lib_id "SCB_АБТЦ:Генератор_Кабельная")
 		(at 325 200 0)
 		(unit 1)
@@ -23600,7 +23589,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
 		(at 1884 205 180)
 		(unit 1)
@@ -23697,7 +23685,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1600 150 180)
 		(unit 1)
@@ -23801,7 +23788,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_Двухнитка:Трансформатор_путевой")
 		(lib_id "SCB_Двухнитка:Трансформатор_путевой")
 		(at 121 200 0)
 		(unit 1)
@@ -23988,7 +23974,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 275 150 180)
 		(unit 1)
@@ -24092,7 +24077,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Проходной_3")
 		(lib_id "SCB:Проходной_3")
 		(at 1438.5 217 180)
 		(unit 4)
@@ -24301,7 +24285,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 1450 150 180)
 		(unit 1)
@@ -24583,7 +24566,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Муфта")
 		(lib_id "SCB:Муфта")
 		(at 550 150 180)
 		(unit 1)

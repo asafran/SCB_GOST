@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "40d0e112-f218-4faa-a155-7d9cfb1b458c")
 	(paper "User" 1189 297)
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "SCB:Изостык"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -144,24 +148,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.8 1.8)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5 0 0)
 					(length 0)
 					(name "привязка"
@@ -179,7 +165,26 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Пикет"
 			(exclude_from_sim no)
@@ -262,11 +267,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:Светофор"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,7 +348,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1) (xy 0 1)
+						(xy 0 0) (xy -6 0)
 					)
 					(stroke
 						(width 0)
@@ -350,7 +360,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy -6 0)
+						(xy 0 -1) (xy 0 1)
 					)
 					(stroke
 						(width 0)
@@ -361,11 +371,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB:УКСПС"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -448,7 +463,7 @@
 			(symbol "УКСПС_1_1"
 				(unit_name "Без направления")
 				(circle
-					(center 0 -2)
+					(center 0 2)
 					(radius 0.25)
 					(stroke
 						(width 0)
@@ -459,7 +474,7 @@
 					)
 				)
 				(circle
-					(center 0 2)
+					(center 0 -2)
 					(radius 0.25)
 					(stroke
 						(width 0)
@@ -490,9 +505,10 @@
 			)
 			(symbol "УКСПС_2_1"
 				(unit_name "С направлением")
-				(circle
-					(center 0 -2)
-					(radius 0.25)
+				(polyline
+					(pts
+						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -513,10 +529,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
-					)
+				(circle
+					(center 0 2)
+					(radius 0.25)
 					(stroke
 						(width 0)
 						(type default)
@@ -526,7 +541,7 @@
 					)
 				)
 				(circle
-					(center 0 2)
+					(center 0 -2)
 					(radius 0.25)
 					(stroke
 						(width 0)
@@ -555,6 +570,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Генератор_Нитки"
 			(exclude_from_sim no)
@@ -692,6 +708,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Деление_перегона"
 			(exclude_from_sim no)
@@ -744,18 +761,6 @@
 			(symbol "Деление_перегона_0_1"
 				(polyline
 					(pts
-						(xy -14 5) (xy -12 4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -14 5) (xy -12 5.5)
 					)
 					(stroke
@@ -768,19 +773,7 @@
 				)
 				(polyline
 					(pts
-						(xy 14 5) (xy 12 4.5)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 14 5) (xy 12 5.5)
+						(xy -14 5) (xy -12 4.5)
 					)
 					(stroke
 						(width 0)
@@ -814,7 +807,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 14 5) (xy 12 5.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14 5) (xy 12 4.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Муфта_Нитки"
 			(exclude_from_sim no)
@@ -990,6 +1008,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Переезд_Нитки"
 			(exclude_from_sim no)
@@ -1085,32 +1104,9 @@
 			)
 			(symbol "Переезд_Нитки_1_1"
 				(unit_name "Граница")
-				(rectangle
-					(start -4 19)
-					(end -2.5 15)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -18 35) (xy 18 35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10 0) (xy -10 0)
 					)
 					(stroke
 						(width 0)
@@ -1132,6 +1128,28 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -4 19)
+					(end -2.5 15)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.5 19)
+					(end 4 15)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 7.5 -10) (xy 5 -7.5) (xy 5 7.5) (xy 7.5 10)
@@ -1144,15 +1162,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 2.5 19)
-					(end 4 15)
+				(polyline
+					(pts
+						(xy 10 0) (xy -10 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(text "Р.Ш.ПЕРЕЕЗДА"
@@ -1200,6 +1219,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Приближение"
 			(exclude_from_sim no)
@@ -1259,10 +1279,9 @@
 				)
 			)
 			(symbol "Приближение_0_1"
-				(polyline
-					(pts
-						(xy 2 0) (xy 10 0)
-					)
+				(circle
+					(center 0 0)
+					(radius 2)
 					(stroke
 						(width 0)
 						(type default)
@@ -1273,7 +1292,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10 0) (xy 8 -0.5)
+						(xy 2 0) (xy 10 0)
 					)
 					(stroke
 						(width 0)
@@ -1295,9 +1314,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 2)
+				(polyline
+					(pts
+						(xy 10 0) (xy 8 -0.5)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1307,6 +1327,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Приемник_Нитки"
 			(exclude_from_sim no)
@@ -1432,7 +1453,94 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "211"
+		(exclude_from_sim no)
+		(at 187 241.5 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "0587bc5a-4e02-4066-a3a8-f7ea266b8e80")
+	)
+	(text "ПАРА"
+		(exclude_from_sim no)
+		(at 35 145 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "1465ba1e-9098-40af-ae35-55f00b9fb45b")
+	)
+	(text "Кабельная сеть\nперегона"
+		(exclude_from_sim no)
+		(at 1100 284 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "42d38c12-d31a-4d35-9ddb-e38ce5adb1d9")
+	)
+	(text "ПАРА"
+		(exclude_from_sim no)
+		(at 1170 65 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a039735-3b3c-4b80-a7c7-d048a5c135ef")
+	)
+	(text "ПАРА"
+		(exclude_from_sim no)
+		(at 1170 135 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e3cd6d2-49b7-4eba-8128-5753bbbdf889")
+	)
+	(text "Оборудование однопутного\nучастка железной дороги \nустройствами\nавтоблокировки\nсистемами АБТЦ-2003"
+		(exclude_from_sim no)
+		(at 1100 265 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "9d24443b-f67d-4001-ab4e-a40273cd08bf")
+	)
+	(text "ПАРА"
+		(exclude_from_sim no)
+		(at 35 75 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "a49b4bb7-aa1b-4476-995f-df207289f9fe")
+	)
+	(text "211"
+		(exclude_from_sim no)
+		(at 532 241.5 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4bd6acc-bd1d-48f5-a097-dced0c080a50")
 	)
 	(junction
 		(at 235 210)
@@ -2278,95 +2386,8 @@
 		)
 		(uuid "ff7e72db-30ab-4e5f-9ec2-3a9151df86e7")
 	)
-	(text "211"
-		(exclude_from_sim no)
-		(at 187 241.5 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "0587bc5a-4e02-4066-a3a8-f7ea266b8e80")
-	)
-	(text "ПАРА"
-		(exclude_from_sim no)
-		(at 35 145 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "1465ba1e-9098-40af-ae35-55f00b9fb45b")
-	)
-	(text "Кабельная сеть\nперегона"
-		(exclude_from_sim no)
-		(at 1100 284 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-		)
-		(uuid "42d38c12-d31a-4d35-9ddb-e38ce5adb1d9")
-	)
-	(text "ПАРА"
-		(exclude_from_sim no)
-		(at 1170 65 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a039735-3b3c-4b80-a7c7-d048a5c135ef")
-	)
-	(text "ПАРА"
-		(exclude_from_sim no)
-		(at 1170 135 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e3cd6d2-49b7-4eba-8128-5753bbbdf889")
-	)
-	(text "Оборудование однопутного\nучастка железной дороги \nустройствами\nавтоблокировки\nсистемами АБТЦ-2003"
-		(exclude_from_sim no)
-		(at 1100 265 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "9d24443b-f67d-4001-ab4e-a40273cd08bf")
-	)
-	(text "ПАРА"
-		(exclude_from_sim no)
-		(at 35 75 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "a49b4bb7-aa1b-4476-995f-df207289f9fe")
-	)
-	(text "211"
-		(exclude_from_sim no)
-		(at 532 241.5 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4bd6acc-bd1d-48f5-a097-dced0c080a50")
-	)
 	(label "18"
 		(at 1170 45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2377,7 +2398,6 @@
 	)
 	(label "5С(ОЖЗ,ОК)"
 		(at 649.5 30 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2410,7 +2430,6 @@
 	)
 	(label "18"
 		(at 35 55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2575,7 +2594,6 @@
 	)
 	(label "24"
 		(at 1170 60 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2586,7 +2604,6 @@
 	)
 	(label "1-10"
 		(at 1170 25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2597,7 +2614,6 @@
 	)
 	(label "24"
 		(at 35 140 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2630,7 +2646,6 @@
 	)
 	(label "24"
 		(at 35 70 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2663,7 +2678,6 @@
 	)
 	(label "АВС"
 		(at 1150 95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2674,7 +2688,6 @@
 	)
 	(label "14-19"
 		(at 1170 125 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2685,7 +2698,6 @@
 	)
 	(label "Ч26-28Р(П,М)"
 		(at 534.5 110 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2718,7 +2730,6 @@
 	)
 	(label "11,12"
 		(at 1170 30 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2905,7 +2916,6 @@
 	)
 	(label "Ч16-18П(П,М)"
 		(at 349.5 50 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2916,7 +2926,6 @@
 	)
 	(label "Ч10-12Р(П,М)"
 		(at 259.5 130 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2927,7 +2936,6 @@
 	)
 	(label "16"
 		(at 35 45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2938,7 +2946,6 @@
 	)
 	(label "17"
 		(at 35 130 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2949,7 +2956,6 @@
 	)
 	(label "23"
 		(at 35 65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2960,7 +2966,6 @@
 	)
 	(label "5С(З,Ж,К,РК),Ч30-32Р(П,М)"
 		(at 614.5 105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2993,7 +2998,6 @@
 	)
 	(label "Н11-13П(П,М)"
 		(at 895.5 45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3004,7 +3008,6 @@
 	)
 	(label "13"
 		(at 35 120 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3015,7 +3018,6 @@
 	)
 	(label "13"
 		(at 1170 35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3026,7 +3028,6 @@
 	)
 	(label "Ч18-20Р(П,М)"
 		(at 405 120 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3059,7 +3060,6 @@
 	)
 	(label "1"
 		(at 1170 95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3114,7 +3114,6 @@
 	)
 	(label "Ч4-6П(П,М)"
 		(at 149.5 65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3125,7 +3124,6 @@
 	)
 	(label "7-12"
 		(at 35 115 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3158,7 +3156,6 @@
 	)
 	(label "12"
 		(at 35 35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3169,7 +3166,6 @@
 	)
 	(label "Н19-21П(П,М)"
 		(at 735.5 35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3224,7 +3220,6 @@
 	)
 	(label "13-15"
 		(at 35 40 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3235,7 +3230,6 @@
 	)
 	(label "18-23"
 		(at 35 135 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3246,7 +3240,6 @@
 	)
 	(label "1-10"
 		(at 35 25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3257,7 +3250,6 @@
 	)
 	(label "3С(3,Ж,К,РК),8С(3,Ж,К,РК),Н13-15Р(П,М),1НОКС"
 		(at 855.5 115 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3268,7 +3260,6 @@
 	)
 	(label "3С(ОЖЗ,ОК),8С(ОЖЗ,ОК),Н15-17П(П,М),1НКС"
 		(at 815.5 40 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3279,7 +3270,6 @@
 	)
 	(label "В,ОВ,ЗГ,ОЗГ,Ч14-16Р(П,М)"
 		(at 319.5 125 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3312,7 +3302,6 @@
 	)
 	(label "19-22"
 		(at 1170 50 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3367,7 +3356,6 @@
 	)
 	(label "13"
 		(at 1170 120 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3378,7 +3366,6 @@
 	)
 	(label "11"
 		(at 35 30 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3433,7 +3420,6 @@
 	)
 	(label "Н3-5П(П,М)"
 		(at 1055.5 55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3444,7 +3430,6 @@
 	)
 	(label "3-5"
 		(at 1170 105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3543,7 +3528,6 @@
 	)
 	(label "4С(3,Ж,К,РК),7С(3,Ж,К,РК),Ч22-24Р(П,М),1ЧОКС"
 		(at 464.5 115 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3554,7 +3538,6 @@
 	)
 	(label "Ч28-30П(П,М)"
 		(at 574.5 35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3609,7 +3592,6 @@
 	)
 	(label "6С(ОЖЗ,ОК),Н23-Ч24П(П,М)"
 		(at 660.5 30 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3664,7 +3646,6 @@
 	)
 	(label "Ч12-14П(П,М)"
 		(at 289.5 55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3697,7 +3678,6 @@
 	)
 	(label "3-5"
 		(at 35 105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3752,7 +3732,6 @@
 	)
 	(label "6"
 		(at 1170 110 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3763,7 +3742,6 @@
 	)
 	(label "ЧДК,ЧОДК"
 		(at 362 100 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3774,7 +3752,6 @@
 	)
 	(label "Н17-19Р(П,М)"
 		(at 775.5 110 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3785,7 +3762,6 @@
 	)
 	(label "20"
 		(at 1170 130 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3884,7 +3860,6 @@
 	)
 	(label "7-12"
 		(at 1170 115 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3917,7 +3892,6 @@
 	)
 	(label "14-17"
 		(at 1170 40 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3928,7 +3902,6 @@
 	)
 	(label "23"
 		(at 1170 55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -3961,7 +3934,6 @@
 	)
 	(label "НДК,НОДК"
 		(at 1150 100 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4082,7 +4054,6 @@
 	)
 	(label "6"
 		(at 35 110 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4093,7 +4064,6 @@
 	)
 	(label "Н(Н,ОН,К,ОК,Л1,ОЛ1,Л2,ОЛ2,Л3,ОЛ3,Л4,ОЛ4,Л5,ОЛ5,Л6,ОЛ6,Л7,ОЛ7,Л8,ОЛ8)"
 		(at 1150 25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4104,7 +4074,6 @@
 	)
 	(label "14-16"
 		(at 35 125 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4225,7 +4194,6 @@
 	)
 	(label "17"
 		(at 35 50 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4236,7 +4204,6 @@
 	)
 	(label "19-22"
 		(at 35 60 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4247,7 +4214,6 @@
 	)
 	(label "Н9-11Р(П,М)"
 		(at 935.5 120 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4258,7 +4224,6 @@
 	)
 	(label "2"
 		(at 35 100 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4269,7 +4234,6 @@
 	)
 	(label "Ч20-22П(П,М)"
 		(at 434 45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4280,7 +4244,6 @@
 	)
 	(label "1"
 		(at 35 95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4357,7 +4320,6 @@
 	)
 	(label "2"
 		(at 1170 100 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4368,7 +4330,6 @@
 	)
 	(label "4C(ОЖЗ,ОК),7С(ОЖЗ,ОК),Ч24-26П(П,М),1ЧКС"
 		(at 494.5 40 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4379,7 +4340,6 @@
 	)
 	(label "6С(Ж,З,К,РК),Н21-23Р(П,М)"
 		(at 695.5 105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4455,7 +4415,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 190 135 0)
 		(mirror y)
@@ -4536,7 +4495,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 735 35 0)
 		(unit 1)
@@ -4616,7 +4574,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 405.5 120 0)
 		(mirror y)
@@ -4851,7 +4808,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 150 210 180)
 		(unit 1)
@@ -5006,7 +4962,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 1055 210 180)
 		(unit 1)
@@ -5082,7 +5037,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 895 45 0)
 		(unit 1)
@@ -5240,7 +5194,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 110 210 180)
 		(unit 1)
@@ -5316,7 +5269,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1095 130 0)
 		(unit 1)
@@ -5396,7 +5348,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 615 105 0)
 		(mirror y)
@@ -5477,7 +5428,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB:Изостык")
 		(lib_id "SCB:Изостык")
 		(at 1135 210 180)
 		(unit 2)
@@ -5555,7 +5505,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 465 115 0)
 		(mirror y)
@@ -5636,7 +5585,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 975 50 0)
 		(unit 1)
@@ -5716,7 +5664,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 230 60 0)
 		(mirror y)
@@ -5885,7 +5832,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 975 210 180)
 		(unit 1)
@@ -6040,7 +5986,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 435 210 180)
 		(unit 1)
@@ -6116,7 +6061,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 695 210 180)
 		(unit 1)
@@ -6192,7 +6136,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 815 210 180)
 		(unit 1)
@@ -6268,7 +6211,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 405 210 180)
 		(unit 1)
@@ -6344,7 +6286,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 535 210 180)
 		(unit 1)
@@ -6506,7 +6447,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 935 210 180)
 		(unit 1)
@@ -6835,7 +6775,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 655 210 180)
 		(unit 1)
@@ -6911,7 +6850,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 615 210 180)
 		(unit 1)
@@ -6987,7 +6925,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 1015 210 180)
 		(unit 1)
@@ -7063,7 +7000,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 290 55 0)
 		(mirror y)
@@ -7223,7 +7159,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 535 110 0)
 		(mirror y)
@@ -7304,7 +7239,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 350 210 180)
 		(unit 1)
@@ -7380,7 +7314,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 465 210 180)
 		(unit 1)
@@ -7456,7 +7389,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 230 210 180)
 		(unit 1)
@@ -7532,7 +7464,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1125 60 0)
 		(unit 1)
@@ -7612,7 +7543,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 350 50 0)
 		(mirror y)
@@ -7693,7 +7623,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 1095 210 180)
 		(unit 1)
@@ -8004,7 +7933,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 260 210 180)
 		(unit 1)
@@ -8080,7 +8008,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1015 125 0)
 		(unit 1)
@@ -8160,7 +8087,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 775 210 180)
 		(unit 1)
@@ -8236,7 +8162,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 815 40 0)
 		(unit 1)
@@ -8316,7 +8241,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 935 120 0)
 		(unit 1)
@@ -8396,7 +8320,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 150 65 0)
 		(mirror y)
@@ -8631,7 +8554,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 735 210 180)
 		(unit 1)
@@ -8942,7 +8864,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 575 35 180)
 		(unit 1)
@@ -9281,7 +9202,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 1055 55 0)
 		(unit 1)
@@ -9361,7 +9281,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 575 210 180)
 		(unit 1)
@@ -9506,7 +9425,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 190 210 180)
 		(unit 1)
@@ -9662,7 +9580,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 110 140 0)
 		(mirror y)
@@ -9743,7 +9660,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Приемник_Нитки")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 320 210 180)
 		(unit 1)
@@ -9819,7 +9735,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 660 30 0)
 		(unit 1)
@@ -9899,7 +9814,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 80 70 0)
 		(mirror y)
@@ -9980,7 +9894,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 260 130 0)
 		(mirror y)
@@ -10061,7 +9974,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 650 30 180)
 		(unit 1)
@@ -10141,7 +10053,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 895 210 180)
 		(unit 1)
@@ -10217,7 +10128,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 80 210 180)
 		(unit 1)
@@ -10293,7 +10203,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 855 115 0)
 		(unit 1)
@@ -10373,7 +10282,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 1125 210 180)
 		(unit 1)
@@ -10798,7 +10706,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 695 105 0)
 		(unit 1)
@@ -10878,7 +10785,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 775 110 0)
 		(unit 1)
@@ -10958,7 +10864,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 320 125 0)
 		(mirror y)
@@ -11206,7 +11111,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Генератор_Нитки")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 290 210 180)
 		(unit 1)
@@ -11282,7 +11186,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 365 100 0)
 		(unit 2)
@@ -11362,7 +11265,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SCB_АБТЦ:Муфта_Нитки")
 		(lib_id "SCB_АБТЦ:Муфта_Нитки")
 		(at 435 45 0)
 		(mirror y)
@@ -11445,6 +11347,10 @@
 	(sheet
 		(at 1190 260)
 		(size 13 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -11485,4 +11391,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -485,11 +485,47 @@
           "label": "Кодирование1",
           "name": "Кодирование1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Частота1",
+          "name": "Частота1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ордината",
+          "name": "Ордината",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Направления",
+          "name": "Направления",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Тип",
+          "name": "Тип",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Помещение",
+          "name": "Помещение",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Частота2",
+          "name": "Частота2",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
