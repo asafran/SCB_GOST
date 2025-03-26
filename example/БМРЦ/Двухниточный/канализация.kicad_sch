@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b2ec49a1-a956-4d7e-997a-c0b051ded1fe")
-	(paper "A3")
+	(paper "User" 800 297)
 	(title_block
 		(company "АТ-451")
 		(comment 1 "КП27.02.03.10.000 ГЧ")

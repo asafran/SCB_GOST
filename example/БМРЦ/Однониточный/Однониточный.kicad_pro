@@ -252,7 +252,9 @@
       "SCB_ЭЦ",
       "SCB_2RC",
       "SCB",
-      "SCB_Двухнитка"
+      "SCB_Двухнитка",
+      "SCB_Relay",
+      "SCB_Legacy"
     ]
   },
   "meta": {
@@ -522,7 +524,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "../../../lib/КП_МКТ.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://КП_МКТ.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
