@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SCB_Relay")(type "KiCad")(uri "${SCB_GOST_DIR}/SCB_Relay.kicad_sym")(options "")(descr ""))
+  (lib (name "SCB_Legacy")(type "KiCad")(uri "${SCB_GOST_DIR}/SCB_Legacy.kicad_sym")(options "")(descr ""))
+  (lib (name "SCB_Двухнитка")(type "KiCad")(uri "${SCB_GOST_DIR}/SCB_Двухнитка.kicad_sym")(options "")(descr ""))
+  (lib (name "SCB")(type "KiCad")(uri "${SCB_GOST_DIR}/SCB.kicad_sym")(options "")(descr ""))
+  (lib (name "SCB_АБТЦ")(type "KiCad")(uri "${SCB_GOST_DIR}/SCB_АБТЦ.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_Generic_GOST")(type "KiCad")(uri "${GOST_DIR}/Connector_Generic_GOST.kicad_sym")(options "")(descr ""))
+  (lib (name "Device_GOST")(type "KiCad")(uri "${GOST_DIR}/Device_GOST.kicad_sym")(options "")(descr ""))
+  (lib (name "power_GOST")(type "KiCad")(uri "${GOST_DIR}/power_GOST.kicad_sym")(options "")(descr ""))
+)
