@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Вывод_подключения"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -96,11 +100,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Выравниватель"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -157,17 +166,6 @@
 			)
 		)
 		(symbol "Выравниватель_0_1"
-			(rectangle
-				(start -5.0038 2.0066)
-				(end 5.0038 -2.0066)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -6.35 -3.175) (xy -3.175 -3.175) (xy 5.08 3.175)
@@ -175,6 +173,17 @@
 				(stroke
 					(width 0)
 					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -5.0038 2.0066)
+				(end 5.0038 -2.0066)
+				(stroke
+					(width 0)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -219,11 +228,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Двухэлементное"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -291,9 +305,9 @@
 		)
 		(symbol "Двухэлементное_0_1"
 			(arc
-				(start 0 -1.9563)
-				(mid -0.75 -1.658)
-				(end -1.5 -1.9563)
+				(start -1.5 2.0437)
+				(mid -0.75 2.342)
+				(end 0 2.0437)
 				(stroke
 					(width 0)
 					(type default)
@@ -303,21 +317,9 @@
 				)
 			)
 			(arc
-				(start 0 -1.9563)
-				(mid 0.75 -2.2633)
-				(end 1.5 -1.9563)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 0) (xy -4 0)
-				)
+				(start -1.5 -1.9563)
+				(mid -0.75 -1.658)
+				(end 0 -1.9563)
 				(stroke
 					(width 0)
 					(type default)
@@ -338,9 +340,9 @@
 				)
 			)
 			(arc
-				(start 0 2.0437)
-				(mid -0.75 2.342)
-				(end -1.5 2.0437)
+				(start 1.5 2.0437)
+				(mid 0.75 1.7367)
+				(end 0 2.0437)
 				(stroke
 					(width 0)
 					(type default)
@@ -350,9 +352,21 @@
 				)
 			)
 			(arc
-				(start 0 2.0437)
-				(mid 0.75 1.7367)
-				(end 1.5 2.0437)
+				(start 1.5 -1.9563)
+				(mid 0.75 -2.2633)
+				(end 0 -1.9563)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 0) (xy -4 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -449,11 +463,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Звонок"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -515,7 +534,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 3) (xy -4 3)
+					(xy -2 3) (xy -2 0) (xy -5 0)
 				)
 				(stroke
 					(width 0)
@@ -525,10 +544,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -2 3) (xy -2 0) (xy -5 0)
-				)
+			(arc
+				(start -4 3)
+				(mid 0 7)
+				(end 4 3)
 				(stroke
 					(width 0)
 					(type default)
@@ -549,10 +568,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 4 3)
-				(mid 0 7)
-				(end -4 3)
+			(polyline
+				(pts
+					(xy 4 3) (xy -4 3)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -600,11 +619,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Ключ_жезл"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -653,6 +677,17 @@
 			)
 		)
 		(symbol "Ключ_жезл_0_1"
+			(circle
+				(center 0 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.5 0) (xy 9.5 0)
@@ -665,32 +700,21 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 5 3)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 5 2.5) (xy 5 0)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 0)
-				(radius 0.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 5 3)
-				(radius 0.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -749,11 +773,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Кнопка_без_фиксации"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -991,11 +1020,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Кнопка_с_фиксацией"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1233,11 +1267,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Кодовое"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1592,7 +1631,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2 -10) (xy -2 -8)
+					(xy -2 -9) (xy 2 -9)
 				)
 				(stroke
 					(width 0)
@@ -1604,7 +1643,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2 -9) (xy 2 -9)
+					(xy -2 -10) (xy -2 -8)
 				)
 				(stroke
 					(width 0)
@@ -1663,11 +1702,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Комбинированное"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1932,7 +1976,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -1.905 180)
+				(at -8.89 -1.905 0)
 				(length 5.3)
 				(name ""
 					(effects
@@ -1941,7 +1985,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1968,7 +2012,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 -1.905 0)
+				(at 8.89 -1.905 180)
 				(length 5.3)
 				(name ""
 					(effects
@@ -1977,7 +2021,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1986,10 +2030,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакт_нейтрального_якоря"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2044,6 +2093,15 @@
 				(font
 					(size 2.5 2.5)
 				)
+			)
+		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
@@ -2057,7 +2115,19 @@
 		(symbol "Контакт_нейтрального_якоря_0_1"
 			(polyline
 				(pts
-					(xy -3.81 -3) (xy 5.19 -7.5)
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 5.19 -7.5)
 				)
 				(stroke
 					(width 0)
@@ -2068,12 +2138,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 0 270)
-				(length 3)
-				(name ""
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2087,14 +2157,50 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_1_1"
-			(unit_name "Фронтовой-Тыловой")
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2107,12 +2213,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2126,14 +2232,92 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_2_1"
-			(unit_name "Тыловой")
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -1.27) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -8.89) (xy 6 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 8.89 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2147,18 +2331,108 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_3_1"
-			(unit_name "Фронтовой")
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.25 -4.5)
+				(mid 0.5226 -3.7106)
+				(end 1.25 -6.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2168,10 +2442,10 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_4_1"
-			(unit_name "Усиленный перелючающий")
+			(unit_name "С магнитным гашением")
 			(polyline
 				(pts
-					(xy 3.81 -10.16) (xy 7.62 -10.16)
+					(xy 3.84 -3) (xy 3.84 -3)
 				)
 				(stroke
 					(width 0)
@@ -2183,7 +2457,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -8.89) (xy 5.715 -10.16)
+					(xy 4 0) (xy 5.715 1) (xy 8.89 -1) (xy 11 0)
 				)
 				(stroke
 					(width 0)
@@ -2195,7 +2469,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -6.858) (xy 3.81 -10.16)
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -2207,31 +2481,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 5.715 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 7.62 0)
+					(xy 12.7 0) (xy 4 0) (xy 4 -3)
 				)
 				(stroke
 					(width 0)
@@ -2242,52 +2492,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 -10.16 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2297,176 +2529,47 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_5_1"
-			(unit_name "Усиленный замыкающий")
-			(polyline
-				(pts
-					(xy 3.81 -1.27) (xy 5.715 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 7.62 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_6_1"
-			(unit_name "Усиленный размыкающий")
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 5.715 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 -10.16 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_7_1"
-			(unit_name "С магнитным гашением")
-			(polyline
-				(pts
-					(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_8_1"
-			(unit_name "С безобрывным переключением")
+			(unit_name "Непрерывный")
 			(arc
-				(start 5.5 -7.5)
+				(start 5.5 -2.5)
 				(mid 6.5355 -5)
-				(end 5.5 -2.5)
+				(end 5.5 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2476,12 +2579,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2494,12 +2597,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2512,199 +2615,15 @@
 				)
 			)
 		)
-		(symbol "Контакт_нейтрального_якоря_9_1"
-			(unit_name "Фронтовой-тыловой термолемента")
-			(polyline
-				(pts
-					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.25 -6.5)
-				(mid 0.5225 -3.7106)
-				(end -2.25 -4.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_10_1"
-			(unit_name "Тыловой термолемента")
-			(polyline
-				(pts
-					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.25 -6.5)
-				(mid 0.5225 -3.7106)
-				(end -2.25 -4.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_11_1"
-			(unit_name "Фронтовой термолемента")
-			(polyline
-				(pts
-					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.25 -6.5)
-				(mid 0.5225 -3.7106)
-				(end -2.25 -4.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакт_нейтрального_якоря_НЗ"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2761,6 +2680,15 @@
 				)
 			)
 		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -2772,7 +2700,19 @@
 		(symbol "Контакт_нейтрального_якоря_НЗ_0_1"
 			(polyline
 				(pts
-					(xy -3.81 -3) (xy 5.5 -3)
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 6 -3)
 				)
 				(stroke
 					(width 0)
@@ -2783,12 +2723,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 0 270)
-				(length 3)
-				(name ""
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2802,14 +2742,50 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_НЗ_1_1"
-			(unit_name "Фронтовой-Тыловой")
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2822,12 +2798,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2841,14 +2817,92 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_НЗ_2_1"
-			(unit_name "Тыловой")
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -1.27) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -8.89) (xy 6 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 8.89 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -2862,18 +2916,108 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_НЗ_3_1"
-			(unit_name "Фронтовой")
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3 -4) (xy -2 -4) (xy -2 -3.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2 -3.5)
+				(mid 0 -1.4548)
+				(end 2 -3.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3.5) (xy 2 -4) (xy 3 -4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2883,10 +3027,10 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_НЗ_4_1"
-			(unit_name "Усиленный перелючающий")
+			(unit_name "С магнитным гашением")
 			(polyline
 				(pts
-					(xy 3.81 -10.16) (xy 7.62 -10.16)
+					(xy 3.84 -3) (xy 3.84 -3)
 				)
 				(stroke
 					(width 0)
@@ -2898,7 +3042,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -8.89) (xy 5.715 -10.16)
+					(xy 4 0) (xy 5.715 1) (xy 8.89 -1) (xy 11 0)
 				)
 				(stroke
 					(width 0)
@@ -2910,7 +3054,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -6.858) (xy 3.81 -10.16)
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -2922,31 +3066,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 5.715 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 7.62 0)
+					(xy 12.7 0) (xy 4 0) (xy 4 -3)
 				)
 				(stroke
 					(width 0)
@@ -2957,52 +3077,34 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 -10.16 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3012,176 +3114,47 @@
 			)
 		)
 		(symbol "Контакт_нейтрального_якоря_НЗ_5_1"
-			(unit_name "Усиленный замыкающий")
-			(polyline
-				(pts
-					(xy 3.81 -1.27) (xy 5.715 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 7.62 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_НЗ_6_1"
-			(unit_name "Усиленный размыкающий")
-			(polyline
-				(pts
-					(xy 3.81 -8.89) (xy 5.715 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 -6.858) (xy 3.81 -10.16) (xy 6.985 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 -10.16 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_НЗ_7_1"
-			(unit_name "С магнитным гашением")
-			(polyline
-				(pts
-					(xy 11.43 0) (xy 3.81 0) (xy 3.81 -3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 0) (xy 5.5 1) (xy 8.5 -1) (xy 10 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 0 180)
-				(length 2)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Контакт_нейтрального_якоря_НЗ_8_1"
-			(unit_name "С безобрывным переключением")
+			(unit_name "Непрерывный")
 			(arc
-				(start 5.5 -7.5)
+				(start 5.5 -2.5)
 				(mid 6.5355 -5)
-				(end 5.5 -2.5)
+				(end 5.5 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3191,12 +3164,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 0 270)
-				(length 3)
-				(name ""
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -3209,12 +3182,12 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
-				(length 3.3)
-				(name ""
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.8 1.8)
 						)
 					)
 				)
@@ -3227,10 +3200,15 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакт_нейтрального_якоря_альтернатива"
-		(pin_numbers hide)
-		(pin_names hide)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3354,7 +3332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -6.985 180)
+				(at 8.89 0 180)
 				(length 2)
 				(name ""
 					(effects
@@ -3372,7 +3350,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 0 180)
+				(at 8.89 -6.985 180)
 				(length 2)
 				(name ""
 					(effects
@@ -3460,18 +3438,6 @@
 			(unit_name "Усиленный перелючающий")
 			(polyline
 				(pts
-					(xy 3.81 -5.715) (xy 5.715 -6.985)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 3.81 -1.27) (xy 5.715 0)
 				)
 				(stroke
@@ -3485,6 +3451,18 @@
 			(polyline
 				(pts
 					(xy 3.81 -4.826) (xy 3.81 -6.985) (xy 6.985 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -5.715) (xy 5.715 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -3592,7 +3570,7 @@
 			(unit_name "Усиленный размыкающий")
 			(polyline
 				(pts
-					(xy 3.81 -5.715) (xy 5.715 -6.985)
+					(xy 3.81 -4.826) (xy 3.81 -6.985) (xy 6.985 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -3604,7 +3582,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -4.826) (xy 3.81 -6.985) (xy 6.985 -6.985)
+					(xy 3.81 -5.715) (xy 5.715 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -3637,18 +3615,6 @@
 			(unit_name "С магнитным гашением")
 			(polyline
 				(pts
-					(xy 3.81 -5.715) (xy 5.715 -6.985)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 3.81 -4.826) (xy 3.81 -6.985) (xy 6.985 -6.985)
 				)
 				(stroke
@@ -3661,7 +3627,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 0) (xy 3.81 0) (xy 3.81 -2)
+					(xy 3.81 -5.715) (xy 5.715 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -3683,22 +3649,16 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 0 180)
-				(length 8)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 3.81 0) (xy 3.81 -2)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
@@ -3719,9 +3679,39 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 13.97 0 180)
+				(length 8)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Контакт_нейтрального_якоря_альтернатива_8_1"
 			(unit_name "С безобрывным переключением")
+			(arc
+				(start 5 -2)
+				(mid 5.8284 -4)
+				(end 5 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 3.81 -4.826) (xy 3.81 -6.985) (xy 6.985 -6.985)
@@ -3738,18 +3728,6 @@
 				(pts
 					(xy 6.985 0) (xy 3.81 0) (xy 3.81 -2)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5 -6)
-				(mid 5.8284 -4)
-				(end 5 -2)
 				(stroke
 					(width 0)
 					(type default)
@@ -3795,11 +3773,1180 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "Контакт_нейтрального_якоря_тыл"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Н"
+			(at 0 -10 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Н"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 5.19 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_1_1"
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_2_1"
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -8.89) (xy 6 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_3_1"
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.25 -4.5)
+				(mid 0.5226 -3.7106)
+				(end 1.25 -6.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Контакт_нейтрального_якоря_тыл_НЗ"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Н"
+			(at 0 -10 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Н"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_НЗ_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 6 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_НЗ_1_1"
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_НЗ_2_1"
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -8.89) (xy 6 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_тыл_НЗ_3_1"
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3 -4) (xy -2 -4) (xy -2 -3.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2 -3.5)
+				(mid 0 -1.4548)
+				(end 2 -3.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3.5) (xy 2 -4) (xy 3 -4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -10.16) (xy 4 -10.16) (xy 4 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -10.16 180)
+				(length 0)
+				(name "${Тройник}3"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Контакт_нейтрального_якоря_фронт"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Н"
+			(at 0 -10 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Н"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 5.19 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_1_1"
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_2_1"
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -1.27) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_3_1"
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3.5 -4.5) (xy -2.5 -5) (xy -2.25 -4.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.25 -4.5)
+				(mid 0.5226 -3.7106)
+				(end 1.25 -6.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.25 -6.5) (xy 1 -7) (xy 2 -7.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Контакт_нейтрального_якоря_фронт_НЗ"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Н"
+			(at 0 -10 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Обозначение реле" "Н"
+			(at 0 2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+			)
+		)
+		(property "Тройник" "1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_НЗ_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -4 0) (xy -4 -3)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 -3) (xy 6 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 0 0)
+				(length 0)
+				(name "${Тройник}1"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_НЗ_1_1"
+			(unit_name "Обычный")
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_НЗ_2_1"
+			(unit_name "Усиленный")
+			(polyline
+				(pts
+					(xy 4 -1.27) (xy 6 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Контакт_нейтрального_якоря_фронт_НЗ_3_1"
+			(unit_name "С термоэлементом")
+			(polyline
+				(pts
+					(xy -3 -4) (xy -2 -4) (xy -2 -3.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2 -3.5)
+				(mid 0 -1.4548)
+				(end 2 -3.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2 -3.5) (xy 2 -4) (xy 3 -4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 -3) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 4 0) (xy 4 -3)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 0 180)
+				(length 0)
+				(name "${Тройник}2"
+					(effects
+						(font
+							(size 1.8 1.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакт_поляризованного_якоря"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3951,18 +5098,6 @@
 			(unit_name "С магнитным гашением")
 			(polyline
 				(pts
-					(xy 10.795 6.35) (xy 10.795 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 8.255 -2) (xy 8.255 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
@@ -3975,7 +5110,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2.08)
+					(xy 9.525 -5.08) (xy 11.025 -4.08) (xy 14.025 -6.08) (xy 15.525 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -3987,7 +5122,19 @@
 			)
 			(polyline
 				(pts
-					(xy 9.525 -5.08) (xy 11.025 -4.08) (xy 14.025 -6.08) (xy 15.525 -5.08)
+					(xy 10.795 6.35) (xy 10.795 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2.08)
 				)
 				(stroke
 					(width 0)
@@ -4050,18 +5197,6 @@
 			(unit_name "Усиленный")
 			(polyline
 				(pts
-					(xy 8.255 -3.81) (xy 10.16 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 8.255 3.81) (xy 10.16 5.08)
 				)
 				(stroke
@@ -4086,7 +5221,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2.08)
+					(xy 8.255 -3.81) (xy 10.16 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -4096,22 +5231,16 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at 14.605 5.08 180)
-				(length 4)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2.08)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
@@ -4132,12 +5261,35 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 14.605 5.08 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакт_поляризованного_якоря_П"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4289,18 +5441,6 @@
 			(unit_name "С магнитным гашением")
 			(polyline
 				(pts
-					(xy 10.795 6.35) (xy 10.795 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 8.255 -2) (xy 8.255 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
@@ -4313,7 +5453,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2)
+					(xy 9.525 -5.08) (xy 11.025 -4.08) (xy 14.025 -6.08) (xy 15.525 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -4325,7 +5465,19 @@
 			)
 			(polyline
 				(pts
-					(xy 9.525 -5.08) (xy 11.025 -4.08) (xy 14.025 -6.08) (xy 15.525 -5.08)
+					(xy 10.795 6.35) (xy 10.795 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2)
 				)
 				(stroke
 					(width 0)
@@ -4388,18 +5540,6 @@
 			(unit_name "Усиленный")
 			(polyline
 				(pts
-					(xy 8.255 -3.81) (xy 10.16 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 8.255 3.81) (xy 10.16 5.08)
 				)
 				(stroke
@@ -4424,7 +5564,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2)
+					(xy 8.255 -3.81) (xy 10.16 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -4434,22 +5574,16 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at 14.605 5.08 180)
-				(length 4)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 10.795 5.08) (xy 8.255 5.08) (xy 8.255 2)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
@@ -4470,7 +5604,26 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 14.605 5.08 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакты_автопереключателя"
 		(pin_names
@@ -4525,7 +5678,7 @@
 		)
 		(symbol "Контакты_автопереключателя_1_1"
 			(circle
-				(center 0 -40.64)
+				(center 0 10.16)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -4536,7 +5689,18 @@
 				)
 			)
 			(circle
-				(center 0 -30.48)
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -10.16)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -4558,7 +5722,18 @@
 				)
 			)
 			(circle
-				(center 0 -10.16)
+				(center 0 -30.48)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -40.64)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -4570,7 +5745,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -41.91) (xy 5.08 -29.21)
+					(xy 5.08 -1.27) (xy 5.08 11.43)
 				)
 				(stroke
 					(width 0)
@@ -4594,8 +5769,140 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1.27) (xy 5.08 11.43)
+					(xy 5.08 -41.91) (xy 5.08 -29.21)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 10.16)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -10.16)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -20.32)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -30.48)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -40.64)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 10.16)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -10.16)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -20.32)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -30.48)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -40.64)
+				(radius 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4606,7 +5913,7 @@
 			)
 			(polyline
 				(pts
-					(xy 25.4 -41.91) (xy 25.4 -29.21)
+					(xy 25.4 -1.27) (xy 25.4 11.43)
 				)
 				(stroke
 					(width 0)
@@ -4630,7 +5937,7 @@
 			)
 			(polyline
 				(pts
-					(xy 25.4 -1.27) (xy 25.4 11.43)
+					(xy 25.4 -41.91) (xy 25.4 -29.21)
 				)
 				(stroke
 					(width 0)
@@ -4641,194 +5948,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 10.16)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 -40.64)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 -30.48)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 -20.32)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 -10.16)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 0)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6.35 10.16)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 -40.64)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 -30.48)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 -20.32)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 -10.16)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 0)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20.32 10.16)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26.67 -40.64)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26.67 -30.48)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26.67 -20.32)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26.67 -10.16)
+				(center 26.67 10.16)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -4850,7 +5970,40 @@
 				)
 			)
 			(circle
-				(center 26.67 10.16)
+				(center 26.67 -10.16)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26.67 -20.32)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26.67 -30.48)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26.67 -40.64)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -4861,7 +6014,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 10.16 180)
+				(at -3.81 10.16 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4870,7 +6023,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4879,7 +6032,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 0 180)
+				(at -3.81 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4888,7 +6041,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4897,7 +6050,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -10.16 180)
+				(at -3.81 -10.16 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4906,7 +6059,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4915,7 +6068,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -20.32 180)
+				(at -3.81 -20.32 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4924,7 +6077,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4933,7 +6086,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -30.48 180)
+				(at -3.81 -30.48 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4942,7 +6095,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4951,7 +6104,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -40.64 180)
+				(at -3.81 -40.64 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -4960,7 +6113,115 @@
 						)
 					)
 				)
-				(number "16"
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -20.32 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -30.48 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 -40.64 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5077,7 +6338,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -30.48 180)
+				(at 30.48 10.16 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5086,7 +6347,7 @@
 						)
 					)
 				)
-				(number "31"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5095,7 +6356,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -10.16 180)
+				(at 30.48 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5104,7 +6365,7 @@
 						)
 					)
 				)
-				(number "31"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5113,7 +6374,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 10.16 180)
+				(at 30.48 -10.16 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5122,7 +6383,7 @@
 						)
 					)
 				)
-				(number "31"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5131,7 +6392,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -40.64 180)
+				(at 30.48 -20.32 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5140,7 +6401,7 @@
 						)
 					)
 				)
-				(number "32"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5149,7 +6410,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -20.32 180)
+				(at 30.48 -30.48 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5158,7 +6419,7 @@
 						)
 					)
 				)
-				(number "32"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5167,7 +6428,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 0 180)
+				(at 30.48 -40.64 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -5176,115 +6437,7 @@
 						)
 					)
 				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 10.16 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 0 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -10.16 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -20.32 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -30.48 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -40.64 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "46"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5293,6 +6446,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Контакты_автопереключателя_мм"
 		(pin_names
@@ -5347,7 +6501,7 @@
 		)
 		(symbol "Контакты_автопереключателя_мм_1_1"
 			(circle
-				(center 0 -40)
+				(center 0 10)
 				(radius 1)
 				(stroke
 					(width 0)
@@ -5358,7 +6512,18 @@
 				)
 			)
 			(circle
-				(center 0 -30)
+				(center 0 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -10)
 				(radius 1)
 				(stroke
 					(width 0)
@@ -5380,7 +6545,18 @@
 				)
 			)
 			(circle
-				(center 0 -10)
+				(center 0 -30)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -40)
 				(radius 1)
 				(stroke
 					(width 0)
@@ -5392,7 +6568,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 -41) (xy 5 -29)
+					(xy 5 -1) (xy 5 11)
 				)
 				(stroke
 					(width 0)
@@ -5416,8 +6592,140 @@
 			)
 			(polyline
 				(pts
-					(xy 5 -1) (xy 5 11)
+					(xy 5 -41) (xy 5 -29)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 10)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 -10)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 -20)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 -30)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6 -40)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 10)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 0)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 -10)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 -20)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 -30)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20 -40)
+				(radius 1)
 				(stroke
 					(width 0)
 					(type default)
@@ -5428,7 +6736,7 @@
 			)
 			(polyline
 				(pts
-					(xy 25 -41) (xy 25 -29)
+					(xy 25 -1) (xy 25 11)
 				)
 				(stroke
 					(width 0)
@@ -5452,7 +6760,7 @@
 			)
 			(polyline
 				(pts
-					(xy 25 -1) (xy 25 11)
+					(xy 25 -41) (xy 25 -29)
 				)
 				(stroke
 					(width 0)
@@ -5463,194 +6771,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 10)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 -40)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 -30)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 -20)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 -10)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 0)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 6 10)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 -40)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 -30)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 -20)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 -10)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 0)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 20 10)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26 -40)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26 -30)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26 -20)
-				(radius 1)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 26 -10)
+				(center 26 10)
 				(radius 1)
 				(stroke
 					(width 0)
@@ -5672,7 +6793,40 @@
 				)
 			)
 			(circle
-				(center 26 10)
+				(center 26 -10)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26 -20)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26 -30)
+				(radius 1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 26 -40)
 				(radius 1)
 				(stroke
 					(width 0)
@@ -5683,7 +6837,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 10 180)
+				(at -4 10 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5692,7 +6846,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5701,7 +6855,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 0 180)
+				(at -4 0 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5710,7 +6864,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5719,7 +6873,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 -10 180)
+				(at -4 -10 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5728,7 +6882,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5737,7 +6891,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 -20 180)
+				(at -4 -20 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5746,7 +6900,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5755,7 +6909,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 -30 180)
+				(at -4 -30 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5764,7 +6918,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "45"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5773,7 +6927,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30 -40 180)
+				(at -4 -40 0)
 				(length 3)
 				(name ""
 					(effects
@@ -5782,115 +6936,7 @@
 						)
 					)
 				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 10 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 0 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 -10 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 -20 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 -30 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16 -40 0)
-				(length 3)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
+				(number "46"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6007,7 +7053,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 10 0)
+				(at 16 10 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6016,7 +7062,7 @@
 						)
 					)
 				)
-				(number "41"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6025,7 +7071,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 0 0)
+				(at 16 0 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6034,7 +7080,7 @@
 						)
 					)
 				)
-				(number "42"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6043,7 +7089,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 -10 0)
+				(at 16 -10 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6052,7 +7098,7 @@
 						)
 					)
 				)
-				(number "43"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6061,7 +7107,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 -20 0)
+				(at 16 -20 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6070,7 +7116,7 @@
 						)
 					)
 				)
-				(number "44"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6079,7 +7125,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 -30 0)
+				(at 16 -30 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6088,7 +7134,7 @@
 						)
 					)
 				)
-				(number "45"
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6097,7 +7143,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -4 -40 0)
+				(at 16 -40 0)
 				(length 3)
 				(name ""
 					(effects
@@ -6106,7 +7152,115 @@
 						)
 					)
 				)
-				(number "46"
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 10 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 0 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 -10 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 -20 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 -30 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30 -40 180)
+				(length 3)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6115,11 +7269,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Лампа"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6227,11 +7386,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Маятниковый трансмиттер"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6343,11 +7507,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Нейтральное"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6540,11 +7709,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Нейтральное_с_замедлением_на_отпуск"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6750,11 +7924,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Нейтральное_с_замедлением_на_срабатывание"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6960,11 +8139,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Огневое"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7043,10 +8227,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 4 0) (xy -4 0)
-				)
+			(circle
+				(center 0 0)
+				(radius 4)
 				(stroke
 					(width 0)
 					(type default)
@@ -7067,9 +8250,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 4)
+			(polyline
+				(pts
+					(xy 4 0) (xy -4 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -7193,11 +8377,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Одной полярности"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7266,18 +8455,6 @@
 		(symbol "Одной полярности_0_1"
 			(polyline
 				(pts
-					(xy -1.5 -2) (xy 1.5 -2)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.5 2) (xy 1.5 2)
 				)
 				(stroke
@@ -7290,7 +8467,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 0) (xy -4 0)
+					(xy -1.5 -2) (xy 1.5 -2)
 				)
 				(stroke
 					(width 0)
@@ -7303,6 +8480,18 @@
 			(circle
 				(center 0 0)
 				(radius 4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4 0) (xy -4 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -7399,11 +8588,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Поляризованное"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7746,11 +8940,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Разрядник"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7820,7 +9019,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 2.54 -0.635)
+					(xy 0 0) (xy 2.54 0.635)
 				)
 				(stroke
 					(width 0)
@@ -7832,7 +9031,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 2.54 0.635)
+					(xy 0 0) (xy 2.54 -0.635)
 				)
 				(stroke
 					(width 0)
@@ -7893,11 +9092,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "С_термоэлементом"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8102,11 +9306,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "С_термоэлементом_и_замедлением"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.002) hide)
+			(offset 0.002)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8324,11 +9533,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Стрелочный_коммутатор"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8387,6 +9601,17 @@
 			)
 		)
 		(symbol "Стрелочный_коммутатор_0_1"
+			(circle
+				(center 2 0)
+				(radius 0.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.5 0) (xy 11.5 -3)
@@ -8400,7 +9625,7 @@
 				)
 			)
 			(circle
-				(center 2 0)
+				(center 12 3)
 				(radius 0.5)
 				(stroke
 					(width 0)
@@ -8412,17 +9637,6 @@
 			)
 			(circle
 				(center 12 -3)
-				(radius 0.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 12 3)
 				(radius 0.5)
 				(stroke
 					(width 0)
@@ -8489,11 +9703,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Термоэлемент"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8562,10 +9781,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.5 0.5) (xy 2.5 0) (xy 4 0)
-				)
+			(arc
+				(start -2.5 0.5)
+				(mid 0 3)
+				(end 2.5 0.5)
 				(stroke
 					(width 0)
 					(type default)
@@ -8574,10 +9793,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 2.5 0.5)
-				(mid 0 3)
-				(end -2.5 0.5)
+			(polyline
+				(pts
+					(xy 2.5 0.5) (xy 2.5 0) (xy 4 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -8625,5 +9844,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
