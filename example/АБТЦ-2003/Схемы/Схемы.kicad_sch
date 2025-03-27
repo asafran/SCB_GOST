@@ -2403,6 +2403,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Генератор_Нитки"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2541,6 +2547,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "SCB_АБТЦ:Приемник_Нитки"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2631,6 +2643,2197 @@
 					(at -5 0 0)
 					(length 0)
 					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_1_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_10_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_10_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_11_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_11_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_12_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_12_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_13"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_13_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_13_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_14_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_14_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_2_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_3_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_4_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_5_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_5_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_6_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_6_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_7_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_7_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_8_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_8_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Генератор_Нитки_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Генератор"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Генератор_Нитки_9_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -7.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.5 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5 0) (xy -5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Генератор_Нитки_9_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Изостык_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Изостык"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Изостык_1_0_1"
+				(polyline
+					(pts
+						(xy -1 -2) (xy 1 -2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1 2) (xy -1 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Изостык_1_1_1"
+				(unit_name "Одиночный")
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Изостык_1_2_1"
+				(unit_name "Со светофором")
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name "привязка"
 						(effects
 							(font
 								(size 1.8 1.8)
@@ -19127,6 +21330,4420 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Лампа_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Л"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Цвет" "К"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(symbol "Лампа_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.8284)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Лампа_1_1_1"
+				(pin power_in line
+					(at -6.35 0 0)
+					(length 3.5)
+					(name "П"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 0 180)
+					(length 3.5)
+					(name "М"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Лампа_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Л"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Цвет" "К"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(symbol "Лампа_2_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.8284)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Лампа_2_1_1"
+				(pin power_in line
+					(at -6.35 0 0)
+					(length 3.5)
+					(name "П"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 0 180)
+					(length 3.5)
+					(name "М"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Лампа_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Л"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Цвет" "К"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(symbol "Лампа_3_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.8284)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Лампа_3_1_1"
+				(pin power_in line
+					(at -6.35 0 0)
+					(length 3.5)
+					(name "П"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 0 180)
+					(length 3.5)
+					(name "М"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Нейтральное_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Н"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "НМШ"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "Н"
+				(at 0 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Нейтральное_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Нейтральное_1_1_1"
+				(unit_name "Общее")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Нейтральное_1_2_1"
+				(unit_name "С раздельными")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.905 0)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.905 180)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Нейтральное_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Н"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "НМШ"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "Н"
+				(at 0 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Нейтральное_2_0_1"
+				(circle
+					(center 0 0)
+					(radius 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Нейтральное_2_1_1"
+				(unit_name "Общее")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Нейтральное_2_2_1"
+				(unit_name "С раздельными")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.905 0)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.905 180)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Нейтральное_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Н"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "НМШ"
+				(at 0 -6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Обозначение реле" "Н"
+				(at 0 6.35 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 2.5 2.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Нейтральное_3_0_1"
+				(circle
+					(center 0 0)
+					(radius 4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Нейтральное_3_1_1"
+				(unit_name "Общее")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Нейтральное_3_2_1"
+				(unit_name "С раздельными")
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -1.905 0)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 0 180)
+					(length 4.8)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.905 180)
+					(length 5.3)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_1_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_1_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_10_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_10_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_11_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_11_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_12"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_12_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_12_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_13"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_13_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_13_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_2_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_2_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_3_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_3_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_4_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_4_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_5_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_5_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_6_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_6_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_7_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_7_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_8_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_8_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Приемник_Нитки_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Приемник"
+				(at 0 1.5 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Приемник_Нитки_9_0_1"
+				(polyline
+					(pts
+						(xy -5 0) (xy 5 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.5) (xy 0 -6.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5 -4) (xy -2.5 -4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Приемник_Нитки_9_1_1"
+				(pin unspecified line
+					(at -5 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_1_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_10_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_11_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_2_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_3_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_4_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_5_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_6_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_7_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_8_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Светофор_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Светофор"
+				(at -1 4 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?"
+				(at 3 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(symbol "Светофор_9_0_1"
+				(circle
+					(center -8 0)
+					(radius 2)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -6 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1) (xy 0 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "УКСПС_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "УКСПС"
+				(at 0 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 6 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?УКСПС"
+				(at 0 6 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "УКСПС_1_0_1"
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "УКСПС_1_1_1"
+				(unit_name "Без направления")
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "УКСПС_1_2_1"
+				(unit_name "С направлением")
+				(polyline
+					(pts
+						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5 2.5) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "УКСПС_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "УКСПС"
+				(at 0 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 6 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?УКСПС"
+				(at 0 6 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "УКСПС_2_0_1"
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "УКСПС_2_1_1"
+				(unit_name "Без направления")
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "УКСПС_2_2_1"
+				(unit_name "С направлением")
+				(polyline
+					(pts
+						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5 2.5) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "УКСПС_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "УКСПС"
+				(at 0 10 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 6 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8 1.8)
+					)
+					(hide yes)
+				)
+			)
+			(property "Литера" "?УКСПС"
+				(at 0 6 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 3.5 3.5)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "УКСПС_3_0_1"
+				(polyline
+					(pts
+						(xy 0 -2) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "УКСПС_3_1_1"
+				(unit_name "Без направления")
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(symbol "УКСПС_3_2_1"
+				(unit_name "С направлением")
+				(polyline
+					(pts
+						(xy -5.5 2.5) (xy -4 3) (xy -4 2) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.5 2.5) (xy -5.5 2.5)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2)
+					(radius 0.25)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 0)
+					(name "привязка"
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.8 1.8)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(arc
 		(start 185.0189 267.5)
@@ -26516,6 +33133,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_1")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 120 25 180)
 		(unit 1)
@@ -26844,6 +33462,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_1")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 335 25 180)
 		(unit 1)
@@ -27236,6 +33855,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_2")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 345 25 180)
 		(unit 1)
@@ -27311,6 +33931,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_3")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 190 25 180)
 		(unit 1)
@@ -27386,6 +34007,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Лампа_1")
 		(lib_id "SCB_Relay:Лампа")
 		(at 355.6 88.9 0)
 		(unit 1)
@@ -27470,6 +34092,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_2")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 355 25 180)
 		(unit 1)
@@ -27545,6 +34168,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_4")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 365 25 180)
 		(unit 1)
@@ -27620,6 +34244,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Лампа_2")
 		(lib_id "SCB_Relay:Лампа")
 		(at 355.6 99.06 0)
 		(unit 1)
@@ -27705,6 +34330,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Нейтральное_1")
 		(lib_id "SCB_Relay:Нейтральное")
 		(at 63.5 88.9 0)
 		(unit 1)
@@ -27923,6 +34549,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_3")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 200 25 180)
 		(unit 1)
@@ -28119,6 +34746,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_1")
 		(lib_id "SCB:Светофор")
 		(at 55 15 0)
 		(unit 1)
@@ -28319,6 +34947,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_4")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 150 25 180)
 		(unit 1)
@@ -28394,6 +35023,7 @@
 		)
 	)
 	(symbol
+		(lib_name "УКСПС_1")
 		(lib_id "SCB:УКСПС")
 		(at 204 25 0)
 		(unit 1)
@@ -28722,6 +35352,7 @@
 		)
 	)
 	(symbol
+		(lib_name "УКСПС_2")
 		(lib_id "SCB:УКСПС")
 		(at 109 25 0)
 		(unit 1)
@@ -28877,6 +35508,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Нейтральное_2")
 		(lib_id "SCB_Relay:Нейтральное")
 		(at 63.5 165.1 0)
 		(unit 1)
@@ -29095,6 +35727,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_2")
 		(lib_id "SCB:Светофор")
 		(at 249 15 0)
 		(unit 1)
@@ -29174,6 +35807,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_3")
 		(lib_id "SCB:Светофор")
 		(at 101 32 180)
 		(unit 1)
@@ -29253,6 +35887,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_6")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 65 25 180)
 		(unit 1)
@@ -29328,6 +35963,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_5")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 75 25 180)
 		(unit 1)
@@ -29403,6 +36039,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_5")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 245 25 180)
 		(unit 1)
@@ -29599,6 +36236,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_6")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 300 25 180)
 		(unit 1)
@@ -29674,6 +36312,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_7")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 105 25 180)
 		(unit 1)
@@ -29991,6 +36630,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Изостык_1")
 		(lib_id "SCB:Изостык")
 		(at 385 25 180)
 		(unit 2)
@@ -30146,6 +36786,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Лампа_3")
 		(lib_id "SCB_Relay:Лампа")
 		(at 63.5 50.8 0)
 		(unit 1)
@@ -30351,6 +36992,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_4")
 		(lib_id "SCB:Светофор")
 		(at 241 32 180)
 		(unit 1)
@@ -30673,6 +37315,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_8")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 375 25 180)
 		(unit 1)
@@ -30748,6 +37391,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_9")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 85 25 180)
 		(unit 1)
@@ -30823,6 +37467,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Нейтральное_3")
 		(lib_id "SCB_Relay:Нейтральное")
 		(at 279.4 190.5 0)
 		(unit 1)
@@ -30920,6 +37565,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_7")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 320 25 180)
 		(unit 1)
@@ -30995,6 +37641,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_5")
 		(lib_id "SCB:Светофор")
 		(at 286 32 180)
 		(unit 1)
@@ -31194,6 +37841,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_10")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 265 25 180)
 		(unit 1)
@@ -31487,6 +38135,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_6")
 		(lib_id "SCB:Светофор")
 		(at 385 32 180)
 		(unit 1)
@@ -31565,6 +38214,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_8")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 170 25 180)
 		(unit 1)
@@ -31762,6 +38412,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_7")
 		(lib_id "SCB:Светофор")
 		(at 339 15 0)
 		(unit 1)
@@ -32528,6 +39179,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_8")
 		(lib_id "SCB:Светофор")
 		(at 294 15 0)
 		(unit 1)
@@ -32607,6 +39259,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_11")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 130 25 180)
 		(unit 1)
@@ -32803,6 +39456,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_9")
 		(lib_id "SCB:Светофор")
 		(at 109 15 0)
 		(unit 1)
@@ -32882,6 +39536,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_10")
 		(lib_id "SCB:Светофор")
 		(at 196 32 180)
 		(unit 1)
@@ -32960,6 +39615,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_12")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 225 25 180)
 		(unit 1)
@@ -33035,6 +39691,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_10")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 95 25 180)
 		(unit 1)
@@ -33110,6 +39767,7 @@
 		)
 	)
 	(symbol
+		(lib_name "УКСПС_3")
 		(lib_id "SCB:УКСПС")
 		(at 286 25 0)
 		(unit 1)
@@ -33316,6 +39974,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Светофор_11")
 		(lib_id "SCB:Светофор")
 		(at 331 32 180)
 		(unit 1)
@@ -33602,6 +40261,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_13")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 310 25 180)
 		(unit 1)
@@ -33677,6 +40337,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_11")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 275 25 180)
 		(unit 1)
@@ -33752,6 +40413,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_9")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 235 25 180)
 		(unit 1)
@@ -33948,6 +40610,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_12")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 215 25 180)
 		(unit 1)
@@ -34471,6 +41134,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Генератор_Нитки_14")
 		(lib_id "SCB_АБТЦ:Генератор_Нитки")
 		(at 290 25 180)
 		(unit 1)
@@ -34867,6 +41531,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Приемник_Нитки_13")
 		(lib_id "SCB_АБТЦ:Приемник_Нитки")
 		(at 255 25 180)
 		(unit 1)
@@ -36282,35 +42947,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(embedded_files
-		(file
-			(name "КП_МКТ.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WBoIM0nAIZtizBAdTpUIcw/MEEl5UD9vvRxVUaTt7Tdim1NsQHCcIaa6NdKKWWSMk3Fl5PY
-				Ge6GSwSJAG0AhwD9ludlJRB0aTRPj2bLyztxzWxeGSaSIC2v99IsRE8fKpoOBP3ZWQpdVDSzEkYp
-				JmHCaMXIyuJe1igLlSIoxXRQq3gr6ISlMS+LBPrKd3JYJ4qaVKDT8Zgw6DxxFT8Rnwyj1sSMIJk+
-				m2E0lM1rjgQ6HlDs7ubse2HWKZsZAh3P6UIjYiIksi4EArDjY/dOthYZ9rOLcbmxtwuj2PXd7fUy
-				N34NRl+WkSG7993L/v7O9cC35W+wBxblzR3F7LLZmbmS//9a+3bs9qNrGyFs8cHn75zr5rxBurCe
-				o5CJmjBedubqf2WUleyWHt81fN+NTHRZbWlomjwrU7fCSXlnmwpTa6oMTt2PFExNkbGljjzYICwV
-				BTb3qhB33futwQ5JgaRk6om3fMGBMtLUlpf61dtrklChUsdn8t6uhqRYagnLnTREsaxyuK1yqTZV
-				prLUmEpSPZv0mqLdoLDoCcOi8rZfve89YSaKmg8E/alqqkhqpt7Ul8qSs/BZippUgsIekAfU8YDe
-				vXNf5ph5fJWvdLF6sSU/99gebP92zq5V7b4OX0t3/Ptw/8FvZ/4Kuv3XDwsHCq6jc+se7vtDLBQ0
-				KDAYcNtZIbvbto6HXhhF9G3RHSQ8IDw46dyEUdmxmwcAQEfAyobOsgJfjIqL7/KRSnGwdYPu2l9q
-				gUuoIUmqZkaSgqSSNgNRESGMWKeuDnJwGINQCMJwDENSKAcZZwhhxAgKMkRkZEi0A8hZg3bWYlb2
-				h4YoYKGFmekygghKPx7M15IDD7IYd0WZcR9+6xUxAWj38yoXAmC92oZMMfSB1X7rMp20tBrmEBIe
-				hJakM3LW1t3YaQqxwLlbgpwXnM4OLhkcj+VMBQPN2YfN4GDyKLQvgbLaFMHD7rsVHUKT0f1CBDFP
-				XSbe2VB8O79sP6vXCAAfQsfS9FmMsucETSZlwUkkPcQNppQ7TSRxPLsSCN3qj6BnCn09e0/ycEVX
-				3g7wv0CN+KgnLnaDw8y9wQhha3BdLY2v2im89zFrK+VXxtKex5HrauhBrs/tfKi6CNhwPzqzFi3z
-				9U9Sfevn18nGhVF6A8vogOXyMhBb5VwDaXeWAKXYKMLnvwFgs6HSKajyFcrFafcXwJdaG1hIPkiI
-				V/sxYh7nQd22wwlq3PVReFUKBL6a2LzD6KYLdqFI5QQgIR7waZWh9JSLVhZEctJdcwR7A21bB4Hz
-				YfEHf73jPKpiFEOcdpvT9+AQ+tz+oKOKfBl8eLO27y8VJRblwQT7135UnaHRYO7Y2aumWmyLln0M
-				EkEDoZrYI3+aWzQDyapNeKGVQYAECUSWgbsKzB1f7vHwQoUlWbzELbjETzjux+sduNZypQe0pMC3
-				27OXquavENrbkZwas/aMKEFFfiCsrJGJaiGom2yCQx+xet8JSY59VXzJJZZqANQJJJLQ10mk4+Zo
-				KFq0lCRIAwvRiSaVy+NmH7CuRcJ8H5tzH5nMFpPSW2OVDZxoTeXn3khhg88GFYDHgwvheKwMphGy
-				pUNF15jqOumO8hmv3H0Kp2Kv648A3/nhJFgFVZKCoNKJ80sYuikSwx16AEgHvf+okhOf8aBlIYg9
-				C5pjkJDYaAirz+RKmgVKCmny3vo9qWmdnfGSrgI=|
-			)
-			(checksum "3FBF103777E8EE01081CA18737155A0D")
-		)
-	)
 )
